@@ -799,10 +799,10 @@
     });
     showOnly(el._pass, el._store, function (r) { return r.type === 'b' || (r.sec >= 0 && r.sec <= u.si && (r.type === 'q' || r.sec === u.si)); });
     var sec = s.src.ex.sections[u.si];
-    Array.prototype.forEach.call(el._pass.querySelectorAll('.u, .br'), function (x) { x.classList.remove('now'); });
+    Array.prototype.forEach.call(el._pass.querySelectorAll('.u, .br'), function (x) { x.classList.remove('now', 'bad'); });
     if (sec && sec.type === 'marks5') {
-      var lab = sec.rows[u.ri].lab;
-      Array.prototype.forEach.call(el._pass.querySelectorAll('.u[data-lab="' + lab + '"]'), function (x) { x.classList.add('now'); });
+      var row = sec.rows[u.ri];
+      Array.prototype.forEach.call(el._pass.querySelectorAll('.u[data-lab="' + row.lab + '"]'), function (x) { x.classList.add('now'); if (row.answer) x.classList.add('bad'); });
     }
   };
 

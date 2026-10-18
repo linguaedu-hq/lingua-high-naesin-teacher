@@ -119,7 +119,7 @@ button{font:inherit;color:inherit}
 .cover .meta{margin-top:30px;display:flex;gap:10px;flex-wrap:wrap}
 .cover .meta span{height:36px;display:inline-flex;align-items:center;padding:0 14px;border-radius:999px;border:1px solid var(--f4);
   font-size:17px;font-weight:600;color:var(--frame);font-variant-numeric:tabular-nums}
-.cover .meta span.hot{border-color:var(--gr);color:var(--gr)}
+.cover .meta span.hot{border-color:var(--frame);color:var(--frame)}
 .cover .lockup{flex:none;width:210px;align-self:flex-end;opacity:.95}
 .cover .exam{position:absolute;left:88px;bottom:36px;font-size:17px;font-weight:600;color:var(--sub)}
 .cover .rise{animation:rise var(--t-slow) var(--ease-out) both}
@@ -186,7 +186,7 @@ button{font:inherit;color:inherit}
 .measure .gr .tab{display:inline-flex}
 .nofx *,.nofx{transition:none!important}
 .gr.on .tab{display:inline-flex;animation:pop var(--t-mid) var(--ease-pop) both;animation-delay:260ms}
-.gr.cur{outline:2px dashed var(--gr);outline-offset:3px;border-radius:3px}
+.gr.cur{outline:2px dashed var(--frame);outline-offset:3px;border-radius:3px}
 @keyframes pop{from{opacity:0;transform:scale(.82)}to{opacity:1;transform:none}}
 .mk .panel{min-height:0;display:flex;flex-direction:column;border-left:1px solid var(--f3);padding-left:32px;position:relative}
 .note{animation:rise var(--t-mid) var(--ease-out) both}
@@ -364,7 +364,7 @@ button{font:inherit;color:inherit}
 .wrow.show .wk::before{opacity:0}
 .wrow.show .wk .mean{opacity:1;transform:none}
 .ws,.wa{font-size:.7em;line-height:1.4;color:var(--ink)}
-.wa{color:var(--gr-tag)}
+.wa{color:var(--frame)}
 
 /* 끊어 읽기 */
 .chunk{--fs:26px}
@@ -388,13 +388,13 @@ button{font:inherit;color:inherit}
 .tfrow.cur{background:var(--f2)}
 .tn{font-weight:800;color:var(--frame);font-variant-numeric:tabular-nums}
 .ts span{line-height:1.42}
-.tfix{font-size:.68em;font-weight:600;color:var(--gr-tag);margin-top:.2em;opacity:0;transition:opacity var(--t-mid) var(--ease-out)}
+.tfix{font-size:.68em;font-weight:600;color:var(--frame);margin-top:.2em;opacity:0;transition:opacity var(--t-mid) var(--ease-out)}
 .tfix.on{opacity:1}
 .tbadge{justify-self:end;width:2.6em;height:1.9em;border-radius:12px;border:2px dashed var(--l1);display:flex;align-items:center;justify-content:center;
   font-weight:800;color:#fff}
 .tbadge.is-answer{border-style:solid;animation:pop var(--t-mid) var(--ease-pop) both}
 .tbadge.ok{background:var(--frame);border-color:var(--frame)}
-.tbadge.no{background:var(--gr);border-color:var(--gr)}
+.tbadge.no{background:var(--paper);border-color:var(--frame);color:var(--frame);border-width:3px}
 
 /* 요약문 빈칸 */
 .summary{justify-content:center}
@@ -431,7 +431,7 @@ button{font:inherit;color:inherit}
 .var .pass .given{display:block;background:var(--paper);border:2px solid var(--frame);border-radius:10px;padding:.45em .7em;margin-bottom:.6em;font-weight:600}
 .var .pass .piece{display:flex;gap:.55em;margin-top:.45em;align-items:baseline}
 .var .pass .piece b{flex:none;color:var(--frame);font-weight:800}
-.var .pass .gap.is-answer{background:var(--gr-f);color:var(--gr);border-radius:6px;box-shadow:0 0 0 2px var(--gr);animation:pop var(--t-mid) var(--ease-pop) both}
+.var .pass .gap.is-answer{background:var(--f3);color:var(--frame);border-radius:6px;box-shadow:0 0 0 2px var(--frame);animation:pop var(--t-mid) var(--ease-pop) both}
 .var .pass .sent.is-answer{color:var(--gr);text-decoration:line-through;text-decoration-thickness:2px}
 
 /* 읽기 화면 — 구문 꼬리표를 칸 머리 줄에(높이를 늘리지 않게) */
@@ -476,7 +476,9 @@ button{font:inherit;color:inherit}
 .ex .pass .line.title{font-weight:800;text-align:center}
 .ex .pass .lab{font-weight:800;margin-right:.12em}
 .ex .pass .u{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.18em}
-.ex .pass .u.now{background:var(--gr-f);color:var(--gr);font-weight:800;border-radius:4px;box-shadow:0 0 0 2px var(--gr)}
+/* 짚는 밑줄 = 중립 남색 테 · 장미는 틀린 곳(정답 밑줄)에만 — REQ-140 같은 뜻 같은 색 */
+.ex .pass .u.now{background:var(--f3);color:var(--frame);font-weight:800;border-radius:4px;box-shadow:0 0 0 2px var(--frame)}
+.ex .pass .u.now.bad{background:var(--gr-f);color:var(--gr);box-shadow:0 0 0 2px var(--gr)}
 .ex .pass .br{display:inline-block;border:2px solid var(--frame);border-radius:6px;padding:0 .3em;line-height:1.3;font-weight:600}
 .ex .pass .blank{display:inline-block;min-width:7.5em;border-bottom:2px solid var(--ink);height:1em;vertical-align:-.1em}
 .ex .pass .gap{font-weight:800;color:var(--fl)}
@@ -513,7 +515,7 @@ button{font:inherit;color:inherit}
 .xw.now{background:var(--f2)}
 .xwh{display:flex;flex-wrap:wrap;align-items:center;gap:.45em;margin-bottom:.15em}
 .xlab{font-weight:800;color:var(--frame);font-size:1.05em}
-.trap{display:inline-flex;font-size:.72em;font-weight:800;color:var(--gr-tag);border:1.5px solid var(--gr-tag);border-radius:7px;padding:.05em .5em;background:var(--paper)}
+.trap{display:inline-flex;font-size:.72em;font-weight:800;color:var(--frame);border:1.5px solid var(--l2);border-radius:7px;padding:.05em .5em;background:var(--paper)}
 .trap.ans{color:#fff;background:var(--gr);border-color:var(--gr)}
 .gl{font-size:.8em;color:var(--sub);font-weight:600}
 .xfix{display:inline-flex;align-items:center;gap:.35em;font-weight:800}
