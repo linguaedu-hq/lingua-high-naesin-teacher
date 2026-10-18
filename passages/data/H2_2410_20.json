@@ -1,4 +1,610 @@
 {
+ "words": [
+  {
+   "text": "literate",
+   "kind": "word",
+   "pos": "형",
+   "ko": "소양을 갖춘",
+   "syn": [
+    "knowledgeable"
+   ],
+   "ant": [
+    "illiterate"
+   ],
+   "sent": 1,
+   "der": [
+    "literacy"
+   ]
+  },
+  {
+   "text": "critically",
+   "kind": "word",
+   "pos": "부",
+   "ko": "비판적으로",
+   "syn": [
+    "analytically"
+   ],
+   "ant": [
+    "uncritically"
+   ],
+   "sent": 1
+  },
+  {
+   "text": "informed decisions",
+   "kind": "word",
+   "pos": "구",
+   "ko": "근거 있는 결정, 충분히 알고 내린 결정",
+   "syn": [
+    "well-founded choice"
+   ],
+   "ant": [
+    "uninformed decision"
+   ],
+   "sent": 1
+  },
+  {
+   "text": "complex",
+   "kind": "word",
+   "pos": "형",
+   "ko": "복잡한",
+   "syn": [
+    "complicated"
+   ],
+   "ant": [
+    "straightforward"
+   ],
+   "sent": 2,
+   "der": [
+    "complexity"
+   ]
+  },
+  {
+   "text": "interdisciplinary",
+   "kind": "word",
+   "pos": "형",
+   "ko": "여러 학문 분야에 걸친, 범교과적인",
+   "syn": [
+    "cross-curricular"
+   ],
+   "ant": [
+    "single-subject"
+   ],
+   "sent": 2
+  },
+  {
+   "text": "innovative",
+   "kind": "word",
+   "pos": "형",
+   "ko": "혁신적인",
+   "syn": [
+    "creative"
+   ],
+   "ant": [
+    "conventional"
+   ],
+   "sent": 2
+  },
+  {
+   "text": "Navigating",
+   "kind": "word",
+   "pos": "동",
+   "ko": "헤쳐 나가다",
+   "syn": [
+    "get through"
+   ],
+   "ant": [
+    "get lost"
+   ],
+   "sent": 3,
+   "der": [
+    "navigation"
+   ]
+  },
+  {
+   "text": "quantify",
+   "kind": "word",
+   "pos": "동",
+   "ko": "수량화하다",
+   "syn": [
+    "express in numbers"
+   ],
+   "ant": [],
+   "sent": 3
+  },
+  {
+   "text": "qualitatively",
+   "kind": "word",
+   "pos": "부",
+   "ko": "질적으로",
+   "syn": [
+    "in terms of quality"
+   ],
+   "ant": [
+    "quantitatively"
+   ],
+   "sent": 4
+  },
+  {
+   "text": "in interaction with",
+   "kind": "word",
+   "pos": "구",
+   "ko": "~와 상호 작용하며, ~와 어우러져",
+   "syn": [
+    "in connection with"
+   ],
+   "ant": [
+    "in isolation from"
+   ],
+   "sent": 5
+  },
+  {
+   "text": "context",
+   "kind": "word",
+   "pos": "명",
+   "ko": "맥락",
+   "syn": [
+    "setting"
+   ],
+   "ant": [],
+   "sent": 6,
+   "der": [
+    "contextualize"
+   ]
+  },
+  {
+   "text": "explicitly",
+   "kind": "word",
+   "pos": "부",
+   "ko": "분명하게, 명시적으로",
+   "syn": [
+    "clearly"
+   ],
+   "ant": [
+    "implicitly"
+   ],
+   "sent": 6
+  },
+  {
+   "text": "have bearing on",
+   "kind": "idiom",
+   "pos": "숙어",
+   "ko": "~와 관련이 있다",
+   "syn": [
+    "be relevant to",
+    "relate to"
+   ],
+   "ant": [
+    "be irrelevant to"
+   ],
+   "sent": 1
+  }
+ ],
+ "word_pages": [
+  [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ ],
+ "chunks": [
+  {
+   "n": 1,
+   "segs": [
+    {
+     "t": "To be mathematically literate",
+     "ko": "수학적 소양을 갖춘다는 것은"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "means to be able to think critically",
+     "ko": "비판적으로 생각할 수 있다는 뜻이다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "about societal issues",
+     "ko": "사회 문제에 대해"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "on which mathematics has bearing",
+     "ko": "수학이 관련되어 있는"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "so as to make informed decisions",
+     "ko": "근거 있는 결정을 내리기 위해"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "about how to solve these problems.",
+     "ko": "그 문제들을 푸는 방법에 대해"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "segs": [
+    {
+     "t": "Dealing with such complex problems",
+     "ko": "그런 복잡한 문제들을 다룰 때"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "through interdisciplinary approaches,",
+     "ko": "범교과적 접근을 통해"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "mirroring real-world problems",
+     "ko": "실제 세계의 문제를 반영하는 것은"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "requires innovative ways",
+     "ko": "혁신적인 방식을 필요로 한다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "of planning and organizing mathematical teaching methods.",
+     "ko": "수학 교수법을 계획하고 조직하는"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "segs": [
+    {
+     "t": "Navigating our world",
+     "ko": "우리가 사는 세상을 헤쳐 나간다는 것은"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "means being able to quantify, measure, estimate, classify, compare,",
+     "ko": "수량화하고, 측정하고, 어림하고, 분류하고, 비교할 수 있다는 뜻이다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "find patterns, conjecture, justify, prove, and generalize",
+     "ko": "패턴을 찾고, 추측하고, 정당화하고, 증명하고, 일반화할 수 있다는"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "within critical thinking",
+     "ko": "비판적 사고의 틀 안에서"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "and when using critical thinking.",
+     "ko": "그리고 비판적 사고를 쓸 때"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "segs": [
+    {
+     "t": "Therefore,",
+     "ko": "그러므로"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "making decisions,",
+     "ko": "결정을 내리는 일은"
+    },
+    {
+     "t": " even qualitatively, "
+    },
+    {
+     "t": "is not possible",
+     "ko": "가능하지 않다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "without using mathematics and critical thinking.",
+     "ko": "수학과 비판적 사고를 쓰지 않고서는"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "segs": [
+    {
+     "t": "Thus,",
+     "ko": "따라서"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "teaching mathematics should be done",
+     "ko": "수학 교육은 이루어져야 한다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "in interaction with critical thinking",
+     "ko": "비판적 사고와 상호 작용하며"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "along with a decision-making process.",
+     "ko": "의사 결정 과정과 함께"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "segs": [
+    {
+     "t": "They can be developed",
+     "ko": "그것들은 길러질 수 있다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "into the mathematical context,",
+     "ko": "수학적 맥락 속에서"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "so that there is no excuse",
+     "ko": "그래서 핑계는 없다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "to not explicitly support students",
+     "ko": "학생들을 분명하게 돕지 않을"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "to develop them.",
+     "ko": "그것들을 기르도록"
+    }
+   ]
+  }
+ ],
+ "chunk_pages": [
+  [
+   1,
+   2
+  ],
+  [
+   3,
+   4,
+   5
+  ],
+  [
+   6
+  ]
+ ],
+ "syntax": {
+  "1": [
+   {
+    "at": "To be mathematically literate",
+    "t": "to부정사 주어",
+    "f": "gr"
+   },
+   {
+    "at": "on which mathematics has bearing",
+    "t": "전치사 + 관계대명사",
+    "f": "gr"
+   },
+   {
+    "at": "so as to make informed decisions",
+    "t": "so as to부정사(목적)",
+    "f": "gr"
+   }
+  ],
+  "2": [
+   {
+    "at": "Dealing with such complex problems",
+    "t": "분사구문",
+    "f": "gr"
+   },
+   {
+    "at": "mirroring real-world problems",
+    "t": "동명사 주어",
+    "f": "gr"
+   },
+   {
+    "at": "requires innovative ways",
+    "t": "동명사 주어 + 단수 동사",
+    "f": "gr"
+   }
+  ],
+  "3": [
+   {
+    "at": "Navigating our world",
+    "t": "동명사 주어",
+    "f": "gr"
+   },
+   {
+    "at": "find patterns, conjecture, justify, prove, and generalize",
+    "t": "병렬",
+    "f": "gr"
+   }
+  ],
+  "4": [
+   {
+    "at": "Therefore,",
+    "t": "결과",
+    "f": "fl"
+   },
+   {
+    "at": "without using mathematics and critical thinking.",
+    "t": "전치사 + 동명사",
+    "f": "gr"
+   }
+  ],
+  "5": [
+   {
+    "at": "Thus,",
+    "t": "결론",
+    "f": "fl"
+   },
+   {
+    "at": "teaching mathematics should be done",
+    "t": "조동사 수동태",
+    "f": "gr"
+   }
+  ],
+  "6": [
+   {
+    "at": "They can be developed",
+    "t": "They → 문장 5의 비판적 사고와 의사 결정 과정",
+    "f": "in"
+   },
+   {
+    "at": "so that there is no excuse",
+    "t": "so that(결과)",
+    "f": "gr"
+   }
+  ]
+ },
+ "tf": [
+  {
+   "s": "Being mathematically literate includes thinking critically about social issues.",
+   "a": "T",
+   "sent": [
+    1
+   ]
+  },
+  {
+   "s": "Traditional teaching methods are enough for complex real-world problems.",
+   "a": "F",
+   "sent": [
+    2
+   ],
+   "fix": "긍정/부정 — 혁신적인 방식이 필요하다"
+  },
+  {
+   "s": "Estimating, comparing, and proving are among the skills used to navigate our world.",
+   "a": "T",
+   "sent": [
+    3
+   ]
+  },
+  {
+   "s": "According to the passage, qualitative decisions can be made without math.",
+   "a": "F",
+   "sent": [
+    4
+   ],
+   "fix": "긍정/부정 — 수학 없이는 내릴 수 없다"
+  },
+  {
+   "s": "The writer believes critical thinking can be developed in math lessons.",
+   "a": "T",
+   "sent": [
+    6
+   ]
+  }
+ ],
+ "summary": {
+  "text": "Math education should be {A} with critical thinking and the process of making decisions, because even choices that are not {B} cannot be made without mathematical reasoning.",
+  "fill": {
+   "A": "integrated",
+   "B": "numerical"
+  },
+  "key": "수학 교육은 비판적 사고와 결정하는 과정에 통합되어야(integrated) 하고, 수로 따지지 않는(numerical 이 아닌) 선택도 수학적 추론 없이는 내릴 수 없으므로 ②가 정답입니다.",
+  "set": 1,
+  "no": 5
+ },
+ "sr": [
+  {
+   "kind": "영작",
+   "code": "SR-22",
+   "name": "조건 영작",
+   "set": 1,
+   "no": 13,
+   "stem": "다음 우리말을 <조건>에 맞게 영작하시오.",
+   "ko": "여러 교과의 지식을 적용하는 것은 학생들이 실제 문제를 푸는 데 도움이 된다.",
+   "ask": null,
+   "bogi": [
+    "apply",
+    "knowledge",
+    "help",
+    "students",
+    "solve",
+    "real problems"
+   ],
+   "conditions": [
+    "<보기>의 말을 모두 사용할 것.",
+    "필요하면 <보기>의 말의 꼴을 바꿔 쓸 수 있음.",
+    "필요하면 낱말을 3개까지 더해 쓸 수 있음.",
+    "Applying 으로 문장을 시작할 것."
+   ],
+   "model": "Applying knowledge from many subjects helps students solve real problems."
+  },
+  {
+   "kind": "서술",
+   "code": "SR-53",
+   "name": "우리말 서술",
+   "set": 1,
+   "no": 16,
+   "stem": "윗글을 읽고 물음에 대한 답을 <조건>에 맞게 쓰시오.",
+   "ko": null,
+   "ask": "글쓴이가 말하는 수학적 소양을 갖춘 사람은 무엇을 할 수 있는가?",
+   "bogi": [],
+   "conditions": [
+    "우리말로 쓸 것.",
+    "두 가지를 쓸 것."
+   ],
+   "model": "수학과 얽힌 사회 문제를 따져 보며 생각할 수 있고, 그 문제의 해결 방법을 근거를 갖고 정할 수 있다."
+  }
+ ],
  "meta": {
   "id": "H2_2410_20",
   "grade": "고2",
@@ -679,6 +1285,178 @@
     }
    ],
    "marks_are_choices": false
+  },
+  {
+   "family": "순서",
+   "set": 1,
+   "no": 11,
+   "code": "VR-41",
+   "name": "순서",
+   "difficulty": "기본",
+   "stem": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것은?",
+   "stem_u": [],
+   "choices": [
+    "(A) - (C) - (B)",
+    "(B) - (A) - (C)",
+    "(B) - (C) - (A)",
+    "(C) - (A) - (B)",
+    "(C) - (B) - (A)"
+   ],
+   "answer": 3,
+   "fix": null,
+   "key": "(B)의 such complex problems 가 주어진 글의 사회 문제를 받고, (B) 끝의 수학 능력을 (C)의 Therefore 가 결론으로 이으며, (C) 끝의 두 사고를 (A)의 They 가 받으므로 ③이 정답입니다.",
+   "basis": [],
+   "passage": [
+    {
+     "n": 1,
+     "runs": [
+      {
+       "t": "To be mathematically literate means to be able to think critically about societal issues on which mathematics has bearing so as to make informed decisions about how to solve these problems."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "runs": [
+      {
+       "t": "Dealing with such complex problems through interdisciplinary approaches, mirroring real-world problems requires innovative ways of planning and organizing mathematical teaching methods."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "runs": [
+      {
+       "t": "Navigating our world means being able to quantify, measure, estimate, classify, compare, find patterns, conjecture, justify, prove, and generalize within critical thinking and when using critical thinking."
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "runs": [
+      {
+       "t": "Therefore, making decisions, even qualitatively, is not possible without using mathematics and critical thinking."
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "runs": [
+      {
+       "t": "Thus, teaching mathematics should be done in interaction with critical thinking along with a decision-making process."
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "runs": [
+      {
+       "t": "They can be developed into the mathematical context, so that there is no excuse to not explicitly support students to develop them."
+      }
+     ]
+    }
+   ],
+   "marks_are_choices": false,
+   "order": {
+    "given": "To be mathematically literate means to be able to think critically about societal issues on which mathematics has bearing so as to make informed decisions about how to solve these problems.",
+    "pieces": [
+     {
+      "lab": "(A)",
+      "text": "They can be developed into the mathematical context, so that there is no excuse to not explicitly support students to develop them."
+     },
+     {
+      "lab": "(B)",
+      "text": "Dealing with such complex problems through interdisciplinary approaches, mirroring real-world problems requires innovative ways of planning and organizing mathematical teaching methods. Navigating our world means being able to quantify, measure, estimate, classify, compare, find patterns, conjecture, justify, prove, and generalize within critical thinking and when using critical thinking."
+     },
+     {
+      "lab": "(C)",
+      "text": "Therefore, making decisions, even qualitatively, is not possible without using mathematics and critical thinking. Thus, teaching mathematics should be done in interaction with critical thinking along with a decision-making process."
+     }
+    ],
+    "seq": "주어진 글 → (B) → (C) → (A)"
+   }
+  },
+  {
+   "family": "무관",
+   "set": 1,
+   "no": 10,
+   "code": "VR-43",
+   "name": "무관한 문장",
+   "difficulty": "고난도",
+   "stem": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+   "stem_u": [
+    "없는"
+   ],
+   "choices": [],
+   "answer": 4,
+   "fix": null,
+   "key": "④는 시험 때 불안해서 수학을 어려워하는 학생이 많다는 내용이어서, 수학 교육을 비판적 사고 · 의사 결정과 함께 하자는 흐름에서 벗어나므로 ④가 정답입니다.",
+   "basis": [],
+   "passage": [
+    {
+     "n": 1,
+     "runs": [
+      {
+       "t": "To be mathematically literate means to be able to think critically about societal issues on which mathematics has bearing so as to make informed decisions about how to solve these problems."
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "runs": [
+      {
+       "t": "Dealing with such complex problems through interdisciplinary approaches, mirroring real-world problems requires innovative ways of planning and organizing mathematical teaching methods."
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "runs": [
+      {
+       "t": "Navigating our world means being able to quantify, measure, estimate, classify, compare, find patterns, conjecture, justify, prove, and generalize within critical thinking and when using critical thinking."
+      }
+     ],
+     "lab": "①"
+    },
+    {
+     "n": 4,
+     "runs": [
+      {
+       "t": "Therefore, making decisions, even qualitatively, is not possible without using mathematics and critical thinking."
+      }
+     ],
+     "lab": "②"
+    },
+    {
+     "n": 5,
+     "runs": [
+      {
+       "t": "Thus, teaching mathematics should be done in interaction with critical thinking along with a decision-making process."
+      }
+     ],
+     "lab": "③"
+    },
+    {
+     "n": null,
+     "runs": [
+      {
+       "t": "Of course, many students find math difficult because they feel anxious whenever they take tests in class or solve problems on the board."
+      }
+     ],
+     "extra": true,
+     "lab": "④"
+    },
+    {
+     "n": 6,
+     "runs": [
+      {
+       "t": "They can be developed into the mathematical context, so that there is no excuse to not explicitly support students to develop them."
+      }
+     ],
+     "lab": "⑤"
+    }
+   ],
+   "marks_are_choices": true
   }
  ]
 }

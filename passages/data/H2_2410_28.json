@@ -1,4 +1,530 @@
 {
+ "words": [
+  {
+   "text": "style",
+   "kind": "word",
+   "pos": "명",
+   "ko": "스타일, 맵시",
+   "syn": [
+    "fashion"
+   ],
+   "ant": [],
+   "sent": 2
+  },
+  {
+   "text": "suits",
+   "kind": "word",
+   "pos": "동",
+   "ko": "어울리다",
+   "syn": [
+    "look good on"
+   ],
+   "ant": [],
+   "sent": 2
+  },
+  {
+   "text": "employees",
+   "kind": "word",
+   "pos": "명",
+   "ko": "직원",
+   "syn": [
+    "worker"
+   ],
+   "ant": [
+    "employer"
+   ],
+   "sent": 3
+  },
+  {
+   "text": "Freely",
+   "kind": "word",
+   "pos": "부",
+   "ko": "자유롭게, 마음대로",
+   "syn": [
+    "at will"
+   ],
+   "ant": [],
+   "sent": 4
+  },
+  {
+   "text": "booths",
+   "kind": "word",
+   "pos": "명",
+   "ko": "부스(칸막이 공간)",
+   "syn": [
+    "stall"
+   ],
+   "ant": [],
+   "sent": 4
+  },
+  {
+   "text": "fixed",
+   "kind": "word",
+   "pos": "형",
+   "ko": "정해진, 고정된",
+   "syn": [
+    "predetermined"
+   ],
+   "ant": [
+    "flexible"
+   ],
+   "sent": 4
+  },
+  {
+   "text": "order",
+   "kind": "word",
+   "pos": "명",
+   "ko": "순서",
+   "syn": [
+    "sequence"
+   ],
+   "ant": [],
+   "sent": 4
+  },
+  {
+   "text": "Consultation",
+   "kind": "word",
+   "pos": "명",
+   "ko": "상담",
+   "syn": [
+    "counseling"
+   ],
+   "ant": [],
+   "sent": 6
+  },
+  {
+   "text": "professional",
+   "kind": "word",
+   "pos": "형",
+   "ko": "전문적인, 전문가의",
+   "syn": [
+    "expert"
+   ],
+   "ant": [
+    "amateur"
+   ],
+   "sent": 6
+  },
+  {
+   "text": "consultants",
+   "kind": "word",
+   "pos": "명",
+   "ko": "상담가, 자문 위원",
+   "syn": [
+    "adviser"
+   ],
+   "ant": [],
+   "sent": 6
+  },
+  {
+   "text": "go well with",
+   "kind": "word",
+   "pos": "구",
+   "ko": "~와 잘 어울리다",
+   "syn": [
+    "match"
+   ],
+   "ant": [
+    "clash with"
+   ],
+   "sent": 7
+  },
+  {
+   "text": "post",
+   "kind": "word",
+   "pos": "동",
+   "ko": "(인터넷에) 올리다",
+   "syn": [
+    "upload"
+   ],
+   "ant": [
+    "delete"
+   ],
+   "sent": 12
+  },
+  {
+   "text": "be ready to",
+   "kind": "idiom",
+   "pos": "숙어",
+   "ko": "~할 준비가 되어 있다",
+   "syn": [
+    "be prepared to"
+   ],
+   "ant": [
+    "be unprepared to"
+   ],
+   "sent": 3
+  },
+  {
+   "text": "look nice",
+   "kind": "idiom",
+   "pos": "숙어",
+   "ko": "멋져 보이다",
+   "syn": [
+    "look good"
+   ],
+   "ant": [
+    "look bad"
+   ],
+   "sent": 3
+  },
+  {
+   "text": "with no fixed order",
+   "kind": "idiom",
+   "pos": "숙어",
+   "ko": "정해진 차례 없이",
+   "syn": [
+    "in no particular order"
+   ],
+   "ant": [
+    "in a fixed order"
+   ],
+   "sent": 4
+  }
+ ],
+ "word_pages": [
+  [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ]
+ ],
+ "chunks": [
+  {
+   "n": 2,
+   "segs": [
+    {
+     "t": "Find the style",
+     "ko": "스타일을 찾으라"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "that suits you best.",
+     "ko": "너에게 가장 잘 어울리는"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "segs": [
+    {
+     "t": "We are ready",
+     "ko": "우리는 준비가 되어 있다"
+    },
+    {
+     "t": " to make the employees "
+    },
+    {
+     "t": "of Woodville Company",
+     "ko": "Woodville Company의"
+    },
+    {
+     "t": " look nice."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "segs": [
+    {
+     "t": "Freely visit booths",
+     "ko": "마음대로 부스를 찾아가라"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "with no fixed order!",
+     "ko": "정해진 차례 없이!"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "segs": [
+    {
+     "t": "Consultation Booths",
+     "ko": "상담 부스"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "(Each booth has",
+     "ko": "(부스마다 있다"
+    },
+    {
+     "t": " professional consultants.)"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "segs": [
+    {
+     "t": "· A: Find colors",
+     "ko": "· A: 색을 찾으라"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "that go well with",
+     "ko": "~와 잘 어울리는"
+    },
+    {
+     "t": " your skin tone."
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "segs": [
+    {
+     "t": "· B: Learn about accessories",
+     "ko": "· B: 액세서리에 대해 배우라"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "for various situations.",
+     "ko": "여러 상황에 맞는"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "segs": [
+    {
+     "t": "· C: Find the best hairstyle",
+     "ko": "· C: 가장 좋은 머리 모양을 찾으라"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "that fits your face shape.",
+     "ko": "너의 얼굴형에 맞는"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "segs": [
+    {
+     "t": "- There is a section",
+     "ko": "- 구역이 있다"
+    },
+    {
+     "t": " "
+    },
+    {
+     "t": "where you can try styling yourself",
+     "ko": "직접 스타일링을 해 볼 수 있는"
+    },
+    {
+     "t": " and take pictures."
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "segs": [
+    {
+     "t": "- If you post your picture",
+     "ko": "- 너의 사진을 올리면"
+    },
+    {
+     "t": " on social media, "
+    },
+    {
+     "t": "you will receive",
+     "ko": "너는 받게 된다"
+    },
+    {
+     "t": " a special gift."
+    }
+   ]
+  }
+ ],
+ "chunk_pages": [
+  [
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   11,
+   12
+  ]
+ ],
+ "syntax": {
+  "2": [
+   {
+    "at": "that suits you best.",
+    "t": "관계대명사",
+    "f": "gr"
+   }
+  ],
+  "3": [
+   {
+    "at": "We are ready",
+    "t": "be ready + to부정사",
+    "f": "gr"
+   },
+   {
+    "at": "to make the employees",
+    "t": "make + 목적어 + 동사원형",
+    "f": "gr"
+   }
+  ],
+  "4": [
+   {
+    "at": "Freely visit booths",
+    "t": "명령문",
+    "f": "gr"
+   }
+  ],
+  "6": [
+   {
+    "at": "(Each booth has",
+    "t": "each + 단수 명사 → has",
+    "f": "gr"
+   }
+  ],
+  "7": [
+   {
+    "at": "that go well with",
+    "t": "관계대명사 → 복수 go",
+    "f": "gr"
+   }
+  ],
+  "9": [
+   {
+    "at": "that fits your face shape.",
+    "t": "관계대명사 → 단수 fits",
+    "f": "gr"
+   }
+  ],
+  "11": [
+   {
+    "at": "where you can try styling yourself",
+    "t": "관계부사",
+    "f": "gr"
+   },
+   {
+    "at": "and take pictures.",
+    "t": "병렬(can try ~ and take)",
+    "f": "gr"
+   }
+  ],
+  "12": [
+   {
+    "at": "- If you post your picture",
+    "t": "조건 부사절(현재 시제로 미래)",
+    "f": "gr"
+   }
+  ]
+ },
+ "tf": [
+  {
+   "s": "The consultation is mainly for customers of Woodville Company.",
+   "a": "F",
+   "sent": [
+    3
+   ],
+   "fix": "주체 — 직원을 위한 행사다"
+  },
+  {
+   "s": "Visitors may go to the booths in the order they like.",
+   "a": "T",
+   "sent": [
+    4
+   ]
+  },
+  {
+   "s": "Booth C gives advice on a hairstyle for each face shape.",
+   "a": "T",
+   "sent": [
+    9
+   ]
+  },
+  {
+   "s": "No place is set aside for trying styles by yourself.",
+   "a": "F",
+   "sent": [
+    11
+   ],
+   "fix": "긍정/부정 — 그런 구역이 있다"
+  },
+  {
+   "s": "A special gift goes to people who share their picture online.",
+   "a": "T",
+   "sent": [
+    12
+   ]
+  }
+ ],
+ "summary": null,
+ "sr": [
+  {
+   "kind": "영작",
+   "code": "SR-21",
+   "name": "조건 영작(답 틀 채우기)",
+   "set": 1,
+   "no": 13,
+   "stem": "다음 우리말과 뜻이 같도록 <조건>에 맞게 답 틀의 빈칸 (A), (B)를 채우시오.",
+   "ko": "행사장에는 방문객들이 자기 얼굴에 어울리는 모자를 써 볼 수 있는 구역이 있다.",
+   "ask": null,
+   "bogi": [
+    "where",
+    "try on",
+    "that",
+    "suit"
+   ],
+   "conditions": [
+    "<보기>의 말을 모두 한 번씩 사용할 것.",
+    "필요하면 <보기>의 말의 꼴을 바꿀 것.",
+    "<보기>에 없는 낱말을 (A)에 두 개 더할 것.",
+    "(A)에는 관계부사를, (B)에는 관계대명사를 쓸 것."
+   ],
+   "model": "In the hall, there is a section where visitors can try on a hat that suits their face."
+  },
+  {
+   "kind": "서술",
+   "code": "SR-23",
+   "name": "영어로 답하기",
+   "set": 1,
+   "no": 15,
+   "stem": "다음 글을 읽고 물음에 영어로 답하시오.",
+   "ko": null,
+   "ask": "참가자가 특별한 선물을 받으려면 무엇을 해야 하는가?",
+   "bogi": [],
+   "conditions": [
+    "영어로 쓸 것."
+   ],
+   "model": "They should post their picture on social media."
+  }
+ ],
  "meta": {
   "id": "H2_2410_28",
   "grade": "고2",

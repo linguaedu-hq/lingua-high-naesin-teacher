@@ -99,11 +99,17 @@
   var M = D.meta, S = [];
   var GROUPS = [];
   function slide(kind, title, group, extra) { var s = { kind: kind, title: title, group: group }; for (var k in extra || {}) s[k] = extra[k]; S.push(s); }
+  var WP = D.word_pages || [], CP = D.chunk_pages || [];
   slide('cover', '표지', '표지');
+  WP.forEach(function (pg, i) { slide('words', '단어 정리' + (WP.length > 1 ? ' ' + (i + 1) + ' / ' + WP.length : ''), '단어', { rows: pg }); });
   slide('read', '읽기 · 해석', '읽기');
+  CP.forEach(function (pg, i) { slide('chunk', '끊어 읽기' + (CP.length > 1 ? ' ' + (i + 1) + ' / ' + CP.length : ''), '읽기', { ns: pg }); });
   slide('marks', '주제문 · 어휘 · 어법', '강조');
   if (D.flow && D.flow.boxes.length) slide('flow', '글의 구조', '구조');
+  if (D.tf && D.tf.length) slide('tf', 'T / F 확인', '확인');
+  if (D.summary) slide('summary', '요약문 빈칸', '확인');
   D.variants.forEach(function (v, i) { slide('var', '변형 ' + (i + 1) + ' · ' + v.name, '변형', { v: v, idx: i + 1 }); });
+  (D.sr || []).forEach(function (q, i) { slide('sr', '서술형 대비 ' + (i + 1) + ' · ' + q.name, '서술형', { q: q, idx: i + 1 }); });
   slide('sum', '정리', '정리');
   S.forEach(function (s, i) { if (!GROUPS.length || GROUPS[GROUPS.length - 1].name !== s.group) GROUPS.push({ name: s.group, first: i }); });
 
@@ -114,6 +120,11 @@
   function steps(s) {
     switch (s.kind) {
       case 'read': return D.sents.length;
+      case 'words': return 1;
+      case 'chunk': return s.ns.length;
+      case 'tf': return D.tf.length;
+      case 'summary': return D.summary.key ? 2 : 1;
+      case 'sr': return 1;
       case 'marks': return markSteps();
       case 'flow': return D.flow.boxes.length + 1;
       case 'var': return 2;
@@ -123,8 +134,11 @@
   function nextLabel(s, st) {
     var n = steps(s);
     if (st >= n) return '다음 화면';
-    if (s.kind === 'var') return st === 0 ? '정답 보기' : '해설 보기';
-    if (s.kind === 'read') return st === 0 ? '첫 문장' : '다음 문장';
+    if (s.kind === 'var' || s.kind === 'summary') return st === 0 ? '정답 보기' : '해설 보기';
+    if (s.kind === 'read' || s.kind === 'chunk') return st === 0 ? '첫 문장' : '다음 문장';
+    if (s.kind === 'words') return '뜻 보기';
+    if (s.kind === 'tf') return '다음 정답';
+    if (s.kind === 'sr') return '모범 답 보기';
     return '다음 단계';
   }
 
@@ -177,8 +191,11 @@
       });
       fitbox.appendChild(g);
     }
-    el.appendChild(h('div', { class: 'colhead' }, h('span', null, state.flow === 'para' && D.kind !== 'notice' ? '이어진 판' : '문장별 판'), h('span', null, '해석')));
+    el.appendChild(h('div', { class: 'colhead' },
+      h('span', { class: 'chl' }, h('i', null, state.flow === 'para' && D.kind !== 'notice' ? '이어진 판' : '문장별 판'), h('span', { class: 'tagbar inline' }, h('b', null, '구문'), h('span', { class: 'tags' }))),
+      h('span', null, '해석')));
     el.appendChild(fitbox);
+    Array.prototype.forEach.call(fitbox.querySelectorAll('.ink'), function (k) { wrapTags(k, +k.getAttribute('data-n')); });
     el._fit = function () { fit(el, fitbox, '--fs', 31, 17, function (v) { el.style.setProperty('--ko', Math.max(16, Math.round(v * 0.72 * 2) / 2) + 'px'); }); };
     return el;
   };
@@ -192,7 +209,25 @@
       r.classList.toggle('past', n < st && !state.koAll);
     });
     Array.prototype.forEach.call(el.querySelectorAll('.ink'), function (k) { k.classList.toggle('on', +k.getAttribute('data-n') === st); });
+    Array.prototype.forEach.call(el.querySelectorAll('.stx'), function (k) { k.classList.toggle('on', +k.getAttribute('data-n') === st); });
+    fillTagBar(el, st);
   };
+
+  /* 구문 꼬리표(syntax_tags) — 현재 문장의 꼬리표 자리에 점선 + 아래 띠에 이름 */
+  function tagsOf(n) { return ((D.syntax || {})[String(n)] || []).slice(0, 3); }
+  function wrapTags(node, n) {
+    tagsOf(n).forEach(function (t) { wrapQuote(node, t.at.replace(/[\s.,]+$/, ''), 'stx'); });
+    Array.prototype.forEach.call(node.querySelectorAll('.stx'), function (x) { x.setAttribute('data-n', n); });
+  }
+  function tagBar() { return h('div', { class: 'tagbar' }, h('b', null, '구문'), h('div', { class: 'tags' })); }
+  function fillTagBar(el, n) {
+    var box = el.querySelector('.tagbar .tags'); if (!box) return;
+    box.innerHTML = '';
+    var tags = n ? tagsOf(n) : [];
+    if (!tags.length) { box.appendChild(h('span', { class: 'none' }, n ? '문장 ' + n : '')); return; }
+    box.appendChild(h('span', { class: 'sn' }, '문장 ' + n));
+    tags.forEach(function (t) { box.appendChild(h('span', { class: 'tg' + (t.f === 'gr' ? '' : ' fl') }, t.t)); });
+  }
 
   function markText(container) {
     if (state.flow === 'para' && D.kind !== 'notice') {
@@ -255,7 +290,8 @@
       h('div', { class: 'nh' }, h('span', { class: 'chipx gr' }, g.chip), h('i', null, '어법 ' + (p.i + 1) + ' / ' + m.grammar.length + ' · 문장 ' + g.sent)),
       h('div', { class: 'eng' }, g.text),
       h('div', { class: 'mid' }, g.rule),
-      g.wrong && g.wrong.length ? h('div', { class: 'wrong' }, '틀린 꼴', g.wrong.map(function (w) { return h('s', null, w); })) : null);
+      g.wrong && g.wrong.length ? h('div', { class: 'wrong' }, '틀린 꼴', g.wrong.map(function (w) { return h('s', null, w); })) : null,
+      tagsOf(g.sent).length ? h('div', { class: 'stxnote' }, h('b', null, '문장 ' + g.sent + ' 구문'), tagsOf(g.sent).map(function (t) { return h('span', { class: 'tg' + (t.f === 'gr' ? '' : ' fl') }, t.t); })) : null);
   }
   A.marks = function (s, st, prev, el) {
     var plan = markPlan(), done = plan.slice(0, st);
@@ -331,13 +367,19 @@
     el.appendChild(h('div', { class: 'qh' }, h('span', { class: 'qtag' }, '변형 ' + s.idx, h('em', null, v.name + (v.difficulty ? ' · ' + v.difficulty : ''))), stemNode(v)));
     var pass = h('div', { class: 'pass' });
     v.passage.forEach(function (row) {
-      if (row.gap) { pass.appendChild(h('span', { class: 'gap' }, '( ' + row.gap + ' )')); return; }
-      var sp = h('span', { class: 'sent' + (row.extra ? ' extra' : ''), 'data-n': row.n || '' });
+      if (row.gap) { pass.appendChild(h('span', { class: 'gap', 'data-lab': row.gap }, '( ' + row.gap + ' )')); add(pass, ' '); return; }
+      var sp = h('span', { class: 'sent' + (row.extra ? ' extra' : ''), 'data-n': row.n || '', 'data-lab': row.lab || null });
       if (row.lab) sp.appendChild(h('span', { class: 'lab' }, row.lab + ' '));
       add(sp, runs(row.runs));
       if (D.kind === 'notice') { var ln = h('span', { class: 'line' + (row.line ? ' ' + row.line : '') }, sp); pass.appendChild(ln); }
       else add(pass, [sp, ' ']);
     });
+    if (v.order) {
+      pass.innerHTML = '';
+      pass.appendChild(h('div', { class: 'given' }, v.order.given));
+      v.order.pieces.forEach(function (pc) { pass.appendChild(h('div', { class: 'piece', 'data-lab': pc.lab }, h('b', null, pc.lab), h('span', null, pc.text))); });
+    }
+    if (v.given_text) pass.insertBefore(h('div', { class: 'given' }, v.given_text), pass.firstChild);
     var side = h('div', { class: 'side' });
     if (v.marks_are_choices) {
       side.appendChild(h('div', { class: 'ansbox' }, h('div', { class: 'ph' }, svg(ICON.tap, null), '정답은 다음 클릭에')));
@@ -347,7 +389,7 @@
       side.appendChild(ol);
     }
     el.appendChild(h('div', { class: 'qb' + (v.marks_are_choices ? ' wide' : '') }, pass, side));
-    el.appendChild(h('div', { class: 'exarea', style: 'flex:none;min-height:96px' }));
+    el.appendChild(h('div', { class: 'exarea', style: 'flex:none;min-height:124px' }));
     el._fit = function () {
       fit(el, pass, '--fs', 25, 15);
       var o = side.querySelector('.opts');
@@ -363,7 +405,10 @@
       o.classList.toggle('is-answer', st >= 1 && k === v.answer);
       o.classList.toggle('not', st >= 1 && k !== v.answer);
     });
-    Array.prototype.forEach.call(el.querySelectorAll('.pass .u'), function (u) { u.classList.toggle('answer', st >= 1 && u.getAttribute('data-lab') === '①②③④⑤'[v.answer - 1]); });
+    var al = '①②③④⑤'[v.answer - 1];
+    Array.prototype.forEach.call(el.querySelectorAll('.pass .u'), function (u) { u.classList.toggle('answer', st >= 1 && u.getAttribute('data-lab') === al); });
+    if (v.code === 'VR-42') Array.prototype.forEach.call(el.querySelectorAll('.pass .gap'), function (g) { g.classList.toggle('is-answer', st >= 1 && g.getAttribute('data-lab') === al); });
+    if (v.code === 'VR-43') Array.prototype.forEach.call(el.querySelectorAll('.pass .sent[data-lab]'), function (g) { g.classList.toggle('is-answer', st >= 1 && g.getAttribute('data-lab') === al); });
     var box = el.querySelector('.ansbox');
     if (box) {
       box.innerHTML = '';
@@ -380,6 +425,7 @@
     var ex = el.querySelector('.exarea');
     ex.innerHTML = '';
     Array.prototype.forEach.call(el.querySelectorAll('.pass .ev'), function (e) { e.classList.remove('on'); });
+    if (st === 1 && v.order && v.order.seq) ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '순서'), h('span', null, v.order.seq)));
     if (st >= 2) {
       ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '해설'), h('span', null, v.key)));
       if (!el._ev) {
@@ -413,6 +459,130 @@
       m.grammar.length ? h('div', { class: 'blk rise', style: '--i:4' }, h('div', { class: 'lab' }, '어법 포인트'), gl) : null);
     el.appendChild(h('div', { class: 'cols' }, left, right));
     return el;
+  };
+
+  /* ------------------------------------------------------------ 단어 정리 · 끊어 읽기 · T/F · 요약문 · 서술형(대표 10-18 10:2x 더함) */
+  R.words = function (s) {
+    var el = h('section', { class: 'slide words' }), tb = h('div', { class: 'wtable' });
+    tb.appendChild(h('div', { class: 'whead' }, h('span', null, '낱말 · 숙어'), h('span', null, '뜻'), h('span', null, '유의어'), h('span', null, '반의어')));
+    s.rows.forEach(function (i, k) {
+      var w = D.words[i];
+      var row = h('div', { class: 'wrow stag', style: '--i:' + k, role: 'button', tabindex: '0', 'aria-label': w.text + ' 뜻 보기' },
+        h('div', { class: 'ww' }, h('b', null, w.text), h('span', { class: 'pos' + (w.kind === 'idiom' ? ' idiom' : '') }, w.pos),
+          w.der && w.der.length ? h('small', null, '파생 ' + w.der.join(', ')) : null),
+        h('div', { class: 'wk' }, h('span', { class: 'mean' }, w.ko)),
+        h('div', { class: 'ws' }, w.syn.join(', ')),
+        h('div', { class: 'wa' }, w.ant.join(', ')));
+      row.addEventListener('click', function (e) {
+        e.stopPropagation();
+        row.classList.toggle('show');
+        row.querySelector('.wk').classList.toggle('is-answer', row.classList.contains('show'));
+      });
+      row.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.stopPropagation(); e.preventDefault(); row.click(); } });
+      tb.appendChild(row);
+    });
+    el.appendChild(h('div', { class: 'fit' }, tb));
+    el._fit = function () { fit(el, el.querySelector('.fit'), '--fs', 34, 18); };
+    return el;
+  };
+  A.words = function (s, st, prev, el) {
+    Array.prototype.forEach.call(el.querySelectorAll('.wrow'), function (r, i) {
+      var on = st >= 1, wk = r.querySelector('.wk');
+      if (on && st > prev) wait(function () { r.classList.add('show'); wk.classList.add('is-answer'); }, i * 50);
+      else { r.classList.toggle('show', on); wk.classList.toggle('is-answer', on); }
+    });
+  };
+
+  R.chunk = function (s) {
+    var el = h('section', { class: 'slide chunk' }), box = h('div', { class: 'crows' });
+    var byN = {};
+    (D.chunks || []).forEach(function (c) { byN[c.n] = c; });
+    s.ns.forEach(function (n, k) {
+      var c = byN[n], line = h('div', { class: 'cl' });
+      c.segs.filter(function (g) { return g.t.trim(); }).forEach(function (g, j) {
+        if (j > 0) line.appendChild(h('span', { class: 'slash', 'aria-hidden': 'true' }, '/'));
+        line.appendChild(h('span', { class: 'cs' + (g.ko ? ' has' : ''), style: '--j:' + j },
+          h('span', { class: 'ce' }, g.t.trim()), h('span', { class: 'ck' }, g.ko || ' ')));
+      });
+      box.appendChild(h('div', { class: 'crow stag', 'data-k': k + 1, style: '--i:' + k }, numChip(n), line));
+    });
+    el.appendChild(h('div', { class: 'fit' }, box));
+    el.appendChild(tagBar());
+    el._fit = function () { fit(el, el.querySelector('.fit'), '--fs', 28, 17); };
+    return el;
+  };
+  A.chunk = function (s, st, prev, el) {
+    Array.prototype.forEach.call(el.querySelectorAll('.crow'), function (r) {
+      var k = +r.getAttribute('data-k');
+      r.classList.toggle('on', k <= st);
+      r.classList.toggle('cur', k === st);
+    });
+    fillTagBar(el, st ? s.ns[st - 1] : 0);
+  };
+
+  /* 원고 fix 「갈래 — 까닭」 가운데 화면에는 까닭만(갈래 이름은 만드는 쪽 분류) */
+  function fixText(f) { if (!f) return ''; var i = f.indexOf('—'); return i >= 0 ? f.slice(i + 1).trim() : f; }
+  R.tf = function () {
+    var el = h('section', { class: 'slide tf' }), list = h('ol', { class: 'tflist' });
+    D.tf.forEach(function (t, i) {
+      list.appendChild(h('li', { class: 'tfrow stag', 'data-k': i + 1, style: '--i:' + i },
+        h('span', { class: 'tn' }, String(i + 1)),
+        h('div', { class: 'ts' }, h('span', null, t.s), h('div', { class: 'tfix' }, fixText(t.fix))),
+        h('span', { class: 'tbadge' })));
+    });
+    el.appendChild(h('div', { class: 'fit' }, list));
+    el._fit = function () { fit(el, el.querySelector('.fit'), '--fs', 28, 18); };
+    return el;
+  };
+  A.tf = function (s, st, prev, el) {
+    Array.prototype.forEach.call(el.querySelectorAll('.tfrow'), function (r) {
+      var k = +r.getAttribute('data-k'), t = D.tf[k - 1], b = r.querySelector('.tbadge'), fx = r.querySelector('.tfix');
+      var on = k <= st;
+      b.textContent = on ? t.a : '';
+      b.className = 'tbadge' + (on ? ' is-answer ' + (t.a === 'T' ? 'ok' : 'no') : '');
+      fx.classList.toggle('on', on && !!t.fix);
+      fx.classList.toggle('is-answer', on && !!t.fix);
+      r.classList.toggle('cur', k === st);
+    });
+  };
+
+  R.summary = function () {
+    var el = h('section', { class: 'slide summary' }), S2 = D.summary, p = h('p', { class: 'stext' });
+    S2.text.split(/(\{[AB]\})/).forEach(function (part) {
+      var m = /^\{([AB])\}$/.exec(part);
+      if (m) p.appendChild(h('span', { class: 'slot', 'data-slot': m[1] }, h('i', null, '(' + m[1] + ')'), h('span', { class: 'fillw' }, S2.fill[m[1]])));
+      else add(p, part);
+    });
+    el.appendChild(h('div', { class: 'sumwrap' }, h('div', { class: 'slab' }, '한 문장 요약'), p));
+    el.appendChild(h('div', { class: 'exarea', style: 'flex:none;min-height:110px' }));
+    return el;
+  };
+  A.summary = function (s, st, prev, el) {
+    Array.prototype.forEach.call(el.querySelectorAll('.slot'), function (x) { x.classList.toggle('is-answer', st >= 1); });
+    var ex = el.querySelector('.exarea');
+    ex.innerHTML = '';
+    if (st >= 2) ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '해설'), h('span', null, D.summary.key)));
+  };
+
+  R.sr = function (s) {
+    var q = s.q, el = h('section', { class: 'slide sr' });
+    el.appendChild(h('div', { class: 'qh' }, h('span', { class: 'qtag' }, '서술형 ' + s.idx, h('em', null, q.name)), h('div', { class: 'stem' }, q.stem)));
+    var left = h('div', { class: 'srl' },
+      q.ko ? h('div', { class: 'srko' }, q.ko) : null,
+      q.ask ? h('div', { class: 'srko' }, q.ask) : null,
+      q.bogi.length ? h('div', { class: 'bogi' }, h('b', null, '보기'), q.bogi.map(function (b) { return h('span', null, b); })) : null,
+      h('ul', { class: 'conds' }, q.conditions.map(function (c) { return h('li', null, c); })));
+    el.appendChild(h('div', { class: 'fit' }, left));
+    el.appendChild(h('div', { class: 'srans' }));
+    el._fit = function () { fit(el, el.querySelector('.fit'), '--fs', 34, 18); };
+    return el;
+  };
+  A.sr = function (s, st, prev, el) {
+    var box = el.querySelector('.srans');
+    box.innerHTML = '';
+    box.classList.toggle('is-answer', st >= 1);
+    if (st >= 1) { box.appendChild(h('b', null, '모범 답')); box.appendChild(h('div', { class: 'model' }, s.q.model)); }
+    else box.appendChild(h('div', { class: 'ph' }, svg(ICON.tap, null), '모범 답은 다음 클릭에'));
   };
 
   /* ------------------------------------------------------------ 이동 */
@@ -516,7 +686,7 @@
     var out = [], st = document.getElementById('stage').getBoundingClientRect(), sc = st.width / W;
     var el = state.el; if (!el) return out;
     var f = el.getAttribute('data-fit'); if (f === 'overflow') out.push({ what: 'fit-min', slide: state.cur + 1 });
-    Array.prototype.forEach.call(el.querySelectorAll('.fit,.pass,.left,.panel,.side,.note,.box,.opt,.explain,.ansbox,.cols,.gistband,.lane'), function (b) {
+    Array.prototype.forEach.call(el.querySelectorAll('.fit,.pass,.left,.panel,.side,.note,.box,.opt,.explain,.ansbox,.cols,.gistband,.lane,.tagbar,.srans,.sumwrap,.wtable,.crows,.tflist'), function (b) {
       if (b.scrollHeight > b.clientHeight + 2 || b.scrollWidth > b.clientWidth + 2) out.push({ what: 'box', cls: b.className, sh: b.scrollHeight, ch: b.clientHeight, sw: b.scrollWidth, cw: b.clientWidth });
     });
     var vr = view.getBoundingClientRect();
