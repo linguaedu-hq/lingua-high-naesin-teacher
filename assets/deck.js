@@ -82,8 +82,8 @@
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT), nodes = [], text = '', n;
     while ((n = walker.nextNode())) { nodes.push({ n: n, a: text.length }); text += n.nodeValue; }
     var at = normQ(text).toLowerCase().indexOf(normQ(quote).toLowerCase());
-    if (at < 0) return false;
-    var end = at + quote.length;
+    if (at < 0 || !quote) return false;
+    var end = at + quote.length, made = [];
     nodes.forEach(function (o) {
       var a = Math.max(at, o.a), b = Math.min(end, o.a + o.n.nodeValue.length);
       if (a >= b) return;
@@ -91,8 +91,9 @@
       r.setStart(o.n, a - o.a); r.setEnd(o.n, b - o.a);
       var span = h('span', { class: cls });
       r.surroundContents(span);
+      made.push(span);
     });
-    return true;
+    return made.length ? made : false;
   }
 
   /* ------------------------------------------------------------ 화면 목록 */
@@ -107,16 +108,26 @@
   slide('marks', '주제문 · 어휘 · 어법', '강조');
   if (D.flow && D.flow.boxes.length) slide('flow', '글의 구조', '구조');
   if (D.tf && D.tf.length) slide('tf', 'T / F 확인', '확인');
-  if (D.summary) slide('summary', '요약문 빈칸', '확인');
-  D.variants.forEach(function (v, i) { slide('var', '변형 ' + (i + 1) + ' · ' + v.name, '변형', { v: v, idx: i + 1 }); });
-  (D.sr || []).forEach(function (q, i) { slide('sr', '서술형 대비 ' + (i + 1) + ' · ' + q.name, '서술형', { q: q, idx: i + 1 }); });
+  if (D.summary) {
+    slide('summary', '요약문 빈칸', '확인');
+    if (D.summary.ex && D.summary.ex.sections.length) slide('ex', '요약문 해설', '확인', { src: D.summary, passV: null, tag: '요약문 해설', head: '근거 · 풀이 순서 · 오답 풀이' });
+  }
+  D.variants.forEach(function (v, i) {
+    slide('var', '변형 ' + (i + 1) + ' · ' + v.name, '변형', { v: v, idx: i + 1 });
+    if (v.ex && v.ex.sections.length) slide('ex', '변형 ' + (i + 1) + ' 해설', '변형', { src: v, passV: v, tag: '변형 ' + (i + 1) + ' 해설', head: v.name + ' · 정답 ' + '①②③④⑤'[v.answer - 1] });
+  });
+  (D.sr || []).forEach(function (q, i) {
+    slide('sr', '서술형 대비 ' + (i + 1) + ' · ' + q.name, '서술형', { q: q, idx: i + 1 });
+    if (q.ex && q.ex.sections.length) slide('ex', '서술형 ' + (i + 1) + ' 해설', '서술형', { src: q, passV: null, tag: '서술형 ' + (i + 1) + ' 해설', head: q.name + ' · 조건 · 인정 답 · 채점' });
+  });
   slide('sum', '정리', '정리');
   S.forEach(function (s, i) { if (!GROUPS.length || GROUPS[GROUPS.length - 1].name !== s.group) GROUPS.push({ name: s.group, first: i }); });
 
   var state = { flow: (param('flow') || D.flow_default || 'sent'), koAll: false, cur: -1, step: 0, el: null };
   if (D.kind === 'notice') state.flow = 'sent';
 
-  function markSteps() { return (D.marks.topic ? 1 : 0) + (D.marks.vocab.length ? 1 : 0) + D.marks.grammar.length; }
+  function hasSignals() { var g = D.signals || {}; return !!((g.con && g.con.length) || (g.ref && g.ref.length)); }
+  function markSteps() { return (D.marks.topic ? 1 : 0) + (D.marks.vocab.length ? 1 : 0) + D.marks.grammar.length + (hasSignals() ? 1 : 0); }
   function steps(s) {
     switch (s.kind) {
       case 'read': return D.sents.length;
@@ -127,14 +138,17 @@
       case 'sr': return 1;
       case 'marks': return markSteps();
       case 'flow': return D.flow.boxes.length + 1;
-      case 'var': return 2;
+      case 'var': return varSteps(s.v);
+      case 'ex': return Math.max(0, exUnits(s.src.ex).length - 1);
       default: return 0;
     }
   }
   function nextLabel(s, st) {
     var n = steps(s);
     if (st >= n) return '다음 화면';
-    if (s.kind === 'var' || s.kind === 'summary') return st === 0 ? '정답 보기' : '해설 보기';
+    if (s.kind === 'var') return st === 0 ? '정답 보기' : (st === 1 && varEvStep(s.v) ? '근거 보기' : '핵심 까닭');
+    if (s.kind === 'summary') return st === 0 ? '정답 보기' : '해설 보기';
+    if (s.kind === 'ex') return '다음 해설';
     if (s.kind === 'read' || s.kind === 'chunk') return st === 0 ? '첫 문장' : '다음 문장';
     if (s.kind === 'words') return '뜻 보기';
     if (s.kind === 'tf') return '다음 정답';
@@ -255,12 +269,22 @@
     if (D.marks.topic) plan.push({ k: 'topic' });
     if (D.marks.vocab.length) plan.push({ k: 'vocab' });
     D.marks.grammar.forEach(function (g, i) { plan.push({ k: 'gr', i: i }); });
+    if (hasSignals()) plan.push({ k: 'sig' });
     return plan;
   }
   R.marks = function () {
     var el = h('section', { class: 'slide marks' });
     var left = h('div', { class: 'left' }), panel = h('div', { class: 'panel' });
     markText(left);
+    var sg = D.signals || {};
+    function tb(n) { return left.querySelector('.topicbox[data-n="' + n + '"]'); }
+    (sg.hl || []).forEach(function (x) { var t = tb(x.sent); if (t) wrapQuote(t, x.text, 'hlx'); });
+    (sg.con || []).forEach(function (c) { var t = tb(c.sent); var got = t && wrapQuote(t, c.text, 'cnx'); if (got && got.length) got[got.length - 1].setAttribute('data-rel', c.rel); });
+    (sg.ref || []).forEach(function (r, i) {
+      var t = tb(r.sent), a = tb(r.to_sent), g1 = t && wrapQuote(t, r.text, 'rfx'), g2 = a && wrapQuote(a, r.to, 'rfa');
+      if (g1 && g1.length) g1[g1.length - 1].setAttribute('data-rn', String(i + 1));
+      if (g2 && g2.length) g2[g2.length - 1].setAttribute('data-rn', String(i + 1));
+    });
     el.appendChild(h('div', { class: 'mk' }, left, panel));
     el._fit = function () { el.classList.add('measure', 'nofx'); fit(el, left, '--fs', 30, 16); el.classList.remove('measure'); void el.offsetHeight; el.classList.remove('nofx'); };
     el._panel = panel;
@@ -278,7 +302,17 @@
       return h('div', { class: 'note' },
         h('div', { class: 'nh' }, h('span', { class: 'chipx tp' }, '주제문'), h('i', null, '문장 ' + m.topic)),
         M.topic_ko ? h('div', { class: 'big' }, M.topic_ko) : null,
-        m.gist && m.gist !== m.topic ? h('div', { class: 'sm' }, '요지 문장 = 문장 ' + m.gist) : null);
+        m.gist && m.gist !== m.topic ? h('div', { class: 'sm' }, '요지 문장 = 문장 ' + m.gist) : null,
+        (D.signals && D.signals.hl.length) ? h('div', { class: 'sm hlnote' }, h('span', { class: 'hlsw' }, '내용 핵심'), '노랑 칠 ' + D.signals.hl.length + '곳') : null,
+        (D.keywords && D.keywords.length) ? h('div', { class: 'kwl' }, h('b', null, '핵심어'), D.keywords.map(function (k) { return h('span', null, h('em', null, k.en), k.ko); })) : null);
+    }
+    if (p.k === 'sig') {
+      var sg = D.signals;
+      return h('div', { class: 'note' },
+        h('div', { class: 'nh' }, h('span', { class: 'chipx fl' }, '신호'), h('i', null, '연결어 · 가리킴 · 흐름')),
+        sg.con.length ? h('div', { class: 'sigl' }, h('b', null, '연결어'), sg.con.map(function (c) { return h('span', null, h('em', null, c.text), c.rel + ' · 문장 ' + c.sent); })) : null,
+        sg.ref.length ? h('div', { class: 'sigl' }, h('b', null, '가리킴'), sg.ref.map(function (r, i) { return h('span', null, h('i', { class: 'rn' }, String(i + 1)), h('em', null, r.text), '→ ' + (r.ko || r.to)); })) : null,
+        sg.flow.length ? h('div', { class: 'sigl' }, h('b', null, '흐름'), sg.flow.map(function (f) { return h('span', null, h('em', null, f.phase), '문장 ' + f.sents); })) : null);
     }
     if (p.k === 'vocab') {
       var list = h('div', { class: 'vlist' });
@@ -314,6 +348,8 @@
       g.classList.toggle('on', grs.indexOf(id) >= 0);
       g.classList.toggle('cur', !!curp && curp.k === 'gr' && 'g' + curp.i === id);
     });
+    el.classList.toggle('topic-on', has('topic'));
+    el.classList.toggle('sig-on', has('sig'));
     el._panel.innerHTML = '';
     el._panel.appendChild(note(plan, st));
   };
@@ -365,21 +401,7 @@
   R.var = function (s) {
     var v = s.v, el = h('section', { class: 'slide var' });
     el.appendChild(h('div', { class: 'qh' }, h('span', { class: 'qtag' }, '변형 ' + s.idx, h('em', null, v.name + (v.difficulty ? ' · ' + v.difficulty : ''))), stemNode(v)));
-    var pass = h('div', { class: 'pass' });
-    v.passage.forEach(function (row) {
-      if (row.gap) { pass.appendChild(h('span', { class: 'gap', 'data-lab': row.gap }, '( ' + row.gap + ' )')); add(pass, ' '); return; }
-      var sp = h('span', { class: 'sent' + (row.extra ? ' extra' : ''), 'data-n': row.n || '', 'data-lab': row.lab || null });
-      if (row.lab) sp.appendChild(h('span', { class: 'lab' }, row.lab + ' '));
-      add(sp, runs(row.runs));
-      if (D.kind === 'notice') { var ln = h('span', { class: 'line' + (row.line ? ' ' + row.line : '') }, sp); pass.appendChild(ln); }
-      else add(pass, [sp, ' ']);
-    });
-    if (v.order) {
-      pass.innerHTML = '';
-      pass.appendChild(h('div', { class: 'given' }, v.order.given));
-      v.order.pieces.forEach(function (pc) { pass.appendChild(h('div', { class: 'piece', 'data-lab': pc.lab }, h('b', null, pc.lab), h('span', null, pc.text))); });
-    }
-    if (v.given_text) pass.insertBefore(h('div', { class: 'given' }, v.given_text), pass.firstChild);
+    var pass = passageNode(v);
     var side = h('div', { class: 'side' });
     if (v.marks_are_choices) {
       side.appendChild(h('div', { class: 'ansbox' }, h('div', { class: 'ph' }, svg(ICON.tap, null), '정답은 다음 클릭에')));
@@ -422,21 +444,24 @@
         box.appendChild(h('div', { class: 'ph' }, svg(ICON.tap, null), '정답은 다음 클릭에'));
       }
     }
-    var ex = el.querySelector('.exarea');
+    var ex = el.querySelector('.exarea'), pass = el.querySelector('.pass');
     ex.innerHTML = '';
-    Array.prototype.forEach.call(el.querySelectorAll('.pass .ev'), function (e) { e.classList.remove('on'); });
+    var evs = varEvStep(v), keyAt = varSteps(v);
     if (st === 1 && v.order && v.order.seq) ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '순서'), h('span', null, v.order.seq)));
-    if (st >= 2) {
-      ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '해설'), h('span', null, v.key)));
-      if (!el._ev) {
-        el._ev = { found: 0, total: v.basis.length };
-        v.basis.forEach(function (b) {
-          var sp = el.querySelector('.pass .sent[data-n="' + b.sent + '"]');
-          if (sp && wrapQuote(sp, b.quote, 'ev')) el._ev.found++;
-        });
-      }
-      wait(function () { Array.prototype.forEach.call(el.querySelectorAll('.pass .ev'), function (e) { e.classList.add('on'); }); }, 120);
+    if (evs && st >= evs) {
+      ensureVarEv(s, el);
+      pass.classList.add('show-ev');
+      el._store.forEach(function (r, g) { wait(function () { showEv(pass, g, true); }, 80 + g * 160); });
+    } else {
+      pass.classList.remove('show-ev');
+      if (el._store) el._store.forEach(function (r, g) { showEv(pass, g, false); });
     }
+    if (evs && st === evs && st < keyAt) {
+      var lst = h('div', { class: 'evlist is-answer' }, h('b', null, '근거'));
+      v.ex.basis.forEach(function (b, i) { lst.appendChild(h('span', null, h('i', null, '근거 ' + CIRC[i]), b.ko)); });
+      ex.appendChild(lst);
+    }
+    if (st >= keyAt) ex.appendChild(h('div', { class: 'explain is-answer' }, h('b', null, '핵심 까닭'), h('span', null, v.key)));
   };
 
   R.sum = function () {
@@ -524,14 +549,18 @@
   function fixText(f) { if (!f) return ''; var i = f.indexOf('—'); return i >= 0 ? f.slice(i + 1).trim() : f; }
   R.tf = function () {
     var el = h('section', { class: 'slide tf' }), list = h('ol', { class: 'tflist' });
+    var pass = passageNode(null), store = [];
+    D.tf.forEach(function (t, i) { (t.sent || []).forEach(function (n) { markEv(pass, { sent: n, quote: '' }, 't', 'T/F ' + (i + 1), store).row = i + 1; }); });
+    pass.classList.add('show-ev');
+    el._store = store; el._pass = pass;
     D.tf.forEach(function (t, i) {
       list.appendChild(h('li', { class: 'tfrow stag', 'data-k': i + 1, style: '--i:' + i },
         h('span', { class: 'tn' }, String(i + 1)),
         h('div', { class: 'ts' }, h('span', null, t.s), h('div', { class: 'tfix' }, fixText(t.fix))),
         h('span', { class: 'tbadge' })));
     });
-    el.appendChild(h('div', { class: 'fit' }, list));
-    el._fit = function () { fit(el, el.querySelector('.fit'), '--fs', 28, 18); };
+    el.appendChild(h('div', { class: 'qb tfb' }, pass, h('div', { class: 'fit' }, list)));
+    el._fit = function () { fit(el, pass, '--fs', 22, 14); fit(el, el.querySelector('.fit'), '--tfs', 24, 16); };
     return el;
   };
   A.tf = function (s, st, prev, el) {
@@ -544,6 +573,7 @@
       fx.classList.toggle('is-answer', on && !!t.fix);
       r.classList.toggle('cur', k === st);
     });
+    showOnly(el._pass, el._store, function (r) { return r.row <= st; });
   };
 
   R.summary = function () {
@@ -584,6 +614,207 @@
     if (st >= 1) { box.appendChild(h('b', null, '모범 답')); box.appendChild(h('div', { class: 'model' }, s.q.model)); }
     else box.appendChild(h('div', { class: 'ph' }, svg(ICON.tap, null), '모범 답은 다음 클릭에'));
   };
+
+  /* ------------------------------------------------------------ 근거 표시 · 해설 화면(대표 10-18 10:5x 「근거는 다 표시 · 해설 상세」) */
+  var CIRC = '①②③④⑤⑥⑦⑧⑨', LETR = 'ⓐⓑⓒⓓⓔⓕ';
+  /* 지문 조각: 변형 지문(ops 적용) · 순서 조각 · 그냥 지문 — 문장마다 .sent[data-n] */
+  function sentSpan(n, runsList, extra) {
+    var sp = h('span', { class: 'sent' + (extra ? ' extra' : ''), 'data-n': n || '' });
+    add(sp, runs(runsList));
+    return sp;
+  }
+  function passageNode(v) {
+    var pass = h('div', { class: 'pass' });
+    if (v && v.order) {
+      var g = h('div', { class: 'given' });
+      v.order.given_ns.forEach(function (n) { add(g, [sentSpan(n, [{ t: D.sents[n - 1].en }]), ' ']); });
+      pass.appendChild(g);
+      v.order.pieces.forEach(function (pc) {
+        var body = h('span', null);
+        pc.ns.forEach(function (n) { add(body, [sentSpan(n, [{ t: D.sents[n - 1].en }]), ' ']); });
+        pass.appendChild(h('div', { class: 'piece', 'data-lab': pc.lab }, h('b', null, pc.lab), body));
+      });
+      return pass;
+    }
+    var rows = v ? v.passage : D.sents.map(function (s) { return { n: s.n, runs: [{ t: s.en }], line: s.line }; });
+    rows.forEach(function (row) {
+      if (row.gap) { pass.appendChild(h('span', { class: 'gap', 'data-lab': row.gap }, '( ' + row.gap + ' )')); add(pass, ' '); return; }
+      var sp = h('span', { class: 'sent' + (row.extra ? ' extra' : ''), 'data-n': row.n || '', 'data-lab': row.lab || null });
+      if (row.lab) sp.appendChild(h('span', { class: 'lab' }, row.lab + ' '));
+      add(sp, runs(row.runs));
+      if (D.kind === 'notice') pass.appendChild(h('span', { class: 'line' + (row.line ? ' ' + row.line : '') }, sp));
+      else add(pass, [sp, ' ']);
+    });
+    if (v && v.given_text) pass.insertBefore(h('div', { class: 'given' }, v.given_text), pass.firstChild);
+    return pass;
+  }
+  /* 근거 하나를 지문 위에: 글자 그대로 찾으면 형광 + 꼬리표, 못 찾으면 그 문장 전체를 옅게 + 꼬리표(빠뜨리지 않음) */
+  function markEv(pass, item, type, label, store) {
+    var sp = pass.querySelector('.sent[data-n="' + item.sent + '"]');
+    var res = { type: type, label: label, sent: item.sent, quote: item.quote, found: false };
+    if (sp && item.quote) {
+      var q = item.quote.replace(/\s*\(문장\s*\d+\)\s*$/, '').replace(/[\s.,]+$/, '');
+      var got = wrapQuote(sp, q, 'evq ev-' + type);
+      if (got && got.length) {
+        res.found = true;
+        got.forEach(function (x) { x.classList.add('g' + store.length); });
+        got[got.length - 1].setAttribute('data-ev', label);
+        got[got.length - 1].setAttribute('data-evt', type);
+        got[got.length - 1].setAttribute('data-evn', '1');
+      }
+    }
+    if (!res.found && sp) {
+      sp.classList.add('evs', 'ev-' + type, 'g' + store.length);
+      var prevL = sp.getAttribute('data-ev');
+      sp.setAttribute('data-ev', prevL ? prevL + ' · ' + label : label);
+      sp.setAttribute('data-evt', type);
+      sp.setAttribute('data-evn', String((+sp.getAttribute('data-evn') || 0) + 1));
+    }
+    store.push(res);
+    return res;
+  }
+  function showEv(pass, g, on) {
+    Array.prototype.forEach.call(pass.querySelectorAll('.g' + g), function (x) { if (on) x.classList.add('on'); else x.classList.remove('on'); });
+  }
+  /* 보일 묶음만 켬(한 문장이 여러 근거에 걸려도 하나가 켜면 켜짐) */
+  function showOnly(pass, store, pred) {
+    store.forEach(function (r, g) { showEv(pass, g, false); });
+    store.forEach(function (r, g) { if (pred(r)) showEv(pass, g, true); });
+  }
+  /* 바꾼 말 표 · 대조 표: 영어 칸이 지문에 있으면 번호 짝(점선 밑줄 + 번호) */
+  function pairText(t) { return String(t || '').replace(/\s*\(문장\s*[\d~ ·,]+\)\s*$/, '').replace(/[“”"]/g, '').trim(); }
+  function findSentFor(pass, text) {
+    var spans = pass.querySelectorAll('.sent[data-n]');
+    for (var i = 0; i < spans.length; i++) if (normQ(spans[i].textContent).toLowerCase().indexOf(normQ(text).toLowerCase()) >= 0) return +spans[i].getAttribute('data-n');
+    return 0;
+  }
+
+  function secNode(sec, si, pass, store, src) {
+    var box = h('div', { class: 'xsec', 'data-si': si });
+    var head = h('div', { class: 'xh' }, h('b', null, sec.label || ({ basis: '근거', wrong: '오답 풀이', final: '규칙 · 확인' })[sec.type] || ''));
+    box.appendChild(head);
+    if (sec.type === 'basis') {
+      var ol = h('ol', { class: 'xev' });
+      (src.ex.basis || []).forEach(function (b, i) {
+        ol.appendChild(h('li', null, h('span', { class: 'evb' }, '근거 ' + CIRC[i]), h('div', null, h('span', { class: 'xq' }, b.quote), h('span', { class: 'xko' }, b.ko), h('i', null, '문장 ' + b.sent))));
+      });
+      box.appendChild(ol);
+    } else if (sec.type === 'steps') {
+      var l = h('ol', { class: 'xsteps' });
+      sec.rows.forEach(function (r) { l.appendChild(h('li', null, r)); });
+      box.appendChild(l);
+    } else if (sec.type === 'table') {
+      var tb = h('table', { class: 'xtab' }), tr = h('tr', null, h('th', null, '')); sec.cols.forEach(function (c) { tr.appendChild(h('th', null, c)); });
+      tb.appendChild(tr);
+      sec.rows.forEach(function (r, ri) {
+        var row = h('tr', null, h('td', { class: 'pn' }, String(ri + 1)));
+        r.forEach(function (c, ci) { row.appendChild(h('td', { class: (sec.en_cols || []).indexOf(ci) >= 0 ? 'en' : '' }, c)); });
+        tb.appendChild(row);
+        (sec.en_cols || []).forEach(function (ci) {
+          var t = pairText(r[ci]); if (!t || t.length < 3) return;
+          var n = findSentFor(pass, t);
+          if (n) { var res = markEv(pass, { sent: n, quote: t }, 'p', String(ri + 1), store); res.sec = si; }
+        });
+      });
+      box.appendChild(tb);
+    } else if (sec.type === 'quotes') {
+      var qo = h('ol', { class: 'xev' });
+      sec.rows.forEach(function (r, i) {
+        var res = markEv(pass, r, 'q', LETR[i], store); res.sec = si;
+        qo.appendChild(h('li', null, h('span', { class: 'evb q' }, LETR[i]), h('div', null, h('span', { class: 'xq' }, r.quote), h('span', { class: 'xko' }, r.ko), r.sent ? h('i', null, '문장 ' + r.sent) : null)));
+      });
+      box.appendChild(qo);
+    } else if (sec.type === 'wrong' || sec.type === 'marks5') {
+      var wl = h('ol', { class: 'xwrong' });
+      sec.rows.forEach(function (r, ri) {
+        wl.appendChild(h('li', { class: 'xw' + (r.answer ? ' ans' : ''), 'data-ri': ri, 'data-lab': r.lab || null },
+          h('div', { class: 'xwh' }, r.lab ? h('span', { class: 'xlab' }, r.lab) : null, r.trap ? h('span', { class: 'trap' + (r.answer ? ' ans' : '') }, r.trap) : null,
+            r.gloss ? h('span', { class: 'gl' }, r.gloss) : null,
+            r.fix ? h('span', { class: 'xfix' }, h('s', null, r.fix.wrong), svg(ICON.arrow, 'arw'), h('b', null, r.fix.right)) : null),
+          h('div', { class: 'why' }, r.why)));
+      });
+      box.appendChild(wl);
+    } else if (sec.type === 'final') {
+      if (sec.rule) box.appendChild(h('div', { class: 'xrow' }, h('span', { class: 'k' }, '규칙'), h('span', null, sec.rule)));
+      if (sec.check) box.appendChild(h('div', { class: 'xrow' }, h('span', { class: 'k' }, '확인할 점'), h('span', null, sec.check)));
+      if (sec.diff && sec.diff.length) {
+        var dt = h('div', { class: 'xdiff' }, h('span', { class: 'k' }, '난이도 근거'));
+        sec.diff.forEach(function (d) { dt.appendChild(h('div', null, h('b', null, d.knob), h('em', null, d.level), h('span', null, d.value))); });
+        box.appendChild(dt);
+      }
+    } else if (sec.type === 'conds') {
+      var md = h('div', { class: 'xmodel' }, src.model || '');
+      box.appendChild(md);
+      var cl = h('ol', { class: 'xconds' });
+      sec.rows.forEach(function (r) {
+        if (r.n) (r.frags || []).forEach(function (f) { var got = wrapQuote(md, f, 'cdm'); if (got && got.length) got[got.length - 1].setAttribute('data-cd', r.n); });
+        cl.appendChild(h('li', { class: r.n ? '' : 'tip' }, r.n ? h('span', { class: 'cdn' }, String(r.n)) : h('span', { class: 'cdn tip' }, '요령'),
+          h('div', null, h('b', null, r.cond.replace(/^[①-⑨]\s*/, '').replace(/\s*✓\s*$/, '')), h('span', null, r.how))));
+      });
+      box.appendChild(cl);
+    } else if (sec.type === 'accept') {
+      var al = h('ol', { class: 'xsteps acc' });
+      sec.rows.forEach(function (r) { al.appendChild(h('li', null, h('b', { class: 'en' }, r.text), h('span', null, r.why))); });
+      box.appendChild(al);
+    }
+    return box;
+  }
+  function exUnits(ex) {
+    var u = [];
+    ex.sections.forEach(function (sec, si) {
+      var n = (sec.type === 'wrong' || sec.type === 'marks5') ? sec.rows.length : 1;
+      for (var r = 0; r < n; r++) u.push({ si: si, ri: r });
+    });
+    return u;
+  }
+  R.ex = function (s) {
+    var src = s.src, ex = src.ex, el = h('section', { class: 'slide ex' });
+    el.appendChild(h('div', { class: 'qh' }, h('span', { class: 'qtag' }, s.tag), h('div', { class: 'stem' }, s.head)));
+    var pass = passageNode(s.passV), panel = h('div', { class: 'expanel' }), store = [];
+    (ex.basis || []).forEach(function (b, i) { markEv(pass, b, 'b', '근거 ' + CIRC[i], store).sec = -1; });
+    ex.sections.forEach(function (sec, si) { panel.appendChild(secNode(sec, si, pass, store, src)); });
+    pass.classList.add('show-ev');
+    store.forEach(function (r, g) { if (r.type === 'b') showEv(pass, g, true); });
+    el.appendChild(h('div', { class: 'qb exb' }, pass, panel));
+    el._store = store; el._units = exUnits(ex); el._pass = pass; el._panel = panel;
+    el._fit = function () {
+      fit(el, pass, '--fs', 24, 15);
+      var secs = panel.querySelectorAll('.xsec'), v = 24;
+      for (; v >= 15; v -= 0.5) {
+        panel.style.setProperty('--xs', v + 'px');
+        var ok = true;
+        for (var i = 0; i < secs.length; i++) if (secs[i].scrollHeight > panel.clientHeight + 1) { ok = false; break; }
+        if (ok) break;
+      }
+      if (v < 15) el.setAttribute('data-fit', 'overflow');
+    };
+    return el;
+  };
+  A.ex = function (s, st, prev, el) {
+    var u = el._units[Math.min(st, el._units.length - 1)] || { si: 0, ri: 0 };
+    Array.prototype.forEach.call(el._panel.querySelectorAll('.xsec'), function (x) { x.classList.toggle('cur', +x.getAttribute('data-si') === u.si); });
+    var cur = el._panel.querySelector('.xsec.cur');
+    if (cur) Array.prototype.forEach.call(cur.querySelectorAll('.xw'), function (w) {
+      var ri = +w.getAttribute('data-ri'); w.classList.toggle('on', ri <= u.ri); w.classList.toggle('now', ri === u.ri);
+    });
+    showOnly(el._pass, el._store, function (r) { return r.type === 'b' || (r.sec >= 0 && r.sec <= u.si && (r.type === 'q' || r.sec === u.si)); });
+    var sec = s.src.ex.sections[u.si];
+    Array.prototype.forEach.call(el._pass.querySelectorAll('.u, .br'), function (x) { x.classList.remove('now'); });
+    if (sec && sec.type === 'marks5') {
+      var lab = sec.rows[u.ri].lab;
+      Array.prototype.forEach.call(el._pass.querySelectorAll('.u[data-lab="' + lab + '"]'), function (x) { x.classList.add('now'); });
+    }
+  };
+
+  /* 변형 문항 화면의 근거 단계 — 정답 뒤에만, 지문 위 형광 + 꼬리표 */
+  function varEvStep(v) { return v.ex && v.ex.basis.length ? 2 : 0; }
+  function varSteps(v) { return 1 + (varEvStep(v) ? 1 : 0) + 1; }
+  function ensureVarEv(s, el) {
+    if (el._store) return;
+    var pass = el.querySelector('.pass'), store = [];
+    s.v.ex.basis.forEach(function (b, i) { markEv(pass, b, 'b', '근거 ' + CIRC[i], store); });
+    el._store = store;
+  }
 
   /* ------------------------------------------------------------ 이동 */
   var view, wm;
@@ -702,7 +933,27 @@
     go: go, next: next, prev: prev, setFlow: setFlow,
     state: function () { return { cur: state.cur, step: state.step, flow: state.flow, koAll: state.koAll, fit: state.el && state.el.getAttribute('data-fit'), ev: state.el && state.el._ev || null }; },
     overflow: overflow,
-    answersVisible: function () { return document.querySelectorAll('#view .is-answer, #view .u.answer').length; }
+    answersVisible: function () { return document.querySelectorAll('#view .is-answer, #view .u.answer, #view .show-ev .on[data-ev]').length; },
+    evidence: function () {
+      var el = state.el, out = { b: 0, q: 0, t: 0, p: 0, wrong: 0, notFound: [] };
+      if (!el) return out;
+      Array.prototype.forEach.call(el.querySelectorAll('[data-evt]'), function (x) { out[x.getAttribute('data-evt')] += (+x.getAttribute('data-evn') || 1); });
+      out.wrong = el.querySelectorAll('.xw').length;
+      (el._store || []).forEach(function (r) { if (!r.found && (r.type === 'b' || r.type === 'q')) out.notFound.push({ type: r.type, label: r.label, sent: r.sent, quote: r.quote }); });
+      return out;
+    },
+    expected: function (i) {
+      var s = S[i], ex = s.src ? s.src.ex : (s.v ? s.v.ex : null), out = { b: 0, q: 0, t: 0, wrong: 0 };
+      if (s.kind === 'tf') { D.tf.forEach(function (t) { out.t += (t.sent || []).length; }); return out; }
+      if (!ex) return out;
+      out.b = ex.basis.length;
+      if (s.kind === 'ex') {
+        out.q = ex.counts.quotes;
+        ex.sections.forEach(function (sec) { if (sec.type === 'wrong' || sec.type === 'marks5') out.wrong += sec.rows.length; });
+        out.wrongSrc = ex.counts.wrong;
+      }
+      return out;
+    }
   };
 
   function start() {

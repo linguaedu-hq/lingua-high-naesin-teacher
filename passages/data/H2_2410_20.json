@@ -560,7 +560,102 @@
   },
   "key": "수학 교육은 비판적 사고와 결정하는 과정에 통합되어야(integrated) 하고, 수로 따지지 않는(numerical 이 아닌) 선택도 수학적 추론 없이는 내릴 수 없으므로 ②가 정답입니다.",
   "set": 1,
-  "no": 5
+  "no": 5,
+  "ex": {
+   "key": "수학 교육은 비판적 사고와 결정하는 과정에 통합되어야(integrated) 하고, 수로 따지지 않는(numerical 이 아닌) 선택도 수학적 추론 없이는 내릴 수 없으므로 ②가 정답입니다.",
+   "basis": [],
+   "sections": [
+    {
+     "type": "steps",
+     "label": "요약문",
+     "rows": [
+      "수학 교육은 비판적 사고와 결정하는 과정에 (A)되어야 한다. (B)이 아닌 선택조차 수학적 추론 없이는 내릴 수 없기 때문이다."
+     ]
+    },
+    {
+     "type": "quotes",
+     "label": "근거",
+     "rows": [
+      {
+       "sent": 5,
+       "quote": "in interaction with critical thinking",
+       "ko": "(A) integrated(통합된)"
+      },
+      {
+       "sent": 4,
+       "quote": "making decisions, even qualitatively",
+       "ko": "(B) numerical(수치의)과 맞서는 질적인 결정"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "label": "풀이 순서",
+     "rows": [
+      "요약문의 뼈대가 '주장 → because 근거'로 글의 차례를 뒤집었음을 확인한다.",
+      "(A)는 문장 5의 in interaction with 를, (B)는 문장 4의 even qualitatively 를 바꿔 말한 칸임을 찾는다.",
+      "(A) 열의 integrated 가 든 ②③ 가운데, (B)가 not 과 만나 '질적인'이 되는 numerical 인 ②를 고른다."
+     ]
+    },
+    {
+     "type": "wrong",
+     "label": "오답 풀이",
+     "rows": [
+      {
+       "lab": "①",
+       "trap": "반대",
+       "why": "(A) isolated(고립된)는 수학 교육을 비판적 사고와 떼어 놓는 말이라 문장 5의 in interaction with 와 반대이고, (B) trivial(사소한)도 문장 4의 qualitatively 와 짝이 되지 않습니다.",
+       "gloss": ""
+      },
+      {
+       "lab": "③",
+       "trap": "조합 한쪽만 맞음",
+       "why": "(A) integrated 는 맞지만, (B) complex(복잡한)는 문장 2의 such complex problems 에서 빌려 온 말로 문장 4의 even qualitatively(질적인 결정조차)와 짝이 되지 않습니다.",
+       "gloss": ""
+      },
+      {
+       "lab": "④",
+       "trap": "관계 뒤바꿈",
+       "why": "(A) contrasted(대조된)는 수학과 비판적 사고를 맞세우는 말이라 둘을 맞물리라는 문장 5와 어긋나고, (B) hypothetical(가설의)도 글에 없는 구분입니다.",
+       "gloss": ""
+      },
+      {
+       "lab": "⑤",
+       "trap": "반대",
+       "why": "(A) isolated 는 문장 5의 in interaction with 와 반대이고, (B) intuitive(직관적인)는 문장 4의 qualitatively 와 짝이 되는 말이 아닙니다.",
+       "gloss": ""
+      }
+     ]
+    },
+    {
+     "type": "final",
+     "rule": "",
+     "check": "한 열에 같은 낱말이 두 번씩 나오면 선지 모양으로는 좁힐 수 없으니, 칸마다 지문 근거를 먼저 찾습니다.",
+     "diff": [
+      {
+       "knob": "지문 낱말 오답 수",
+       "level": "표준",
+       "value": "1 — (B) complex 만 지문(문장 2)에 나옴"
+      },
+      {
+       "knob": "선지 열 꼴",
+       "level": "표준",
+       "value": "(A) 열만 2-2-1(integrated 2 · isolated 2 · contrasted 1) · (B) 열은 서로 다른 다섯"
+      },
+      {
+       "knob": "요약문 낱말 수",
+       "level": "표준",
+       "value": "빈칸 빼고 25낱말"
+      }
+     ]
+    }
+   ],
+   "counts": {
+    "basis": 0,
+    "quotes": 2,
+    "wrong": 4
+   }
+  }
  },
  "sr": [
   {
@@ -586,7 +681,117 @@
     "필요하면 낱말을 3개까지 더해 쓸 수 있음.",
     "Applying 으로 문장을 시작할 것."
    ],
-   "model": "Applying knowledge from many subjects helps students solve real problems."
+   "model": "Applying knowledge from many subjects helps students solve real problems.",
+   "ex": {
+    "key": "",
+    "basis": [],
+    "sections": [
+     {
+      "type": "conds",
+      "label": "조건 ↔ 모범 답",
+      "runs": [
+       {
+        "t": "Applying knowledge from many subjects helps students solve real problems."
+       }
+      ],
+      "rows": [
+       {
+        "n": 1,
+        "cond": "① <보기>의 말 모두 사용 ✓",
+        "how": "apply · knowledge · help · students · solve · real problems",
+        "found": 6,
+        "frags": [
+         "apply",
+         "knowledge",
+         "help",
+         "students",
+         "solve",
+         "real problems"
+        ]
+       },
+       {
+        "n": 2,
+        "cond": "② 꼴 바꿈 ✓",
+        "how": "apply → Applying · help → helps",
+        "found": 2,
+        "frags": [
+         "Applying",
+         "helps"
+        ]
+       },
+       {
+        "n": 3,
+        "cond": "③ 낱말 3개까지 더함 ✓",
+        "how": "from · many · subjects",
+        "found": 3,
+        "frags": [
+         "from",
+         "many",
+         "subjects"
+        ]
+       },
+       {
+        "n": 4,
+        "cond": "④ Applying 으로 시작 ✓",
+        "how": "Applying knowledge …",
+        "found": 1,
+        "frags": [
+         "Applying knowledge"
+        ]
+       },
+       {
+        "n": null,
+        "cond": "요령",
+        "how": "동명사 주어는 길어도 하나의 일이므로 동사를 단수로 맞춥니다(문장 2의 mirroring … requires 와 같은 틀).",
+        "found": null
+       }
+      ]
+     },
+     {
+      "type": "accept",
+      "label": "인정 답",
+      "rows": [
+       {
+        "text": "Applying knowledge from various subjects helps students solve real problems.",
+        "why": "many 대신 various 를 더해도 '여러'의 뜻이 같고 더한 낱말이 3개라 정답입니다."
+       },
+       {
+        "text": "Applying knowledge from different subjects helps students solve real problems.",
+        "why": "different 도 '여러'의 뜻으로 쓰여 뜻과 조건을 모두 채워 정답입니다."
+       }
+      ]
+     },
+     {
+      "type": "wrong",
+      "label": "감점 예",
+      "rows": [
+       {
+        "lab": "",
+        "trap": "조건을 어김",
+        "why": "'여러 교과의'를 옮기지 않아 우리말의 뜻이 빠졌습니다.",
+        "gloss": "Applying knowledge helps students solve real problems."
+       },
+       {
+        "lab": "",
+        "trap": "어법 오류",
+        "why": "many 뒤에는 복수 명사 subjects 가 옵니다.",
+        "gloss": "Applying knowledge from many subject helps students solve real problems."
+       },
+       {
+        "lab": "",
+        "trap": "철자 오류",
+        "why": "knowledge 의 철자가 틀렸습니다.",
+        "gloss": "Applying knowlege from many subjects helps students solve real problems."
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 0,
+     "quotes": 0,
+     "wrong": 3
+    }
+   }
   },
   {
    "kind": "서술",
@@ -602,9 +807,168 @@
     "우리말로 쓸 것.",
     "두 가지를 쓸 것."
    ],
-   "model": "수학과 얽힌 사회 문제를 따져 보며 생각할 수 있고, 그 문제의 해결 방법을 근거를 갖고 정할 수 있다."
+   "model": "수학과 얽힌 사회 문제를 따져 보며 생각할 수 있고, 그 문제의 해결 방법을 근거를 갖고 정할 수 있다.",
+   "ex": {
+    "key": "",
+    "basis": [],
+    "sections": [
+     {
+      "type": "conds",
+      "label": "조건 ↔ 모범 답",
+      "runs": [
+       {
+        "t": "수학과 얽힌 사회 문제를 따져 보며 생각할 수 있고, 그 문제의 해결 방법을 근거를 갖고 정할 수 있다."
+       }
+      ],
+      "rows": [
+       {
+        "n": 1,
+        "cond": "① 우리말로 ✓",
+        "how": "우리말 한 문장",
+        "found": 0,
+        "frags": []
+       },
+       {
+        "n": 2,
+        "cond": "② 두 가지 ✓",
+        "how": "따져 보며 생각함 · 근거를 갖고 정함",
+        "found": 0,
+        "frags": []
+       }
+      ]
+     },
+     {
+      "type": "quotes",
+      "label": "근거",
+      "rows": [
+       {
+        "sent": 1,
+        "quote": "to think critically about societal issues on which mathematics has bearing",
+        "ko": "첫째 능력 — 사회 문제를 비판적으로 생각함"
+       },
+       {
+        "sent": 1,
+        "quote": "to make informed decisions about how to solve these problems",
+        "ko": "둘째 능력 — 해결 방법을 근거 있게 정함"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "label": "채점 요소",
+      "cols": [
+       "요소",
+       "모범 답에서",
+       "근거"
+      ],
+      "en_cols": [],
+      "rows": [
+       [
+        "① 사회 문제를 비판적으로 생각함",
+        "따져 보며 생각할 수 있고",
+        "문장 1"
+       ],
+       [
+        "② 해결 방법을 근거 있게 결정함",
+        "근거를 갖고 정할 수 있다",
+        "문장 1"
+       ]
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 0,
+     "quotes": 2,
+     "wrong": 0
+    }
+   }
   }
  ],
+ "signals": {
+  "con": [
+   {
+    "sent": 4,
+    "text": "Therefore",
+    "rel": "결과"
+   },
+   {
+    "sent": 5,
+    "text": "Thus",
+    "rel": "결과"
+   },
+   {
+    "sent": 6,
+    "text": "so that",
+    "rel": "결과"
+   }
+  ],
+  "ref": [
+   {
+    "sent": 1,
+    "text": "these problems",
+    "occ": 0,
+    "to_sent": 1,
+    "to": "societal issues",
+    "ko": "수학이 관련된 사회 문제들"
+   },
+   {
+    "sent": 2,
+    "text": "such complex problems",
+    "occ": 0,
+    "to_sent": 1,
+    "to": "societal issues",
+    "ko": "수학이 관련된 사회 문제들"
+   },
+   {
+    "sent": 6,
+    "text": "They",
+    "occ": 0,
+    "to_sent": 5,
+    "to": "critical thinking along with a decision-making process",
+    "ko": "비판적 사고와 의사 결정 과정"
+   },
+   {
+    "sent": 6,
+    "text": "them",
+    "occ": 0,
+    "to_sent": 5,
+    "to": "critical thinking along with a decision-making process",
+    "ko": "비판적 사고와 의사 결정 과정"
+   }
+  ],
+  "hl": [
+   {
+    "sent": 1,
+    "text": "think critically about societal issues"
+   },
+   {
+    "sent": 4,
+    "text": "not possible without using mathematics and critical thinking"
+   },
+   {
+    "sent": 5,
+    "text": "in interaction with critical thinking"
+   }
+  ],
+  "flow": [
+   {
+    "phase": "도입",
+    "sents": "1~2"
+   },
+   {
+    "phase": "본론 1",
+    "sents": "3~3"
+   },
+   {
+    "phase": "본론 2",
+    "sents": "4~4"
+   },
+   {
+    "phase": "결론",
+    "sents": "5~6"
+   }
+  ]
+ },
  "meta": {
   "id": "H2_2410_20",
   "grade": "고2",
@@ -1115,7 +1479,95 @@
      ]
     }
    ],
-   "marks_are_choices": true
+   "marks_are_choices": true,
+   "ex": {
+    "key": "밑줄 덩어리 바로 뒤에 동사 requires 가 오므로 그 덩어리는 문장의 주어이고, 주어가 되는 꼴은 동명사 mirroring 이라서 ③이 정답입니다.",
+    "basis": [
+     {
+      "n": 1,
+      "sent": 2,
+      "quote": "mirroring real-world problems requires",
+      "ko": "실제 문제를 본뜨는 일이 주어, requires 가 동사"
+     }
+    ],
+    "sections": [
+     {
+      "type": "basis"
+     },
+     {
+      "type": "steps",
+      "label": "판단",
+      "rows": [
+       "밑줄 mirrored 덩어리 뒤에 오는 동사 = requires.",
+       "requires 의 주어 = mirrored real-world problems 덩어리.",
+       "주어로 쓰려면 명사 구실을 하는 동명사여야 하므로 바른 꼴 = mirroring."
+      ]
+     },
+     {
+      "type": "marks5",
+      "label": "밑줄 다섯",
+      "rows": [
+       {
+        "lab": "①",
+        "trap": "옳은 쓰임",
+        "why": "동사 수 일치 — 주어 To be mathematically literate 가 to부정사 덩어리라 단수 동사 means 를 씁니다."
+       },
+       {
+        "lab": "②",
+        "trap": "옳은 쓰임",
+        "why": "분사·분사구문 — 쉼표 앞까지가 '~을 다룰 때'의 뜻이고, 다루는 쪽이 사람이라 현재분사로 시작합니다."
+       },
+       {
+        "lab": "③",
+        "answer": true,
+        "trap": "틀린 곳",
+        "why": "동명사: 동사 앞에서 주어 노릇을 하는 -ing 덩어리는 동명사로 쓰고, 과거분사로는 주어를 만들 수 없습니다.",
+        "fix": {
+         "wrong": "mirrored",
+         "right": "mirroring"
+        }
+       },
+       {
+        "lab": "④",
+        "trap": "옳은 쓰임",
+        "why": "형용사·부사 — 명사가 아닌 동명사 making 을 꾸미므로 부사 꼴을 씁니다."
+       },
+       {
+        "lab": "⑤",
+        "trap": "옳은 쓰임",
+        "why": "태(능동·수동) — 주어 They 는 길러지는 쪽이라 can be 뒤에 과거분사를 씁니다."
+       }
+      ]
+     },
+     {
+      "type": "final",
+      "rule": "동명사: 동사 앞에서 주어 노릇을 하는 -ing 덩어리는 동명사로 쓰고, 과거분사로는 주어를 만들 수 없습니다.",
+      "check": "동사 바로 앞의 -ing · -ed 덩어리가 주어 노릇을 하는지 먼저 확인합니다.",
+      "diff": [
+       {
+        "knob": "판단 거리",
+        "level": "표준",
+        "value": "밑줄 mirrored 와 동사 requires 사이 2낱말(real-world problems)"
+       },
+       {
+        "knob": "틀린 곳 갈래",
+        "level": "표준",
+        "value": "동명사 주어를 과거분사로 바꿈 — 앞의 분사구문 Dealing 과 꼴이 비슷해 헷갈림"
+       },
+       {
+        "knob": "밑줄 다섯의 갈래 수",
+        "level": "기본",
+        "value": "5갈래(동사 수 일치 · 분사구문 · 동명사 · 부사 · 태)"
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 1,
+     "quotes": 0,
+     "wrong": 4
+    }
+   }
   },
   {
    "family": "빈칸·내용",
@@ -1203,7 +1655,102 @@
      ]
     }
    ],
-   "marks_are_choices": false
+   "marks_are_choices": false,
+   "ex": {
+    "key": "문장 3의 '비판적 사고 안에서 쓰이는 수학 능력'을 Therefore 로 받아, 결정에는 수학과 비판적 사고가 꼭 필요하다는 결론이 와야 하므로 ⑤가 정답입니다.",
+    "basis": [
+     {
+      "n": 1,
+      "sent": 3,
+      "quote": "within critical thinking and when using critical thinking",
+      "ko": "비판적 사고의 틀 안에서, 비판적 사고를 활용할 때"
+     },
+     {
+      "n": 2,
+      "sent": 5,
+      "quote": "in interaction with critical thinking",
+      "ko": "비판적 사고와 상호 작용하며"
+     }
+    ],
+    "sections": [
+     {
+      "type": "basis"
+     },
+     {
+      "type": "steps",
+      "label": "이어 읽기",
+      "rows": [
+       "문장 3: 수학 능력은 비판적 사고 안에서 쓰인다 → Therefore → 빈칸: 결정은 그 둘 없이 할 수 없다 → Thus → 문장 5: 수학 교육을 비판적 사고와 맞물리게"
+      ]
+     },
+     {
+      "type": "steps",
+      "label": "풀이 순서",
+      "rows": [
+       "빈칸 문장이 Therefore 로 시작하는 결론임을 확인한다.",
+       "근거인 문장 3과 이어지는 문장 5에서 되풀이되는 말 critical thinking 을 찾는다.",
+       "결정에 수학과 비판적 사고가 필요하다는 뜻의 선지 ⑤를 고른다."
+      ]
+     },
+     {
+      "type": "wrong",
+      "label": "오답 풀이",
+      "rows": [
+       {
+        "lab": "①",
+        "trap": "지문 낱말 재사용",
+        "why": "interdisciplinary approaches 는 문장 2에서 복잡한 문제를 다루는 방식으로 나온 말이고, 결정의 조건이 아닙니다.",
+        "gloss": "교사가 범교과적 접근을 쓰지 않는 한"
+       },
+       {
+        "lab": "②",
+        "trap": "반대",
+        "why": "수학을 쓰면 결정을 할 수 없다는 말이 되어 문장 5의 주장과 어긋납니다.",
+        "gloss": "숫자와 자료의 도움을 받으면"
+       },
+       {
+        "lab": "③",
+        "trap": "언급 없음",
+        "why": "디지털 세상은 글에 나오지 않습니다.",
+        "gloss": "오늘날 빠르게 바뀌는 디지털 세상에서는"
+       },
+       {
+        "lab": "④",
+        "trap": "반대",
+        "why": "문장 3 · 5는 비판적 사고가 함께 쓰여야 한다고 말합니다.",
+        "gloss": "비판적 사고가 끼어들면"
+       }
+      ]
+     },
+     {
+      "type": "final",
+      "rule": "",
+      "check": "빈칸 앞의 not possible 과 선지의 without 이 겹쳐 '꼭 필요하다'가 되는지, 부정을 두 번 세어 확인합니다.",
+      "diff": [
+       {
+        "knob": "길이·꼴(정답 낱말 수)",
+        "level": "표준",
+        "value": "6낱말 어구"
+       },
+       {
+        "knob": "오답 구성",
+        "level": "기본",
+        "value": "정답이 지문 낱말을 가장 많이 씀(겹침 우위)"
+       },
+       {
+        "knob": "빈칸 자리",
+        "level": "고난도",
+        "value": "Therefore 로 여는 결론 문장의 끝"
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 2,
+     "quotes": 0,
+     "wrong": 4
+    }
+   }
   },
   {
    "family": "대의",
@@ -1284,7 +1831,124 @@
      ]
     }
    ],
-   "marks_are_choices": false
+   "marks_are_choices": false,
+   "ex": {
+    "key": "수학 교육을 비판적 사고, 의사 결정과 함께 해야 한다는 글쓴이의 주장을 그대로 담은 제목이므로 ⑤가 정답입니다.",
+    "basis": [
+     {
+      "n": 1,
+      "sent": 5,
+      "quote": "teaching mathematics should be done in interaction with critical thinking",
+      "ko": "수학 교육은 비판적 사고와 맞물려 이루어져야 함"
+     },
+     {
+      "n": 2,
+      "sent": 6,
+      "quote": "there is no excuse to not explicitly support students",
+      "ko": "학생들을 분명하게 돕지 않을 핑계는 없다"
+     }
+    ],
+    "sections": [
+     {
+      "type": "basis"
+     },
+     {
+      "type": "steps",
+      "label": "주장",
+      "rows": [
+       "문장 5(Thus) — 수학 교육 + 비판적 사고 + 의사 결정 과정, 세 요소를 함께 묶습니다."
+      ]
+     },
+     {
+      "type": "table",
+      "label": "바꾼 말",
+      "cols": [
+       "지문 어구",
+       "정답 어구"
+      ],
+      "en_cols": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "teaching mathematics should be done (문장 5)",
+        "Teach Math"
+       ],
+       [
+        "informed decisions (문장 1)",
+        "for Better Decisions"
+       ]
+      ]
+     },
+     {
+      "type": "steps",
+      "label": "풀이 순서",
+      "rows": [
+       "Thus 로 시작하는 문장 5를 글쓴이의 주장으로 표시한다.",
+       "문장 6이 그 주장을 '분명히 도와야 한다'로 맺는지 확인한다.",
+       "주장의 세 요소(수학 · 비판적 사고 · 의사 결정)를 모두 담은 선지 ⑤를 고른다."
+      ]
+     },
+     {
+      "type": "wrong",
+      "label": "오답 풀이",
+      "rows": [
+       {
+        "lab": "①",
+        "trap": "언급 없음",
+        "why": "스마트폰과 계산 도구는 글에 나오지 않습니다.",
+        "gloss": "스마트폰: 빠른 계산을 돕는 편리한 기기"
+       },
+       {
+        "lab": "②",
+        "trap": "반대",
+        "why": "문장 3은 어림 · 추측 · 증명까지 수학 능력으로 들고, 수업을 비판적 사고와 함께 하라고 해 계산만이 목표라는 말과 맞서게 됩니다.",
+        "gloss": "정확한 계산: 수학 수업의 유일한 목표"
+       },
+       {
+        "lab": "③",
+        "trap": "반대",
+        "why": "문장 4는 어떤 결정도 수학과 비판적 사고 없이는 내릴 수 없다고 했습니다.",
+        "gloss": "중대한 선택을 할 때는 직감을 믿어라"
+       },
+       {
+        "lab": "④",
+        "trap": "정도 지나침",
+        "why": "문장 2의 interdisciplinary approaches 는 교수법을 새로 짜야 하는 까닭일 뿐 수학 수업을 없앤다는 말이 아닙니다.",
+        "gloss": "범교과 수업이 수학 수업을 대신할 것이다"
+       }
+      ]
+     },
+     {
+      "type": "final",
+      "rule": "",
+      "check": "제목이 주장의 요소를 빠짐없이 담았는지, 지문 낱말만 빌려 왔는지 가려 봅니다.",
+      "diff": [
+       {
+        "knob": "정답 제목의 꼴",
+        "level": "기본",
+        "value": "주장을 바로 말하는 서술 꼴(명령문)"
+       },
+       {
+        "knob": "오답의 소재",
+        "level": "기본",
+        "value": "소재가 다른 오답 1개(①) · ②③은 지문의 주장을 거꾸로 함"
+       },
+       {
+        "knob": "정답의 겹침",
+        "level": "기본",
+        "value": "정답이 지문 낱말 Math · Critical Thinking · Decisions 를 씀"
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 2,
+     "quotes": 0,
+     "wrong": 4
+    }
+   }
   },
   {
    "family": "순서",
@@ -1357,20 +2021,147 @@
     }
    ],
    "marks_are_choices": false,
+   "ex": {
+    "key": "(B)의 such complex problems 가 주어진 글의 사회 문제를 받고, (B) 끝의 수학 능력을 (C)의 Therefore 가 결론으로 이으며, (C) 끝의 두 사고를 (A)의 They 가 받으므로 ③이 정답입니다.",
+    "basis": [],
+    "sections": [
+     {
+      "type": "steps",
+      "label": "순서",
+      "rows": [
+       "주어진 글 → (B) → (C) → (A)"
+      ]
+     },
+     {
+      "type": "table",
+      "label": "단서",
+      "cols": [
+       "이음",
+       "단서",
+       "종류",
+       "받는 말"
+      ],
+      "en_cols": [
+       1
+      ],
+      "rows": [
+       [
+        "주어진 글 → (B)",
+        "such complex problems",
+        "지시어",
+        "주어진 글의 사회 문제"
+       ],
+       [
+        "(B) → (C)",
+        "Therefore",
+        "연결어",
+        "(B)의 수량화 · 측정 같은 능력"
+       ],
+       [
+        "(C) → (A)",
+        "They",
+        "대명사",
+        "(C)의 비판적 사고와 결정 과정"
+       ]
+      ]
+     },
+     {
+      "type": "steps",
+      "label": "잇기",
+      "rows": [
+       "주어진 글이 수학이 관련된 사회 문제를 따지는 힘을 말하고 끝난다는 것을 확인한다.",
+       "세 조각의 첫머리(such · Therefore · They)에 표시하고 각각 무엇을 받아야 하는지 적는다.",
+       "문제를 받는 (B), 능력 목록을 근거로 결론을 내는 (C), 두 사고를 받는 (A)의 차례로 놓는다.",
+       "(B) → (C) → (A)로 읽어 받는 말이 모두 바로 앞에 있는지 확인한다."
+      ]
+     },
+     {
+      "type": "wrong",
+      "label": "오답 풀이",
+      "rows": [
+       {
+        "lab": "①",
+        "trap": "받는 말 없음",
+        "why": "(A)부터 읽으면 They 가 받을 비판적 사고와 결정 과정이 아직 나오지 않았습니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "②",
+        "trap": "한쪽만 이어짐",
+        "why": "(B) 다음 (A)는 They 를 능력 목록으로 읽으면 이어지지만, 그 뒤 (C)의 Therefore 는 학생을 도우라는 말을 근거로 삼게 되어 결정에 관한 결론이 서지 않습니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "④",
+        "trap": "받는 말 없음",
+        "why": "(A) 뒤에 (B)를 놓으면 문장 2 첫머리의 지시어 such 가 가리킬 문제가 바로 앞 문장 6에 보이지 않습니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "⑤",
+        "trap": "받는 말 없음",
+        "why": "(C)를 주어진 글 바로 뒤에 두면 그럴듯해 보이지만, 다음 (B)의 지시어 such 는 문장 5 끝의 결정 과정을 '복잡한 문제'로 받을 수 없습니다.",
+        "gloss": ""
+       }
+      ]
+     },
+     {
+      "type": "final",
+      "rule": "",
+      "check": "지시어 · 연결어 · 대명사로 시작하는 조각은 받는 말이 바로 앞 조각의 끝에 있는지부터 봅니다.",
+      "diff": [
+       {
+        "knob": "경계의 단서",
+        "level": "기본",
+        "value": "세 경계 모두 단서 — such complex problems(지시어) · Therefore(연결어) · They(대명사)"
+       },
+       {
+        "knob": "전환 머리",
+        "level": "표준",
+        "value": "조각 머리 가운데 결과 연결어 하나(Therefore)"
+       },
+       {
+        "knob": "조각 수",
+        "level": "기본",
+        "value": "3"
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 0,
+     "quotes": 0,
+     "wrong": 4
+    }
+   },
    "order": {
     "given": "To be mathematically literate means to be able to think critically about societal issues on which mathematics has bearing so as to make informed decisions about how to solve these problems.",
+    "given_ns": [
+     1
+    ],
     "pieces": [
      {
       "lab": "(A)",
-      "text": "They can be developed into the mathematical context, so that there is no excuse to not explicitly support students to develop them."
+      "text": "They can be developed into the mathematical context, so that there is no excuse to not explicitly support students to develop them.",
+      "ns": [
+       6
+      ]
      },
      {
       "lab": "(B)",
-      "text": "Dealing with such complex problems through interdisciplinary approaches, mirroring real-world problems requires innovative ways of planning and organizing mathematical teaching methods. Navigating our world means being able to quantify, measure, estimate, classify, compare, find patterns, conjecture, justify, prove, and generalize within critical thinking and when using critical thinking."
+      "text": "Dealing with such complex problems through interdisciplinary approaches, mirroring real-world problems requires innovative ways of planning and organizing mathematical teaching methods. Navigating our world means being able to quantify, measure, estimate, classify, compare, find patterns, conjecture, justify, prove, and generalize within critical thinking and when using critical thinking.",
+      "ns": [
+       2,
+       3
+      ]
      },
      {
       "lab": "(C)",
-      "text": "Therefore, making decisions, even qualitatively, is not possible without using mathematics and critical thinking. Thus, teaching mathematics should be done in interaction with critical thinking along with a decision-making process."
+      "text": "Therefore, making decisions, even qualitatively, is not possible without using mathematics and critical thinking. Thus, teaching mathematics should be done in interaction with critical thinking along with a decision-making process.",
+      "ns": [
+       4,
+       5
+      ]
      }
     ],
     "seq": "주어진 글 → (B) → (C) → (A)"
@@ -1456,7 +2247,92 @@
      "lab": "⑤"
     }
    ],
-   "marks_are_choices": true
+   "marks_are_choices": true,
+   "ex": {
+    "key": "④는 시험 때 불안해서 수학을 어려워하는 학생이 많다는 내용이어서, 수학 교육을 비판적 사고 · 의사 결정과 함께 하자는 흐름에서 벗어나므로 ④가 정답입니다.",
+    "basis": [],
+    "sections": [
+     {
+      "type": "steps",
+      "label": "주제",
+      "rows": [
+       "결정에 필요한 수학과 비판적 사고를 함께 기르는 수학 교육"
+      ]
+     },
+     {
+      "type": "steps",
+      "label": "벗어난 점",
+      "rows": [
+       "④는 시험 불안이라는 학생의 감정을 말합니다.",
+       "수학 수업이라는 소재만 닿아 있고, 비판적 사고나 결정과는 이어지지 않습니다."
+      ]
+     },
+     {
+      "type": "steps",
+      "label": "빼고 읽기",
+      "rows": [
+       "④를 빼면 ③의 비판적 사고 · 의사 결정 과정을 ⑤의 They 가 바로 가리킵니다."
+      ]
+     },
+     {
+      "type": "wrong",
+      "label": "오답 풀이",
+      "rows": [
+       {
+        "lab": "①",
+        "trap": "제 역할 문장",
+        "why": "세상을 헤쳐 나가는 데 쓰이는 수학 능력을 늘어놓아 뒤 결론의 근거가 됩니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "②",
+        "trap": "제 역할 문장",
+        "why": "Therefore 로 결정에 수학과 비판적 사고가 꼭 필요하다는 결론을 냅니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "③",
+        "trap": "제 역할 문장",
+        "why": "Thus 로 수학 교육의 방향이라는 글쓴이의 주장을 밝힙니다.",
+        "gloss": ""
+       },
+       {
+        "lab": "⑤",
+        "trap": "제 역할 문장",
+        "why": "They 로 ③의 두 가지를 받아 수업에서 학생을 분명히 도와야 한다고 맺습니다.",
+        "gloss": ""
+       }
+      ]
+     },
+     {
+      "type": "final",
+      "rule": "",
+      "check": "Of course 처럼 앞말을 잇는 듯한 머리로 시작해도, 그 문장이 글쓴이의 주장 쪽으로 말하는지 확인합니다.",
+      "diff": [
+       {
+        "knob": "무관 문장 길이 비",
+        "level": "고난도",
+        "value": "23낱말 — 나머지 번호 문장 평균(20낱말)의 1.15배"
+       },
+       {
+        "knob": "앞 문장 겹침",
+        "level": "기본",
+        "value": "앞 문장 ③과 겹치는 내용어 0"
+       },
+       {
+        "knob": "무관 문장 머리",
+        "level": "고난도",
+        "value": "Of course 로 시작해 앞 내용을 잇는 것처럼 보임"
+       }
+      ]
+     }
+    ],
+    "counts": {
+     "basis": 0,
+     "quotes": 0,
+     "wrong": 4
+    }
+   }
   }
  ]
 }
