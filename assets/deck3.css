@@ -1,0 +1,169 @@
+/* 링구아 고등 내신 강의본 3판(① 주제문 · ② 어법 · 어휘 · ③ 전체) — deck.css 위에 얹는 판(같은 색 · 같은 글꼴 · 같은 머리 · 바닥)
+   지문은 한 번만 놓고 판을 바꾸면 표시 층만 켜고 끈다 — 글자 자리는 판 사이에서 움직이지 않는다(굵기 대신 획 · 색 · 바탕으로 표시).
+   글꼴 = 이 판 글자만 남긴 페이퍼로지(assets/fonts3 · SIL OFL 1.1) */
+@font-face{font-family:"Paperlogy L3";font-weight:400;font-display:block;src:url("fonts3/Paperlogy-400.woff") format("woff")}
+@font-face{font-family:"Paperlogy L3";font-weight:600;font-display:block;src:url("fonts3/Paperlogy-600.woff") format("woff")}
+@font-face{font-family:"Paperlogy L3";font-weight:800;font-display:block;src:url("fonts3/Paperlogy-800.woff") format("woff")}
+:root{--font:"Paperlogy L3","Noto Sans KR","Malgun Gothic",sans-serif;--stroke:.55px}
+
+/* ---------------------------------------------------------------- 머리: 판 고르기 */
+#hdr{gap:16px}
+#htitle{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+#htitle .ty{flex:none;display:inline-flex;height:30px;align-items:center;padding:0 12px;border-radius:999px;background:var(--fl-f);color:var(--fl);font-size:15px;font-weight:800}
+#htitle .tt{font-size:19px;font-weight:800;letter-spacing:-.015em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.bseg{display:inline-flex;gap:4px;padding:4px;border-radius:14px;background:var(--f2);flex:none}
+.bseg button{border:0;height:44px;padding:0 16px;border-radius:10px;background:transparent;font-size:17px;font-weight:800;color:var(--sub);cursor:pointer;
+  display:inline-flex;align-items:center;gap:8px;white-space:nowrap;
+  transition:background-color var(--t-fast),color var(--t-fast),box-shadow var(--t-mid) var(--ease-out),transform var(--t-fast) var(--ease-out)}
+.bseg button:hover{color:var(--frame);background:var(--paper)}
+.bseg button:active{transform:scale(.96)}
+.bseg button[aria-pressed="true"]{background:var(--frame);color:#fff;box-shadow:0 2px 6px rgba(44,69,99,.22)}
+.bseg button .no{font-size:20px;line-height:1}
+.bseg .kbd{font-size:12px}
+
+/* ---------------------------------------------------------------- 몸: 왼쪽 지문 · 오른쪽 해석 ↔ 구조도 */
+.b3{position:absolute;inset:0;padding:18px 44px 20px;display:grid;grid-template-columns:1.72fr 1fr;column-gap:40px}
+.b3 .lcol{display:flex;flex-direction:column;min-height:0;position:relative}
+.b3 .rcol{display:flex;flex-direction:column;min-height:0;border-left:1px solid var(--f3);padding-left:32px}
+.chead{flex:none;height:46px;display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.chead .lb{font-size:15px;font-weight:800;color:var(--sub)}
+.chead .cnt{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums;
+  opacity:0;transform:translateY(4px);transition:opacity var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out)}
+.chead .cnt b{font-weight:800}
+.chead .cnt .c-gr{color:var(--gr)}
+.chead .cnt .c-voc{color:var(--voc)}
+.chead .cnt .c-tp{color:var(--tp)}
+.L2 .chead .cnt.k2,.L1 .chead .cnt.k1{opacity:1;transform:none}
+.rcol .chead{justify-content:space-between}
+.side .seg button{height:38px}
+
+/* 지문 — 줄 사이를 넉넉히(위 = 어법 칩 · 연결어, 아래 = 어휘 뜻) */
+.ptext{flex:1;min-height:0;overflow:hidden;font-size:var(--fs,27px);line-height:2.72;padding:.15em .2em 0 0;position:relative}
+.ptext.scroll{overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--l1) transparent}
+.ptext .sn{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;padding:0 .3em;border-radius:999px;background:var(--f4);
+  color:var(--frame);font-weight:800;font-size:.5em;vertical-align:.3em;margin:0 .3em 0 .1em;font-variant-numeric:tabular-nums;line-height:1;
+  transition:background-color var(--t-fast),color var(--t-fast)}
+.ptext .s.hov .sn,.kr.hov .n-chip{background:var(--frame);color:#fff}
+.ptext .s{cursor:default}
+
+/* ① 층 — 주제문 · 요지 상자(펜으로 긋듯) · 내용 핵심 형광 · 연결어 */
+.tb{border-radius:.22em;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:.04em .1em;
+  background-image:linear-gradient(var(--tp-f),var(--tp-f));background-repeat:no-repeat;background-size:0% 100%;box-shadow:0 0 0 0 transparent;
+  transition:background-size var(--t-slow) var(--ease-out),box-shadow var(--t-mid) var(--ease-out) 140ms}
+.L1 .tb.key{background-size:100% 100%;box-shadow:0 0 0 2.5px var(--tp-l)}
+.tb .ttab{display:inline-flex;align-items:center;gap:.25em;height:1.55em;padding:0 .5em;border-radius:.35em;font-size:.56em;font-weight:800;color:#fff;
+  background:var(--tp);vertical-align:.25em;margin:0 .35em 0 0;white-space:nowrap;line-height:1;display:none;-webkit-text-stroke:0}
+.tb .ttab .ico-star{width:1em;height:1em;color:#fff}
+.L1 .tb .ttab{display:inline-flex;animation:pop var(--t-mid) var(--ease-pop) both;animation-delay:200ms}
+.hlx{border-radius:3px;-webkit-box-decoration-break:clone;box-decoration-break:clone;
+  background-image:linear-gradient(transparent 60%,var(--hl) 60%);background-repeat:no-repeat;background-size:0% 100%;
+  transition:background-size var(--t-slow) var(--ease-out) 260ms}
+.L1 .hlx{background-size:100% 100%}
+.cn{position:relative;white-space:nowrap;transition:color var(--t-mid) var(--ease-out)}
+.L1 .cn{color:var(--fl);-webkit-text-stroke:var(--stroke) currentColor}
+.clab{position:absolute;left:0;bottom:calc(100% - .02em);font-size:.5em;-webkit-text-stroke:0;font-weight:800;line-height:1.5;color:#fff;background:var(--fl);border-radius:.4em;
+  padding:0 .5em;white-space:nowrap;pointer-events:none;opacity:0;transform:translateY(.3em);transition:opacity var(--t-fast),transform var(--t-mid) var(--ease-out)}
+.L1 .clab{opacity:1;transform:none;transition-delay:320ms}
+
+/* ② 층 — 어법(장미 · 칩은 위) · 어휘(파랑 · 뜻은 아래) */
+.g,.v{position:relative;white-space:nowrap}
+.g{border-radius:2px;background-image:linear-gradient(transparent 60%,var(--gr-f) 60%),linear-gradient(var(--gr),var(--gr));
+  background-repeat:no-repeat;background-size:0% 100%,0% 2px;background-position:0 0,0 100%;
+  transition:background-size var(--t-slow) var(--ease-out),color var(--t-mid) var(--ease-out);transition-delay:calc(var(--i,0) * 28ms)}
+.L2 .g{color:var(--gr);-webkit-text-stroke:var(--stroke) currentColor;background-size:100% 100%,100% 2px;cursor:pointer}
+.glab{position:absolute;left:-.1em;bottom:calc(100% - .04em);display:inline-flex;align-items:center;gap:.3em;font-size:.5em;line-height:1.4;white-space:nowrap;
+  pointer-events:none;-webkit-text-stroke:0;opacity:0;transform:translateY(.35em) scale(.92);transform-origin:left bottom;
+  transition:opacity var(--t-fast),transform var(--t-mid) var(--ease-pop)}
+.glab b{font-weight:800;color:var(--gr-tag);border:1.5px solid var(--gr-tag);border-radius:.4em;padding:0 .45em;background:var(--paper)}
+.glab.hot b{color:#fff;background:var(--gr);border-color:var(--gr)}
+.glab s{font-size:.92em;font-weight:600;color:var(--sub);text-decoration-thickness:1.5px;text-decoration-color:var(--gr-tag)}
+.L2 .glab{opacity:1;transform:none;transition-delay:calc(240ms + var(--i,0) * 28ms)}
+.v{transition:color var(--t-mid) var(--ease-out)}
+.L2 .v{color:var(--voc);-webkit-text-stroke:var(--stroke) currentColor;cursor:pointer}
+.vgl{position:absolute;left:50%;top:calc(100% + .04em);transform:translate(-50%,-.25em);font-size:.5em;font-weight:600;line-height:1.35;color:var(--voc);
+  white-space:nowrap;pointer-events:none;-webkit-text-stroke:0;opacity:0;transition:opacity var(--t-fast),transform var(--t-mid) var(--ease-out)}
+.L2 .vgl{opacity:1;transform:translate(-50%,0);transition-delay:calc(260ms + var(--i,0) * 24ms)}
+.L2 .g:hover,.L2 .v:hover,.g.open,.v.open{outline:2px solid var(--frame);outline-offset:3px;border-radius:3px}
+
+/* ③ 층 — 가리킴(대명사 ↔ 가리키는 말 · 같은 번호) */
+.rf,.rfa{position:relative;text-underline-offset:.24em}
+.L3 .rf{text-decoration:underline dotted var(--fl);text-decoration-thickness:2.5px}
+.L3 .rfa{text-decoration:underline solid var(--fl-l);text-decoration-thickness:3px}
+.rna{position:relative;display:inline-block;width:0;height:.8em}
+.rnb{position:absolute;left:-.3em;bottom:100%;font-size:.48em;font-weight:800;line-height:1.5;min-width:1.5em;text-align:center;
+  border-radius:999px;color:#fff;background:var(--fl);pointer-events:none;-webkit-text-stroke:0;opacity:0;transition:opacity var(--t-mid) var(--ease-out) 360ms}
+.rfa .rnb{background:var(--paper);color:var(--fl);box-shadow:inset 0 0 0 1.5px var(--fl)}
+.L3 .rnb{opacity:1}
+
+/* ---------------------------------------------------------------- 오른쪽 칸 */
+.pbox{position:relative;flex:1;min-height:0}
+.pnl{position:absolute;inset:0;overflow:hidden;visibility:hidden;opacity:0;transform:translateX(14px);
+  transition:opacity var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out),visibility 0s linear var(--t-mid)}
+.pnl.cur{visibility:visible;opacity:1;transform:none;transition:opacity var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out),visibility 0s}
+.pnl.scroll{overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--l1) transparent}
+
+/* 해석 */
+.kol{display:flex;flex-direction:column;gap:.2em;font-size:var(--ko,21px);line-height:1.55}
+.kr{display:grid;grid-template-columns:auto 1fr;column-gap:.55em;padding:.35em .55em;border-radius:12px;transition:background-color var(--t-mid) var(--ease-out)}
+.kr .n-chip{margin-top:.22em;transition:background-color var(--t-fast),color var(--t-fast)}
+.kr .kt{min-width:0}
+.kr .ktab{display:none;align-items:center;gap:.25em;height:1.5em;padding:0 .5em;border-radius:.35em;font-size:.68em;font-weight:800;color:#fff;background:var(--tp);
+  vertical-align:.12em;margin-right:.35em;line-height:1}
+.kr .ktab .ico-star{width:1em;height:1em;color:#fff}
+.L1 .kr.key{background:var(--tp-f2)}
+.L1 .kr.key .ktab{display:inline-flex}
+.L1 .kr.key .kt{font-weight:600}
+.kr.hov{background:var(--f2)}
+.L1 .kr.key.hov{background:var(--tp-f2);box-shadow:inset 0 0 0 2px var(--frame)}
+
+/* 구조도(세로) */
+.map{display:flex;flex-direction:column;font-size:var(--mf,21px)}
+.mbox{display:grid;grid-template-columns:auto 1fr auto;column-gap:.6em;row-gap:.25em;align-items:center;background:var(--f1);border-radius:14px;
+  padding:.7em .9em .8em;transition:box-shadow var(--t-fast),background-color var(--t-mid)}
+.mbox .bn{width:1.6em;height:1.6em;border-radius:999px;background:var(--f4);color:var(--frame);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85em}
+.mbox .bl{font-size:1.1em;font-weight:800;color:var(--frame);display:flex;align-items:center;gap:.3em}
+.mbox .br{font-size:.78em;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums;white-space:nowrap}
+.mbox .bt{grid-column:2 / 4;font-weight:600;line-height:1.45}
+.mbox.star{background:var(--tp-f);box-shadow:inset 0 0 0 2px var(--tp-l2)}
+.mbox.star .bn{background:var(--tp);color:#fff}
+.mbox.star .bl{color:var(--tp)}
+.mbox .ico-star{width:1em;height:1em;color:var(--tp-l)}
+.mbox.hov{box-shadow:inset 0 0 0 2px var(--frame)}
+.mbox.star.hov{box-shadow:inset 0 0 0 2px var(--frame)}
+.mlink{display:flex;align-items:center;gap:.5em;padding:.3em 0 .3em .95em;min-height:2.1em}
+.mlink svg{width:1.1em;height:1.3em;flex:none;fill:none;stroke:var(--fl-l);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.mlink i{font-style:italic;font-weight:600;font-size:.86em;color:var(--fl)}
+.mgist{margin-top:.9em;background:var(--tp-f2);border-radius:14px;padding:.7em .9em;display:flex;gap:.7em;align-items:baseline}
+.mgist b{flex:none;font-size:.78em;font-weight:800;color:#fff;background:var(--tp);border-radius:8px;padding:.15em .6em}
+.mgist span{font-weight:600;line-height:1.5}
+
+/* ---------------------------------------------------------------- 칩을 누르면 — 어법 · 어휘 자세히 */
+.pop{position:absolute;z-index:8;width:470px;background:var(--paper);border-radius:16px;padding:18px 22px 20px;
+  box-shadow:0 2px 6px rgba(18,22,29,.08),0 18px 44px rgba(18,22,29,.16);animation:popIn var(--t-mid) var(--ease-out) both}
+@keyframes popIn{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}
+.pop .ph{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.pop .ph b{display:inline-flex;align-items:center;height:30px;padding:0 12px;border-radius:8px;font-size:16px;font-weight:800;color:#fff;background:var(--gr)}
+.pop.voc .ph b{background:var(--voc)}
+.pop .ph i{font-style:normal;font-size:15px;font-weight:600;color:var(--sub)}
+.pop .ph button{margin-left:auto;width:34px;height:34px;border:0;border-radius:9px;background:var(--f2);color:var(--frame);cursor:pointer;display:flex;
+  align-items:center;justify-content:center}
+.pop .ph button svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round}
+.pop .pw{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:10px}
+.pop .pw strong{font-size:28px;font-weight:800;color:var(--gr)}
+.pop.voc .pw strong{color:var(--voc)}
+.pop .pw span{font-size:20px;font-weight:600}
+.pop .pw s{font-size:20px;color:var(--gr-tag);text-decoration-thickness:2px}
+.pop .pw em{font-style:normal;font-size:14px;font-weight:800;color:var(--sub)}
+.pop .pr{font-size:19px;line-height:1.55}
+.pop .pl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:18px;line-height:1.45}
+.pop .pl em{font-style:normal;font-size:14px;font-weight:800;color:var(--sub);padding-top:3px}
+
+/* ---------------------------------------------------------------- 바닥 */
+#ftr .hint{display:flex;gap:18px;align-items:center;font-size:14px;font-weight:600;color:var(--sub);margin-left:auto}
+#ftr .hint span{display:inline-flex;align-items:center;gap:6px}
+#ftr .hint .kbd{opacity:1;color:var(--frame)}
+#ftr #pgnum{min-width:120px}
+.nbtn.pri{min-width:210px}
+
+::selection{background:var(--hl);color:var(--ink)}
+@media (prefers-reduced-motion: reduce){.pop{animation:none}}
