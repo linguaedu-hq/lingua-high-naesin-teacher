@@ -12,9 +12,11 @@
 
 /* ---------------------------------------------------------------- 인쇄 모드(화면 미리보기) */
 .pm-pages{display:none}
-html.pm-wait #fit{visibility:hidden}
+/* 뒤 수업 화면 감추기 — #fit 만 감추면 자식의 visibility:visible(덱의 .pnl.cur 해석 칸)이 되살아나 미리보기 뒤에 크게 비친다(10-21 실측) → 자손까지 감춘다 */
+html.pm-wait #fit,html.pm-wait #fit *{visibility:hidden!important}
 html.pm,html.pm body{height:auto;overflow:auto;background:var(--letterbox)}
-html.pm #fit{visibility:hidden;pointer-events:none}
+html.pm #fit,html.pm #fit *{visibility:hidden!important}
+html.pm #fit{pointer-events:none}
 html.pm .pm-pages{display:flex;flex-direction:column;align-items:center;gap:24px;padding:84px 16px 56px}
 .pm-bar{position:fixed;top:0;left:0;right:0;z-index:30;height:60px;display:flex;align-items:center;gap:12px;padding:0 20px;
   background:var(--paper);border-bottom:1px solid var(--f3);font-family:var(--font);color:var(--ink)}
