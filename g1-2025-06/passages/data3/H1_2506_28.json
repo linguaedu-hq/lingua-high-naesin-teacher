@@ -43,17 +43,17 @@
   {
    "n": 2,
    "en": "It’s the 8th annual Summer Cartoon Festival!",
-   "ko": "올해로 8회째 열리는 연례 여름 만화 축제이다!"
+   "ko": "올해로 8회째 열리는 연례 여름 만화 축제예요!"
   },
   {
    "n": 3,
    "en": "The festival drew a lot of visitors last year.",
-   "ko": "이 축제는 지난해 많은 방문객을 끌어모았다."
+   "ko": "이 축제는 지난해 많은 방문객을 끌어모았어요."
   },
   {
    "n": 4,
    "en": "Why not be one of them this year?",
-   "ko": "올해는 너도 그 방문객 가운데 한 명이 되어 보는 게 어떨까?"
+   "ko": "올해는 여러분도 그 방문객 가운데 한 명이 되어 보는 게 어때요?"
   },
   {
    "n": 5,
@@ -83,7 +83,7 @@
   {
    "n": 10,
    "en": "∙Face painting by cartoonists",
-   "ko": "• 만화가가 그려 주는 얼굴 그림"
+   "ko": "• 만화가가 해 주는 페이스 페인팅"
   },
   {
    "n": 11,
@@ -98,12 +98,12 @@
   {
    "n": 13,
    "en": "∙All visitors will receive character stickers.",
-   "ko": "• 모든 방문객은 캐릭터 스티커를 받는다."
+   "ko": "• 모든 방문객은 캐릭터 스티커를 받아요."
   },
   {
    "n": 14,
    "en": "∙For a more detailed timetable and other information, check out www.SummerCartoonFest.com.",
-   "ko": "• 더 자세한 시간표와 다른 정보는 www.SummerCartoonFest.com 에서 확인하라."
+   "ko": "• 더 자세한 시간표와 다른 정보는 www.SummerCartoonFest.com 에서 확인하세요."
   }
  ],
  "topic": 4,
@@ -655,7 +655,7 @@
      8,
      11
     ],
-    "text": "초보자 그리기 수업 · 만화가 얼굴 그림 · 캐릭터 행진",
+    "text": "초보자 그리기 수업 · 만화가 페이스 페인팅 · 캐릭터 행진",
     "star": false
    },
    {
@@ -677,9 +677,9 @@
  "src": {
   "analogy_items.json": "27129bf4b406d850",
   "original_marks.json": "14ac0d1e1661dd09",
-  "passage_src.json": "164cdb956c09da13",
-  "study_x.json": "2040fe0bb49e84bc",
-  "topic_items.json": "9538dd014a81d428",
+  "passage_src.json": "5e4de3906277ece0",
+  "study_x.json": "644f3aeded0d05dc",
+  "topic_items.json": "90a2a5771034a203",
   "workbook_src.json": "78793a89b41c21ff"
  }
 }

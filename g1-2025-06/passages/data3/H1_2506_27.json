@@ -43,12 +43,12 @@
   {
    "n": 2,
    "en": "Enjoy a special plant shopping experience!",
-   "ko": "특별한 식물 쇼핑 경험을 즐겨 보라!"
+   "ko": "특별한 식물 쇼핑 경험을 누려 보세요!"
   },
   {
    "n": 3,
    "en": "Explore beautiful houseplants, and bring some green into your home.",
-   "ko": "아름다운 실내 화초를 둘러보고, 너의 집 안에 초록빛을 조금 들여 보라."
+   "ko": "아름다운 실내 화초를 둘러보고, 여러분의 집 안에 초록빛을 조금 들여 보세요."
   },
   {
    "n": 4,
@@ -68,12 +68,12 @@
   {
    "n": 7,
    "en": "∙Indoor plants are available for purchase.",
-   "ko": "• 실내 식물을 사 갈 수 있다."
+   "ko": "• 실내 식물을 사 갈 수 있어요."
   },
   {
    "n": 8,
    "en": "∙If you buy 2 plants, you will get a 50% discount on coffee.",
-   "ko": "• 식물을 두 개 사면 커피값을 50% 할인받는다."
+   "ko": "• 식물을 두 개 사면 커피값을 50% 할인받아요."
   },
   {
    "n": 9,
@@ -83,17 +83,17 @@
   {
    "n": 10,
    "en": "∙Take pictures in a photo zone filled with unique plants.",
-   "ko": "• 남다른 식물로 채워진 포토 존에서 사진을 찍으라."
+   "ko": "• 남다른 식물로 채워진 포토 존에서 사진을 찍으세요."
   },
   {
    "n": 11,
    "en": "∙Decorate eco‐friendly pots made from recycled glass.",
-   "ko": "• 재활용 유리로 만든 친환경 화분을 꾸미라."
+   "ko": "• 재활용 유리로 만든 친환경 화분을 꾸미세요."
   },
   {
    "n": 12,
    "en": "※ Outside food and drinks are not allowed.",
-   "ko": "※ 바깥에서 산 음식과 음료는 가지고 들어올 수 없다."
+   "ko": "※ 외부 음식과 음료는 가지고 들어올 수 없어요."
   }
  ],
  "topic": 2,
@@ -724,9 +724,9 @@
  "src": {
   "analogy_items.json": "1ddd411e5b9aa6db",
   "original_marks.json": "cac29fcd2310b019",
-  "passage_src.json": "072bbfc1c2b2ea5b",
-  "study_x.json": "68193a8f0aaf09c9",
-  "topic_items.json": "3ba28d298717f891",
+  "passage_src.json": "bde9cbc9772d8250",
+  "study_x.json": "d904774cf5c2d3af",
+  "topic_items.json": "0fdfb0e82a14acf9",
   "workbook_src.json": "6bef7f5b472308fc"
  }
 }
