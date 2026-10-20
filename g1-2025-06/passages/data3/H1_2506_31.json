@@ -1,0 +1,926 @@
+{
+ "meta": {
+  "id": "H1_2506_31",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 31,
+  "orig_type": "빈칸",
+  "words": 146,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "경험과 환경이 주의를 두는 곳에 미치는 영향",
+  "title_ko": "자란 환경이 주의를 정한다",
+  "title_en": "We Notice What Our World Has Taught Us",
+  "gist_ko": "우리는 겪어 온 경험을 바탕으로 주의를 둘 곳을 정하므로, 자란 환경이 다르면 잘하는 일과 서툰 일도 달라진다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "In everyday life, we use previous experience to predict where we should pay attention.",
+   "ko": "일상생활에서 우리는 어디에 주의를 기울여야 할지 예측하려고 이전 경험을 이용한다."
+  },
+  {
+   "n": 2,
+   "en": "Different environments create different expectations.",
+   "ko": "환경이 다르면 기대하는 것도 달라진다."
+  },
+  {
+   "n": 3,
+   "en": "This was profoundly illustrated by the scientist Jared Diamond in his book Guns, Germs, and Steel.",
+   "ko": "과학자 재레드 다이아몬드는 자신의 책 『총, 균, 쇠』에서 이 점을 깊이 있게 보여 주었다."
+  },
+  {
+   "n": 4,
+   "en": "He describes an adventure wandering through the New Guinea jungle with native New Guineans.",
+   "ko": "그는 뉴기니 원주민들과 함께 뉴기니 정글을 돌아다닌 모험을 묘사한다."
+  },
+  {
+   "n": 5,
+   "en": "He relates that these natives tend to perform poorly at tasks Westerners have been trained to do since childhood.",
+   "ko": "그는 이 원주민들이, 서양인이라면 어릴 때부터 익히도록 훈련받는 과제들에서 성적이 좋지 않은 편이라고 전한다."
+  },
+  {
+   "n": 6,
+   "en": "But they are hardly stupid.",
+   "ko": "그러나 그들은 결코 어리석지 않다."
+  },
+  {
+   "n": 7,
+   "en": "They can detect the most subtle changes in the jungle, good for following the tracks of a predator or for finding the way back home.",
+   "ko": "그들은 정글의 아주 작은 변화까지 감지하며, 이 능력은 포식자가 남긴 자국을 따라가거나 집으로 가는 길을 되찾을 때 쓸모가 있다."
+  },
+  {
+   "n": 8,
+   "en": "They know which insects to leave alone, know where food exists, can build and tear down shelters with ease.",
+   "ko": "그들은 어떤 곤충을 건드리지 말아야 하는지, 먹을 것이 어디에 있는지 알고, 쉼터를 쉽게 짓고 허물 수 있다."
+  },
+  {
+   "n": 9,
+   "en": "Diamond, who had never spent time in such places, has no ability to pay attention to these things.",
+   "ko": "그런 곳에서 지내 본 적이 없던 다이아몬드는 이런 것들에 주의를 기울일 능력이 없다."
+  },
+  {
+   "n": 10,
+   "en": "Were he to be tested on such tasks, he also would perform poorly.",
+   "ko": "그가 그런 과제로 시험을 받는다면 그 역시 잘 해내지 못할 것이다."
+  }
+ ],
+ "topic": 1,
+ "gist": 2,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "we use previous experience to predict where we should pay attention"
+  },
+  {
+   "sent": 2,
+   "text": "Different environments create different expectations"
+  },
+  {
+   "sent": 7,
+   "text": "detect the most subtle changes in the jungle"
+  },
+  {
+   "sent": 9,
+   "text": "has no ability to pay attention to these things"
+  }
+ ],
+ "con": [
+  {
+   "sent": 6,
+   "text": "But",
+   "rel": "역접"
+  },
+  {
+   "sent": 10,
+   "text": "also",
+   "rel": "첨가"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "Different environments create different expectations",
+   "ko": "환경이 다르면 기대도 다르다는 점"
+  },
+  {
+   "sent": 5,
+   "text": "these natives",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "native New Guineans",
+   "ko": "다이아몬드와 함께 정글을 다닌 뉴기니 원주민들"
+  },
+  {
+   "sent": 6,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "these natives",
+   "ko": "뉴기니 원주민들"
+  },
+  {
+   "sent": 9,
+   "text": "these things",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "the most subtle changes in the jungle",
+   "ko": "정글의 미묘한 변화와 생존 기술"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 45,
+   "text": "to predict",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to predict",
+   "wrong": [
+    "predicting"
+   ],
+   "rule": "'예측하기 위해'라는 목적을 나타내는 to부정사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 56,
+   "text": "where",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "where",
+   "wrong": [
+    "what"
+   ],
+   "rule": "predict 의 목적어가 되는 간접의문문이고 '어디에'라는 뜻이라 where 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 23,
+   "text": "create",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "create",
+   "wrong": [
+    "creates"
+   ],
+   "rule": "주어 Different environments 가 복수라서 create 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 5,
+   "text": "was profoundly illustrated",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "was profoundly illustrated",
+   "wrong": [
+    "profoundly illustrated"
+   ],
+   "rule": "This 가 보여지는 쪽이고 by 뒤에 행위자가 와서 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 26,
+   "text": "wandering",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "wandering",
+   "wrong": [
+    "wandered"
+   ],
+   "rule": "an adventure 뒤에서 '돌아다니는' 모습을 덧붙이는 현재분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 11,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "relates 의 목적어가 되는 완전한 절이라서 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 73,
+   "text": "have been trained",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "have been trained",
+   "wrong": [
+    "have trained"
+   ],
+   "rule": "서양인들이 훈련받는 쪽이고 어릴 때부터 지금까지 이어져 현재완료 수동을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 13,
+   "text": "hardly",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "hardly",
+   "wrong": [
+    "hard"
+   ],
+   "rule": "'거의 ~ 않다'라는 부정의 뜻이라서 부사 hardly 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 64,
+   "text": "following",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "following",
+   "wrong": [
+    "follow"
+   ],
+   "rule": "전치사 for 뒤에는 동명사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 7,
+   "pos": 106,
+   "text": "finding",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "finding",
+   "wrong": [
+    "find"
+   ],
+   "rule": "or 뒤의 전치사 for 다음에도 동명사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 8,
+   "pos": 24,
+   "text": "to leave",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to leave",
+   "wrong": [
+    "leaving"
+   ],
+   "rule": "의문사 which + 명사 뒤에 to부정사가 와서 '어떤 ~을 해야 할지'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 8,
+   "pos": 56,
+   "text": "exists",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "exists",
+   "wrong": [
+    "exist"
+   ],
+   "rule": "where 절의 주어 food 가 셀 수 없는 명사라 단수 동사 exists 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 8,
+   "pos": 78,
+   "text": "tear",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "tear",
+   "wrong": [
+    "tearing",
+    "tears"
+   ],
+   "rule": "can 뒤의 build 와 and 로 나란히 이어져 동사원형 tear 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 9,
+   "pos": 9,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 Diamond 가 사람이고 콤마 뒤 계속적 용법이라 who 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 9,
+   "pos": 13,
+   "text": "had never spent",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "had never spent",
+   "wrong": [
+    "has never spent"
+   ],
+   "rule": "그 모험 전까지 그런 경험이 없었다는 뜻이라 과거완료를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g17",
+   "sent": 9,
+   "pos": 50,
+   "text": "has no ability",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "has no ability",
+   "wrong": [
+    "have no ability"
+   ],
+   "rule": "주어 Diamond 가 단수라서 who 절 뒤의 동사는 has 이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g18",
+   "sent": 10,
+   "pos": 0,
+   "text": "Were he",
+   "cat": "도치·강조",
+   "chip": "도치·강조",
+   "right": "Were he",
+   "wrong": [
+    "He were"
+   ],
+   "rule": "If he were to 에서 if 를 빼고 were 를 주어 앞으로 보낸 가정법 도치이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g19",
+   "sent": 10,
+   "pos": 44,
+   "text": "would perform",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "would perform",
+   "wrong": [
+    "will perform"
+   ],
+   "rule": "가정법의 주절이라 would + 동사원형을 쓴다.",
+   "imp": 0,
+   "deck": true
+  }
+ ],
+ "vocab": [
+  {
+   "text": "previous",
+   "sent": 1,
+   "ko": "이전의",
+   "gloss": "이전의",
+   "syn": [
+    "earlier"
+   ],
+   "ant": [
+    "later"
+   ]
+  },
+  {
+   "text": "experience",
+   "sent": 1,
+   "ko": "경험",
+   "gloss": "경험",
+   "syn": [
+    "background"
+   ],
+   "ant": []
+  },
+  {
+   "text": "predict",
+   "sent": 1,
+   "ko": "예측하다",
+   "gloss": "예측하다",
+   "syn": [
+    "forecast"
+   ],
+   "ant": []
+  },
+  {
+   "text": "environments",
+   "sent": 2,
+   "ko": "환경",
+   "gloss": "환경",
+   "syn": [
+    "surroundings"
+   ],
+   "ant": []
+  },
+  {
+   "text": "expectations",
+   "sent": 2,
+   "ko": "기대, 예상",
+   "gloss": "기대",
+   "syn": [
+    "anticipation"
+   ],
+   "ant": []
+  },
+  {
+   "text": "profoundly",
+   "sent": 3,
+   "ko": "깊이, 심오하게",
+   "gloss": "깊이",
+   "syn": [
+    "deeply"
+   ],
+   "ant": [
+    "superficially"
+   ]
+  },
+  {
+   "text": "illustrated",
+   "sent": 3,
+   "ko": "(예를 들어) 보여 주다",
+   "gloss": "(예를 들어) 보여 주다",
+   "syn": [
+    "show"
+   ],
+   "ant": []
+  },
+  {
+   "text": "natives",
+   "sent": 5,
+   "ko": "원주민, 토박이",
+   "gloss": "원주민",
+   "syn": [
+    "local"
+   ],
+   "ant": [
+    "foreigner"
+   ]
+  },
+  {
+   "text": "poorly",
+   "sent": 5,
+   "ko": "서툴게, 형편없이",
+   "gloss": "서툴게",
+   "syn": [
+    "badly"
+   ],
+   "ant": [
+    "well"
+   ]
+  },
+  {
+   "text": "stupid",
+   "sent": 6,
+   "ko": "어리석은",
+   "gloss": "어리석은",
+   "syn": [
+    "foolish"
+   ],
+   "ant": [
+    "clever"
+   ]
+  },
+  {
+   "text": "detect",
+   "sent": 7,
+   "ko": "알아채다, 감지하다",
+   "gloss": "알아채다",
+   "syn": [
+    "notice"
+   ],
+   "ant": [
+    "miss"
+   ]
+  },
+  {
+   "text": "subtle",
+   "sent": 7,
+   "ko": "미묘한, 알아채기 힘든",
+   "gloss": "미묘한",
+   "syn": [
+    "slight"
+   ],
+   "ant": [
+    "obvious"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "In everyday life, we use "
+   },
+   {
+    "t": "previous",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "experience",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to predict",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "predict",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "where",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " we should pay attention."
+   }
+  ],
+  [
+   {
+    "t": "Different "
+   },
+   {
+    "t": "environments",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "create",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " different "
+   },
+   {
+    "t": "expectations",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "This "
+   },
+   {
+    "t": "was profoundly illustrated",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "was "
+     },
+     {
+      "t": "profoundly",
+      "c": "v",
+      "id": "v5"
+     },
+     {
+      "t": " "
+     },
+     {
+      "t": "illustrated",
+      "c": "v",
+      "id": "v6"
+     }
+    ]
+   },
+   {
+    "t": " by the scientist Jared Diamond in his book Guns, Germs, and Steel."
+   }
+  ],
+  [
+   {
+    "t": "He describes an adventure "
+   },
+   {
+    "t": "wandering",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " through the New Guinea jungle with native New Guineans."
+   }
+  ],
+  [
+   {
+    "t": "He relates "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " these "
+   },
+   {
+    "t": "natives",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " tend to perform "
+   },
+   {
+    "t": "poorly",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " at tasks Westerners "
+   },
+   {
+    "t": "have been trained",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " to do since childhood."
+   }
+  ],
+  [
+   {
+    "t": "But",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": " they are "
+   },
+   {
+    "t": "hardly",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "stupid",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "They can "
+   },
+   {
+    "t": "detect",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " the most "
+   },
+   {
+    "t": "subtle",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " changes in the jungle, good for "
+   },
+   {
+    "t": "following",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " the tracks of a predator or for "
+   },
+   {
+    "t": "finding",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " the way back home."
+   }
+  ],
+  [
+   {
+    "t": "They know which insects "
+   },
+   {
+    "t": "to leave",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " alone, know where food "
+   },
+   {
+    "t": "exists",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": ", can build and "
+   },
+   {
+    "t": "tear",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " down shelters with ease."
+   }
+  ],
+  [
+   {
+    "t": "Diamond, "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "had never spent",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": " time in such places, "
+   },
+   {
+    "t": "has no ability",
+    "c": "g",
+    "id": "g17"
+   },
+   {
+    "t": " to pay attention to these things."
+   }
+  ],
+  [
+   {
+    "t": "Were he",
+    "c": "g",
+    "id": "g18"
+   },
+   {
+    "t": " to be tested on such tasks, he "
+   },
+   {
+    "t": "also",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "would perform",
+    "c": "g",
+    "id": "g19"
+   },
+   {
+    "t": " poorly."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주장",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "경험이 주의를 이끌고 환경이 다르면 기대도 다르다",
+    "star": true
+   },
+   {
+    "label": "사례",
+    "sents": [
+     3,
+     5
+    ],
+    "text": "원주민은 서양인이 익힌 과제에 서툴다",
+    "star": false
+   },
+   {
+    "label": "반전",
+    "sents": [
+     6,
+     8
+    ],
+    "text": "그러나 원주민은 정글의 미묘한 변화를 알아채고 살아가는 기술이 뛰어나다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     9,
+     10
+    ],
+    "text": "정글을 겪어 보지 못한 다이아몬드도 그 과제에는 서툴 것이다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "This was profoundly illustrated",
+   "But",
+   "Diamond"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "857ab15d539a7eff",
+  "original_marks.json": "e26c95be797b7d7f",
+  "passage_src.json": "b4a40baa2e3d5ffa",
+  "study_x.json": "2161ef4440f181bd",
+  "topic_items.json": "577c43e8c21c4b17",
+  "workbook_src.json": "487fd70b6e8f9e2a"
+ }
+}

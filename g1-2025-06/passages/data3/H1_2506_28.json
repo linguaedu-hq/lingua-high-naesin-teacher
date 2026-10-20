@@ -1,0 +1,685 @@
+{
+ "meta": {
+  "id": "H1_2506_28",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 28,
+  "orig_type": "안내문 일치",
+  "words": 73,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "방문객을 부르는 연례 여름 만화 축제 안내",
+  "title_ko": "만화 축제의 방문객이 되어 보라",
+  "title_en": "Join the Crowd at the Cartoon Festival",
+  "gist_ko": "8회째 열리는 여름 만화 축제의 날짜 · 시간 · 장소 · 주요 행사 · 유의 사항을 알리고 참여를 권한다."
+ },
+ "kind": "notice",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "2025 Summer Cartoon Festival",
+   "ko": "2025 여름 만화 축제"
+  },
+  {
+   "n": 2,
+   "en": "It’s the 8th annual Summer Cartoon Festival!",
+   "ko": "올해로 8회째 열리는 연례 여름 만화 축제이다!"
+  },
+  {
+   "n": 3,
+   "en": "The festival drew a lot of visitors last year.",
+   "ko": "이 축제는 지난해 많은 방문객을 끌어모았다."
+  },
+  {
+   "n": 4,
+   "en": "Why not be one of them this year?",
+   "ko": "올해는 너도 그 방문객 가운데 한 명이 되어 보는 게 어떨까?"
+  },
+  {
+   "n": 5,
+   "en": "Dates: July 5 ‒ 6",
+   "ko": "날짜: 7월 5~6일"
+  },
+  {
+   "n": 6,
+   "en": "Time: 9 a.m. ‒ 6 p.m.",
+   "ko": "시간: 오전 9시~오후 6시"
+  },
+  {
+   "n": 7,
+   "en": "Place: Merryville Park",
+   "ko": "장소: Merryville 공원"
+  },
+  {
+   "n": 8,
+   "en": "Featured Events",
+   "ko": "주요 행사"
+  },
+  {
+   "n": 9,
+   "en": "∙Cartoon drawing classes for beginners only",
+   "ko": "• 초보자만을 위한 만화 그리기 수업"
+  },
+  {
+   "n": 10,
+   "en": "∙Face painting by cartoonists",
+   "ko": "• 만화가가 그려 주는 얼굴 그림"
+  },
+  {
+   "n": 11,
+   "en": "∙Parade of costumed characters",
+   "ko": "• 의상을 차려입은 캐릭터들의 행진"
+  },
+  {
+   "n": 12,
+   "en": "Notes",
+   "ko": "유의 사항"
+  },
+  {
+   "n": 13,
+   "en": "∙All visitors will receive character stickers.",
+   "ko": "• 모든 방문객은 캐릭터 스티커를 받는다."
+  },
+  {
+   "n": 14,
+   "en": "∙For a more detailed timetable and other information, check out www.SummerCartoonFest.com.",
+   "ko": "• 더 자세한 시간표와 다른 정보는 www.SummerCartoonFest.com 에서 확인하라."
+  }
+ ],
+ "topic": 4,
+ "gist": 2,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "the 8th annual"
+  },
+  {
+   "sent": 4,
+   "text": "Why not be one of them this year?"
+  },
+  {
+   "sent": 5,
+   "text": "July 5 ‒ 6"
+  },
+  {
+   "sent": 9,
+   "text": "for beginners only"
+  },
+  {
+   "sent": 10,
+   "text": "Face painting by cartoonists"
+  },
+  {
+   "sent": 13,
+   "text": "All visitors will receive character stickers."
+  }
+ ],
+ "con": [],
+ "ref": [
+  {
+   "sent": 4,
+   "text": "them",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "visitors",
+   "ko": "방문객들"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 2,
+   "pos": 13,
+   "text": "annual",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "annual",
+   "wrong": [
+    "annually"
+   ],
+   "rule": "명사 Festival 앞에서 꾸미므로 형용사이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 3,
+   "pos": 13,
+   "text": "drew",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "drew",
+   "wrong": [
+    "draws",
+    "has drawn"
+   ],
+   "rule": "last year 라는 지나간 때가 있어 과거시제이다(현재완료는 쓰지 않는다).",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 4,
+   "pos": 0,
+   "text": "Why not be",
+   "cat": "관용 구문(too~to · so~that 등)",
+   "chip": "관용 구문(too~to · so~that 등)",
+   "right": "Why not be",
+   "wrong": [
+    "Why not being",
+    "Why not to be"
+   ],
+   "rule": "Why not 뒤에는 동사원형이 와서 '~하는 게 어때?'라는 권유가 된다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 18,
+   "text": "them",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "them",
+   "wrong": [
+    "it"
+   ],
+   "rule": "them 은 앞 문장의 visitors(복수)를 가리킨다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 11,
+   "pos": 11,
+   "text": "costumed",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "costumed",
+   "wrong": [
+    "costuming"
+   ],
+   "rule": "캐릭터가 의상을 차려입은 쪽이라 명사 앞 과거분사이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 13,
+   "pos": 14,
+   "text": "will receive",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "will receive",
+   "wrong": [
+    "will received",
+    "will receiving"
+   ],
+   "rule": "조동사 will 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 14,
+   "pos": 7,
+   "text": "more detailed",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "more detailed",
+   "wrong": [
+    "detaileder"
+   ],
+   "rule": "detailed 처럼 긴 형용사는 앞에 more 를 붙여 비교급을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 14,
+   "pos": 54,
+   "text": "check out",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "check out",
+   "wrong": [
+    "checking out",
+    "to check out"
+   ],
+   "rule": "콤마 뒤 주절이 명령문이라 동사원형으로 시작한다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Cartoon",
+   "sent": 1,
+   "ko": "만화",
+   "gloss": "만화",
+   "syn": [
+    "comic"
+   ],
+   "ant": []
+  },
+  {
+   "text": "annual",
+   "sent": 2,
+   "ko": "해마다 열리는, 연례의",
+   "gloss": "해마다 열리는",
+   "syn": [
+    "yearly"
+   ],
+   "ant": [
+    "one-time"
+   ]
+  },
+  {
+   "text": "drew",
+   "sent": 3,
+   "ko": "(사람을) 끌어모으다",
+   "gloss": "(사람을) 끌어모으다",
+   "syn": [
+    "attract"
+   ],
+   "ant": [
+    "repel"
+   ]
+  },
+  {
+   "text": "visitors",
+   "sent": 3,
+   "ko": "방문객",
+   "gloss": "방문객",
+   "syn": [
+    "guest"
+   ],
+   "ant": [
+    "host"
+   ]
+  },
+  {
+   "text": "Dates",
+   "sent": 5,
+   "ko": "날짜",
+   "gloss": "날짜",
+   "syn": [
+    "day"
+   ],
+   "ant": []
+  },
+  {
+   "text": "Place",
+   "sent": 7,
+   "ko": "장소",
+   "gloss": "장소",
+   "syn": [
+    "location"
+   ],
+   "ant": []
+  },
+  {
+   "text": "Featured",
+   "sent": 8,
+   "ko": "특별히 내세우다, 주요 순서로 넣다",
+   "gloss": "특별히 내세우다",
+   "syn": [
+    "highlight"
+   ],
+   "ant": [
+    "omit"
+   ]
+  },
+  {
+   "text": "classes",
+   "sent": 9,
+   "ko": "수업",
+   "gloss": "수업",
+   "syn": [
+    "lesson"
+   ],
+   "ant": []
+  },
+  {
+   "text": "beginners",
+   "sent": 9,
+   "ko": "초보자",
+   "gloss": "초보자",
+   "syn": [
+    "novice"
+   ],
+   "ant": [
+    "expert"
+   ]
+  },
+  {
+   "text": "costumed",
+   "sent": 11,
+   "ko": "의상을 차려입은, 분장한",
+   "gloss": "의상을 차려입은",
+   "syn": [
+    "dressed up"
+   ],
+   "ant": []
+  },
+  {
+   "text": "receive",
+   "sent": 13,
+   "ko": "받다",
+   "gloss": "받다",
+   "syn": [
+    "get"
+   ],
+   "ant": [
+    "give"
+   ]
+  },
+  {
+   "text": "detailed",
+   "sent": 14,
+   "ko": "자세한",
+   "gloss": "자세한",
+   "syn": [
+    "specific"
+   ],
+   "ant": [
+    "general"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "2025 Summer "
+   },
+   {
+    "t": "Cartoon",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " Festival"
+   }
+  ],
+  [
+   {
+    "t": "It’s the 8th "
+   },
+   {
+    "t": "annual",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "annual",
+      "c": "v",
+      "id": "v1"
+     }
+    ]
+   },
+   {
+    "t": " Summer Cartoon Festival!"
+   }
+  ],
+  [
+   {
+    "t": "The festival "
+   },
+   {
+    "t": "drew",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "drew",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " a lot of "
+   },
+   {
+    "t": "visitors",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " last year."
+   }
+  ],
+  [
+   {
+    "t": "Why not be",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " one of "
+   },
+   {
+    "t": "them",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " this year?"
+   }
+  ],
+  [
+   {
+    "t": "Dates",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": ": July 5 ‒ 6"
+   }
+  ],
+  [
+   {
+    "t": "Time: 9 a.m. ‒ 6 p.m."
+   }
+  ],
+  [
+   {
+    "t": "Place",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": ": Merryville Park"
+   }
+  ],
+  [
+   {
+    "t": "Featured",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " Events"
+   }
+  ],
+  [
+   {
+    "t": "∙Cartoon drawing "
+   },
+   {
+    "t": "classes",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " for "
+   },
+   {
+    "t": "beginners",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " only"
+   }
+  ],
+  [
+   {
+    "t": "∙Face painting by cartoonists"
+   }
+  ],
+  [
+   {
+    "t": "∙Parade of "
+   },
+   {
+    "t": "costumed",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "costumed",
+      "c": "v",
+      "id": "v9"
+     }
+    ]
+   },
+   {
+    "t": " characters"
+   }
+  ],
+  [
+   {
+    "t": "Notes"
+   }
+  ],
+  [
+   {
+    "t": "∙All visitors "
+   },
+   {
+    "t": "will receive",
+    "c": "g",
+    "id": "g6",
+    "kids": [
+     {
+      "t": "will "
+     },
+     {
+      "t": "receive",
+      "c": "v",
+      "id": "v10"
+     }
+    ]
+   },
+   {
+    "t": " character stickers."
+   }
+  ],
+  [
+   {
+    "t": "∙For a "
+   },
+   {
+    "t": "more detailed",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "more "
+     },
+     {
+      "t": "detailed",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " timetable and other information, "
+   },
+   {
+    "t": "check out",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " www.SummerCartoonFest.com."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "축제 소개",
+    "sents": [
+     1,
+     4
+    ],
+    "text": "지난해 많은 방문객이 온 8회째 연례 만화 축제",
+    "star": true
+   },
+   {
+    "label": "일시 · 장소",
+    "sents": [
+     5,
+     7
+    ],
+    "text": "7월 5일과 6일 · 오전 9시부터 오후 6시까지 · Merryville 공원",
+    "star": false
+   },
+   {
+    "label": "주요 행사",
+    "sents": [
+     8,
+     11
+    ],
+    "text": "초보자 그리기 수업 · 만화가 얼굴 그림 · 캐릭터 행진",
+    "star": false
+   },
+   {
+    "label": "유의 사항",
+    "sents": [
+     12,
+     14
+    ],
+    "text": "방문객 모두 스티커 · 시간표는 웹사이트",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "Dates · Time · Place",
+   "Featured Events",
+   "Notes"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "27129bf4b406d850",
+  "original_marks.json": "14ac0d1e1661dd09",
+  "passage_src.json": "164cdb956c09da13",
+  "study_x.json": "2040fe0bb49e84bc",
+  "topic_items.json": "9538dd014a81d428",
+  "workbook_src.json": "78793a89b41c21ff"
+ }
+}

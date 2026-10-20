@@ -1,0 +1,17 @@
+{
+ "lingua_logo.png": {
+  "from": "C:\\Users\\USER\\.claude\\projects\\C--Users-USER-Desktop-New-Lingua\\gongmun-design\\exam_trends_middle\\cardnews\\_builder\\assets\\lingua_tree_black.png",
+  "sha256": "dbe9ca7045dd081441f2c65d4ff0768f6f2896a727011c9427a4cde06e485f93",
+  "how": "폭 420 으로 줄임(모양 · 색 그대로)"
+ },
+ "lingua_mark.png": {
+  "from": "C:\\Users\\USER\\.claude\\projects\\C--Users-USER-Desktop-New-Lingua\\gongmun-design\\exam_trends_middle\\cardnews\\_builder\\assets\\lingua_tree_black.png",
+  "sha256": "dbe9ca7045dd081441f2c65d4ff0768f6f2896a727011c9427a4cde06e485f93",
+  "how": "나무 마크 행 (0, 352) 만 잘라 높이 96"
+ },
+ "watermark.png": {
+  "from": "C:\\Users\\USER\\.claude\\projects\\C--Users-USER-Desktop-New-Lingua\\gongmun-design\\exam_trends_middle\\tools\\print\\assets\\watermark_lingua.png",
+  "sha256": "dd349deddbcb000e862079dbbd2fa7d120856862917d6c496c52728f27d072e1",
+  "how": "중등 학생본 워터마크(chrome_pdf.stamp_watermark 가 찍는 그림 · 남색 · 불투명도 약 9%) — 폭 840 으로 줄임"
+ }
+}

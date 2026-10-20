@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "H1_2506_36",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 36,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "문명의 끝을 다 설명하지 못하는 '역사는 되풀이된다'는 말",
+  "title_ko": "역사는 언제나 되풀이될까",
+  "title_en": "Does History Always Repeat Itself?",
+  "gist_ko": "문명은 흔히 팽창 뒤 무너지는 일을 되풀이하는 것처럼 보이지만, 침략으로 갑자기 끝난 문명도 있으므로 '역사는 되풀이된다'는 말은 지나친 단순화이다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "History, people often say, repeats itself.",
+   "ko": "사람들이 흔히 말하듯, 역사는 되풀이된다."
+  },
+  {
+   "n": 2,
+   "en": "And looking at the historical records of the ancient civilizations, some things do seem to happen again and again.",
+   "ko": "그리고 고대 문명들의 역사 기록을 살펴보면, 어떤 일들은 정말로 거듭해서 일어나는 것 같다."
+  },
+  {
+   "n": 3,
+   "en": "Civilizations expand, get overextended, and then collapse as in the cases of Rome, which went under in 476 AD, and the British Empire, which fell apart more than a thousand years later in the post‐World War II era.",
+   "ko": "문명은 팽창하고, 지나치게 넓어지고, 그런 다음 무너지는데, 서기 476년에 몰락한 로마와 그로부터 천 년도 더 뒤인 제2차 세계 대전 이후 시기에 해체된 대영 제국의 경우가 그러하다."
+  },
+  {
+   "n": 4,
+   "en": "But is this always the case?",
+   "ko": "하지만 이것이 언제나 사실일까?"
+  },
+  {
+   "n": 5,
+   "en": "If so, archaeology would be pretty boring; one thing would happen again and again.",
+   "ko": "그렇다면 고고학이라는 학문은 상당히 지루할 것인데, 같은 한 가지 일이 거듭 일어날 것이기 때문이다."
+  },
+  {
+   "n": 6,
+   "en": "But that’s not what archaeologists see.",
+   "ko": "하지만 고고학자들의 눈에 비치는 모습은 그렇지 않다."
+  },
+  {
+   "n": 7,
+   "en": "Some civilizations end suddenly, like the Aztec and Inca, conquered by invaders in the 1520s AD.",
+   "ko": "어떤 문명은 갑자기 끝나는데, 1520년대에 침략자들에게 정복된 아즈텍과 잉카가 그 예이다."
+  },
+  {
+   "n": 8,
+   "en": "Those empires never had the chance to collapse as a result of overexpansion.",
+   "ko": "그 제국들은 지나친 팽창의 결과로 무너질 기회조차 갖지 못했다."
+  },
+  {
+   "n": 9,
+   "en": "So in the case of civilizations, “history repeats itself” seems to be an oversimplification.",
+   "ko": "그러므로 문명의 경우에는 '역사는 되풀이된다'는 말이 지나친 단순화인 것 같다."
+  }
+ ],
+ "topic": 9,
+ "gist": 9,
+ "hl": [
+  {
+   "sent": 3,
+   "text": "expand, get overextended, and then collapse"
+  },
+  {
+   "sent": 7,
+   "text": "Some civilizations end suddenly"
+  },
+  {
+   "sent": 9,
+   "text": "seems to be an oversimplification"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "But",
+   "rel": "역접"
+  },
+  {
+   "sent": 6,
+   "text": "But",
+   "rel": "역접"
+  },
+  {
+   "sent": 9,
+   "text": "So",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 4,
+   "text": "this",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "expand, get overextended, and then collapse",
+   "ko": "문명이 팽창하고 지나치게 넓어진 뒤 무너지는 일"
+  },
+  {
+   "sent": 6,
+   "text": "that’s",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "one thing would happen again and again",
+   "ko": "한 가지 일만 되풀이해서 일어나는 것"
+  },
+  {
+   "sent": 8,
+   "text": "Those empires",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "the Aztec and Inca",
+   "ko": "아즈텍과 잉카"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 27,
+   "text": "repeats",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "repeats",
+   "wrong": [
+    "repeat"
+   ],
+   "rule": "주어 History 가 단수라서 repeats 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 4,
+   "text": "looking",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "looking",
+   "wrong": [
+    "looked"
+   ],
+   "rule": "looking at ~ 은 '~을 살펴보면'이라는 뜻의 분사구문으로 뒤 절에 이어진다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 80,
+   "text": "do seem",
+   "cat": "도치·강조",
+   "chip": "도치·강조",
+   "right": "do seem",
+   "wrong": [
+    "does seem"
+   ],
+   "rule": "주어 some things 가 복수라 강조의 do 를 쓰고 뒤에 동사원형 seem 이 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 88,
+   "text": "to happen",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to happen",
+   "wrong": [
+    "happening"
+   ],
+   "rule": "seem 뒤에는 to부정사가 와서 '~하는 것 같다'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 49,
+   "text": "collapse",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "collapse",
+   "wrong": [
+    "collapsing"
+   ],
+   "rule": "expand, get, collapse 가 and 로 이어진 동사라서 같은 꼴을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 83,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "that"
+   ],
+   "rule": "콤마 뒤에서 Rome 을 덧붙여 설명하는 계속적 용법이라 that 은 쓸 수 없다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 3,
+   "pos": 89,
+   "text": "went under",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "went under",
+   "wrong": [
+    "goes under"
+   ],
+   "rule": "로마가 무너진 일은 476년에 끝난 지난 일이라 과거형을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 19,
+   "text": "would be",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "would be",
+   "wrong": [
+    "is"
+   ],
+   "rule": "If so 는 앞의 물음이 사실이라고 가정하는 말이라 주절에 would + 동사원형을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 35,
+   "text": "boring",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "boring",
+   "wrong": [
+    "bored"
+   ],
+   "rule": "고고학이 지루함을 주는 쪽이라 현재분사 boring 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 6,
+   "pos": 15,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "that"
+   ],
+   "rule": "what 은 선행사를 품은 관계대명사로 '~하는 것'이라는 뜻이며 앞에 선행사가 없을 때 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 7,
+   "pos": 23,
+   "text": "suddenly",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "suddenly",
+   "wrong": [
+    "sudden"
+   ],
+   "rule": "동사 end 를 꾸미므로 부사 suddenly 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 58,
+   "text": "conquered",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "conquered",
+   "wrong": [
+    "conquering"
+   ],
+   "rule": "아즈텍과 잉카는 침략자들에게 정복당한 쪽이라 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 8,
+   "pos": 35,
+   "text": "to collapse",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to collapse",
+   "wrong": [
+    "collapse"
+   ],
+   "rule": "명사 chance 뒤에 to부정사가 와서 '무너질 기회'라는 뜻으로 chance 를 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 9,
+   "pos": 58,
+   "text": "seems",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "seems",
+   "wrong": [
+    "seem"
+   ],
+   "rule": "인용한 말 history repeats itself 전체가 하나의 주어라 단수 동사 seems 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 9,
+   "pos": 64,
+   "text": "to be",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to be",
+   "wrong": [
+    "being"
+   ],
+   "rule": "seem 뒤에는 to부정사가 와서 '~인 것 같다'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "repeats",
+   "sent": 1,
+   "ko": "되풀이하다, 반복하다",
+   "gloss": "되풀이하다",
+   "syn": [
+    "recur"
+   ],
+   "ant": []
+  },
+  {
+   "text": "records",
+   "sent": 2,
+   "ko": "기록",
+   "gloss": "기록",
+   "syn": [
+    "document"
+   ],
+   "ant": []
+  },
+  {
+   "text": "civilizations",
+   "sent": 2,
+   "ko": "문명",
+   "gloss": "문명",
+   "syn": [
+    "society"
+   ],
+   "ant": []
+  },
+  {
+   "text": "expand",
+   "sent": 3,
+   "ko": "팽창하다, 넓어지다",
+   "gloss": "팽창하다",
+   "syn": [
+    "grow"
+   ],
+   "ant": [
+    "shrink"
+   ]
+  },
+  {
+   "text": "overextended",
+   "sent": 3,
+   "ko": "감당할 수 없을 만큼 지나치게 넓히다",
+   "gloss": "감당할 수 없을 만큼 지나치게 넓히다",
+   "syn": [
+    "overreach"
+   ],
+   "ant": []
+  },
+  {
+   "text": "collapse",
+   "sent": 3,
+   "ko": "무너지다, 붕괴하다",
+   "gloss": "무너지다",
+   "syn": [
+    "fall"
+   ],
+   "ant": [
+    "thrive"
+   ]
+  },
+  {
+   "text": "archaeology",
+   "sent": 5,
+   "ko": "고고학",
+   "gloss": "고고학",
+   "syn": [
+    "study of past cultures"
+   ],
+   "ant": []
+  },
+  {
+   "text": "suddenly",
+   "sent": 7,
+   "ko": "갑자기",
+   "gloss": "갑자기",
+   "syn": [
+    "abruptly"
+   ],
+   "ant": [
+    "gradually"
+   ]
+  },
+  {
+   "text": "conquered",
+   "sent": 7,
+   "ko": "정복하다",
+   "gloss": "정복하다",
+   "syn": [
+    "defeat"
+   ],
+   "ant": [
+    "surrender"
+   ]
+  },
+  {
+   "text": "invaders",
+   "sent": 7,
+   "ko": "침략자",
+   "gloss": "침략자",
+   "syn": [
+    "attacker"
+   ],
+   "ant": [
+    "defender"
+   ]
+  },
+  {
+   "text": "overexpansion",
+   "sent": 8,
+   "ko": "지나친 팽창(확장)",
+   "gloss": "지나친 팽창(확장)",
+   "syn": [
+    "overgrowth"
+   ],
+   "ant": []
+  },
+  {
+   "text": "oversimplification",
+   "sent": 9,
+   "ko": "지나친 단순화",
+   "gloss": "지나친 단순화",
+   "syn": [
+    "overgeneralization"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "History, people often say, "
+   },
+   {
+    "t": "repeats",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "repeats",
+      "c": "v",
+      "id": "v0"
+     }
+    ]
+   },
+   {
+    "t": " itself."
+   }
+  ],
+  [
+   {
+    "t": "And "
+   },
+   {
+    "t": "looking",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " at the historical "
+   },
+   {
+    "t": "records",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " of the ancient "
+   },
+   {
+    "t": "civilizations",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": ", some things "
+   },
+   {
+    "t": "do seem",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to happen",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " again and again."
+   }
+  ],
+  [
+   {
+    "t": "Civilizations "
+   },
+   {
+    "t": "expand",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": ", get "
+   },
+   {
+    "t": "overextended",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": ", and then "
+   },
+   {
+    "t": "collapse",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "collapse",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " as in the cases of Rome, "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "went under",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " in 476 AD, and the British Empire, which fell apart more than a thousand years later in the post‐World War II era."
+   }
+  ],
+  [
+   {
+    "t": "But",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": " is this always the case?"
+   }
+  ],
+  [
+   {
+    "t": "If so, "
+   },
+   {
+    "t": "archaeology",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "would be",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " pretty "
+   },
+   {
+    "t": "boring",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": "; one thing would happen again and again."
+   }
+  ],
+  [
+   {
+    "t": "But",
+    "c": "c",
+    "id": "c1",
+    "lab": "역접"
+   },
+   {
+    "t": " that’s not "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " archaeologists see."
+   }
+  ],
+  [
+   {
+    "t": "Some civilizations end "
+   },
+   {
+    "t": "suddenly",
+    "c": "g",
+    "id": "g11",
+    "kids": [
+     {
+      "t": "suddenly",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": ", like the Aztec and Inca, "
+   },
+   {
+    "t": "conquered",
+    "c": "g",
+    "id": "g12",
+    "kids": [
+     {
+      "t": "conquered",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " by "
+   },
+   {
+    "t": "invaders",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " in the 1520s AD."
+   }
+  ],
+  [
+   {
+    "t": "Those empires never had the chance "
+   },
+   {
+    "t": "to collapse",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " as a result of "
+   },
+   {
+    "t": "overexpansion",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "So",
+    "c": "c",
+    "id": "c2",
+    "lab": "결과"
+   },
+   {
+    "t": " in the case of civilizations, “history repeats itself” "
+   },
+   {
+    "t": "seems",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to be",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " an "
+   },
+   {
+    "t": "oversimplification",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": "."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "통념과 예",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "역사는 되풀이된다 — 로마와 대영 제국은 팽창 뒤 무너졌다",
+    "star": false
+   },
+   {
+    "label": "의문 제기",
+    "sents": [
+     4,
+     6
+    ],
+    "text": "늘 그렇다면 고고학은 지루하겠지만 실제로는 다르다",
+    "star": false
+   },
+   {
+    "label": "반례",
+    "sents": [
+     7,
+     8
+    ],
+    "text": "아즈텍과 잉카는 팽창으로 무너지기 전에 침략으로 끝났다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     9,
+     9
+    ],
+    "text": "역사는 되풀이된다는 말은 문명에 대해 지나친 단순화이다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "But",
+   "Some civilizations end suddenly",
+   "So"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "f4368dcbf6fdee9c",
+  "check_conf.json": "a97a92f32b5d55ef",
+  "original_marks.json": "6846e2339ef620ee",
+  "passage_src.json": "286d13f2d7167edf",
+  "source_restored.json": "8b59e25a6c6e394a",
+  "study_x.json": "e718880c95ed57f3",
+  "topic_items.json": "194087dab5498d3b",
+  "workbook_src.json": "5bab00d72dfec19c"
+ }
+}

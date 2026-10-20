@@ -1,0 +1,905 @@
+{
+ "meta": {
+  "id": "H1_2506_41",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 41,
+  "orig_type": "제목(장문)",
+  "words": 217,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "신용 카드 결제가 손실감을 줄여 지출을 늘리는 현상",
+  "title_ko": "신용 카드는 돈을 내는 아픔을 무디게 한다",
+  "title_en": "Credit Cards Numb the Pain of Paying",
+  "gist_ko": "신용 카드로 돈을 내면 지불의 고통을 덜 느끼게 되어, 사람들은 지출을 줄이려 하지 않고 더 많은 돈을 쓴다."
+ },
+ "kind": "long",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Paying with plastic fundamentally changes the way we spend money, altering the calculus of our financial decisions.",
+   "ko": "플라스틱 카드로 돈을 내면 돈을 쓰는 방식이 근본적으로 바뀌고, 금융 결정의 셈법도 달라진다."
+  },
+  {
+   "n": 2,
+   "en": "When you buy something with cash, the purchase involves an actual loss — your wallet is literally lighter.",
+   "ko": "현금으로 사면 실제 손실이 따르고, 지갑이 말 그대로 가벼워진다."
+  },
+  {
+   "n": 3,
+   "en": "Credit cards, however, make the purchase abstract, so that you don’t really feel the downside of spending money.",
+   "ko": "그러나 신용 카드는 구매를 추상적인 일로 만들어, 돈을 쓰는 일의 불리한 면을 정말로 느끼지 못하게 한다."
+  },
+  {
+   "n": 4,
+   "en": "Brain-imaging experiments suggest that paying with credit cards actually reduces activity in the insula, a brain region associated with negative feelings.",
+   "ko": "뇌 영상 실험에 따르면, 신용 카드로 내면 부정적 감정과 관련된 뇌 부위인 뇌섬엽의 활동이 실제로 줄어든다."
+  },
+  {
+   "n": 5,
+   "en": "As George Loewenstein, a neuroeconomist at Carnegie Mellon, says, “The nature of credit cards ensures that your brain is anesthetized against the pain of payment.”",
+   "ko": "카네기 멜론 대학교의 신경 경제학자 조지 로웬스타인은 “신용 카드의 본질 때문에 뇌는 지불의 고통에 무감각해진다.”라고 말한다."
+  },
+  {
+   "n": 6,
+   "en": "Spending money doesn’t feel bad, so you spend more money.",
+   "ko": "돈을 써도 기분이 나쁘지 않으니 돈을 더 많이 쓰게 된다."
+  },
+  {
+   "n": 7,
+   "en": "Consider this experiment: Drazen Prelec and Duncan Simester, two business professors at MIT, organized a real-life, sealed-bid auction for tickets to a Boston Celtics game.",
+   "ko": "이 실험을 보라. MIT 경영학 교수 드라젠 프렐렉과 던컨 시미스터는 보스턴 셀틱스 경기 입장권을 걸고 실제 비공개 입찰 경매를 열었다."
+  },
+  {
+   "n": 8,
+   "en": "Half the participants in the auction were informed that they had to pay with cash; the other half were told they had to pay with credit cards.",
+   "ko": "참가자의 절반은 현금으로 내야 한다는 통보를 받았고, 나머지 절반은 신용 카드로 내야 한다는 말을 들었다."
+  },
+  {
+   "n": 9,
+   "en": "Prelec and Simester then averaged the bids for the two different groups.",
+   "ko": "그다음 두 교수는 두 집단의 입찰가 평균을 냈다."
+  },
+  {
+   "n": 10,
+   "en": "It turns out that the average credit card bid was twice as high as the average cash bid.",
+   "ko": "그 결과 신용 카드 평균 입찰가가 현금 평균 입찰가보다 두 배 높았다."
+  },
+  {
+   "n": 11,
+   "en": "When people used their credit cards, their bids were much more reckless.",
+   "ko": "사람들은 신용 카드를 쓸 때 훨씬 더 무모하게 입찰했다."
+  },
+  {
+   "n": 12,
+   "en": "They no longer felt the need to limit their expenses.",
+   "ko": "그들은 더 이상 지출을 제한할 필요를 느끼지 않았다."
+  }
+ ],
+ "topic": 1,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "fundamentally changes the way we spend money"
+  },
+  {
+   "sent": 2,
+   "text": "an actual loss"
+  },
+  {
+   "sent": 3,
+   "text": "you don’t really feel the downside of spending money"
+  },
+  {
+   "sent": 4,
+   "text": "reduces activity in the insula"
+  },
+  {
+   "sent": 5,
+   "text": "anesthetized against the pain of payment"
+  },
+  {
+   "sent": 6,
+   "text": "so you spend more money"
+  },
+  {
+   "sent": 10,
+   "text": "twice as high as the average cash bid"
+  },
+  {
+   "sent": 11,
+   "text": "much more reckless"
+  }
+ ],
+ "con": [
+  {
+   "sent": 3,
+   "text": "however",
+   "rel": "역접"
+  },
+  {
+   "sent": 3,
+   "text": "so that",
+   "rel": "결과"
+  },
+  {
+   "sent": 6,
+   "text": "so",
+   "rel": "결과"
+  },
+  {
+   "sent": 9,
+   "text": "then",
+   "rel": "시간"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 12,
+   "text": "They",
+   "occ": 0,
+   "to_sent": 11,
+   "to": "people",
+   "ko": "신용 카드를 쓴 사람들"
+  },
+  {
+   "sent": 9,
+   "text": "the two different groups",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "Half the participants",
+   "ko": "현금으로 낸 집단과 신용 카드로 낸 집단"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 0,
+   "text": "Paying",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "Paying",
+   "wrong": [
+    "Pay"
+   ],
+   "rule": "문장의 주어로 쓰인 동명사이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 34,
+   "text": "changes",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "changes",
+   "wrong": [
+    "change"
+   ],
+   "rule": "동명사 주어는 단수로 받으므로 changes 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 66,
+   "text": "altering",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "altering",
+   "wrong": [
+    "altered"
+   ],
+   "rule": "앞 절에 이어지는 결과를 나타내는 분사구문이고, 셈법을 바꾸는 쪽이라 현재분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 41,
+   "text": "abstract",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "abstract",
+   "wrong": [
+    "abstractly"
+   ],
+   "rule": "make + 목적어 + 형용사 보어 꼴이라 부사는 쓰지 않는다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 73,
+   "text": "reduces",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "reduces",
+   "wrong": [
+    "reduce"
+   ],
+   "rule": "that 절의 주어 paying with credit cards 는 동명사구라 단수 동사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 120,
+   "text": "associated",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "associated",
+   "wrong": [
+    "associating"
+   ],
+   "rule": "뇌 부위가 감정과 연관되는 쪽이라 과거분사가 a brain region 을 뒤에서 꾸민다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 5,
+   "pos": 118,
+   "text": "is anesthetized",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is anesthetized",
+   "wrong": [
+    "anesthetizes"
+   ],
+   "rule": "뇌가 무감각하게 되는 쪽이라 수동태를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 0,
+   "text": "Spending",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "Spending",
+   "wrong": [
+    "Spend"
+   ],
+   "rule": "문장의 주어로 쓰인 동명사이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 28,
+   "text": "bad",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "bad",
+   "wrong": [
+    "badly"
+   ],
+   "rule": "감각동사 feel 뒤에는 보어로 형용사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 93,
+   "text": "organized",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "organized",
+   "wrong": [
+    "organizing"
+   ],
+   "rule": "주어 Drazen Prelec and Duncan Simester 의 동사가 필요하므로 과거형을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 8,
+   "pos": 37,
+   "text": "were informed",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "were informed",
+   "wrong": [
+    "informed"
+   ],
+   "rule": "참가자는 통보를 받는 쪽이라 수동태를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 8,
+   "pos": 98,
+   "text": "were told",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "were told",
+   "wrong": [
+    "told"
+   ],
+   "rule": "나머지 절반도 말을 듣는 쪽이라 수동태를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 10,
+   "pos": 56,
+   "text": "as high as",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "as high as",
+   "wrong": [
+    "as higher as"
+   ],
+   "rule": "원급 비교는 as + 원급 + as 꼴이고, 배수 twice 는 그 앞에 둔다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 11,
+   "pos": 53,
+   "text": "much more",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "much more",
+   "wrong": [
+    "very more"
+   ],
+   "rule": "비교급을 강조할 때는 much 를 쓰고 very 는 쓰지 않는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 12,
+   "pos": 29,
+   "text": "to limit",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to limit",
+   "wrong": [
+    "limiting"
+   ],
+   "rule": "the need 를 뒤에서 꾸미는 to부정사이다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "fundamentally",
+   "sent": 1,
+   "ko": "근본적으로",
+   "gloss": "근본적으로",
+   "syn": [
+    "basically"
+   ],
+   "ant": [
+    "superficially"
+   ]
+  },
+  {
+   "text": "altering",
+   "sent": 1,
+   "ko": "바꾸다, 변경하다",
+   "gloss": "바꾸다",
+   "syn": [
+    "change"
+   ],
+   "ant": [
+    "maintain"
+   ]
+  },
+  {
+   "text": "calculus",
+   "sent": 1,
+   "ko": "계산, 셈법",
+   "gloss": "계산",
+   "syn": [
+    "calculation"
+   ],
+   "ant": []
+  },
+  {
+   "text": "purchase",
+   "sent": 2,
+   "ko": "구매, 구입",
+   "gloss": "구매",
+   "syn": [
+    "buying"
+   ],
+   "ant": [
+    "sale"
+   ]
+  },
+  {
+   "text": "involves",
+   "sent": 2,
+   "ko": "수반하다, 포함하다",
+   "gloss": "수반하다",
+   "syn": [
+    "include"
+   ],
+   "ant": [
+    "exclude"
+   ]
+  },
+  {
+   "text": "literally",
+   "sent": 2,
+   "ko": "말 그대로",
+   "gloss": "말 그대로",
+   "syn": [
+    "exactly"
+   ],
+   "ant": [
+    "figuratively"
+   ]
+  },
+  {
+   "text": "abstract",
+   "sent": 3,
+   "ko": "추상적인",
+   "gloss": "추상적인",
+   "syn": [
+    "conceptual"
+   ],
+   "ant": [
+    "concrete"
+   ]
+  },
+  {
+   "text": "downside",
+   "sent": 3,
+   "ko": "불리한 면, 단점",
+   "gloss": "불리한 면",
+   "syn": [
+    "disadvantage"
+   ],
+   "ant": [
+    "upside"
+   ]
+  },
+  {
+   "text": "reduces",
+   "sent": 4,
+   "ko": "줄이다",
+   "gloss": "줄이다",
+   "syn": [
+    "decrease"
+   ],
+   "ant": [
+    "increase"
+   ]
+  },
+  {
+   "text": "negative",
+   "sent": 4,
+   "ko": "부정적인",
+   "gloss": "부정적인",
+   "syn": [
+    "unpleasant"
+   ],
+   "ant": [
+    "positive"
+   ]
+  },
+  {
+   "text": "ensures",
+   "sent": 5,
+   "ko": "반드시 ~하게 하다, 보장하다",
+   "gloss": "반드시 ~하게 하다",
+   "syn": [
+    "guarantee"
+   ],
+   "ant": []
+  },
+  {
+   "text": "anesthetized",
+   "sent": 5,
+   "ko": "마취된, 무감각해진",
+   "gloss": "마취된",
+   "syn": [
+    "numbed"
+   ],
+   "ant": [
+    "sensitive"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Paying",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " with plastic "
+   },
+   {
+    "t": "fundamentally",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "changes",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " the way we spend money, "
+   },
+   {
+    "t": "altering",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "altering",
+      "c": "v",
+      "id": "v1"
+     }
+    ]
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "calculus",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " of our financial decisions."
+   }
+  ],
+  [
+   {
+    "t": "When you buy something with cash, the "
+   },
+   {
+    "t": "purchase",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "involves",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " an actual loss — your wallet is "
+   },
+   {
+    "t": "literally",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " lighter."
+   }
+  ],
+  [
+   {
+    "t": "Credit cards, "
+   },
+   {
+    "t": "however",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": ", make the purchase "
+   },
+   {
+    "t": "abstract",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "abstract",
+      "c": "v",
+      "id": "v6"
+     }
+    ]
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "so that",
+    "c": "c",
+    "id": "c1",
+    "lab": "결과"
+   },
+   {
+    "t": " you don’t really feel the "
+   },
+   {
+    "t": "downside",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " of spending money."
+   }
+  ],
+  [
+   {
+    "t": "Brain-imaging experiments suggest that paying with credit cards actually "
+   },
+   {
+    "t": "reduces",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "reduces",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " activity in the insula, a brain region "
+   },
+   {
+    "t": "associated",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " with "
+   },
+   {
+    "t": "negative",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " feelings."
+   }
+  ],
+  [
+   {
+    "t": "As George Loewenstein, a neuroeconomist at Carnegie Mellon, says, “The nature of credit cards "
+   },
+   {
+    "t": "ensures",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " that your brain "
+   },
+   {
+    "t": "is anesthetized",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "is "
+     },
+     {
+      "t": "anesthetized",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " against the pain of payment.”"
+   }
+  ],
+  [
+   {
+    "t": "Spending",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " money doesn’t feel "
+   },
+   {
+    "t": "bad",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "so",
+    "c": "c",
+    "id": "c2",
+    "lab": "결과"
+   },
+   {
+    "t": " you spend more money."
+   }
+  ],
+  [
+   {
+    "t": "Consider this experiment: Drazen Prelec and Duncan Simester, two business professors at MIT, "
+   },
+   {
+    "t": "organized",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " a real-life, sealed-bid auction for tickets to a Boston Celtics game."
+   }
+  ],
+  [
+   {
+    "t": "Half the participants in the auction "
+   },
+   {
+    "t": "were informed",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " that they had to pay with cash; the other half "
+   },
+   {
+    "t": "were told",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " they had to pay with credit cards."
+   }
+  ],
+  [
+   {
+    "t": "Prelec and Simester "
+   },
+   {
+    "t": "then",
+    "c": "c",
+    "id": "c3",
+    "lab": "시간"
+   },
+   {
+    "t": " averaged the bids for the two different groups."
+   }
+  ],
+  [
+   {
+    "t": "It turns out that the average credit card bid was twice "
+   },
+   {
+    "t": "as high as",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " the average cash bid."
+   }
+  ],
+  [
+   {
+    "t": "When people used their credit cards, their bids were "
+   },
+   {
+    "t": "much more",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " reckless."
+   }
+  ],
+  [
+   {
+    "t": "They no longer felt the need "
+   },
+   {
+    "t": "to limit",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " their expenses."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주장",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "신용 카드는 돈을 쓰는 아픔을 흐려 지출 방식을 바꾼다",
+    "star": false
+   },
+   {
+    "label": "근거 1 뇌 연구",
+    "sents": [
+     4,
+     6
+    ],
+    "text": "신용 카드로 내면 지불의 고통을 덜 느껴 더 많이 쓴다",
+    "star": false
+   },
+   {
+    "label": "근거 2 경매 실험",
+    "sents": [
+     7,
+     10
+    ],
+    "text": "신용 카드 집단의 평균 입찰가가 현금 집단의 두 배였다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     11,
+     12
+    ],
+    "text": "신용 카드를 쓰면 지출을 줄이려 하지 않고 무모해진다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "Brain-imaging experiments suggest",
+   "Consider this experiment:",
+   "When people used their credit cards,"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "5a47b090ef89f943",
+  "original_marks.json": "ae136d3eb0fad5e9",
+  "passage_src.json": "0f46b3906296e953",
+  "study_x.json": "c4b9f9fce5fa2205",
+  "topic_items.json": "6458c4a9c677c692",
+  "workbook_src.json": "e8974ae32a6a7f0c"
+ }
+}

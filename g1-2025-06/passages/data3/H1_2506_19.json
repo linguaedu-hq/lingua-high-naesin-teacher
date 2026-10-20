@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "H1_2506_19",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 19,
+  "orig_type": "심경 변화",
+  "words": 113,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "공항에서 들뜬 기대에서 깊은 슬픔으로 바뀐 Maya의 심경",
+  "title_ko": "사라진 여권",
+  "title_en": "The Missing Passport",
+  "gist_ko": "1년 동안 기다린 유럽 여행을 앞두고 들떠 있던 Maya는 카운터에서 여권이 없다는 사실을 알게 되고, 비행기에 오르지 못해 비통해한다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Maya waited in line to check in for her flight.",
+   "ko": "Maya는 비행기 탑승 수속을 하려고 줄을 서서 기다렸다."
+  },
+  {
+   "n": 2,
+   "en": "Her expectations about her European backpacking trip were really high.",
+   "ko": "그녀가 유럽 배낭여행에 품은 기대는 정말 컸다."
+  },
+  {
+   "n": 3,
+   "en": "She had been looking forward to the trip for a year.",
+   "ko": "그녀는 1년 동안 그 여행을 손꼽아 기다려 왔다."
+  },
+  {
+   "n": 4,
+   "en": "She couldn’t wait to visit museums in Madrid and see the Eiffel Tower at night in Paris.",
+   "ko": "그녀는 마드리드의 박물관을 방문하고 파리에서 밤에 에펠탑을 보고 싶어 견딜 수 없었다."
+  },
+  {
+   "n": 5,
+   "en": "As she stood in line, she could feel those experiences were finally so close.",
+   "ko": "줄을 서 있으면서, 그녀는 그 경험들이 마침내 아주 가까이 와 있다고 느낄 수 있었다."
+  },
+  {
+   "n": 6,
+   "en": "When she approached the counter, the airline employee asked to see her passport.",
+   "ko": "그녀가 카운터에 다가가자, 항공사 직원이 여권을 보여 달라고 했다."
+  },
+  {
+   "n": 7,
+   "en": "Maya reached into her pocket but felt nothing.",
+   "ko": "Maya는 주머니 속을 더듬어 보았지만 손에 잡히는 것이 없었다."
+  },
+  {
+   "n": 8,
+   "en": "She realized she had left her passport at home.",
+   "ko": "그녀는 자신이 여권을 집에 놓고 나왔다는 사실을 깨달았다."
+  },
+  {
+   "n": 9,
+   "en": "Her plans were ruined.",
+   "ko": "그녀의 계획은 엉망이 되었다."
+  },
+  {
+   "n": 10,
+   "en": "She was heartbroken, knowing she could not board the flight and had to delay her dream trip.",
+   "ko": "그녀는 비행기에 탈 수 없고 꿈꾸던 여행을 미뤄야 한다는 것을 알고 비통해했다."
+  }
+ ],
+ "topic": 10,
+ "gist": 8,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "really high"
+  },
+  {
+   "sent": 6,
+   "text": "asked to see her passport"
+  },
+  {
+   "sent": 7,
+   "text": "felt nothing"
+  }
+ ],
+ "con": [
+  {
+   "sent": 5,
+   "text": "As",
+   "rel": "시간"
+  },
+  {
+   "sent": 6,
+   "text": "When",
+   "rel": "시간"
+  },
+  {
+   "sent": 7,
+   "text": "but",
+   "rel": "역접"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "Her",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "Maya",
+   "ko": "탑승 수속 줄에 선 Maya"
+  },
+  {
+   "sent": 3,
+   "text": "the trip",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "her European backpacking trip",
+   "ko": "Maya의 유럽 배낭여행"
+  },
+  {
+   "sent": 5,
+   "text": "those experiences",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "visit museums in Madrid",
+   "ko": "마드리드 박물관 방문과 파리의 에펠탑 구경"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 20,
+   "text": "to check in",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to check in",
+   "wrong": [
+    "check in"
+   ],
+   "rule": "줄을 서서 기다린 목적을 to부정사로 나타낸다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 53,
+   "text": "were",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "were",
+   "wrong": [
+    "was"
+   ],
+   "rule": "주어 Her expectations 가 복수라 were 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 3,
+   "pos": 4,
+   "text": "had been looking forward to",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "had been looking forward to",
+   "wrong": [
+    "has been looking forward to"
+   ],
+   "rule": "줄을 선 때(과거)까지 이어진 일이라 had been + -ing 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 18,
+   "text": "to visit",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to visit",
+   "wrong": [
+    "visiting"
+   ],
+   "rule": "can't wait 뒤에는 to부정사가 와서 '몹시 ~하고 싶다'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 49,
+   "text": "see",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "see",
+   "wrong": [
+    "seeing"
+   ],
+   "rule": "and 앞의 to visit 과 같이 to 뒤 동사원형으로 잇는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 0,
+   "text": "As",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "As",
+   "wrong": [
+    "During"
+   ],
+   "rule": "뒤에 주어 + 동사가 오므로 전치사 during 이 아니라 접속사 as 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 60,
+   "text": "to see",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to see",
+   "wrong": [
+    "seeing"
+   ],
+   "rule": "ask 는 to부정사를 목적어로 받는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 33,
+   "text": "felt",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "felt",
+   "wrong": [
+    "feeling"
+   ],
+   "rule": "but 앞의 reached 와 같은 과거형으로 잇는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 8,
+   "pos": 17,
+   "text": "had left",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "had left",
+   "wrong": [
+    "has left"
+   ],
+   "rule": "깨달은 때(과거)보다 먼저 일어난 일이라 had + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 9,
+   "pos": 10,
+   "text": "were ruined",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "were ruined",
+   "wrong": [
+    "ruined"
+   ],
+   "rule": "계획은 망쳐지는 쪽이라 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g13",
+   "sent": 10,
+   "pos": 21,
+   "text": "knowing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "knowing",
+   "wrong": [
+    "known"
+   ],
+   "rule": "주어 She 가 아는 쪽이라 현재분사로 분사구문을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 10,
+   "pos": 64,
+   "text": "had to delay",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "had to delay",
+   "wrong": [
+    "having to delay"
+   ],
+   "rule": "and 앞의 could not board 와 같이 과거 동사 꼴로 잇는다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "flight",
+   "sent": 1,
+   "ko": "항공편, 비행",
+   "gloss": "항공편",
+   "syn": [
+    "air trip"
+   ],
+   "ant": []
+  },
+  {
+   "text": "expectations",
+   "sent": 2,
+   "ko": "기대",
+   "gloss": "기대",
+   "syn": [
+    "hope"
+   ],
+   "ant": [
+    "disappointment"
+   ]
+  },
+  {
+   "text": "backpacking",
+   "sent": 2,
+   "ko": "배낭여행",
+   "gloss": "배낭여행",
+   "syn": [
+    "budget travel"
+   ],
+   "ant": []
+  },
+  {
+   "text": "finally",
+   "sent": 5,
+   "ko": "마침내",
+   "gloss": "마침내",
+   "syn": [
+    "at last"
+   ],
+   "ant": [
+    "at first"
+   ]
+  },
+  {
+   "text": "close",
+   "sent": 5,
+   "ko": "가까운",
+   "gloss": "가까운",
+   "syn": [
+    "near"
+   ],
+   "ant": [
+    "far"
+   ]
+  },
+  {
+   "text": "approached",
+   "sent": 6,
+   "ko": "다가가다",
+   "gloss": "다가가다",
+   "syn": [
+    "come near"
+   ],
+   "ant": [
+    "move away"
+   ]
+  },
+  {
+   "text": "passport",
+   "sent": 6,
+   "ko": "여권",
+   "gloss": "여권",
+   "syn": [
+    "travel document"
+   ],
+   "ant": []
+  },
+  {
+   "text": "realized",
+   "sent": 8,
+   "ko": "깨닫다",
+   "gloss": "깨닫다",
+   "syn": [
+    "notice"
+   ],
+   "ant": [
+    "overlook"
+   ]
+  },
+  {
+   "text": "ruined",
+   "sent": 9,
+   "ko": "망치다, 엉망으로 만들다",
+   "gloss": "망치다",
+   "syn": [
+    "destroy"
+   ],
+   "ant": [
+    "save"
+   ]
+  },
+  {
+   "text": "heartbroken",
+   "sent": 10,
+   "ko": "비통한, 몹시 상심한",
+   "gloss": "비통한",
+   "syn": [
+    "devastated"
+   ],
+   "ant": [
+    "delighted"
+   ]
+  },
+  {
+   "text": "board",
+   "sent": 10,
+   "ko": "(비행기 · 배 등에) 타다",
+   "gloss": "(비행기 · 배 등에) 타다",
+   "syn": [
+    "get on"
+   ],
+   "ant": [
+    "get off"
+   ]
+  },
+  {
+   "text": "delay",
+   "sent": 10,
+   "ko": "미루다, 늦추다",
+   "gloss": "미루다",
+   "syn": [
+    "postpone"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Maya waited in line "
+   },
+   {
+    "t": "to check in",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " for her "
+   },
+   {
+    "t": "flight",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Her "
+   },
+   {
+    "t": "expectations",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " about her European "
+   },
+   {
+    "t": "backpacking",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " trip "
+   },
+   {
+    "t": "were",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " really high."
+   }
+  ],
+  [
+   {
+    "t": "She "
+   },
+   {
+    "t": "had been looking forward to",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " the trip for a year."
+   }
+  ],
+  [
+   {
+    "t": "She couldn’t wait "
+   },
+   {
+    "t": "to visit",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " museums in Madrid and "
+   },
+   {
+    "t": "see",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " the Eiffel Tower at night in Paris."
+   }
+  ],
+  [
+   {
+    "t": "As",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " she stood in line, she could feel those experiences were "
+   },
+   {
+    "t": "finally",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " so "
+   },
+   {
+    "t": "close",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "When",
+    "c": "c",
+    "id": "c1",
+    "lab": "시간"
+   },
+   {
+    "t": " she "
+   },
+   {
+    "t": "approached",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " the counter, the airline employee asked "
+   },
+   {
+    "t": "to see",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " her "
+   },
+   {
+    "t": "passport",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Maya reached into her pocket "
+   },
+   {
+    "t": "but",
+    "c": "c",
+    "id": "c2",
+    "lab": "역접"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "felt",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " nothing."
+   }
+  ],
+  [
+   {
+    "t": "She "
+   },
+   {
+    "t": "realized",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " she "
+   },
+   {
+    "t": "had left",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " her passport at home."
+   }
+  ],
+  [
+   {
+    "t": "Her plans "
+   },
+   {
+    "t": "were ruined",
+    "c": "g",
+    "id": "g12",
+    "kids": [
+     {
+      "t": "were "
+     },
+     {
+      "t": "ruined",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "She was "
+   },
+   {
+    "t": "heartbroken",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "knowing",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " she could not "
+   },
+   {
+    "t": "board",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " the flight and "
+   },
+   {
+    "t": "had to delay",
+    "c": "g",
+    "id": "g14",
+    "kids": [
+     {
+      "t": "had to "
+     },
+     {
+      "t": "delay",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " her dream trip."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "발단",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "1년 동안 기다린 유럽 여행을 앞두고 수속 줄에 섰다",
+    "star": false
+   },
+   {
+    "label": "전개",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "박물관과 에펠탑을 볼 생각에 꿈이 가까워졌다고 느꼈다",
+    "star": false
+   },
+   {
+    "label": "위기",
+    "sents": [
+     6,
+     8
+    ],
+    "text": "여권을 보여 달라는 말에 여권을 집에 두고 왔음을 깨달았다",
+    "star": true
+   },
+   {
+    "label": "결말",
+    "sents": [
+     9,
+     10
+    ],
+    "text": "계획이 무너져 여행을 미뤄야 해 비통했다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "As she stood in line",
+   "When she approached the counter",
+   "Her plans were ruined"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "3dc8d616b5c453c1",
+  "original_marks.json": "c43448c97c3d1c99",
+  "passage_src.json": "254a41e348e5a101",
+  "study_x.json": "c8650855c86eced1",
+  "topic_items.json": "98fd913c3687804d",
+  "workbook_src.json": "8f0a4cef1c2f1fb1"
+ }
+}

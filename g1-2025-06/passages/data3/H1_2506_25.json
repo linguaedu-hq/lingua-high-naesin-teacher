@@ -1,0 +1,701 @@
+{
+ "meta": {
+  "id": "H1_2506_25",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 25,
+  "orig_type": "도표",
+  "words": 124,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "2018 · 2019년 유럽 다섯 나라의 소매 거래 온라인 비율",
+  "title_ko": "유럽 다섯 나라의 소매 거래 온라인 비율",
+  "title_en": "How Much Retail Moved Online in Five European Countries",
+  "gist_ko": "2018년과 2019년 유럽 다섯 나라의 소매 거래 온라인 비율은 2019년 영국이 가장 높았고 네덜란드가 가장 크게 늘었으며 이탈리아가 두 해 모두 가장 낮았다."
+ },
+ "kind": "chart",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "The graph above shows the online share of retail trade in selected European countries in 2018 and 2019.",
+   "ko": "위 그래프는 2018년과 2019년에 선택된 유럽 국가들의 소매 거래에서 온라인이 차지한 비율을 보여 준다."
+  },
+  {
+   "n": 2,
+   "en": "In 2019, the United Kingdom recorded the highest online share of retail trade, reaching 19.2 percent.",
+   "ko": "2019년에 영국은 소매 거래의 온라인 비율이 가장 높아 19.2퍼센트에 이르렀다."
+  },
+  {
+   "n": 3,
+   "en": "The Netherlands showed the largest increase in its online share of retail trade among the countries from 2018 to 2019, with a jump of over 6 percentage points.",
+   "ko": "네덜란드는 2018년부터 2019년까지 국가들 가운데 소매 거래의 온라인 비율이 가장 크게 증가하여 6퍼센트포인트 넘게 뛰었다."
+  },
+  {
+   "n": 4,
+   "en": "In 2018, Germany had a higher online share of retail trade than the Netherlands, whereas, in 2019, Germany fell behind the Netherlands.",
+   "ko": "2018년에는 독일의 소매 거래 온라인 비율이 네덜란드보다 높았던 반면, 2019년에는 독일이 네덜란드에 뒤처졌다."
+  },
+  {
+   "n": 5,
+   "en": "In 2018, Germany’s online share of retail trade was over four times higher than that of Spain.",
+   "ko": "2018년에 독일의 소매 거래 온라인 비율은 스페인의 비율보다 네 배 넘게 높았다(도표에서는 독일 15.1%, 스페인 4.8%라서 네 배인 19.2%에 못 미쳐 도표와 맞지 않는다)."
+  },
+  {
+   "n": 6,
+   "en": "Among the five countries, Italy recorded the lowest online share of retail trade in both 2018 and 2019.",
+   "ko": "두 해 모두 다섯 나라 가운데 온라인 소매 비율이 가장 낮은 나라는 이탈리아였다."
+  }
+ ],
+ "topic": 1,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "online share of retail trade"
+  },
+  {
+   "sent": 3,
+   "text": "the largest increase"
+  },
+  {
+   "sent": 5,
+   "text": "over four times higher"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "whereas",
+   "rel": "대조"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "its",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "The Netherlands",
+   "ko": "네덜란드"
+  },
+  {
+   "sent": 5,
+   "text": "that",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "online share of retail trade",
+   "ko": "소매 거래의 온라인 비율"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 16,
+   "text": "shows",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "shows",
+   "wrong": [
+    "show"
+   ],
+   "rule": "주어 The graph 가 단수라서 shows 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 58,
+   "text": "selected",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "selected",
+   "wrong": [
+    "selecting"
+   ],
+   "rule": "국가들이 선택되는 쪽이라 과거분사 selected 가 countries 를 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 41,
+   "text": "highest",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "highest",
+   "wrong": [
+    "higher"
+   ],
+   "rule": "다섯 나라 가운데 가장 높은 값이라 최상급을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 79,
+   "text": "reaching",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "reaching",
+   "wrong": [
+    "reaches"
+   ],
+   "rule": "콤마 뒤에서 앞 절에 덧붙는 분사구문이라 reaching 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 27,
+   "text": "largest",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "largest",
+   "wrong": [
+    "larger"
+   ],
+   "rule": "among the countries 와 함께 가장 큰 증가를 말하므로 최상급을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 47,
+   "text": "its",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "its",
+   "wrong": [
+    "it's"
+   ],
+   "rule": "The Netherlands 의 소유를 나타내는 소유격 its 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 23,
+   "text": "higher",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "higher",
+   "wrong": [
+    "highest"
+   ],
+   "rule": "than 과 짝을 이루어 두 나라를 견주는 비교급이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 81,
+   "text": "whereas",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "whereas",
+   "wrong": [
+    "despite"
+   ],
+   "rule": "두 절을 맞세워 잇는 접속사 whereas 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 48,
+   "text": "was",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "was",
+   "wrong": [
+    "were"
+   ],
+   "rule": "주어의 머리 명사 Germany’s online share 가 단수라서 was 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 80,
+   "text": "that",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "that",
+   "wrong": [
+    "those"
+   ],
+   "rule": "앞의 단수 명사 online share of retail trade 를 되풀이하지 않고 that 으로 받는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 45,
+   "text": "lowest",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "lowest",
+   "wrong": [
+    "lower"
+   ],
+   "rule": "Among the five countries 와 함께 쓰는 최상급이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 6,
+   "pos": 84,
+   "text": "both",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "both",
+   "wrong": [
+    "either"
+   ],
+   "rule": "both A and B 로 두 해를 함께 말한다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "online",
+   "sent": 1,
+   "ko": "온라인의",
+   "gloss": "온라인의",
+   "syn": [
+    "internet-based"
+   ],
+   "ant": [
+    "offline"
+   ]
+  },
+  {
+   "text": "share",
+   "sent": 1,
+   "ko": "(전체 가운데) 비율, 몫",
+   "gloss": "(전체 가운데) 비율",
+   "syn": [
+    "portion"
+   ],
+   "ant": []
+  },
+  {
+   "text": "retail trade",
+   "sent": 1,
+   "ko": "소매 거래",
+   "gloss": "소매 거래",
+   "syn": [
+    "retail sales"
+   ],
+   "ant": [
+    "wholesale trade"
+   ]
+  },
+  {
+   "text": "selected",
+   "sent": 1,
+   "ko": "고르다, 선택하다",
+   "gloss": "고르다",
+   "syn": [
+    "choose"
+   ],
+   "ant": []
+  },
+  {
+   "text": "recorded",
+   "sent": 2,
+   "ko": "기록하다",
+   "gloss": "기록하다",
+   "syn": [
+    "register"
+   ],
+   "ant": []
+  },
+  {
+   "text": "highest",
+   "sent": 2,
+   "ko": "가장 높은",
+   "gloss": "가장 높은",
+   "syn": [
+    "greatest"
+   ],
+   "ant": [
+    "lowest"
+   ]
+  },
+  {
+   "text": "reaching",
+   "sent": 2,
+   "ko": "(수치에) 이르다",
+   "gloss": "(수치에) 이르다",
+   "syn": [
+    "hit"
+   ],
+   "ant": []
+  },
+  {
+   "text": "largest",
+   "sent": 3,
+   "ko": "가장 큰",
+   "gloss": "가장 큰",
+   "syn": [
+    "biggest"
+   ],
+   "ant": [
+    "smallest"
+   ]
+  },
+  {
+   "text": "increase",
+   "sent": 3,
+   "ko": "증가",
+   "gloss": "증가",
+   "syn": [
+    "rise"
+   ],
+   "ant": [
+    "decrease"
+   ]
+  },
+  {
+   "text": "jump",
+   "sent": 3,
+   "ko": "급증, 급등",
+   "gloss": "급증",
+   "syn": [
+    "leap"
+   ],
+   "ant": [
+    "drop"
+   ]
+  },
+  {
+   "text": "percentage points",
+   "sent": 3,
+   "ko": "퍼센트포인트(%p)",
+   "gloss": "퍼센트포인트(%p)",
+   "syn": [
+    "point"
+   ],
+   "ant": []
+  },
+  {
+   "text": "higher",
+   "sent": 4,
+   "ko": "더 높은",
+   "gloss": "더 높은",
+   "syn": [
+    "greater"
+   ],
+   "ant": [
+    "lower"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "The graph above "
+   },
+   {
+    "t": "shows",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "online",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "share",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "retail trade",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " in "
+   },
+   {
+    "t": "selected",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "selected",
+      "c": "v",
+      "id": "v3"
+     }
+    ]
+   },
+   {
+    "t": " European countries in 2018 and 2019."
+   }
+  ],
+  [
+   {
+    "t": "In 2019, the United Kingdom "
+   },
+   {
+    "t": "recorded",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "highest",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "highest",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " online share of retail trade, "
+   },
+   {
+    "t": "reaching",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "reaching",
+      "c": "v",
+      "id": "v6"
+     }
+    ]
+   },
+   {
+    "t": " 19.2 percent."
+   }
+  ],
+  [
+   {
+    "t": "The Netherlands showed the "
+   },
+   {
+    "t": "largest",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "largest",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "increase",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " in "
+   },
+   {
+    "t": "its",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " online share of retail trade among the countries from 2018 to 2019, with a "
+   },
+   {
+    "t": "jump",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " of over 6 "
+   },
+   {
+    "t": "percentage points",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "In 2018, Germany had a "
+   },
+   {
+    "t": "higher",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "higher",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " online share of retail trade than the Netherlands, "
+   },
+   {
+    "t": "whereas",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": ", in 2019, Germany fell behind the Netherlands."
+   }
+  ],
+  [
+   {
+    "t": "In 2018, Germany’s online share of retail trade "
+   },
+   {
+    "t": "was",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " over four times higher than "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " of Spain."
+   }
+  ],
+  [
+   {
+    "t": "Among the five countries, Italy recorded the "
+   },
+   {
+    "t": "lowest",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " online share of retail trade in "
+   },
+   {
+    "t": "both",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " 2018 and 2019."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "도입",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "유럽 다섯 나라의 2018 · 2019년 소매 거래 온라인 비율 도표",
+    "star": false
+   },
+   {
+    "label": "최고 · 최대 증가",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "영국이 2019년 최고, 네덜란드가 가장 크게 늘었다",
+    "star": false
+   },
+   {
+    "label": "두 나라 견주기",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "독일을 네덜란드 · 스페인과 견준다",
+    "star": false
+   },
+   {
+    "label": "최저값",
+    "sents": [
+     6,
+     6
+    ],
+    "text": "이탈리아가 두 해 모두 가장 낮다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "In 2019, the United Kingdom",
+   "In 2018, Germany",
+   "Among the five countries"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "35806f361a81b5cc",
+  "original_marks.json": "4faf9aa5e92e93f6",
+  "passage_src.json": "8536911ef3b6de20",
+  "study_x.json": "bab0c6e0541eb7c8",
+  "topic_items.json": "529df1891c9966cf",
+  "workbook_src.json": "14c28c17ff55565d"
+ }
+}

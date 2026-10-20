@@ -1,0 +1,727 @@
+{
+ "meta": {
+  "id": "H1_2506_40",
+  "grade": "고1",
+  "year": 2025,
+  "month": 6,
+  "item_no": 40,
+  "orig_type": "요약문",
+  "words": 183,
+  "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
+  "topic_ko": "의심에는 노력이 더 들기 때문에 정보를 일단 참으로 받아들이는 인간의 경향",
+  "title_ko": "일단 믿고 보는 우리 머리의 기본값",
+  "title_en": "Why We Believe First and Doubt Later",
+  "gist_ko": "사람은 의사소통할 때 상대의 말을 참이라고 여기는 진실 편향이 있는데, 의심하는 데에는 정신적 노력이 더 들고 인간은 필요 이상의 노력을 들이지 않으므로 온라인의 가짜 정보도 처음에는 믿게 된다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "There is a natural assumption of truth, or a truth bias when humans communicate with one another.",
+   "ko": "사람들이 서로 의사소통할 때에는 말을 참이라고 여기는 자연스러운 가정, 곧 진실 편향이 작동한다."
+  },
+  {
+   "n": 2,
+   "en": "In other words, when we’re listening to others or reading their words, our automatic assumption is that the other person is telling the truth.",
+   "ko": "다시 말해, 다른 사람의 말을 듣거나 그 사람이 쓴 글을 읽을 때 우리가 저절로 하는 가정은 상대가 사실을 말하고 있다는 것이다."
+  },
+  {
+   "n": 3,
+   "en": "This usually works out fine.",
+   "ko": "이 가정은 대개 별 탈 없이 들어맞는다."
+  },
+  {
+   "n": 4,
+   "en": "If you ask someone where the restroom is located or if it’s raining outside, you can safely assume that most people will not lie in their responses.",
+   "ko": "화장실이 어디에 있는지, 또는 바깥에 비가 오는지 누군가에게 물어보면, 대부분의 사람이 대답하면서 거짓말을 하지 않으리라고 마음 놓고 여겨도 된다."
+  },
+  {
+   "n": 5,
+   "en": "Imagine how difficult it would be to converse with someone if you assumed that everything they were telling you was false!",
+   "ko": "상대가 하는 말이 하나같이 거짓이라고 가정한다면 그 사람과 대화하기가 얼마나 힘들지 떠올려 보라!"
+  },
+  {
+   "n": 6,
+   "en": "Indeed, questioning the truth of a statement and then choosing not to believe it requires additional mental steps.",
+   "ko": "실제로 어떤 말이 참인지 의심한 뒤 그 말을 믿지 않기로 하려면 머릿속에서 단계를 더 거쳐야 한다."
+  },
+  {
+   "n": 7,
+   "en": "For the most part, humans are “cognitive misers,” which means we typically don’t expend more mental effort than seems necessary in a given situation.",
+   "ko": "인간은 대체로 '인지적 구두쇠'인데, 이는 우리가 보통 주어진 상황에서 필요해 보이는 정도를 넘는 정신적 노력은 들이지 않는다는 뜻이다."
+  },
+  {
+   "n": 8,
+   "en": "It makes sense then, that when we see something online, even if it is fake, our default is to believe it, at least at first.",
+   "ko": "그러니 온라인에서 무엇인가를 접할 때 그것이 가짜일지라도, 적어도 처음에는 일단 믿는 쪽이 우리의 기본값이라는 것은 이치에 맞는다."
+  }
+ ],
+ "topic": 1,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "a truth bias"
+  },
+  {
+   "sent": 2,
+   "text": "our automatic assumption is that the other person is telling the truth"
+  },
+  {
+   "sent": 5,
+   "text": "how difficult it would be to converse with someone"
+  },
+  {
+   "sent": 6,
+   "text": "requires additional mental steps"
+  },
+  {
+   "sent": 7,
+   "text": "don’t expend more mental effort than seems necessary"
+  },
+  {
+   "sent": 8,
+   "text": "our default is to believe it"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "In other words",
+   "rel": "환언"
+  },
+  {
+   "sent": 6,
+   "text": "Indeed",
+   "rel": "첨가"
+  },
+  {
+   "sent": 8,
+   "text": "then",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "our automatic assumption",
+   "ko": "상대가 사실을 말한다고 저절로 하는 가정"
+  },
+  {
+   "sent": 5,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "someone",
+   "ko": "대화하는 상대"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 6,
+   "text": "is",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is",
+   "wrong": [
+    "are"
+   ],
+   "rule": "There 뒤 진짜 주어 a natural assumption 이 단수라 is 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 99,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "is 뒤에서 보어가 되는 명사절을 이끌고 뒤 절이 완전하므로 that 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 4,
+   "pos": 38,
+   "text": "is located",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is located",
+   "wrong": [
+    "locates"
+   ],
+   "rule": "화장실은 놓이는 쪽이라 수동태 is located 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 125,
+   "text": "lie",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "lie",
+   "wrong": [
+    "lying",
+    "lies"
+   ],
+   "rule": "조동사 will not 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 5,
+   "pos": 22,
+   "text": "it",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "it",
+   "wrong": [
+    "that"
+   ],
+   "rule": "뒤의 to converse with someone 을 대신하는 가주어 it 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 66,
+   "text": "assumed",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "assumed",
+   "wrong": [
+    "assume"
+   ],
+   "rule": "주절이 would be 인 가정법 과거라 if 절에는 과거형 assumed 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 6,
+   "pos": 8,
+   "text": "questioning",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "questioning",
+   "wrong": [
+    "question"
+   ],
+   "rule": "문장의 주어가 되므로 동명사 questioning 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 67,
+   "text": "to believe",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to believe",
+   "wrong": [
+    "believing"
+   ],
+   "rule": "choose 는 to부정사를 목적어로 쓰고, not 은 to 앞에 둔다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 7,
+   "pos": 50,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "that"
+   ],
+   "rule": "쉼표 뒤에서 앞 절 전체를 받는 계속적 용법이라 which 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 8,
+   "pos": 91,
+   "text": "to believe",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to believe",
+   "wrong": [
+    "believes"
+   ],
+   "rule": "be 동사 is 의 보어로 to부정사 to believe 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "assumption",
+   "sent": 1,
+   "ko": "가정, 추정",
+   "gloss": "가정",
+   "syn": [
+    "supposition"
+   ],
+   "ant": []
+  },
+  {
+   "text": "truth",
+   "sent": 1,
+   "ko": "참, 진실",
+   "gloss": "참",
+   "syn": [
+    "fact"
+   ],
+   "ant": [
+    "falsehood"
+   ]
+  },
+  {
+   "text": "bias",
+   "sent": 1,
+   "ko": "편향, 치우침",
+   "gloss": "편향",
+   "syn": [
+    "leaning"
+   ],
+   "ant": [
+    "neutrality"
+   ]
+  },
+  {
+   "text": "automatic",
+   "sent": 2,
+   "ko": "저절로 되는, 자동적인",
+   "gloss": "저절로 되는",
+   "syn": [
+    "instinctive"
+   ],
+   "ant": [
+    "deliberate"
+   ]
+  },
+  {
+   "text": "assume",
+   "sent": 4,
+   "ko": "(사실이라고) 여기다, 가정하다",
+   "gloss": "(사실이라고) 여기다",
+   "syn": [
+    "suppose"
+   ],
+   "ant": [
+    "disbelieve"
+   ]
+  },
+  {
+   "text": "converse",
+   "sent": 5,
+   "ko": "대화하다",
+   "gloss": "대화하다",
+   "syn": [
+    "talk"
+   ],
+   "ant": [
+    "keep silent"
+   ]
+  },
+  {
+   "text": "false",
+   "sent": 5,
+   "ko": "거짓의, 틀린",
+   "gloss": "거짓의",
+   "syn": [
+    "untrue"
+   ],
+   "ant": [
+    "true"
+   ]
+  },
+  {
+   "text": "questioning",
+   "sent": 6,
+   "ko": "의심하다, 문제 삼다",
+   "gloss": "의심하다",
+   "syn": [
+    "challenge"
+   ],
+   "ant": [
+    "accept"
+   ]
+  },
+  {
+   "text": "additional",
+   "sent": 6,
+   "ko": "추가의, 더해지는",
+   "gloss": "추가의",
+   "syn": [
+    "extra"
+   ],
+   "ant": []
+  },
+  {
+   "text": "mental",
+   "sent": 6,
+   "ko": "정신적인, 머릿속의",
+   "gloss": "정신적인",
+   "syn": [
+    "of the mind"
+   ],
+   "ant": [
+    "physical"
+   ]
+  },
+  {
+   "text": "cognitive",
+   "sent": 7,
+   "ko": "인지의, 인식과 관련된",
+   "gloss": "인지의",
+   "syn": [
+    "thinking-related"
+   ],
+   "ant": []
+  },
+  {
+   "text": "misers",
+   "sent": 7,
+   "ko": "구두쇠",
+   "gloss": "구두쇠",
+   "syn": [
+    "penny-pincher"
+   ],
+   "ant": [
+    "spendthrift"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "There "
+   },
+   {
+    "t": "is",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " a natural "
+   },
+   {
+    "t": "assumption",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "truth",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": ", or a truth "
+   },
+   {
+    "t": "bias",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " when humans communicate with one another."
+   }
+  ],
+  [
+   {
+    "t": "In other words",
+    "c": "c",
+    "id": "c0",
+    "lab": "환언"
+   },
+   {
+    "t": ", when we’re listening to others or reading their words, our "
+   },
+   {
+    "t": "automatic",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " assumption is "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " the other person is telling the truth."
+   }
+  ],
+  [
+   {
+    "t": "This usually works out fine."
+   }
+  ],
+  [
+   {
+    "t": "If you ask someone where the restroom "
+   },
+   {
+    "t": "is located",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " or if it’s raining outside, you can safely "
+   },
+   {
+    "t": "assume",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " that most people will not "
+   },
+   {
+    "t": "lie",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " in their responses."
+   }
+  ],
+  [
+   {
+    "t": "Imagine how difficult "
+   },
+   {
+    "t": "it",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " would be to "
+   },
+   {
+    "t": "converse",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " with someone if you "
+   },
+   {
+    "t": "assumed",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " that everything they were telling you was "
+   },
+   {
+    "t": "false",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": "!"
+   }
+  ],
+  [
+   {
+    "t": "Indeed",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "questioning",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "questioning",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " the truth of a statement and then choosing not "
+   },
+   {
+    "t": "to believe",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " it requires "
+   },
+   {
+    "t": "additional",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "mental",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " steps."
+   }
+  ],
+  [
+   {
+    "t": "For the most part, humans are “"
+   },
+   {
+    "t": "cognitive",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "misers",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": ",” "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " means we typically don’t expend more mental effort than seems necessary in a given situation."
+   }
+  ],
+  [
+   {
+    "t": "It makes sense "
+   },
+   {
+    "t": "then",
+    "c": "c",
+    "id": "c2",
+    "lab": "결과"
+   },
+   {
+    "t": ", that when we see something online, even if it is fake, our default is "
+   },
+   {
+    "t": "to believe",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " it, at least at first."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "개념",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "사람은 상대의 말을 참이라고 여기는 진실 편향이 있다",
+    "star": false
+   },
+   {
+    "label": "예시",
+    "sents": [
+     3,
+     5
+    ],
+    "text": "대개 문제없고, 모두 의심하면 대화가 힘들다",
+    "star": false
+   },
+   {
+    "label": "까닭",
+    "sents": [
+     6,
+     7
+    ],
+    "text": "의심에는 노력이 더 들고, 인간은 노력을 아낀다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     8,
+     8
+    ],
+    "text": "온라인의 가짜 정보도 처음에는 믿는다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "This usually works out fine",
+   "Indeed",
+   "It makes sense then"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "514fb991228e51d2",
+  "original_marks.json": "bf1491c7a0772531",
+  "passage_src.json": "590b205bb299eccb",
+  "study_x.json": "1f87b5b8cbb3a157",
+  "topic_items.json": "809020a61d98dee6",
+  "workbook_src.json": "971735f0777ac0e5"
+ }
+}
