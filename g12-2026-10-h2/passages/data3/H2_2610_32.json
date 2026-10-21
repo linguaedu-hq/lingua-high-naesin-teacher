@@ -1,0 +1,789 @@
+{
+ "meta": {
+  "id": "H2_2610_32",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 32,
+  "orig_type": "빈칸",
+  "words": 135,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "정의가 소셜 네트워크가 아니라 법원에서 세워져야 하는 까닭",
+  "title_ko": "정의는 군중이 아니라 법원이 세운다",
+  "title_en": "Courts, Not Crowds, Should Deliver Justice",
+  "gist_ko": "대중문화는 법원 같은 전통 기관을 약하게 만들 수 있으므로, 민주적 법치 국가에서 정의는 소셜 네트워크의 여론이 아니라 법원에서 그 압력에 흔들리지 않게 세워야 한다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions.",
+   "ko": "대중문화를 사람들과 전통을 잇는 문화적 유대를 약하게 하는 힘으로 본다면, 그것은 사회 안의 중간 기관(예를 들어 가족이나 학교)을 약하게 만들어 그 역할을 줄이고 이 기관들이 하던 일과 겹친다."
+  },
+  {
+   "n": 2,
+   "en": "For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life.",
+   "ko": "예를 들어 법원은 전통적인 사회 기관이며, 공동체 생활이 정상적이고 조화롭게 돌아가는 데 중요하다."
+  },
+  {
+   "n": 3,
+   "en": "However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful.",
+   "ko": "그러나 매체를 거치고 정치색을 띤 어떤 과정에서 사람들이 사법 판단에 압력을 넣으려고 소셜 네트워크에 기대면, 이런 관행은 널리 퍼져 습관이 된 문화의 한 형태가 되는데, 이는 해롭다."
+  },
+  {
+   "n": 4,
+   "en": "Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks.",
+   "ko": "정의는 공공 광장에서 집행되어서는 안 되는데, 오늘날 그 광장은 가상의 공간, 곧 소셜 네트워크로 바뀌어 있다."
+  },
+  {
+   "n": 5,
+   "en": "In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.",
+   "ko": "민주적 법치 국가에서 재판하고 정의를 세우기에 마땅한 곳은 법원이고, 마땅한 방식은 대중의 압력에 흔들리지 않는 방식이다."
+  }
+ ],
+ "topic": 1,
+ "gist": 5,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "mass culture weakens the intermediary institutions in society"
+  },
+  {
+   "sent": 2,
+   "text": "courts are traditional social institutions"
+  },
+  {
+   "sent": 3,
+   "text": "when people turn to social networks to put pressure on judicial decisions"
+  },
+  {
+   "sent": 4,
+   "text": "Justice must not be done in the public square,"
+  },
+  {
+   "sent": 5,
+   "text": "the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure."
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "For example",
+   "rel": "예시"
+  },
+  {
+   "sent": 3,
+   "text": "However",
+   "rel": "역접"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 1,
+   "text": "these institutions",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the intermediary institutions",
+   "ko": "중간 기관(가족 · 학교)"
+  },
+  {
+   "sent": 3,
+   "text": "this practice",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "people turn to social networks to put pressure on judicial decisions",
+   "ko": "소셜 네트워크로 사법 판단에 압력을 넣는 일"
+  },
+  {
+   "sent": 4,
+   "text": "which",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "the public square",
+   "ko": "공공 광장"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 78,
+   "text": "unite",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "unite",
+   "wrong": [
+    "unites"
+   ],
+   "rule": "관계대명사 that 의 선행사 the cultural ties 가 복수라 unite 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 125,
+   "text": "weakens",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "weakens",
+   "wrong": [
+    "weaken"
+   ],
+   "rule": "주절의 주어 mass culture 가 단수라 weakens 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 207,
+   "text": "diminishing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "diminishing",
+   "wrong": [
+    "diminished"
+   ],
+   "rule": "주절의 주어 mass culture 가 역할을 줄이는 쪽이라 현재분사로 시작하는 분사구문 diminishing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 1,
+   "pos": 230,
+   "text": "and overlapping",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "and overlapping",
+   "wrong": [
+    "and overlaps"
+   ],
+   "rule": "and 가 분사 diminishing 과 overlapping 을 이어 분사구문 둘이 나란히 놓인다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 2,
+   "pos": 20,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어 courts 가 복수라 are 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 2,
+   "pos": 60,
+   "text": "important",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "important",
+   "wrong": [
+    "importantly"
+   ],
+   "rule": "and 가 보어 traditional social institutions 와 important 를 잇는 2형식 보어라 형용사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 3,
+   "pos": 45,
+   "text": "to put",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to put",
+   "wrong": [
+    "put"
+   ],
+   "rule": "소셜 네트워크에 기대는 까닭(판결에 압력을 넣기 위해)을 밝히므로 to부정사 to put 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 3,
+   "pos": 144,
+   "text": "is popularized",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is popularized",
+   "wrong": [
+    "popularizes"
+   ],
+   "rule": "관행이 널리 퍼지게 되는 쪽이라 수동태 is popularized 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 3,
+   "pos": 163,
+   "text": "becomes",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "becomes",
+   "wrong": [
+    "become"
+   ],
+   "rule": "and 가 is popularized 와 becomes 를 잇고 주어 this practice 가 단수라 becomes 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 3,
+   "pos": 199,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "that"
+   ],
+   "rule": "콤마 뒤 계속적 용법에는 that 을 쓸 수 없어 which 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 4,
+   "pos": 17,
+   "text": "be done",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be done",
+   "wrong": [
+    "do"
+   ],
+   "rule": "정의가 집행되는 쪽이라 must not 뒤에 수동태 be done 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 4,
+   "pos": 47,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "where"
+   ],
+   "rule": "뒤 절에 주어가 빠져 있으므로 관계부사 where 가 아니라 관계대명사 which 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g13",
+   "sent": 4,
+   "pos": 59,
+   "text": "is converted",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is converted",
+   "wrong": [
+    "converts"
+   ],
+   "rule": "광장이 가상 공간으로 바뀌는 쪽이라 수동태 is converted 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 5,
+   "pos": 52,
+   "text": "to judge",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to judge",
+   "wrong": [
+    "judging"
+   ],
+   "rule": "명사 the appropriate place 를 뒤에서 꾸미는 to부정사 to judge 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 5,
+   "pos": 78,
+   "text": "is the court",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is the court",
+   "wrong": [
+    "are the court"
+   ],
+   "rule": "주어의 중심 낱말 place 가 단수라 is 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "weakening",
+   "sent": 1,
+   "ko": "약하게 하다",
+   "gloss": "약하게 하다",
+   "syn": [
+    "undermine"
+   ],
+   "ant": [
+    "strengthen"
+   ]
+  },
+  {
+   "text": "unite",
+   "sent": 1,
+   "ko": "결합하다, 묶다",
+   "gloss": "결합하다",
+   "syn": [
+    "join"
+   ],
+   "ant": [
+    "divide"
+   ]
+  },
+  {
+   "text": "intermediary",
+   "sent": 1,
+   "ko": "중간의, 중개하는",
+   "gloss": "중간의",
+   "syn": [
+    "middle"
+   ],
+   "ant": []
+  },
+  {
+   "text": "diminishing",
+   "sent": 1,
+   "ko": "줄이다, 약화하다",
+   "gloss": "줄이다",
+   "syn": [
+    "reduce"
+   ],
+   "ant": [
+    "increase"
+   ]
+  },
+  {
+   "text": "traditional",
+   "sent": 2,
+   "ko": "전통적인",
+   "gloss": "전통적인",
+   "syn": [
+    "long-established"
+   ],
+   "ant": [
+    "modern"
+   ]
+  },
+  {
+   "text": "harmonious",
+   "sent": 2,
+   "ko": "조화로운",
+   "gloss": "조화로운",
+   "syn": [
+    "peaceful"
+   ],
+   "ant": [
+    "chaotic"
+   ]
+  },
+  {
+   "text": "collective",
+   "sent": 2,
+   "ko": "공동의, 집단의",
+   "gloss": "공동의",
+   "syn": [
+    "shared"
+   ],
+   "ant": [
+    "individual"
+   ]
+  },
+  {
+   "text": "judicial",
+   "sent": 3,
+   "ko": "사법의, 재판의",
+   "gloss": "사법의",
+   "syn": [
+    "legal"
+   ],
+   "ant": []
+  },
+  {
+   "text": "politicized",
+   "sent": 3,
+   "ko": "정치색을 띤",
+   "gloss": "정치색을 띤",
+   "syn": [
+    "political"
+   ],
+   "ant": [
+    "neutral"
+   ]
+  },
+  {
+   "text": "habitual",
+   "sent": 3,
+   "ko": "습관이 된",
+   "gloss": "습관이 된",
+   "syn": [
+    "usual"
+   ],
+   "ant": [
+    "occasional"
+   ]
+  },
+  {
+   "text": "harmful",
+   "sent": 3,
+   "ko": "해로운",
+   "gloss": "해로운",
+   "syn": [
+    "damaging"
+   ],
+   "ant": [
+    "harmless"
+   ]
+  },
+  {
+   "text": "Justice",
+   "sent": 4,
+   "ko": "정의, 재판",
+   "gloss": "정의",
+   "syn": [
+    "fairness"
+   ],
+   "ant": [
+    "injustice"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "If we understand mass culture as a "
+   },
+   {
+    "t": "weakening",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " factor of the cultural ties that "
+   },
+   {
+    "t": "unite",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "unite",
+      "c": "v",
+      "id": "v1"
+     }
+    ]
+   },
+   {
+    "t": " people to their traditions, mass culture "
+   },
+   {
+    "t": "weakens",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "intermediary",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " institutions in society (e.g. the family or the school), "
+   },
+   {
+    "t": "diminishing",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "diminishing",
+      "c": "v",
+      "id": "v3"
+     }
+    ]
+   },
+   {
+    "t": " their role "
+   },
+   {
+    "t": "and overlapping",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " these institutions."
+   }
+  ],
+  [
+   {
+    "t": "For example",
+    "c": "c",
+    "id": "c0",
+    "lab": "예시"
+   },
+   {
+    "t": ", courts "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "traditional",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " social institutions and "
+   },
+   {
+    "t": "important",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " for the normal and "
+   },
+   {
+    "t": "harmonious",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " functioning of "
+   },
+   {
+    "t": "collective",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " life."
+   }
+  ],
+  [
+   {
+    "t": "However",
+    "c": "c",
+    "id": "c1",
+    "lab": "역접"
+   },
+   {
+    "t": ", when people turn to social networks "
+   },
+   {
+    "t": "to put",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " pressure on "
+   },
+   {
+    "t": "judicial",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " decisions in certain mediated and "
+   },
+   {
+    "t": "politicized",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " processes, this practice "
+   },
+   {
+    "t": "is popularized",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " and "
+   },
+   {
+    "t": "becomes",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " a "
+   },
+   {
+    "t": "habitual",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " form of culture, "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " is "
+   },
+   {
+    "t": "harmful",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Justice",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " must not "
+   },
+   {
+    "t": "be done",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " in the public square, "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " today "
+   },
+   {
+    "t": "is converted",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " into a virtual dimension, the social networks."
+   }
+  ],
+  [
+   {
+    "t": "In a democratic state of law, the appropriate place "
+   },
+   {
+    "t": "to judge",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " and make justice "
+   },
+   {
+    "t": "is the court",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " and in a way that is immune to popular pressure."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "일반 원리",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "대중문화 → 중간 기관(가족 · 학교)의 역할을 약하게 함",
+    "star": false
+   },
+   {
+    "label": "예와 문제",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "법원 = 전통 기관 / 소셜 네트워크로 재판에 압력 → 해로운 문화",
+    "star": false
+   },
+   {
+    "label": "주장",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "정의는 가상 광장이 아닌 법원에서, 압력에 흔들리지 않게",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "For example,",
+   "Justice must not be"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "d07339a731367e42",
+  "original_marks.json": "d06afb3c5811a641",
+  "passage_src.json": "a5250f3fdd023cbd",
+  "study_x.json": "5eda93fd69a52c06",
+  "topic_items.json": "bb18b79f7dff7cee",
+  "workbook_src.json": "f1b9250685e58c93"
+ }
+}

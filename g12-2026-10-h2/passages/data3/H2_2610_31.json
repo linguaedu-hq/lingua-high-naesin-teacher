@@ -1,0 +1,773 @@
+{
+ "meta": {
+  "id": "H2_2610_31",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 31,
+  "orig_type": "빈칸",
+  "words": 150,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "자동으로 돌아가는 행동이 인간 설계의 결함이 아니라 핵심 기능인 까닭",
+  "title_ko": "자동으로 돌아가는 행동은 결함이 아니라 선물이다",
+  "title_en": "Autopilot Is a Gift, Not a Flaw",
+  "gist_ko": "우리 행동 대부분이 오래전에 정해진 대로 자동으로 돌아가는 것은 결함이 아니라, 의식을 꼭 필요한 문제에 쓰게 해 복잡한 삶을 가능하게 하는 핵심 기능이다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since.",
+   "ko": "여든 해를 산 사람의 삶은 날수로 대략 2만 9천 일인데, 그 날들을 채운 행동의 압도적 다수는 미리 정해진 설정에 따라 돌아가고, 그 설정의 대부분은 수십 년 전에 정해진 뒤로 거의 점검된 적이 없다."
+  },
+  {
+   "n": 2,
+   "en": "This need not be a hopeless thought.",
+   "ko": "그렇다고 이를 절망적으로 받아들일 까닭은 없다."
+  },
+  {
+   "n": 3,
+   "en": "In one light it is a triumph of engineering.",
+   "ko": "어떤 관점에서 보면 그것은 공학의 승리이다."
+  },
+  {
+   "n": 4,
+   "en": "If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn’t.",
+   "ko": "발을 내디딜 때마다, 포크를 쥘 때마다, 말 한마디를 할 때마다 의식적으로 결정해야 한다면 너는 결코 침대에서 빠져나오지 못할 것이고, 따져 보며 생각하는 마음은 삶 전체를 실시간으로 꾸려 가기에는 너무 느리고 비용도 너무 크며, 그렇게 하려 한 생물은 그렇게 하지 않은 생물에게 경쟁에서 밀려날 것이다."
+  },
+  {
+   "n": 5,
+   "en": "The automation is precisely what frees the captain to come up on deck for the few problems that actually require him.",
+   "ko": "자동화가 있기에 선장은 정말로 자신이 나서야 하는 소수의 문제를 맡으러 갑판으로 나올 수 있다."
+  },
+  {
+   "n": 6,
+   "en": "The default is not a flaw in the human design.",
+   "ko": "기본값은 사람이라는 설계에 생긴 흠이 아니다."
+  },
+  {
+   "n": 7,
+   "en": "It is arguably the central feature, the thing that makes a complex life affordable at all.",
+   "ko": "그것은 어쩌면 핵심 기능, 곧 복잡한 삶을 애초에 감당할 수 있게 해 주는 것이라 할 수 있다."
+  }
+ ],
+ "topic": 6,
+ "gist": 7,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "the overwhelming majority of the behaviour packed into them runs on settings laid down,"
+  },
+  {
+   "sent": 3,
+   "text": "it is a triumph of engineering."
+  },
+  {
+   "sent": 4,
+   "text": "the deliberate mind is far too slow and too costly to run a whole life in real time,"
+  },
+  {
+   "sent": 5,
+   "text": "The automation is precisely what frees the captain to come up on deck"
+  },
+  {
+   "sent": 6,
+   "text": "The default is not a flaw in the human design."
+  },
+  {
+   "sent": 7,
+   "text": "the central feature, the thing that makes a complex life affordable at all."
+  }
+ ],
+ "con": [],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the overwhelming majority of the behaviour packed into them runs on settings laid down,",
+   "ko": "행동 대부분이 오래전에 정해진 설정대로 돌아간다는 생각"
+  },
+  {
+   "sent": 3,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "settings",
+   "ko": "행동이 미리 정해진 설정대로 돌아가는 방식"
+  },
+  {
+   "sent": 5,
+   "text": "him",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "the captain",
+   "ko": "선장(따져 보며 생각하는 마음)"
+  },
+  {
+   "sent": 7,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "The default",
+   "ko": "기본 설정"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 9,
+   "text": "who lives",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who lives",
+   "wrong": [
+    "which lives"
+   ],
+   "rule": "선행사 A person 이 사람이라 주격 관계대명사 who 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 117,
+   "text": "packed",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "packed",
+   "wrong": [
+    "packing"
+   ],
+   "rule": "행동이 그 날들에 담기는 쪽이라 과거분사 packed 가 behaviour 를 뒤에서 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 134,
+   "text": "runs",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "runs",
+   "wrong": [
+    "run"
+   ],
+   "rule": "주어 the overwhelming majority of the behaviour 에서 behaviour 가 셀 수 없는 명사라 단수 동사 runs 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 1,
+   "pos": 151,
+   "text": "laid down",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "laid down",
+   "wrong": [
+    "laying down"
+   ],
+   "rule": "설정이 정해지는 쪽이라 과거분사 laid down 이 settings 를 뒤에서 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 2,
+   "pos": 5,
+   "text": "need not be",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "need not be",
+   "wrong": [
+    "need not to be"
+   ],
+   "rule": "조동사로 쓴 need 의 부정 need not 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 14,
+   "text": "consciously",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "consciously",
+   "wrong": [
+    "conscious"
+   ],
+   "rule": "동사 decide 를 꾸미므로 부사 consciously 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 88,
+   "text": "would never make",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "would never make",
+   "wrong": [
+    "will never make"
+   ],
+   "rule": "지금 사실과 반대되는 가정이라 if 절에 과거형 had, 주절에 would + 동사원형을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 160,
+   "text": "too costly to run",
+   "cat": "관용 구문(too~to · so~that 등)",
+   "chip": "관용 구문(too~to · so~that 등)",
+   "right": "too costly to run",
+   "wrong": [
+    "too costly running"
+   ],
+   "rule": "too + 형용사 + to부정사는 '~하기에는 너무 …하다'라는 뜻이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 4,
+   "pos": 233,
+   "text": "would be outcompeted",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "would be outcompeted",
+   "wrong": [
+    "would outcompete"
+   ],
+   "rule": "그렇게 하려 한 생물이 경쟁에서 밀리는 쪽이라 수동태 be outcompeted 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 28,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "that"
+   ],
+   "rule": "선행사가 없고 frees 의 주어가 빠진 절을 이끌므로 관계대명사 what 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g11",
+   "sent": 5,
+   "pos": 51,
+   "text": "to come up",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "to come up",
+   "wrong": [
+    "coming up"
+   ],
+   "rule": "free + 목적어 + to부정사 꼴로 '목적어가 ~할 수 있게 해 주다'라는 뜻이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 5,
+   "pos": 105,
+   "text": "require",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "require",
+   "wrong": [
+    "requires"
+   ],
+   "rule": "관계대명사 that 의 선행사 problems 가 복수라 require 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 51,
+   "text": "makes a complex life affordable",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "makes a complex life affordable",
+   "wrong": [
+    "makes a complex life affordably"
+   ],
+   "rule": "make + 목적어 + 형용사 보어 꼴이라 형용사 affordable 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "overwhelming",
+   "sent": 1,
+   "ko": "압도적인",
+   "gloss": "압도적인",
+   "syn": [
+    "huge"
+   ],
+   "ant": [
+    "slight"
+   ]
+  },
+  {
+   "text": "majority",
+   "sent": 1,
+   "ko": "대다수",
+   "gloss": "대다수",
+   "syn": [
+    "most"
+   ],
+   "ant": [
+    "minority"
+   ]
+  },
+  {
+   "text": "settings",
+   "sent": 1,
+   "ko": "설정",
+   "gloss": "설정",
+   "syn": [
+    "configuration"
+   ],
+   "ant": []
+  },
+  {
+   "text": "rarely",
+   "sent": 1,
+   "ko": "거의 ~하지 않는",
+   "gloss": "거의 ~하지 않는",
+   "syn": [
+    "seldom"
+   ],
+   "ant": [
+    "often"
+   ]
+  },
+  {
+   "text": "hopeless",
+   "sent": 2,
+   "ko": "절망적인",
+   "gloss": "절망적인",
+   "syn": [
+    "desperate"
+   ],
+   "ant": [
+    "hopeful"
+   ]
+  },
+  {
+   "text": "triumph",
+   "sent": 3,
+   "ko": "승리, 큰 성공",
+   "gloss": "승리",
+   "syn": [
+    "victory"
+   ],
+   "ant": [
+    "failure"
+   ]
+  },
+  {
+   "text": "consciously",
+   "sent": 4,
+   "ko": "의식적으로",
+   "gloss": "의식적으로",
+   "syn": [
+    "deliberately"
+   ],
+   "ant": [
+    "unconsciously"
+   ]
+  },
+  {
+   "text": "deliberate",
+   "sent": 4,
+   "ko": "신중히 따지는, 숙고하는",
+   "gloss": "신중히 따지는",
+   "syn": [
+    "careful"
+   ],
+   "ant": [
+    "automatic"
+   ]
+  },
+  {
+   "text": "costly",
+   "sent": 4,
+   "ko": "비용이 많이 드는",
+   "gloss": "비용이 많이 드는",
+   "syn": [
+    "expensive"
+   ],
+   "ant": [
+    "cheap"
+   ]
+  },
+  {
+   "text": "outcompeted",
+   "sent": 4,
+   "ko": "경쟁에서 이기다",
+   "gloss": "경쟁에서 이기다",
+   "syn": [
+    "beat"
+   ],
+   "ant": [
+    "lose to"
+   ]
+  },
+  {
+   "text": "automation",
+   "sent": 5,
+   "ko": "자동화",
+   "gloss": "자동화",
+   "syn": [
+    "autopilot"
+   ],
+   "ant": []
+  },
+  {
+   "text": "frees",
+   "sent": 5,
+   "ko": "자유롭게 하다, 풀어 주다",
+   "gloss": "자유롭게 하다",
+   "syn": [
+    "release"
+   ],
+   "ant": [
+    "trap"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "A person "
+   },
+   {
+    "t": "who lives",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " eighty years lives some twenty-nine thousand days, and the "
+   },
+   {
+    "t": "overwhelming",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "majority",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " of the behaviour "
+   },
+   {
+    "t": "packed",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " into them "
+   },
+   {
+    "t": "runs",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " on "
+   },
+   {
+    "t": "settings",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "laid down",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": ", most of them, decades earlier and "
+   },
+   {
+    "t": "rarely",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " inspected since."
+   }
+  ],
+  [
+   {
+    "t": "This "
+   },
+   {
+    "t": "need not be",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " a "
+   },
+   {
+    "t": "hopeless",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " thought."
+   }
+  ],
+  [
+   {
+    "t": "In one light it is a "
+   },
+   {
+    "t": "triumph",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " of engineering."
+   }
+  ],
+  [
+   {
+    "t": "If you had to "
+   },
+   {
+    "t": "consciously",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "consciously",
+      "c": "v",
+      "id": "v6"
+     }
+    ]
+   },
+   {
+    "t": " decide every footstep and every fork-grip and every word, you "
+   },
+   {
+    "t": "would never make",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " it out of bed; the "
+   },
+   {
+    "t": "deliberate",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " mind is far too slow and "
+   },
+   {
+    "t": "too costly to run",
+    "c": "g",
+    "id": "g8",
+    "kids": [
+     {
+      "t": "too "
+     },
+     {
+      "t": "costly",
+      "c": "v",
+      "id": "v8"
+     },
+     {
+      "t": " to run"
+     }
+    ]
+   },
+   {
+    "t": " a whole life in real time, and any creature that tried "
+   },
+   {
+    "t": "would be outcompeted",
+    "c": "g",
+    "id": "g9",
+    "kids": [
+     {
+      "t": "would be "
+     },
+     {
+      "t": "outcompeted",
+      "c": "v",
+      "id": "v9"
+     }
+    ]
+   },
+   {
+    "t": " by a creature that didn’t."
+   }
+  ],
+  [
+   {
+    "t": "The "
+   },
+   {
+    "t": "automation",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " is precisely "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "frees",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " the captain "
+   },
+   {
+    "t": "to come up",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " on deck for the few problems that actually "
+   },
+   {
+    "t": "require",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " him."
+   }
+  ],
+  [
+   {
+    "t": "The default is not a flaw in the human design."
+   }
+  ],
+  [
+   {
+    "t": "It is arguably the central feature, the thing that "
+   },
+   {
+    "t": "makes a complex life affordable",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " at all."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "현상",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "행동 대부분 = 오래전에 정해진 설정대로 돌아감",
+    "star": false
+   },
+   {
+    "label": "관점 바꾸기",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "절망할 일 아님 → 공학의 승리",
+    "star": false
+   },
+   {
+    "label": "근거",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "의식만으로는 너무 느림 → 자동화가 의식을 중요한 문제에 쓰게 함",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     6,
+     7
+    ],
+    "text": "기본 설정 = 결함 아님 · 복잡한 삶을 가능하게 하는 핵심 기능",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "This",
+   "If",
+   "The default"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "5370d77dcd09e15c",
+  "original_marks.json": "d0927310bc54eaf0",
+  "passage_src.json": "2a4b95ab40a688a9",
+  "study_x.json": "45eabbe15b44934e",
+  "topic_items.json": "305fc35b60f014ea",
+  "workbook_src.json": "3b9d878bb8885f1a"
+ }
+}

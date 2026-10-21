@@ -1,0 +1,810 @@
+{
+ "meta": {
+  "id": "H2_2610_20",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 20,
+  "orig_type": "주장",
+  "words": 157,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "아이를 다듬기보다 스스로 자라도록 돕는 부모의 역할",
+  "title_ko": "목수가 아니라 정원사처럼 아이를 키워라",
+  "title_en": "Raise Children Like a Gardener, Not a Carpenter",
+  "gist_ko": "부모는 아이를 바라는 모습으로 다듬는 목수가 아니라, 적합한 환경을 주어 아이가 자기 속도대로 자라며 스스로 방향을 찾게 돕는 정원사가 되어야 한다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Life is full of possibilities.",
+   "ko": "삶은 가능성으로 가득하다."
+  },
+  {
+   "n": 2,
+   "en": "If we, like gardeners, provide a suitable environment and let children grow at their own pace, they will spontaneously explore the world, developing curiosity, creativity, and independence.",
+   "ko": "만약 우리가 정원사처럼 적합한 환경을 마련해 주고 아이들이 자기 속도대로 자라게 둔다면, 아이들은 스스로 세상을 탐구하며 호기심과 창의성, 독립심을 기를 것이다."
+  },
+  {
+   "n": 3,
+   "en": "Such children love life, dare to challenge, and possess initiative.",
+   "ko": "그런 아이들은 삶을 사랑하고, 과감히 도전하며, 주도성을 지닌다."
+  },
+  {
+   "n": 4,
+   "en": "But if we, like carpenters, always try to “shape” children into our ideal image, they will gradually lose autonomy, becoming accustomed to following others’ instructions.",
+   "ko": "그러나 만약 우리가 목수처럼 늘 아이들을 우리가 바라는 모습으로 ‘다듬으려’ 한다면, 아이들은 점점 자율성을 잃고, 남이 시키는 대로 따르는 것에 길들여질 것이다."
+  },
+  {
+   "n": 5,
+   "en": "Such children quickly lose their sense of direction as they grow, because they are used to being arranged for, rather than actively choosing their path.",
+   "ko": "그런 아이들은 자신의 길을 스스로 고르기보다 남이 정해 주는 대로 따르는 데 익숙해서, 자라면서 금세 방향 감각을 잃는다."
+  },
+  {
+   "n": 6,
+   "en": "As parents, our role should be that of gardeners, providing sunlight, rain, and fertile soil, allowing children to grow naturally at their own pace.",
+   "ko": "부모로서 우리의 역할은 정원사의 역할이어야 하며, 햇빛과 비, 기름진 흙을 주어 아이들이 자기 속도대로 자연스럽게 자라도록 해야 한다."
+  },
+  {
+   "n": 7,
+   "en": "It should not be that of carpenters, trying to carve out a “perfect” piece according to our will.",
+   "ko": "그것은 우리 뜻대로 ‘완벽한’ 작품을 깎아 내려는 목수의 역할이어서는 안 된다."
+  },
+  {
+   "n": 8,
+   "en": "The core of education starts with understanding life and helping children find their own “map” to find their direction in a complex world.",
+   "ko": "교육의 핵심은 삶을 이해하고, 아이들이 복잡한 세상에서 방향을 찾을 수 있도록 자신만의 ‘지도’를 찾게 돕는 데서 시작한다."
+  }
+ ],
+ "topic": 6,
+ "gist": 8,
+ "hl": [
+  {
+   "sent": 6,
+   "text": "our role should be that of gardeners"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "But",
+   "rel": "대조"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "Such children",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "they will spontaneously explore the world",
+   "ko": "적합한 환경에서 자기 속도대로 자라 스스로 세상을 탐구하는 아이들"
+  },
+  {
+   "sent": 5,
+   "text": "Such children",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "they will gradually lose autonomy",
+   "ko": "어른이 바라는 모습으로 다듬어져 자율성을 잃은 아이들"
+  },
+  {
+   "sent": 6,
+   "text": "that",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "our role",
+   "ko": "부모로서 우리의 역할"
+  },
+  {
+   "sent": 7,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "our role",
+   "ko": "부모로서 우리의 역할"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 2,
+   "pos": 71,
+   "text": "grow",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "grow",
+   "wrong": [
+    "to grow"
+   ],
+   "rule": "사역동사 let + 목적어 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 138,
+   "text": "developing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "developing",
+   "wrong": [
+    "developed"
+   ],
+   "rule": "아이들이 호기심과 창의성을 기르는 쪽이라 능동의 현재분사로 분사구문을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 3,
+   "pos": 48,
+   "text": "possess",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "possess",
+   "wrong": [
+    "possesses"
+   ],
+   "rule": "주어 Such children 이 복수이고, love · dare 와 같은 꼴로 이어진다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 116,
+   "text": "becoming",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "becoming",
+   "wrong": [
+    "become"
+   ],
+   "rule": "쉼표 뒤에서 앞 절에 이어지는 결과를 나타내는 분사구문이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 139,
+   "text": "following",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "following",
+   "wrong": [
+    "follow"
+   ],
+   "rule": "be accustomed to 의 to 는 전치사라 뒤에 동명사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 91,
+   "text": "being arranged",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "being arranged",
+   "wrong": [
+    "arranging"
+   ],
+   "rule": "아이들은 남이 정해 주는 대상이라 be used to 뒤에 수동형 동명사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 5,
+   "pos": 132,
+   "text": "choosing",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "choosing",
+   "wrong": [
+    "choose"
+   ],
+   "rule": "rather than 앞의 being arranged 와 같은 동명사 꼴로 잇는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 31,
+   "text": "that",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "that",
+   "wrong": [
+    "those"
+   ],
+   "rule": "앞의 단수 명사 role 을 받으므로 단수 대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 50,
+   "text": "providing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "providing",
+   "wrong": [
+    "provided"
+   ],
+   "rule": "정원사가 햇빛과 비를 주는 능동의 뜻이라 현재분사로 분사구문을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 94,
+   "text": "allowing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "allowing",
+   "wrong": [
+    "allowed"
+   ],
+   "rule": "아이들이 자라도록 해 준다는 능동의 뜻이라 현재분사로 분사구문을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 6,
+   "pos": 112,
+   "text": "to grow",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "to grow",
+   "wrong": [
+    "grow"
+   ],
+   "rule": "allow + 목적어 뒤에는 목적격보어로 to부정사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 17,
+   "text": "that",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "that",
+   "wrong": [
+    "those"
+   ],
+   "rule": "앞 문장의 단수 명사 role 을 받으므로 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 37,
+   "text": "trying",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "trying",
+   "wrong": [
+    "tried"
+   ],
+   "rule": "목수가 작품을 깎아 내려는 능동의 뜻이라 현재분사구로 덧붙인다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 8,
+   "pos": 34,
+   "text": "understanding",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "understanding",
+   "wrong": [
+    "understand"
+   ],
+   "rule": "전치사 with 뒤에는 동명사가 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 8,
+   "pos": 57,
+   "text": "helping",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "helping",
+   "wrong": [
+    "help"
+   ],
+   "rule": "and 앞의 understanding 과 같은 동명사 꼴로 잇는다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "possibilities",
+   "sent": 1,
+   "ko": "가능성",
+   "gloss": "가능성",
+   "syn": [
+    "potential"
+   ],
+   "ant": [
+    "impossibility"
+   ]
+  },
+  {
+   "text": "suitable",
+   "sent": 2,
+   "ko": "적합한, 적절한",
+   "gloss": "적합한",
+   "syn": [
+    "appropriate"
+   ],
+   "ant": [
+    "unsuitable"
+   ]
+  },
+  {
+   "text": "pace",
+   "sent": 2,
+   "ko": "속도",
+   "gloss": "속도",
+   "syn": [
+    "speed"
+   ],
+   "ant": []
+  },
+  {
+   "text": "spontaneously",
+   "sent": 2,
+   "ko": "자발적으로, 스스로",
+   "gloss": "자발적으로",
+   "syn": [
+    "voluntarily"
+   ],
+   "ant": []
+  },
+  {
+   "text": "independence",
+   "sent": 2,
+   "ko": "독립심, 독립",
+   "gloss": "독립심",
+   "syn": [
+    "self-reliance"
+   ],
+   "ant": [
+    "dependence"
+   ]
+  },
+  {
+   "text": "possess",
+   "sent": 3,
+   "ko": "지니다, 가지다",
+   "gloss": "지니다",
+   "syn": [
+    "have"
+   ],
+   "ant": [
+    "lack"
+   ]
+  },
+  {
+   "text": "initiative",
+   "sent": 3,
+   "ko": "주도성, 진취성",
+   "gloss": "주도성",
+   "syn": [
+    "drive"
+   ],
+   "ant": [
+    "passivity"
+   ]
+  },
+  {
+   "text": "ideal",
+   "sent": 4,
+   "ko": "이상적인, 바라는",
+   "gloss": "이상적인",
+   "syn": [
+    "perfect"
+   ],
+   "ant": []
+  },
+  {
+   "text": "gradually",
+   "sent": 4,
+   "ko": "점점, 서서히",
+   "gloss": "점점",
+   "syn": [
+    "little by little"
+   ],
+   "ant": [
+    "suddenly"
+   ]
+  },
+  {
+   "text": "autonomy",
+   "sent": 4,
+   "ko": "자율성",
+   "gloss": "자율성",
+   "syn": [
+    "self-rule"
+   ],
+   "ant": [
+    "dependence"
+   ]
+  },
+  {
+   "text": "accustomed",
+   "sent": 4,
+   "ko": "익숙한",
+   "gloss": "익숙한",
+   "syn": [
+    "used"
+   ],
+   "ant": [
+    "unaccustomed"
+   ]
+  },
+  {
+   "text": "direction",
+   "sent": 5,
+   "ko": "방향",
+   "gloss": "방향",
+   "syn": [
+    "way"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Life is full of "
+   },
+   {
+    "t": "possibilities",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "If we, like gardeners, provide a "
+   },
+   {
+    "t": "suitable",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " environment and let children "
+   },
+   {
+    "t": "grow",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " at their own "
+   },
+   {
+    "t": "pace",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": ", they will "
+   },
+   {
+    "t": "spontaneously",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " explore the world, "
+   },
+   {
+    "t": "developing",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " curiosity, creativity, and "
+   },
+   {
+    "t": "independence",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Such children love life, dare to challenge, and "
+   },
+   {
+    "t": "possess",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "possess",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "initiative",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "But",
+    "c": "c",
+    "id": "c0",
+    "lab": "대조"
+   },
+   {
+    "t": " if we, like carpenters, always try to “shape” children into our "
+   },
+   {
+    "t": "ideal",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " image, they will "
+   },
+   {
+    "t": "gradually",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " lose "
+   },
+   {
+    "t": "autonomy",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "becoming",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "accustomed",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " to "
+   },
+   {
+    "t": "following",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " others’ instructions."
+   }
+  ],
+  [
+   {
+    "t": "Such children quickly lose their sense of "
+   },
+   {
+    "t": "direction",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " as they grow, because they are used to "
+   },
+   {
+    "t": "being arranged",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " for, rather than actively "
+   },
+   {
+    "t": "choosing",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " their path."
+   }
+  ],
+  [
+   {
+    "t": "As parents, our role should be "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " of gardeners, "
+   },
+   {
+    "t": "providing",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " sunlight, rain, and fertile soil, "
+   },
+   {
+    "t": "allowing",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " children "
+   },
+   {
+    "t": "to grow",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " naturally at their own pace."
+   }
+  ],
+  [
+   {
+    "t": "It should not be "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " of carpenters, "
+   },
+   {
+    "t": "trying",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " to carve out a “perfect” piece according to our will."
+   }
+  ],
+  [
+   {
+    "t": "The core of education starts with "
+   },
+   {
+    "t": "understanding",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " life and "
+   },
+   {
+    "t": "helping",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " children find their own “map” to find their direction in a complex world."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "도입",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "삶은 가능성으로 가득하다",
+    "star": false
+   },
+   {
+    "label": "정원사형",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "적합한 환경을 주고 기다리면 아이는 스스로 자란다",
+    "star": false
+   },
+   {
+    "label": "목수형",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "원하는 모습으로 다듬으면 아이는 자율성과 방향을 잃는다",
+    "star": false
+   },
+   {
+    "label": "주장",
+    "sents": [
+     6,
+     8
+    ],
+    "text": "부모는 정원사가 되어 아이가 스스로 방향을 찾게 도와야 한다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "like gardeners",
+   "But",
+   "As parents"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "098aa1e0bad33e5b",
+  "original_marks.json": "b4190e2bb6a23498",
+  "passage_src.json": "a6187780817bd951",
+  "study_x.json": "2443b770c6306491",
+  "topic_items.json": "53f51e47f29147cb",
+  "workbook_src.json": "0a7768b1e1a25cd6"
+ }
+}

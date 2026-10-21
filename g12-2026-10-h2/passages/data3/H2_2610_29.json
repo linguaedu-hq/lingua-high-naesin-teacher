@@ -1,0 +1,842 @@
+{
+ "meta": {
+  "id": "H2_2610_29",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 29,
+  "orig_type": "어법",
+  "words": 160,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "인류 역사 대부분에 걸친 어린 나이의 높은 사망률",
+  "title_ko": "인류의 인구가 늦게 늘어난 까닭",
+  "title_en": "Why Human Numbers Grew So Late",
+  "gist_ko": "19세기까지 인류는 어린 나이에 많이 죽어 살아남는 첫 고비가 매우 높았고, 그래서 인구가 크게 늘어난 것은 최근의 일이다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "You might think of survival as a race in which a hurdle has to be jumped every year.",
+   "ko": "생존을 해마다 장애물 하나를 뛰어넘어야 하는 경주로 생각해 볼 수도 있다."
+  },
+  {
+   "n": 2,
+   "en": "The early hurdles were once very high, and many people fell before clearing the first few.",
+   "ko": "초기의 장애물은 한때 매우 높았고, 많은 사람이 처음 몇 개를 넘기도 전에 쓰러졌다."
+  },
+  {
+   "n": 3,
+   "en": "Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life.",
+   "ko": "인구 통계로 보면 인류는 자연 상태에 가깝게 살고 있었는데, 자연은 생명을 몹시 헤프게 쓴다."
+  },
+  {
+   "n": 4,
+   "en": "From only a very small number of figs will even one of many seeds become a fig tree.",
+   "ko": "아주 적은 수의 무화과에서만 많은 씨앗 가운데 하나라도 무화과나무로 자란다."
+  },
+  {
+   "n": 5,
+   "en": "Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates.",
+   "ko": "야생에서 태어난 개코원숭이는 거의 넷 가운데 하나가 첫돌을 넘기지 못하고 죽는데, 영장류에서는 이런 일이 꽤 흔하다."
+  },
+  {
+   "n": 6,
+   "en": "Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes.",
+   "ko": "근대 이전 농경 사회에서 사람의 영아 사망률은 유인원의 영아 사망률과 비슷했고, 때로는 그보다 더 높았다."
+  },
+  {
+   "n": 7,
+   "en": "Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn’t live long enough to reproduce just about everywhere until the nineteenth century.",
+   "ko": "수렵 채집 생활을 하던 우리 조상들도 사정이 별로 낫지 않았는데, 19세기까지 거의 모든 곳에서 그들 가운데 4분의 1은 첫 생일을 맞지 못했고, 또 다른 4분의 1은 자식을 낳을 만큼 오래 살지 못했다."
+  },
+  {
+   "n": 8,
+   "en": "Had it been otherwise, the huge recent growth in human population would have occurred much earlier.",
+   "ko": "사정이 달랐다면 인류 인구가 최근에 크게 늘어난 일은 훨씬 이른 시기에 벌어졌을 것이다."
+  }
+ ],
+ "topic": 2,
+ "gist": 8,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "The early hurdles were once very high"
+  },
+  {
+   "sent": 3,
+   "text": "and nature is extremely wasteful of life"
+  },
+  {
+   "sent": 5,
+   "text": "Almost a quarter of baboons born in the wild die"
+  },
+  {
+   "sent": 6,
+   "text": "were similar to, and sometimes higher, than those of apes"
+  },
+  {
+   "sent": 7,
+   "text": "a quarter of whom failed to reach their first birthday"
+  },
+  {
+   "sent": 8,
+   "text": "the huge recent growth in human population would have occurred much earlier"
+  }
+ ],
+ "con": [
+  {
+   "sent": 7,
+   "text": "while",
+   "rel": "대조"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 5,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "baboons",
+   "ko": "야생에서 태어난 개코원숭이"
+  },
+  {
+   "sent": 6,
+   "text": "those",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "Infant mortality rates",
+   "ko": "영아 사망률"
+  },
+  {
+   "sent": 7,
+   "text": "whom",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "hunter-gatherer ancestors",
+   "ko": "수렵 채집 생활을 하던 우리 조상들"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 38,
+   "text": "in which",
+   "cat": "관계부사·전치사+관계대명사",
+   "chip": "관계사",
+   "right": "in which",
+   "wrong": [
+    "which"
+   ],
+   "rule": "뒤의 절(a hurdle has to be jumped)이 빠진 말 없이 끝나고 선행사 a race 를 받으므로 전치사 + 관계대명사 in which 를 쓴다.",
+   "imp": 3,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 56,
+   "text": "has to be jumped",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "has to be jumped",
+   "wrong": [
+    "has to jump"
+   ],
+   "rule": "장애물은 뛰어넘어지는 쪽이라 to 뒤에 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 60,
+   "text": "before clearing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "before clearing",
+   "wrong": [
+    "before cleared"
+   ],
+   "rule": "전치사 before 뒤에는 동명사 clearing 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 80,
+   "text": "extremely wasteful",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "extremely wasteful",
+   "wrong": [
+    "extreme wasteful"
+   ],
+   "rule": "형용사 wasteful 을 꾸미므로 부사 extremely 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 66,
+   "text": "become",
+   "cat": "도치·강조",
+   "chip": "도치·강조",
+   "right": "become",
+   "wrong": [
+    "becomes"
+   ],
+   "rule": "only 가 이끄는 어구가 문장 앞에 나와 조동사 will 이 주어 앞으로 나간 도치 문장이므로 주어 뒤에 동사원형 become 을 쓴다.",
+   "imp": 2,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 28,
+   "text": "born",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "born",
+   "wrong": [
+    "bearing"
+   ],
+   "rule": "개코원숭이는 태어나는 쪽이라 명사 뒤에서 꾸미는 과거분사 born 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 5,
+   "pos": 45,
+   "text": "die",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "die",
+   "wrong": [
+    "dies"
+   ],
+   "rule": "a quarter of + 복수 명사(baboons)가 주어라 복수 동사 die 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 77,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "what"
+   ],
+   "rule": "앞 절 내용 전체를 받는 계속적 용법 관계대명사이므로 which 를 쓴다. what 은 콤마 뒤에서 앞 절을 받지 못한다.",
+   "imp": 3,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 5,
+   "pos": 83,
+   "text": "is",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is",
+   "wrong": [
+    "are"
+   ],
+   "rule": "계속적 용법 which 가 앞 절 내용 전체를 받아 단수로 취급하므로 is 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 71,
+   "text": "were",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "were",
+   "wrong": [
+    "was"
+   ],
+   "rule": "주어의 중심 낱말이 복수 rates 라 were 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 6,
+   "pos": 115,
+   "text": "those",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "those",
+   "wrong": [
+    "that"
+   ],
+   "rule": "앞의 복수 명사 Infant mortality rates 를 받으므로 those 를 쓴다.",
+   "imp": 2,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 7,
+   "pos": 71,
+   "text": "of whom",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "of whom",
+   "wrong": [
+    "of them"
+   ],
+   "rule": "접속사 없이 두 절을 이으므로 대명사 them 이 아니라 관계대명사 whom 을 쓴다.",
+   "imp": 3,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 79,
+   "text": "failed to reach",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "failed to reach",
+   "wrong": [
+    "failed reaching"
+   ],
+   "rule": "fail 은 to부정사를 목적어로 취해 failed to reach 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 151,
+   "text": "long enough to reproduce",
+   "cat": "관용 구문(too~to · so~that 등)",
+   "chip": "관용 구문(too~to · so~that 등)",
+   "right": "long enough to reproduce",
+   "wrong": [
+    "enough long to reproduce"
+   ],
+   "rule": "enough 는 꾸미는 부사 long 뒤에 오고, 그 뒤에 to부정사가 이어진다.",
+   "imp": 2,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 8,
+   "pos": 0,
+   "text": "Had it been otherwise",
+   "cat": "도치·강조",
+   "chip": "도치·강조",
+   "right": "Had it been otherwise",
+   "wrong": [
+    "Had it be otherwise"
+   ],
+   "rule": "If it had been otherwise 에서 if 를 빼고 had 를 주어 앞으로 낸 가정법 과거완료 꼴이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 8,
+   "pos": 66,
+   "text": "would have occurred",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "would have occurred",
+   "wrong": [
+    "would occur"
+   ],
+   "rule": "지난 사실과 반대를 가정하므로 주절에 would have + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  }
+ ],
+ "vocab": [
+  {
+   "text": "survival",
+   "sent": 1,
+   "ko": "생존, 살아남음",
+   "gloss": "생존",
+   "syn": [
+    "existence"
+   ],
+   "ant": [
+    "extinction"
+   ]
+  },
+  {
+   "text": "hurdle",
+   "sent": 1,
+   "ko": "장애물, 허들",
+   "gloss": "장애물",
+   "syn": [
+    "obstacle"
+   ],
+   "ant": []
+  },
+  {
+   "text": "clearing",
+   "sent": 2,
+   "ko": "(장애물을) 넘다",
+   "gloss": "(장애물을) 넘다",
+   "syn": [
+    "get over"
+   ],
+   "ant": []
+  },
+  {
+   "text": "Demographically",
+   "sent": 3,
+   "ko": "인구 통계로 보면",
+   "gloss": "인구 통계로 보면",
+   "syn": [
+    "statistically"
+   ],
+   "ant": []
+  },
+  {
+   "text": "wasteful",
+   "sent": 3,
+   "ko": "헤프게 쓰는, 낭비하는",
+   "gloss": "헤프게 쓰는",
+   "syn": [
+    "extravagant"
+   ],
+   "ant": [
+    "economical"
+   ]
+  },
+  {
+   "text": "typical",
+   "sent": 5,
+   "ko": "흔한, 전형적인",
+   "gloss": "흔한",
+   "syn": [
+    "common"
+   ],
+   "ant": [
+    "unusual"
+   ]
+  },
+  {
+   "text": "Infant",
+   "sent": 6,
+   "ko": "영아의, 젖먹이의",
+   "gloss": "영아의",
+   "syn": [
+    "baby"
+   ],
+   "ant": [
+    "adult"
+   ]
+  },
+  {
+   "text": "mortality",
+   "sent": 6,
+   "ko": "사망, 사망률",
+   "gloss": "사망",
+   "syn": [
+    "death rate"
+   ],
+   "ant": []
+  },
+  {
+   "text": "pre-modern",
+   "sent": 6,
+   "ko": "근대 이전의",
+   "gloss": "근대 이전의",
+   "syn": [
+    "traditional"
+   ],
+   "ant": [
+    "modern"
+   ]
+  },
+  {
+   "text": "agricultural",
+   "sent": 6,
+   "ko": "농업의, 농경의",
+   "gloss": "농업의",
+   "syn": [
+    "farming"
+   ],
+   "ant": [
+    "industrial"
+   ]
+  },
+  {
+   "text": "hunter-gatherer",
+   "sent": 7,
+   "ko": "수렵 채집인",
+   "gloss": "수렵 채집인",
+   "syn": [
+    "forager"
+   ],
+   "ant": []
+  },
+  {
+   "text": "ancestors",
+   "sent": 7,
+   "ko": "조상, 선조",
+   "gloss": "조상",
+   "syn": [
+    "forefather"
+   ],
+   "ant": [
+    "descendant"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "You might think of "
+   },
+   {
+    "t": "survival",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " as a race "
+   },
+   {
+    "t": "in which",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " a "
+   },
+   {
+    "t": "hurdle",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "has to be jumped",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " every year."
+   }
+  ],
+  [
+   {
+    "t": "The early hurdles were once very high, and many people fell "
+   },
+   {
+    "t": "before clearing",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "before "
+     },
+     {
+      "t": "clearing",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " the first few."
+   }
+  ],
+  [
+   {
+    "t": "Demographically",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": ", humankind was living close to a state of nature, and nature is "
+   },
+   {
+    "t": "extremely wasteful",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "extremely "
+     },
+     {
+      "t": "wasteful",
+      "c": "v",
+      "id": "v4"
+     }
+    ]
+   },
+   {
+    "t": " of life."
+   }
+  ],
+  [
+   {
+    "t": "From only a very small number of figs will even one of many seeds "
+   },
+   {
+    "t": "become",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " a fig tree."
+   }
+  ],
+  [
+   {
+    "t": "Almost a quarter of baboons "
+   },
+   {
+    "t": "born",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " in the wild "
+   },
+   {
+    "t": "die",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " before they are a year old, "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "is",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": " fairly "
+   },
+   {
+    "t": "typical",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " for primates."
+   }
+  ],
+  [
+   {
+    "t": "Infant",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "mortality",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " rates for humans in "
+   },
+   {
+    "t": "pre-modern",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "agricultural",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " societies "
+   },
+   {
+    "t": "were",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " similar to, and sometimes higher, than "
+   },
+   {
+    "t": "those",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " of apes."
+   }
+  ],
+  [
+   {
+    "t": "Things were little better for our "
+   },
+   {
+    "t": "hunter-gatherer",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "ancestors",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": ", a quarter "
+   },
+   {
+    "t": "of whom",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "failed to reach",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " their first birthday, "
+   },
+   {
+    "t": "while",
+    "c": "c",
+    "id": "c0",
+    "lab": "대조"
+   },
+   {
+    "t": " another quarter didn’t live "
+   },
+   {
+    "t": "long enough to reproduce",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " just about everywhere until the nineteenth century."
+   }
+  ],
+  [
+   {
+    "t": "Had it been otherwise",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": ", the huge recent growth in human population "
+   },
+   {
+    "t": "would have occurred",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " much earlier."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "생존의 경주",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "생존 = 해마다 장애물을 넘는 경주 · 옛날에는 초기의 장애물이 매우 높았음",
+    "star": false
+   },
+   {
+    "label": "자연의 낭비",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "인류는 자연 상태에 가깝게 삶 · 수많은 씨앗 가운데 나무가 되는 것은 드묾",
+    "star": false
+   },
+   {
+    "label": "영장류와 사람",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "야생 개코원숭이 4분의 1이 한 살 전에 죽음 · 농경 사회 영아 사망률 ≈ 유인원",
+    "star": false
+   },
+   {
+    "label": "조상과 인구",
+    "sents": [
+     7,
+     8
+    ],
+    "text": "수렵 채집 조상도 4분의 1이 첫 생일 전 사망 → 인구 증가는 최근에야",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "Demographically",
+   "Almost a quarter",
+   "Things were little better"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "af1a1e3231e90a48",
+  "original_marks.json": "41f0c2bfd623d37a",
+  "passage_src.json": "3437fb127b7d6112",
+  "study_x.json": "1b1c8f7c2216a0f0",
+  "topic_items.json": "51a3fefba5ec2c9b",
+  "workbook_src.json": "46cd51fb764e05cf"
+ }
+}

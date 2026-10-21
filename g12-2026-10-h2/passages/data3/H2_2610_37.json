@@ -1,0 +1,896 @@
+{
+ "meta": {
+  "id": "H2_2610_37",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 37,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "상황을 다르게 해석하는 일이 감정과 회복력에 미치는 영향",
+  "title_ko": "생각을 바꾸면 감정이 바뀐다",
+  "title_en": "Change the Thought, Change the Feeling",
+  "gist_ko": "같은 일도 다르게 해석하면 느끼는 감정이 달라지며, 이런 재평가가 되풀이되어 쌓이면 심리적 건강과 회복력을 기르는 열쇠가 된다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Reappraisal ―changing the way one thinks about emotional situations―might present a particularly effective avenue to regulating emotions because it transforms emotions at their root.",
+   "ko": "재평가, 곧 감정이 드는 상황을 생각하는 방식을 바꾸는 일은 감정을 뿌리에서 바꾸므로 감정을 다스리는 데 특히 효과적인 길이 될 수 있다."
+  },
+  {
+   "n": 2,
+   "en": "Take, for example, someone who is going through a divorce.",
+   "ko": "이혼을 겪고 있는 사람을 예로 들어 보자."
+  },
+  {
+   "n": 3,
+   "en": "This is often an adverse event, and yet, it can be construed in different ways.",
+   "ko": "이혼은 흔히 불행한 일이지만, 여러 방식으로 해석될 수 있다."
+  },
+  {
+   "n": 4,
+   "en": "One might view it as an overpowering loss that will mark one’s family for life.",
+   "ko": "어떤 사람은 그것을 가족에게 평생 흔적을 남길 감당하기 힘든 상실로 볼 수 있다."
+  },
+  {
+   "n": 5,
+   "en": "Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships.",
+   "ko": "반대로, 고통스럽기는 하지만 길게 보면 나아진 관계 같은 좋은 결과를 낳을지도 모르는 일로 볼 수도 있다."
+  },
+  {
+   "n": 6,
+   "en": "As a result of these different construals, one might feel different emotions.",
+   "ko": "이렇게 해석이 다르면 느끼는 감정도 달라질 수 있다."
+  },
+  {
+   "n": 7,
+   "en": "The first construal may bring intense sadness and anger.",
+   "ko": "첫 번째 해석을 하면 깊은 슬픔과 노여움이 일 수 있다."
+  },
+  {
+   "n": 8,
+   "en": "The second construal might also bring sadness and anger but perhaps at lower levels.",
+   "ko": "두 번째 해석에서도 슬픔과 노여움이 생길 수 있지만, 그 정도는 아마 덜할 것이다."
+  },
+  {
+   "n": 9,
+   "en": "Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude.",
+   "ko": "무엇보다 두 번째 해석은 희망, 힘, 감사 같은 긍정적인 감정도 불러올 수 있다."
+  },
+  {
+   "n": 10,
+   "en": "This example illustrates how reappraisal might powerfully transform short-term emotional responses.",
+   "ko": "이 예는 재평가가 짧은 동안의 감정 반응을 어떻게 강력하게 바꾸어 놓을 수 있는지 보여 준다."
+  },
+  {
+   "n": 11,
+   "en": "When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people’s psychological health.",
+   "ko": "되풀이되면 재평가가 낳은 이런 짧은 감정 결과가 쌓여 사람들의 심리적 건강을 만들어 갈 수 있다."
+  },
+  {
+   "n": 12,
+   "en": "Thereby, reappraisal might be a key to resilience.",
+   "ko": "그렇게 하여 재평가는 회복력을 기르는 열쇠가 될 수 있다."
+  }
+ ],
+ "topic": 1,
+ "gist": 12,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "emotions at their root"
+  },
+  {
+   "sent": 9,
+   "text": "it might also bring some positive emotions"
+  },
+  {
+   "sent": 12,
+   "text": "reappraisal might be a key to resilience"
+  }
+ ],
+ "con": [
+  {
+   "sent": 3,
+   "text": "and yet",
+   "rel": "역접"
+  },
+  {
+   "sent": 5,
+   "text": "Alternatively",
+   "rel": "대조"
+  },
+  {
+   "sent": 6,
+   "text": "As a result",
+   "rel": "결과"
+  },
+  {
+   "sent": 9,
+   "text": "Crucially",
+   "rel": "첨가"
+  },
+  {
+   "sent": 12,
+   "text": "Thereby",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "a divorce",
+   "ko": "이혼"
+  },
+  {
+   "sent": 4,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "a divorce",
+   "ko": "이혼"
+  },
+  {
+   "sent": 6,
+   "text": "these different construals",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "an overpowering loss",
+   "ko": "이혼을 보는 두 가지 해석"
+  },
+  {
+   "sent": 9,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "The second construal",
+   "ko": "두 번째 해석"
+  },
+  {
+   "sent": 10,
+   "text": "This example",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "someone who is going through a divorce",
+   "ko": "이혼을 겪는 사람의 예"
+  },
+  {
+   "sent": 11,
+   "text": "these short-term emotional consequences",
+   "occ": 0,
+   "to_sent": 10,
+   "to": "short-term emotional responses",
+   "ko": "짧은 동안의 감정 반응"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 12,
+   "text": "―changing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "―changing",
+   "wrong": [
+    "―changed"
+   ],
+   "rule": "대시 사이 어구가 Reappraisal 이 무엇인지 풀어 쓰는 명사 역할이므로 동명사 changing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 114,
+   "text": "to regulating",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "to regulating",
+   "wrong": [
+    "to regulate"
+   ],
+   "rule": "avenue to 의 to 는 '~로 가는'이라는 뜻의 전치사라 뒤에 동명사 regulating 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 148,
+   "text": "transforms",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "transforms",
+   "wrong": [
+    "transform"
+   ],
+   "rule": "because 절의 주어 it 이 재평가 하나를 가리키므로 transforms 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 27,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "someone 은 사람을 가리키는 말이라 뒤 관계절을 who 로 이끈다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 44,
+   "text": "can be construed",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "can be construed",
+   "wrong": [
+    "can construe"
+   ],
+   "rule": "이혼이라는 일은 사람에게 해석되는 대상이므로 수동 can be construed 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 42,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "앞에 선행사 loss 가 있으므로 what 이 아니라 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 5,
+   "pos": 50,
+   "text": "is",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is",
+   "wrong": [
+    "are"
+   ],
+   "rule": "관계절의 선행사 something 이 단수이므로 is 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 127,
+   "text": "improved",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "improved",
+   "wrong": [
+    "improving"
+   ],
+   "rule": "관계가 좋아진 상태라 과거분사 improved 가 relationships 를 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 53,
+   "text": "feel",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "feel",
+   "wrong": [
+    "feels"
+   ],
+   "rule": "조동사 might 뒤에는 동사원형 feel 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g10",
+   "sent": 8,
+   "pos": 71,
+   "text": "lower",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "lower",
+   "wrong": [
+    "low"
+   ],
+   "rule": "첫 번째 해석과 견주어 슬픔과 분노가 덜하다는 뜻이라 비교급 lower 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 10,
+   "pos": 25,
+   "text": "how",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "how",
+   "wrong": [
+    "what"
+   ],
+   "rule": "illustrates 의 목적어로 빠진 성분이 없는 절이 오므로 how 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 10,
+   "pos": 47,
+   "text": "powerfully",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "powerfully",
+   "wrong": [
+    "powerful"
+   ],
+   "rule": "동사 transform 을 꾸미므로 부사 powerfully 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 11,
+   "pos": 0,
+   "text": "When repeated",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "When repeated",
+   "wrong": [
+    "When repeating"
+   ],
+   "rule": "주절의 주어인 감정 결과가 되풀이되는 쪽이므로 접속사 When 뒤에 과거분사 repeated 를 남긴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 11,
+   "pos": 97,
+   "text": "to shape",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to shape",
+   "wrong": [
+    "shaping"
+   ],
+   "rule": "감정 결과가 쌓여 심리적 건강을 만들어 간다는 결과를 to부정사 to shape 로 나타낸다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Reappraisal",
+   "sent": 1,
+   "ko": "재평가, 다시 보기",
+   "gloss": "재평가",
+   "syn": [
+    "reassessment"
+   ],
+   "ant": []
+  },
+  {
+   "text": "avenue",
+   "sent": 1,
+   "ko": "방법, 길",
+   "gloss": "방법",
+   "syn": [
+    "path"
+   ],
+   "ant": []
+  },
+  {
+   "text": "regulating",
+   "sent": 1,
+   "ko": "조절하다, 다스리다",
+   "gloss": "조절하다",
+   "syn": [
+    "control"
+   ],
+   "ant": [
+    "release"
+   ]
+  },
+  {
+   "text": "transforms",
+   "sent": 1,
+   "ko": "완전히 바꾸다",
+   "gloss": "완전히 바꾸다",
+   "syn": [
+    "change"
+   ],
+   "ant": [
+    "preserve"
+   ]
+  },
+  {
+   "text": "adverse",
+   "sent": 3,
+   "ko": "불행한, 해로운",
+   "gloss": "불행한",
+   "syn": [
+    "unfavorable"
+   ],
+   "ant": [
+    "favorable"
+   ]
+  },
+  {
+   "text": "construed",
+   "sent": 3,
+   "ko": "해석하다, 이해하다",
+   "gloss": "해석하다",
+   "syn": [
+    "interpret"
+   ],
+   "ant": []
+  },
+  {
+   "text": "overpowering",
+   "sent": 4,
+   "ko": "감당하기 힘든, 압도적인",
+   "gloss": "감당하기 힘든",
+   "syn": [
+    "overwhelming"
+   ],
+   "ant": [
+    "mild"
+   ]
+  },
+  {
+   "text": "construals",
+   "sent": 6,
+   "ko": "해석",
+   "gloss": "해석",
+   "syn": [
+    "interpretation"
+   ],
+   "ant": []
+  },
+  {
+   "text": "intense",
+   "sent": 7,
+   "ko": "강렬한, 강한",
+   "gloss": "강렬한",
+   "syn": [
+    "strong"
+   ],
+   "ant": [
+    "weak"
+   ]
+  },
+  {
+   "text": "gratitude",
+   "sent": 9,
+   "ko": "감사",
+   "gloss": "감사",
+   "syn": [
+    "thankfulness"
+   ],
+   "ant": [
+    "ingratitude"
+   ]
+  },
+  {
+   "text": "illustrates",
+   "sent": 10,
+   "ko": "보여 주다, 예를 들어 설명하다",
+   "gloss": "보여 주다",
+   "syn": [
+    "show"
+   ],
+   "ant": [
+    "obscure"
+   ]
+  },
+  {
+   "text": "accumulate",
+   "sent": 11,
+   "ko": "쌓이다, 모이다",
+   "gloss": "쌓이다",
+   "syn": [
+    "build up"
+   ],
+   "ant": [
+    "decrease"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Reappraisal",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "―changing",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " the way one thinks about emotional situations―might present a particularly effective "
+   },
+   {
+    "t": "avenue",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to regulating",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "regulating",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " emotions because it "
+   },
+   {
+    "t": "transforms",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "transforms",
+      "c": "v",
+      "id": "v3"
+     }
+    ]
+   },
+   {
+    "t": " emotions at their root."
+   }
+  ],
+  [
+   {
+    "t": "Take, for example, someone "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " is going through a divorce."
+   }
+  ],
+  [
+   {
+    "t": "This is often an "
+   },
+   {
+    "t": "adverse",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " event, "
+   },
+   {
+    "t": "and yet",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": ", it "
+   },
+   {
+    "t": "can be construed",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "can be "
+     },
+     {
+      "t": "construed",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " in different ways."
+   }
+  ],
+  [
+   {
+    "t": "One might view it as an "
+   },
+   {
+    "t": "overpowering",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " loss "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " will mark one’s family for life."
+   }
+  ],
+  [
+   {
+    "t": "Alternatively",
+    "c": "c",
+    "id": "c1",
+    "lab": "대조"
+   },
+   {
+    "t": ", one might see it as something that "
+   },
+   {
+    "t": "is",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " painful but that might lead to positive outcomes in the long run, such as "
+   },
+   {
+    "t": "improved",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " relationships."
+   }
+  ],
+  [
+   {
+    "t": "As a result",
+    "c": "c",
+    "id": "c2",
+    "lab": "결과"
+   },
+   {
+    "t": " of these different "
+   },
+   {
+    "t": "construals",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": ", one might "
+   },
+   {
+    "t": "feel",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " different emotions."
+   }
+  ],
+  [
+   {
+    "t": "The first construal may bring "
+   },
+   {
+    "t": "intense",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " sadness and anger."
+   }
+  ],
+  [
+   {
+    "t": "The second construal might also bring sadness and anger but perhaps at "
+   },
+   {
+    "t": "lower",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " levels."
+   }
+  ],
+  [
+   {
+    "t": "Crucially",
+    "c": "c",
+    "id": "c3",
+    "lab": "첨가"
+   },
+   {
+    "t": ", it might also bring some positive emotions, such as hope, strength, or "
+   },
+   {
+    "t": "gratitude",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "This example "
+   },
+   {
+    "t": "illustrates",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "how",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " reappraisal might "
+   },
+   {
+    "t": "powerfully",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " transform short-term emotional responses."
+   }
+  ],
+  [
+   {
+    "t": "When repeated",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " over time, these short-term emotional consequences of reappraisal might "
+   },
+   {
+    "t": "accumulate",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to shape",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " people’s psychological health."
+   }
+  ],
+  [
+   {
+    "t": "Thereby",
+    "c": "c",
+    "id": "c4",
+    "lab": "결과"
+   },
+   {
+    "t": ", reappraisal might be a key to resilience."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주장과 예",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "재평가 = 생각 방식 바꾸기 → 감정을 뿌리에서 바꿈 · 예: 이혼",
+    "star": false
+   },
+   {
+    "label": "두 가지 해석",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "평생의 상실 ↔ 아프지만 좋은 결과로 이어질 일",
+    "star": false
+   },
+   {
+    "label": "다른 감정",
+    "sents": [
+     6,
+     9
+    ],
+    "text": "첫째: 강한 슬픔 · 분노 / 둘째: 약한 슬픔 + 희망 · 감사",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     10,
+     12
+    ],
+    "text": "짧은 감정 변화가 쌓임 → 심리적 건강 · 회복력의 열쇠",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "One might view",
+   "As a result",
+   "This example illustrates"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "08f84dd33035d442",
+  "check_conf.json": "e49bc8841c5ac145",
+  "original_marks.json": "d20fa751155a78d5",
+  "passage_src.json": "f5eadf5f9919532e",
+  "source_restored.json": "3e6e1e3d5588dead",
+  "study_x.json": "1d5ced8ece29af9c",
+  "topic_items.json": "1b0050c908f2abab",
+  "workbook_src.json": "176fbd26088de09b"
+ }
+}

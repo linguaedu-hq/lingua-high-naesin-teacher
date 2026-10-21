@@ -1,0 +1,658 @@
+{
+ "meta": {
+  "id": "H2_2610_28",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 28,
+  "orig_type": "안내문 일치",
+  "words": 86,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "시 공원에서 해마다 열리는 한국 문화 축제 안내",
+  "title_ko": "Lindenveil 에서 한국 문화를 즐겨 보라",
+  "title_en": "Come and Enjoy Korean Culture in Lindenveil",
+  "gist_ko": "한국 문화유산 축제의 날짜 · 시간 · 장소, 한복 · 한글 이름 · 전통 놀이 체험과 간식 · 우천 시 일정 변경을 알린다."
+ },
+ "kind": "notice",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "2026 Korean Cultural Heritage Festival",
+   "ko": "2026 한국 문화유산 축제"
+  },
+  {
+   "n": 2,
+   "en": "Join us for the annual Korean Cultural Heritage Festival held by Lindenveil Korean Association and experience the beauty of Korean culture!",
+   "ko": "Lindenveil 한인회가 해마다 여는 한국 문화유산 축제에 함께하고 한국 문화의 아름다움을 겪어 보세요!"
+  },
+  {
+   "n": 3,
+   "en": "Date and Time: October 23 - 25, 10 a.m. - 4 p.m.",
+   "ko": "날짜와 시간: 10월 23일부터 25일까지, 오전 10시부터 오후 4시까지"
+  },
+  {
+   "n": 4,
+   "en": "Location: Lindenveil Park (opposite of Lindenveil City Hall)",
+   "ko": "장소: Lindenveil 시청 건너편에 있는 Lindenveil 공원"
+  },
+  {
+   "n": 5,
+   "en": "Details: You can ...",
+   "ko": "세부 내용: 여러분은 …"
+  },
+  {
+   "n": 6,
+   "en": "· Try on Hanbok and take photos.",
+   "ko": "· 한복을 입어 보고 사진을 찍을 수 있어요."
+  },
+  {
+   "n": 7,
+   "en": "· Write your name in Korean characters, Hangeul.",
+   "ko": "· 한국 글자인 한글로 자기 이름을 써 볼 수 있어요."
+  },
+  {
+   "n": 8,
+   "en": "· Enjoy various traditional Korean games.",
+   "ko": "· 여러 가지 한국 전통 놀이를 즐길 수 있어요."
+  },
+  {
+   "n": 9,
+   "en": "Notes",
+   "ko": "알림"
+  },
+  {
+   "n": 10,
+   "en": "· All visitors will receive traditional Korean snacks.",
+   "ko": "· 방문객은 모두 한국 전통 간식을 받아요."
+  },
+  {
+   "n": 11,
+   "en": "· If it rains, the festival will be rescheduled.",
+   "ko": "· 비가 오면 축제 일정이 다시 잡혀요."
+  },
+  {
+   "n": 12,
+   "en": "For more information, please visit www.lindenveilKA.org.",
+   "ko": "더 자세한 내용은 www.lindenveilKA.org 를 방문해 주세요."
+  }
+ ],
+ "topic": 2,
+ "gist": 2,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "annual"
+  },
+  {
+   "sent": 3,
+   "text": "October 23 - 25"
+  },
+  {
+   "sent": 4,
+   "text": "opposite of Lindenveil City Hall"
+  },
+  {
+   "sent": 7,
+   "text": "Write your name in Korean characters"
+  },
+  {
+   "sent": 10,
+   "text": "traditional Korean snacks"
+  },
+  {
+   "sent": 11,
+   "text": "the festival will be rescheduled"
+  }
+ ],
+ "con": [],
+ "ref": [],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 2,
+   "pos": 0,
+   "text": "Join",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "Join",
+   "wrong": [
+    "Joining"
+   ],
+   "rule": "주어 없이 동사원형으로 시작하는 명령문이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 57,
+   "text": "held",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "held",
+   "wrong": [
+    "holding"
+   ],
+   "rule": "축제는 열리는 쪽이라 과거분사 held 가 뒤에서 명사를 꾸민다.",
+   "imp": 2,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 95,
+   "text": "and experience",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "and experience",
+   "wrong": [
+    "and experiencing"
+   ],
+   "rule": "Join 과 and 로 나란히 이어진 명령문이라 동사원형 experience 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 6,
+   "pos": 2,
+   "text": "Try on",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "Try on",
+   "wrong": [
+    "Trying on"
+   ],
+   "rule": "앞 줄의 You can 에 이어지므로 조동사 뒤 동사원형 Try 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 8,
+   "pos": 8,
+   "text": "various",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "various",
+   "wrong": [
+    "variously"
+   ],
+   "rule": "명사 games 를 꾸미므로 형용사 various 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 11,
+   "pos": 2,
+   "text": "If it rains",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "If it rains",
+   "wrong": [
+    "If it will rain"
+   ],
+   "rule": "조건을 나타내는 부사절에서는 미래 일도 현재시제 rains 로 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 11,
+   "pos": 28,
+   "text": "will be rescheduled",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "will be rescheduled",
+   "wrong": [
+    "will reschedule"
+   ],
+   "rule": "축제는 일정이 다시 잡히는 쪽이라 will be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 12,
+   "pos": 29,
+   "text": "visit",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "visit",
+   "wrong": [
+    "visiting"
+   ],
+   "rule": "please 뒤에 동사원형으로 시작하는 명령문이다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Heritage",
+   "sent": 1,
+   "ko": "유산",
+   "gloss": "유산",
+   "syn": [
+    "tradition"
+   ],
+   "ant": []
+  },
+  {
+   "text": "Join",
+   "sent": 2,
+   "ko": "함께하다, 참가하다",
+   "gloss": "함께하다",
+   "syn": [
+    "take part in"
+   ],
+   "ant": [
+    "leave"
+   ]
+  },
+  {
+   "text": "annual",
+   "sent": 2,
+   "ko": "해마다 열리는",
+   "gloss": "해마다 열리는",
+   "syn": [
+    "yearly"
+   ],
+   "ant": [
+    "one-time"
+   ]
+  },
+  {
+   "text": "held",
+   "sent": 2,
+   "ko": "(행사를) 열다",
+   "gloss": "(행사를) 열다",
+   "syn": [
+    "host"
+   ],
+   "ant": [
+    "cancel"
+   ]
+  },
+  {
+   "text": "Association",
+   "sent": 2,
+   "ko": "협회, 모임",
+   "gloss": "협회",
+   "syn": [
+    "society"
+   ],
+   "ant": []
+  },
+  {
+   "text": "experience",
+   "sent": 2,
+   "ko": "겪다, 경험하다",
+   "gloss": "겪다",
+   "syn": [
+    "feel"
+   ],
+   "ant": [
+    "miss"
+   ]
+  },
+  {
+   "text": "Location",
+   "sent": 4,
+   "ko": "장소, 위치",
+   "gloss": "장소",
+   "syn": [
+    "place"
+   ],
+   "ant": []
+  },
+  {
+   "text": "opposite",
+   "sent": 4,
+   "ko": "~의 맞은편에",
+   "gloss": "~의 맞은편에",
+   "syn": [
+    "across from"
+   ],
+   "ant": [
+    "next to"
+   ]
+  },
+  {
+   "text": "characters",
+   "sent": 7,
+   "ko": "글자, 문자",
+   "gloss": "글자",
+   "syn": [
+    "letter"
+   ],
+   "ant": []
+  },
+  {
+   "text": "various",
+   "sent": 8,
+   "ko": "여러 가지의",
+   "gloss": "여러 가지의",
+   "syn": [
+    "diverse"
+   ],
+   "ant": [
+    "similar"
+   ]
+  },
+  {
+   "text": "traditional",
+   "sent": 8,
+   "ko": "전통의, 전통적인",
+   "gloss": "전통의",
+   "syn": [
+    "classic"
+   ],
+   "ant": [
+    "modern"
+   ]
+  },
+  {
+   "text": "visitors",
+   "sent": 10,
+   "ko": "방문객",
+   "gloss": "방문객",
+   "syn": [
+    "guest"
+   ],
+   "ant": [
+    "host"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "2026 Korean Cultural "
+   },
+   {
+    "t": "Heritage",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " Festival"
+   }
+  ],
+  [
+   {
+    "t": "Join",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "Join",
+      "c": "v",
+      "id": "v1"
+     }
+    ]
+   },
+   {
+    "t": " us for the "
+   },
+   {
+    "t": "annual",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " Korean Cultural Heritage Festival "
+   },
+   {
+    "t": "held",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "held",
+      "c": "v",
+      "id": "v3"
+     }
+    ]
+   },
+   {
+    "t": " by Lindenveil Korean "
+   },
+   {
+    "t": "Association",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "and experience",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "and "
+     },
+     {
+      "t": "experience",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " the beauty of Korean culture!"
+   }
+  ],
+  [
+   {
+    "t": "Date and Time: October 23 - 25, 10 a.m. - 4 p.m."
+   }
+  ],
+  [
+   {
+    "t": "Location",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": ": Lindenveil Park ("
+   },
+   {
+    "t": "opposite",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " of Lindenveil City Hall)"
+   }
+  ],
+  [
+   {
+    "t": "Details: You can ..."
+   }
+  ],
+  [
+   {
+    "t": "· "
+   },
+   {
+    "t": "Try on",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " Hanbok and take photos."
+   }
+  ],
+  [
+   {
+    "t": "· Write your name in Korean "
+   },
+   {
+    "t": "characters",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": ", Hangeul."
+   }
+  ],
+  [
+   {
+    "t": "· Enjoy "
+   },
+   {
+    "t": "various",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "various",
+      "c": "v",
+      "id": "v9"
+     }
+    ]
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "traditional",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " Korean games."
+   }
+  ],
+  [
+   {
+    "t": "Notes"
+   }
+  ],
+  [
+   {
+    "t": "· All "
+   },
+   {
+    "t": "visitors",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " will receive traditional Korean snacks."
+   }
+  ],
+  [
+   {
+    "t": "· "
+   },
+   {
+    "t": "If it rains",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": ", the festival "
+   },
+   {
+    "t": "will be rescheduled",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "For more information, please "
+   },
+   {
+    "t": "visit",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " www.lindenveilKA.org."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "축제 소개",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "Lindenveil 한인회가 해마다 여는 한국 문화유산 축제에 초대",
+    "star": true
+   },
+   {
+    "label": "날짜 · 장소",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "10월 23일부터 25일까지 · 오전 10시부터 오후 4시까지 · 시청 맞은편 공원",
+    "star": false
+   },
+   {
+    "label": "할 수 있는 일",
+    "sents": [
+     5,
+     8
+    ],
+    "text": "한복 입고 사진 · 한글로 이름 쓰기 · 전통 놀이",
+    "star": false
+   },
+   {
+    "label": "알림 · 문의",
+    "sents": [
+     9,
+     12
+    ],
+    "text": "방문객 모두 전통 간식 · 비 오면 일정 다시 잡음 · 누리집 문의",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "Date and Time:",
+   "Details:",
+   "Notes"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "51c3007181ee6fc9",
+  "original_marks.json": "895927188391c938",
+  "passage_src.json": "64faf8f513211f06",
+  "study_x.json": "d2479bb38a2d3ce7",
+  "topic_items.json": "d9e7c4b9b9f4c7ea",
+  "workbook_src.json": "9038fe7523bc8953"
+ }
+}

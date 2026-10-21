@@ -1,0 +1,804 @@
+{
+ "meta": {
+  "id": "H2_2610_30",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 30,
+  "orig_type": "어휘",
+  "words": 156,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "말과 어긋날 때 사람들이 비언어 신호를 더 믿는 까닭",
+  "title_ko": "말보다 표정이 더 크게 말할 때",
+  "title_en": "When the Face Speaks Louder Than Words",
+  "gist_ko": "말과 비언어 신호가 서로 어긋나면 사람들은 비언어 신호를 더 믿으므로, 몸짓이 따라 주지 않는 말로는 상대를 움직이기 어렵다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals.",
+   "ko": "스피치 커뮤니케이션을 연구하는 Eva McMahan 교수의 연구에서 비언어 신호가 더 큰 영향을 미친다는 것이 확인되었다."
+  },
+  {
+   "n": 2,
+   "en": "The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ).",
+   "ko": "그런데 이 현상은 어른들이 서로 어긋나는 메시지가 오가는 상황, 곧 말로 전하는 내용과 말 밖의 신호가 전하는 내용이 서로 다른 상황에 놓였을 때 특히 뚜렷했다."
+  },
+  {
+   "n": 3,
+   "en": "Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message.",
+   "ko": "그러므로 함께 나타나는 비언어 의사소통이 입으로 한 말과 맞지 않으면, 말로 다른 사람을 조종하려는 시도는 실패하기 쉽다."
+  },
+  {
+   "n": 4,
+   "en": "This is because people trust nonverbal messages more than verbal ones.",
+   "ko": "이것은 사람들이 말로 된 메시지보다 비언어 메시지를 더 믿기 때문이다."
+  },
+  {
+   "n": 5,
+   "en": "When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.",
+   "ko": "누군가 너와 함께 시간을 보내는 것이 즐겁다고 말하면서도 눈길을 돌리고 억지로 웃는 모습이 보이면, 너는 아마 그 말을 믿을 마음이 덜 들 것이다."
+  },
+  {
+   "n": 6,
+   "en": "The same is probably true when you are back at the office after a sickness and your colleague tells you with a displeased expression that they were happy to take over your workload.",
+   "ko": "병을 앓은 뒤 사무실에 돌아왔는데 동료가 언짢은 표정으로 네 일을 기꺼이 대신 맡았다고 말할 때도 아마 마찬가지일 것이다."
+  },
+  {
+   "n": 7,
+   "en": "You might not believe that they enjoyed replacing you while you were gone.",
+   "ko": "너는 네가 없는 동안 동료가 너를 대신하는 일을 즐겼다는 말을 믿지 않을지도 모른다."
+  }
+ ],
+ "topic": 1,
+ "gist": 4,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "confirmed the dominance of nonverbal signals."
+  },
+  {
+   "sent": 2,
+   "text": "when adults found themselves in situations with conflicting messages"
+  },
+  {
+   "sent": 3,
+   "text": "are therefore likely to fail"
+  },
+  {
+   "sent": 4,
+   "text": "people trust nonverbal messages more than verbal ones."
+  },
+  {
+   "sent": 5,
+   "text": "how they are looking away and are forcing a smile,"
+  },
+  {
+   "sent": 6,
+   "text": "with a displeased expression"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "however",
+   "rel": "역접"
+  },
+  {
+   "sent": 3,
+   "text": "therefore",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "phenomenon",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the dominance of nonverbal signals.",
+   "ko": "비언어 신호가 더 큰 영향을 미치는 현상"
+  },
+  {
+   "sent": 4,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "Attempts to manipulate another person verbally are therefore likely to fail",
+   "ko": "말로 상대를 조종하려는 시도가 실패하기 쉽다는 것"
+  },
+  {
+   "sent": 4,
+   "text": "ones",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "messages",
+   "ko": "메시지"
+  },
+  {
+   "sent": 6,
+   "text": "same",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "you are probably less inclined to believe their words.",
+   "ko": "상대의 말을 덜 믿게 되는 일"
+  },
+  {
+   "sent": 7,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "your colleague",
+   "ko": "동료"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 59,
+   "text": "confirmed",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "confirmed",
+   "wrong": [
+    "confirming"
+   ],
+   "rule": "주어 A study 뒤에 동격 어구가 끼어 있을 뿐 문장의 동사가 따로 없으므로 분사가 아닌 동사 confirmed 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 69,
+   "text": "themselves",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "themselves",
+   "wrong": [
+    "them"
+   ],
+   "rule": "주어 adults 와 found 의 목적어가 같은 사람들이라 재귀대명사 themselves 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 138,
+   "text": "in which",
+   "cat": "관계부사·전치사+관계대명사",
+   "chip": "관계사",
+   "right": "in which",
+   "wrong": [
+    "which"
+   ],
+   "rule": "뒤에 완전한 절(the contents … differ)이 오므로 전치사 + 관계대명사 in which 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 47,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어의 중심 낱말 Attempts 가 복수라 are 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 68,
+   "text": "to fail",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to fail",
+   "wrong": [
+    "failing"
+   ],
+   "rule": "be likely 뒤에는 to부정사가 와서 '~하기 쉽다'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 120,
+   "text": "does not match",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "does not match",
+   "wrong": [
+    "do not match"
+   ],
+   "rule": "if 절의 주어 communication 이 단수라 does not match 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 0,
+   "text": "This is because",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "This is because",
+   "wrong": [
+    "This is why"
+   ],
+   "rule": "뒤 내용(사람들이 비언어 메시지를 더 믿음)이 앞 문장의 원인이므로 This is because 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 40,
+   "text": "spending",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "spending",
+   "wrong": [
+    "to spend"
+   ],
+   "rule": "enjoy 는 동명사를 목적어로 쓰므로 spending 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 79,
+   "text": "how",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "how",
+   "wrong": [
+    "what"
+   ],
+   "rule": "notice 의 목적어로 완전한 절이 오고 '어떻게'라는 뜻이라 의문사 how 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 161,
+   "text": "to believe",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to believe",
+   "wrong": [
+    "believing"
+   ],
+   "rule": "be inclined 뒤에는 to부정사가 와서 '~하고 싶은 마음이 들다'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 111,
+   "text": "displeased",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "displeased",
+   "wrong": [
+    "displeasing"
+   ],
+   "rule": "표정을 지은 동료가 불쾌함을 느끼는 쪽이라 과거분사형 형용사 displeased 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 6,
+   "pos": 133,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "tell + 사람 + 목적어 명사절 꼴이고 뒤에 완전한 절이 오므로 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 40,
+   "text": "replacing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "replacing",
+   "wrong": [
+    "to replace"
+   ],
+   "rule": "enjoy 는 동명사를 목적어로 쓰므로 replacing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "confirmed",
+   "sent": 1,
+   "ko": "확인하다, 사실임을 보여 주다",
+   "gloss": "확인하다",
+   "syn": [
+    "prove"
+   ],
+   "ant": [
+    "deny"
+   ]
+  },
+  {
+   "text": "dominance",
+   "sent": 1,
+   "ko": "우세, 지배적인 힘",
+   "gloss": "우세",
+   "syn": [
+    "superiority"
+   ],
+   "ant": [
+    "weakness"
+   ]
+  },
+  {
+   "text": "nonverbal",
+   "sent": 1,
+   "ko": "비언어적인, 말을 쓰지 않는",
+   "gloss": "비언어적인",
+   "syn": [
+    "unspoken"
+   ],
+   "ant": [
+    "verbal"
+   ]
+  },
+  {
+   "text": "pronounced",
+   "sent": 2,
+   "ko": "뚜렷한, 두드러진",
+   "gloss": "뚜렷한",
+   "syn": [
+    "noticeable"
+   ],
+   "ant": [
+    "faint"
+   ]
+  },
+  {
+   "text": "conflicting",
+   "sent": 2,
+   "ko": "서로 어긋나는, 상충하는",
+   "gloss": "서로 어긋나는",
+   "syn": [
+    "opposing"
+   ],
+   "ant": [
+    "matching"
+   ]
+  },
+  {
+   "text": "verbal",
+   "sent": 2,
+   "ko": "말로 된, 언어의",
+   "gloss": "말로 된",
+   "syn": [
+    "spoken"
+   ],
+   "ant": [
+    "nonverbal"
+   ]
+  },
+  {
+   "text": "manipulate",
+   "sent": 3,
+   "ko": "(사람을) 교묘히 조종하다",
+   "gloss": "(사람을) 교묘히 조종하다",
+   "syn": [
+    "control"
+   ],
+   "ant": []
+  },
+  {
+   "text": "accompanying",
+   "sent": 3,
+   "ko": "함께 따르는, 동반하는",
+   "gloss": "함께 따르는",
+   "syn": [
+    "attached"
+   ],
+   "ant": [
+    "separate"
+   ]
+  },
+  {
+   "text": "match",
+   "sent": 3,
+   "ko": "~와 맞다, 일치하다",
+   "gloss": "~와 맞다",
+   "syn": [
+    "fit"
+   ],
+   "ant": [
+    "differ from"
+   ]
+  },
+  {
+   "text": "spoken",
+   "sent": 3,
+   "ko": "입으로 말한",
+   "gloss": "입으로 말한",
+   "syn": [
+    "oral"
+   ],
+   "ant": [
+    "written"
+   ]
+  },
+  {
+   "text": "trust",
+   "sent": 4,
+   "ko": "믿다, 신뢰하다",
+   "gloss": "믿다",
+   "syn": [
+    "believe"
+   ],
+   "ant": [
+    "doubt"
+   ]
+  },
+  {
+   "text": "inclined",
+   "sent": 5,
+   "ko": "~하고 싶은 마음이 드는",
+   "gloss": "~하고 싶은 마음이 드는",
+   "syn": [
+    "willing"
+   ],
+   "ant": [
+    "reluctant"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "A study by Eva McMahan, professor of speech communication, "
+   },
+   {
+    "t": "confirmed",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "confirmed",
+      "c": "v",
+      "id": "v0"
+     }
+    ]
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "dominance",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "nonverbal",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " signals."
+   }
+  ],
+  [
+   {
+    "t": "The phenomenon, "
+   },
+   {
+    "t": "however",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": ", was especially "
+   },
+   {
+    "t": "pronounced",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " when adults found "
+   },
+   {
+    "t": "themselves",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " in situations with "
+   },
+   {
+    "t": "conflicting",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " messages (i.e., situations "
+   },
+   {
+    "t": "in which",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " the contents of the "
+   },
+   {
+    "t": "verbal",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " and nonverbal messages differ)."
+   }
+  ],
+  [
+   {
+    "t": "Attempts to "
+   },
+   {
+    "t": "manipulate",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " another person verbally "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "therefore",
+    "c": "c",
+    "id": "c1",
+    "lab": "결과"
+   },
+   {
+    "t": " likely "
+   },
+   {
+    "t": "to fail",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " if the "
+   },
+   {
+    "t": "accompanying",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " nonverbal communication "
+   },
+   {
+    "t": "does not match",
+    "c": "g",
+    "id": "g6",
+    "kids": [
+     {
+      "t": "does not "
+     },
+     {
+      "t": "match",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "spoken",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " message."
+   }
+  ],
+  [
+   {
+    "t": "This is because",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " people "
+   },
+   {
+    "t": "trust",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " nonverbal messages more than verbal ones."
+   }
+  ],
+  [
+   {
+    "t": "When somebody tells you that they enjoy "
+   },
+   {
+    "t": "spending",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " time with you, but you notice "
+   },
+   {
+    "t": "how",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " they are looking away and are forcing a smile, you are probably less "
+   },
+   {
+    "t": "inclined",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to believe",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " their words."
+   }
+  ],
+  [
+   {
+    "t": "The same is probably true when you are back at the office after a sickness and your colleague tells you with a "
+   },
+   {
+    "t": "displeased",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " expression "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " they were happy to take over your workload."
+   }
+  ],
+  [
+   {
+    "t": "You might not believe that they enjoyed "
+   },
+   {
+    "t": "replacing",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " you while you were gone."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "연구 결과",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "비언어 신호가 더 큰 영향 · 말과 어긋날 때 특히 뚜렷함",
+    "star": false
+   },
+   {
+    "label": "결론과 까닭",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "말과 몸짓이 다르면 조종 실패 ← 비언어를 더 믿음",
+    "star": true
+   },
+   {
+    "label": "예 1",
+    "sents": [
+     5,
+     5
+    ],
+    "text": "즐겁다면서 눈길을 피하고 억지웃음 → 말을 덜 믿음",
+    "star": false
+   },
+   {
+    "label": "예 2",
+    "sents": [
+     6,
+     7
+    ],
+    "text": "기뻤다면서 언짢은 표정 → 말을 믿지 않음",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "therefore",
+   "When",
+   "The same"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "83d4f57bd57dd7c3",
+  "original_marks.json": "4f8bc11c36491742",
+  "passage_src.json": "635664b4af8432ee",
+  "study_x.json": "9fcfbaf8cd5f407a",
+  "topic_items.json": "2cabae7e4761cae4",
+  "workbook_src.json": "fa56a3b40bfe0f60"
+ }
+}

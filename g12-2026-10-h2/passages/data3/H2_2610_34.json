@@ -1,0 +1,903 @@
+{
+ "meta": {
+  "id": "H2_2610_34",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 34,
+  "orig_type": "빈칸",
+  "words": 156,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "서로 이어진 시스템이 실패를 퍼뜨리고 앞일을 내다보기 어렵게 만드는 방식",
+  "title_ko": "연결된 세상의 숨은 위험",
+  "title_en": "The Hidden Risk of a Connected World",
+  "gist_ko": "정보 기술로 모든 것이 서로 이어지면서, 작은 실패도 곧바로 퍼져 예측하기 어려운 복잡한 실패로 커질 수 있다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Social media has altered business, politics, and friendships, making going viral a household term.",
+   "ko": "소셜 미디어는 사업, 정치, 우정을 바꾸어 놓았고, '입소문을 타다'를 누구나 아는 말로 만들었다."
+  },
+  {
+   "n": 2,
+   "en": "The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world.",
+   "ko": "세계 금융 산업은 모든 나라의 모든 은행과 수많은 가정을 이어 주어, 우리를 지구 반대편에서 일어나는 사람의 실수에 취약하게 만든다."
+  },
+  {
+   "n": 3,
+   "en": "As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls.",
+   "ko": "컬럼비아 대학교 전략학 교수 리타 맥그래스가 설명하듯이, 몇 해 전만 해도 우리 기관들은 대부분 서로 떨어져 있어서 담장 밖에서 생긴 실수의 영향을 덜 받았다."
+  },
+  {
+   "n": 4,
+   "en": "That is no longer the case.",
+   "ko": "이제는 더 이상 그렇지 않다."
+  },
+  {
+   "n": 5,
+   "en": "The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased.",
+   "ko": "컴퓨터 연산 능력의 비용이 줄어들면서 엄청난 양의 정보가 디지털로 바뀌는 일도 크게 늘어 왔다."
+  },
+  {
+   "n": 6,
+   "en": "The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns.",
+   "ko": "스스로 소통하는 똑똑한 시스템이 발달하면서 일어날 수 있는 고장의 종류도 끝없이 다양해졌다."
+  },
+  {
+   "n": 7,
+   "en": "This interdependence is a breeding ground for complex failure.",
+   "ko": "이런 상호 의존은 복잡한 실패가 자라나는 온상이다."
+  },
+  {
+   "n": 8,
+   "en": "As Rita puts it, when “things that used to be kept separate bump up against each other, it becomes far more difficult to predict what’s going to happen next.”",
+   "ko": "리타의 말처럼, '예전에 따로 떨어져 있던 것들이 서로 부딪치면 다음에 무슨 일이 일어날지 예측하기가 훨씬 더 어려워진다.'"
+  },
+  {
+   "n": 9,
+   "en": "Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.",
+   "ko": "상호 연결성이 작은 실패의 영향을 곧바로 퍼뜨리기 때문에 정보 기술은 새로운 취약점을 만들어 낸다."
+  }
+ ],
+ "topic": 7,
+ "gist": 9,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "Social media has altered business, politics, and friendships,"
+  },
+  {
+   "sent": 2,
+   "text": "making us vulnerable to human error taking place on the other side of the world."
+  },
+  {
+   "sent": 3,
+   "text": "years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls."
+  },
+  {
+   "sent": 4,
+   "text": "That is no longer the case."
+  },
+  {
+   "sent": 5,
+   "text": "The digitization of massive amounts of information has continued to grow enormously"
+  },
+  {
+   "sent": 6,
+   "text": "gave rise to an infinite variety of potential breakdowns."
+  },
+  {
+   "sent": 7,
+   "text": "This interdependence is a breeding ground for complex failure."
+  },
+  {
+   "sent": 8,
+   "text": "it becomes far more difficult to predict what’s going to happen next.”"
+  },
+  {
+   "sent": 9,
+   "text": "Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures."
+  }
+ ],
+ "con": [],
+ "ref": [
+  {
+   "sent": 4,
+   "text": "That",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls.",
+   "ko": "기관들이 따로 떨어져 바깥 실수에서 보호받던 모습"
+  },
+  {
+   "sent": 7,
+   "text": "This interdependence",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "The development of smart systems that communicate autonomously",
+   "ko": "정보와 똑똑한 시스템이 서로 이어진 상태"
+  },
+  {
+   "sent": 8,
+   "text": "Rita",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "Rita McGrath",
+   "ko": "리타 맥그래스 교수"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 62,
+   "text": "making",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "making",
+   "wrong": [
+    "made"
+   ],
+   "rule": "앞 절 전체의 결과를 덧붙이는 분사구문이라 현재분사 making 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 69,
+   "text": "going",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "going",
+   "wrong": [
+    "go"
+   ],
+   "rule": "making 뒤에 목적어로 동명사구 going viral 이, 목적격보어로 a household term 이 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 30,
+   "text": "links",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "links",
+   "wrong": [
+    "link"
+   ],
+   "rule": "주어 The global financial industry 가 단수라 links 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 90,
+   "text": "making",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "making",
+   "wrong": [
+    "makes"
+   ],
+   "rule": "앞 절의 결과를 덧붙이는 분사구문이라 현재분사 making 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 2,
+   "pos": 100,
+   "text": "vulnerable",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "vulnerable",
+   "wrong": [
+    "vulnerably"
+   ],
+   "rule": "make + 목적어 us 뒤의 목적격보어는 형용사라 vulnerable 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 2,
+   "pos": 126,
+   "text": "taking",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "taking",
+   "wrong": [
+    "taken"
+   ],
+   "rule": "명사 human error 를 뒤에서 꾸미고 실수가 '일어나는' 쪽이라 현재분사 taking 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 3,
+   "pos": 100,
+   "text": "were",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "were",
+   "wrong": [
+    "was"
+   ],
+   "rule": "most of + 명사는 of 뒤 명사에 수를 맞추는데, our institutions 가 복수라 were 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 3,
+   "pos": 126,
+   "text": "buffered",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "buffered",
+   "wrong": [
+    "buffering"
+   ],
+   "rule": "기관들이 영향으로부터 '보호받는' 쪽이라 were 에 이어지는 과거분사 buffered 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 51,
+   "text": "has continued",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "has continued",
+   "wrong": [
+    "have continued"
+   ],
+   "rule": "주어의 중심 낱말 digitization 이 단수라 has 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 65,
+   "text": "to grow",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to grow",
+   "wrong": [
+    "grown"
+   ],
+   "rule": "continue 뒤에 to부정사 to grow 를 써서 '계속 늘다'를 나타낸다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 33,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 smart systems 를 꾸미고 뒤 절에 주어가 빠져 있어 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 6,
+   "pos": 63,
+   "text": "gave",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "gave",
+   "wrong": [
+    "giving"
+   ],
+   "rule": "긴 주어 The development of smart systems that communicate autonomously 뒤에 문장의 동사가 와야 하므로 gave 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 8,
+   "pos": 30,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 things 를 꾸미고 뒤 절에 주어가 빠져 있어 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 8,
+   "pos": 43,
+   "text": "be kept",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be kept",
+   "wrong": [
+    "keep"
+   ],
+   "rule": "것들이 '따로 두어지던' 쪽이라 used to 뒤에 수동태 be kept 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 8,
+   "pos": 88,
+   "text": "it becomes",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "it becomes",
+   "wrong": [
+    "this becomes"
+   ],
+   "rule": "진주어 to predict 이하를 뒤로 보내고 그 앞에 가주어 it 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 8,
+   "pos": 99,
+   "text": "far more",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "far more",
+   "wrong": [
+    "very more"
+   ],
+   "rule": "비교급 more difficult 를 강조할 때는 very 가 아니라 far 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g17",
+   "sent": 9,
+   "pos": 23,
+   "text": "creates",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "creates",
+   "wrong": [
+    "create"
+   ],
+   "rule": "주어 Information technology 가 단수라 creates 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g18",
+   "sent": 9,
+   "pos": 88,
+   "text": "spreads",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "spreads",
+   "wrong": [
+    "spread"
+   ],
+   "rule": "because 절의 주어 interconnectedness 가 단수라 spreads 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "altered",
+   "sent": 1,
+   "ko": "바꾸다",
+   "gloss": "바꾸다",
+   "syn": [
+    "change"
+   ],
+   "ant": [
+    "preserve"
+   ]
+  },
+  {
+   "text": "financial",
+   "sent": 2,
+   "ko": "금융의, 재정의",
+   "gloss": "금융의",
+   "syn": [
+    "economic"
+   ],
+   "ant": []
+  },
+  {
+   "text": "links",
+   "sent": 2,
+   "ko": "잇다, 연결하다",
+   "gloss": "잇다",
+   "syn": [
+    "connect"
+   ],
+   "ant": [
+    "disconnect"
+   ]
+  },
+  {
+   "text": "vulnerable",
+   "sent": 2,
+   "ko": "취약한, 다치기 쉬운",
+   "gloss": "취약한",
+   "syn": [
+    "weak"
+   ],
+   "ant": [
+    "invulnerable"
+   ]
+  },
+  {
+   "text": "separate",
+   "sent": 3,
+   "ko": "따로 떨어진, 분리된",
+   "gloss": "따로 떨어진",
+   "syn": [
+    "apart"
+   ],
+   "ant": [
+    "connected"
+   ]
+  },
+  {
+   "text": "buffered",
+   "sent": 3,
+   "ko": "완충하다, 막아 주다",
+   "gloss": "완충하다",
+   "syn": [
+    "shield"
+   ],
+   "ant": [
+    "expose"
+   ]
+  },
+  {
+   "text": "massive",
+   "sent": 5,
+   "ko": "엄청난, 거대한",
+   "gloss": "엄청난",
+   "syn": [
+    "huge"
+   ],
+   "ant": [
+    "tiny"
+   ]
+  },
+  {
+   "text": "autonomously",
+   "sent": 6,
+   "ko": "자율적으로, 스스로",
+   "gloss": "자율적으로",
+   "syn": [
+    "independently"
+   ],
+   "ant": [
+    "dependently"
+   ]
+  },
+  {
+   "text": "infinite",
+   "sent": 6,
+   "ko": "무한한, 끝없는",
+   "gloss": "무한한",
+   "syn": [
+    "endless"
+   ],
+   "ant": [
+    "finite"
+   ]
+  },
+  {
+   "text": "interdependence",
+   "sent": 7,
+   "ko": "상호 의존",
+   "gloss": "상호 의존",
+   "syn": [
+    "mutual dependence"
+   ],
+   "ant": [
+    "independence"
+   ]
+  },
+  {
+   "text": "predict",
+   "sent": 8,
+   "ko": "예측하다",
+   "gloss": "예측하다",
+   "syn": [
+    "forecast"
+   ],
+   "ant": []
+  },
+  {
+   "text": "interconnectedness",
+   "sent": 9,
+   "ko": "상호 연결성",
+   "gloss": "상호 연결성",
+   "syn": [
+    "connection"
+   ],
+   "ant": [
+    "isolation"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Social media has "
+   },
+   {
+    "t": "altered",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " business, politics, and friendships, "
+   },
+   {
+    "t": "making",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "going",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " viral a household term."
+   }
+  ],
+  [
+   {
+    "t": "The global "
+   },
+   {
+    "t": "financial",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " industry "
+   },
+   {
+    "t": "links",
+    "c": "g",
+    "id": "g3",
+    "kids": [
+     {
+      "t": "links",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " every bank and countless households in every country, "
+   },
+   {
+    "t": "making",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " us "
+   },
+   {
+    "t": "vulnerable",
+    "c": "g",
+    "id": "g5",
+    "kids": [
+     {
+      "t": "vulnerable",
+      "c": "v",
+      "id": "v3"
+     }
+    ]
+   },
+   {
+    "t": " to human error "
+   },
+   {
+    "t": "taking",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " place on the other side of the world."
+   }
+  ],
+  [
+   {
+    "t": "As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions "
+   },
+   {
+    "t": "were",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "separate",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " and thereby "
+   },
+   {
+    "t": "buffered",
+    "c": "g",
+    "id": "g8",
+    "kids": [
+     {
+      "t": "buffered",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " from the effects of errors outside their walls."
+   }
+  ],
+  [
+   {
+    "t": "That is no longer the case."
+   }
+  ],
+  [
+   {
+    "t": "The digitization of "
+   },
+   {
+    "t": "massive",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " amounts of information "
+   },
+   {
+    "t": "has continued",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to grow",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " enormously as the cost of computing power has decreased."
+   }
+  ],
+  [
+   {
+    "t": "The development of smart systems "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " communicate "
+   },
+   {
+    "t": "autonomously",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "gave",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " rise to an "
+   },
+   {
+    "t": "infinite",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " variety of potential breakdowns."
+   }
+  ],
+  [
+   {
+    "t": "This "
+   },
+   {
+    "t": "interdependence",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " is a breeding ground for complex failure."
+   }
+  ],
+  [
+   {
+    "t": "As Rita puts it, when “things "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " used to "
+   },
+   {
+    "t": "be kept",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " separate bump up against each other, "
+   },
+   {
+    "t": "it becomes",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "far more",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": " difficult to "
+   },
+   {
+    "t": "predict",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " what’s going to happen next.”"
+   }
+  ],
+  [
+   {
+    "t": "Information technology "
+   },
+   {
+    "t": "creates",
+    "c": "g",
+    "id": "g17"
+   },
+   {
+    "t": " new vulnerabilities because "
+   },
+   {
+    "t": "interconnectedness",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " instantly "
+   },
+   {
+    "t": "spreads",
+    "c": "g",
+    "id": "g18"
+   },
+   {
+    "t": " the impact of small failures."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "연결된 세상",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "소셜 미디어 · 세계 금융 → 먼 곳의 실수에도 취약",
+    "star": false
+   },
+   {
+    "label": "예전과 지금",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "예전: 기관이 따로 떨어져 바깥 실수에서 보호 → 이제는 아님",
+    "star": false
+   },
+   {
+    "label": "연결이 늘어난 까닭",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "정보의 디지털화 · 스스로 소통하는 시스템 → 고장 가능성 끝없음",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     7,
+     9
+    ],
+    "text": "상호 의존 = 복잡한 실패의 온상 → 작은 실패가 곧바로 퍼짐",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "As Columbia University",
+   "The digitization",
+   "This interdependence"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "a05e2db6dcbf97bb",
+  "original_marks.json": "e519a76d0850ae77",
+  "passage_src.json": "0b05ba704173c12c",
+  "study_x.json": "f0dabc3f30351337",
+  "topic_items.json": "ffdb2494a50015b1",
+  "workbook_src.json": "102abdcd2fc1c401"
+ }
+}

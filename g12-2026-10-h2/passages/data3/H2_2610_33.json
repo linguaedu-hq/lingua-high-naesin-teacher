@@ -1,0 +1,803 @@
+{
+ "meta": {
+  "id": "H2_2610_33",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 33,
+  "orig_type": "빈칸",
+  "words": 135,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "가소성 덕분에 인간 발달이 평생 이어진다는 생각",
+  "title_ko": "가소성 — 평생 이어지는 발달",
+  "title_en": "Plasticity: Growth That Lasts a Lifetime",
+  "gist_ko": "인간 발달은 정해진 단계가 아니라 가소성에 힘입어 평생 이어지는 과정이므로, 사람은 삶의 어느 단계에서든 적응하고 바뀔 수 있다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages.",
+   "ko": "오늘날 인간 발달은 고정된 단계의 순서라기보다 계속 이어지고 유연하며 진화하는 과정으로 점점 더 이해되고 있다."
+  },
+  {
+   "n": 2,
+   "en": "At the core of this perspective lies the concept of plasticity.",
+   "ko": "이런 관점의 중심에는 가소성이라는 개념이 놓여 있다."
+  },
+  {
+   "n": 3,
+   "en": "Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes.",
+   "ko": "가소성은 삶의 경험, 환경의 요구, 생물학적 변화에 반응하여 인지 · 정서 · 행동의 양식을 바꾸고 맞추고 다시 짜는 인간의 능력을 가리킨다."
+  },
+  {
+   "n": 4,
+   "en": "It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives.",
+   "ko": "그것은 개인이 발달을 그저 수동적으로 받는 존재가 아니라 평생에 걸쳐 성장할 수 있는 능동적인 주체임을 강조한다."
+  },
+  {
+   "n": 5,
+   "en": "In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.",
+   "ko": "예전의 관점에서는 발달이 주로 어린 시절에 일어난다고 여겨졌고, 성인기는 안정의 시기로, 노년기는 쇠퇴의 단계로 여겨졌다."
+  },
+  {
+   "n": 6,
+   "en": "The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan.",
+   "ko": "가소성 개념은 사람의 발달이 평생 멈추지 않는다는 점을 내세워 이처럼 굳은 시각을 반박한다."
+  },
+  {
+   "n": 7,
+   "en": "Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+   "ko": "변화의 정도는 단계마다 다를 수 있지만, 삶의 모든 단계에는 적응과 변모의 여지가 있다."
+  }
+ ],
+ "topic": 1,
+ "gist": 7,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "as an ongoing, flexible, and evolving process"
+  },
+  {
+   "sent": 2,
+   "text": "lies the concept of plasticity."
+  },
+  {
+   "sent": 3,
+   "text": "the human capacity to change, adapt, and reorganize"
+  },
+  {
+   "sent": 4,
+   "text": "active agents capable of growth throughout their lives."
+  },
+  {
+   "sent": 5,
+   "text": "development was believed to occur mainly during childhood,"
+  },
+  {
+   "sent": 6,
+   "text": "emphasizing that development continues across the entire lifespan."
+  },
+  {
+   "sent": 7,
+   "text": "every phase of life allows room for adaptation and transformation."
+  }
+ ],
+ "con": [],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "this perspective",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "as an ongoing, flexible, and evolving process",
+   "ko": "발달을 계속 변하는 과정으로 보는 관점"
+  },
+  {
+   "sent": 4,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "Plasticity",
+   "ko": "가소성"
+  },
+  {
+   "sent": 6,
+   "text": "this rigid outlook",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "development was believed to occur mainly during childhood,",
+   "ko": "발달이 주로 어린 시절에 일어난다는 예전 관점"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 38,
+   "text": "understood",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "understood",
+   "wrong": [
+    "understanding"
+   ],
+   "rule": "인간 발달이 '이해되는' 쪽이라 is 뒤에 과거분사 understood 를 써서 수동태를 만든다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 78,
+   "text": "evolving",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "evolving",
+   "wrong": [
+    "evolved"
+   ],
+   "rule": "과정이 스스로 '진화하는' 쪽이라 명사 process 앞에 현재분사 evolving 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 32,
+   "text": "lies",
+   "cat": "도치·강조",
+   "chip": "도치·강조",
+   "right": "lies",
+   "wrong": [
+    "lie"
+   ],
+   "rule": "장소 부사구가 문장 앞에 나와 동사 lies 가 주어 the concept 앞에 왔고, 주어가 단수라 lies 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 11,
+   "text": "refers",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "refers",
+   "wrong": [
+    "refer"
+   ],
+   "rule": "주어 Plasticity 가 단수라 refers 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 40,
+   "text": "to change",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to change",
+   "wrong": [
+    "changing"
+   ],
+   "rule": "명사 capacity 를 뒤에서 꾸미는 to부정사 to change 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 62,
+   "text": "reorganize",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "reorganize",
+   "wrong": [
+    "reorganizing"
+   ],
+   "rule": "to 뒤의 change, adapt 와 나란히 동사원형 reorganize 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 14,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "뒤 절이 빠진 성분 없는 완전한 절이므로 highlights 의 목적어가 되는 명사절을 접속사 that 이 이끈다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 98,
+   "text": "capable",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "capable",
+   "wrong": [
+    "capably"
+   ],
+   "rule": "명사 agents 를 뒤에서 꾸미는 형용사구 capable of growth 라 형용사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 30,
+   "text": "was believed",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "was believed",
+   "wrong": [
+    "believed"
+   ],
+   "rule": "발달이 '여겨지는' 쪽이라 수동태 was believed 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 92,
+   "text": "seen",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "seen",
+   "wrong": [
+    "seeing"
+   ],
+   "rule": "with + 명사 + 분사 구문에서 성인기가 안정의 시기로 '여겨지는' 쪽이라 과거분사 seen 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 26,
+   "text": "challenges",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "challenges",
+   "wrong": [
+    "challenge"
+   ],
+   "rule": "주어의 중심 낱말 concept 가 단수라 challenges 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 6,
+   "pos": 59,
+   "text": "emphasizing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "emphasizing",
+   "wrong": [
+    "emphasize"
+   ],
+   "rule": "전치사 by 뒤에는 동명사 emphasizing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 6,
+   "pos": 88,
+   "text": "continues",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "continues",
+   "wrong": [
+    "continue"
+   ],
+   "rule": "명사절의 주어 development 가 단수라 continues 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 7,
+   "pos": 0,
+   "text": "Although",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "Although",
+   "wrong": [
+    "Despite"
+   ],
+   "rule": "뒤에 주어 the extent of change 와 동사 may vary 를 갖춘 절이 오므로 전치사 Despite 가 아니라 접속사 Although 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 7,
+   "pos": 80,
+   "text": "allows",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "allows",
+   "wrong": [
+    "allow"
+   ],
+   "rule": "주어 every phase 는 every 가 붙어 단수라 allows 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "flexible",
+   "sent": 1,
+   "ko": "유연한",
+   "gloss": "유연한",
+   "syn": [
+    "adaptable"
+   ],
+   "ant": [
+    "inflexible"
+   ]
+  },
+  {
+   "text": "perspective",
+   "sent": 2,
+   "ko": "관점",
+   "gloss": "관점",
+   "syn": [
+    "viewpoint"
+   ],
+   "ant": []
+  },
+  {
+   "text": "plasticity",
+   "sent": 2,
+   "ko": "가소성(바뀔 수 있는 성질)",
+   "gloss": "가소성(바뀔 수 있는 성질)",
+   "syn": [
+    "flexibility"
+   ],
+   "ant": [
+    "rigidity"
+   ]
+  },
+  {
+   "text": "capacity",
+   "sent": 3,
+   "ko": "능력",
+   "gloss": "능력",
+   "syn": [
+    "ability"
+   ],
+   "ant": [
+    "inability"
+   ]
+  },
+  {
+   "text": "adapt",
+   "sent": 3,
+   "ko": "적응하다, 맞추다",
+   "gloss": "적응하다",
+   "syn": [
+    "adjust"
+   ],
+   "ant": []
+  },
+  {
+   "text": "passive",
+   "sent": 4,
+   "ko": "수동적인",
+   "gloss": "수동적인",
+   "syn": [
+    "inactive"
+   ],
+   "ant": [
+    "active"
+   ]
+  },
+  {
+   "text": "recipients",
+   "sent": 4,
+   "ko": "받는 사람, 수용자",
+   "gloss": "받는 사람",
+   "syn": [
+    "receiver"
+   ],
+   "ant": [
+    "giver"
+   ]
+  },
+  {
+   "text": "stability",
+   "sent": 5,
+   "ko": "안정",
+   "gloss": "안정",
+   "syn": [
+    "steadiness"
+   ],
+   "ant": [
+    "instability"
+   ]
+  },
+  {
+   "text": "decline",
+   "sent": 5,
+   "ko": "쇠퇴",
+   "gloss": "쇠퇴",
+   "syn": [
+    "fall"
+   ],
+   "ant": [
+    "growth"
+   ]
+  },
+  {
+   "text": "challenges",
+   "sent": 6,
+   "ko": "이의를 제기하다",
+   "gloss": "이의를 제기하다",
+   "syn": [
+    "question"
+   ],
+   "ant": [
+    "accept"
+   ]
+  },
+  {
+   "text": "rigid",
+   "sent": 6,
+   "ko": "경직된, 융통성 없는",
+   "gloss": "경직된",
+   "syn": [
+    "inflexible"
+   ],
+   "ant": [
+    "flexible"
+   ]
+  },
+  {
+   "text": "transformation",
+   "sent": 7,
+   "ko": "변모, 탈바꿈",
+   "gloss": "변모",
+   "syn": [
+    "change"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Human development is now increasingly "
+   },
+   {
+    "t": "understood",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " as an ongoing, "
+   },
+   {
+    "t": "flexible",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": ", and "
+   },
+   {
+    "t": "evolving",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " process rather than a fixed sequence of stages."
+   }
+  ],
+  [
+   {
+    "t": "At the core of this "
+   },
+   {
+    "t": "perspective",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "lies",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " the concept of "
+   },
+   {
+    "t": "plasticity",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Plasticity "
+   },
+   {
+    "t": "refers",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " to the human "
+   },
+   {
+    "t": "capacity",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to change",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "adapt",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": ", and "
+   },
+   {
+    "t": "reorganize",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes."
+   }
+  ],
+  [
+   {
+    "t": "It highlights "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " individuals are not merely "
+   },
+   {
+    "t": "passive",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "recipients",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " of development but active agents "
+   },
+   {
+    "t": "capable",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " of growth throughout their lives."
+   }
+  ],
+  [
+   {
+    "t": "In earlier views, development "
+   },
+   {
+    "t": "was believed",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " to occur mainly during childhood, with adulthood "
+   },
+   {
+    "t": "seen",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " as a period of "
+   },
+   {
+    "t": "stability",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " and old age as a phase of "
+   },
+   {
+    "t": "decline",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "The concept of plasticity "
+   },
+   {
+    "t": "challenges",
+    "c": "g",
+    "id": "g11",
+    "kids": [
+     {
+      "t": "challenges",
+      "c": "v",
+      "id": "v9"
+     }
+    ]
+   },
+   {
+    "t": " this "
+   },
+   {
+    "t": "rigid",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " outlook by "
+   },
+   {
+    "t": "emphasizing",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " that development "
+   },
+   {
+    "t": "continues",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " across the entire lifespan."
+   }
+  ],
+  [
+   {
+    "t": "Although",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " the extent of change may vary at different stages, every phase of life "
+   },
+   {
+    "t": "allows",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " room for adaptation and "
+   },
+   {
+    "t": "transformation",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": "."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "새 관점",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "발달 = 고정된 단계 X → 계속 변하는 과정 / 그 중심에 가소성",
+    "star": false
+   },
+   {
+    "label": "가소성의 뜻",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "경험 · 환경 · 몸의 변화에 맞춰 바뀌는 능력 → 사람 = 능동적 주체",
+    "star": false
+   },
+   {
+    "label": "예전 관점",
+    "sents": [
+     5,
+     5
+    ],
+    "text": "발달은 주로 어린 시절 · 성인기 = 안정 · 노년기 = 쇠퇴",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     6,
+     7
+    ],
+    "text": "가소성 → 발달은 평생 계속 · 모든 단계에 적응과 변모의 여지",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "Plasticity refers",
+   "In earlier views,",
+   "The concept of plasticity challenges"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "6cdfe152b57e05e1",
+  "original_marks.json": "e69b8458dca72101",
+  "passage_src.json": "ce8650354215c926",
+  "study_x.json": "1cddc38b7e6e6e03",
+  "topic_items.json": "01c83ff55f5c52bf",
+  "workbook_src.json": "06e37b21936e3da0"
+ }
+}

@@ -1,0 +1,978 @@
+{
+ "meta": {
+  "id": "H2_2610_41",
+  "grade": "고2",
+  "year": 2026,
+  "month": 10,
+  "item_no": 41,
+  "orig_type": "제목(장문)",
+  "words": 215,
+  "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
+  "topic_ko": "지루함을 성찰과 성장의 기회로 보는 태도",
+  "title_ko": "지루함, 조용히 자라날 기회",
+  "title_en": "Boredom: A Quiet Chance to Grow",
+  "gist_ko": "지루함은 안전할 때만 누리는 사치이므로, 그것을 쓸모없는 시간으로 보지 말고 깊은 자기 성찰과 성장의 기회로 써야 한다."
+ },
+ "kind": "long",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "It is crucial to recognize that boredom can give rise to harmful emotions such as depression, despair, and irritation if not adequately addressed.",
+   "ko": "지루함은 제대로 다루지 않으면 우울, 절망, 짜증 같은 해로운 감정을 일으킬 수 있다는 점을 알아 두는 것이 매우 중요하다."
+  },
+  {
+   "n": 2,
+   "en": "When we believe that the only way to be happy is by searching for fun activities, then we become dependent on those activities, and negative thoughts and emotions arise.",
+   "ko": "행복해지는 유일한 길이 재미있는 활동을 찾아다니는 것이라고 믿으면, 우리는 그런 활동에 기대게 되고 부정적인 생각과 감정이 생겨난다."
+  },
+  {
+   "n": 3,
+   "en": "It is suggested that ‘Idle time is the devil’s workshop’ implies that those with too much time on their hands may fill that time with troubling thoughts and behavior.",
+   "ko": "‘한가한 시간은 악마의 작업장이다’라는 말은 할 일 없이 시간이 너무 많이 남는 사람이 그 시간을 괴로운 생각과 행동으로 채울 수도 있다는 뜻으로 여겨진다."
+  },
+  {
+   "n": 4,
+   "en": "The balance is to not see it as idle time, wasted time, or boredom but rather as a perfect time for self-improvement, self-identification, and positive reflection time.",
+   "ko": "균형 잡힌 태도는 그 시간을 한가한 시간이나 낭비한 시간, 또는 지루함으로 보지 않고, 오히려 자기 계발과 자기 발견, 긍정적인 성찰에 더없이 좋은 시간으로 보는 것이다."
+  },
+  {
+   "n": 5,
+   "en": "Reflecting, just how lucky are we to be bored?",
+   "ko": "곰곰이 생각해 보면, 우리가 지루할 수 있다는 것은 얼마나 운이 좋은 일인가?"
+  },
+  {
+   "n": 6,
+   "en": "Boredom doesn’t exist in the presence of danger, as it is only an indulgence pastime in a safe zone.",
+   "ko": "위험이 있는 곳에는 지루함이 생기지 않는데, 지루함은 안전한 곳에서만 마음껏 누리는 소일거리이기 때문이다."
+  },
+  {
+   "n": 7,
+   "en": "Boredom can be perceived as a luxury that typically manifests in safe and inactive situations, providing an occasion to appreciate and comprehend the environment.",
+   "ko": "지루함은 대개 안전하고 할 일이 없는 상황에서 나타나는 일종의 사치로 볼 수 있으며, 주변 환경을 음미하고 이해할 기회를 준다."
+  },
+  {
+   "n": 8,
+   "en": "In hazardous circumstances, the luxury of boredom is unavailable.",
+   "ko": "위험한 상황에서는 지루함이라는 사치를 누릴 수 없다."
+  },
+  {
+   "n": 9,
+   "en": "Thus, it is paramount to utilize idle moments for profound self-reflection.",
+   "ko": "따라서 한가한 순간을 깊은 자기 성찰에 활용하는 것이 무엇보다 중요하다."
+  },
+  {
+   "n": 10,
+   "en": "It represents an occasion to listen, observe, and appreciate before expressing.",
+   "ko": "그 시간은 무언가를 표현하기 전에 먼저 듣고, 지켜보고, 음미할 기회가 된다."
+  },
+  {
+   "n": 11,
+   "en": "Rather than viewing boredom as unproductive, it should be regarded as an opportunity for personal development and constructive contemplation.",
+   "ko": "지루함을 쓸모없는 것으로 보기보다는 개인의 성장과 건설적인 사색을 위한 기회로 여겨야 한다."
+  }
+ ],
+ "topic": 11,
+ "gist": 9,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "boredom can give rise to harmful emotions"
+  },
+  {
+   "sent": 4,
+   "text": "but rather as a perfect time for self-improvement"
+  },
+  {
+   "sent": 7,
+   "text": "Boredom can be perceived as a luxury"
+  },
+  {
+   "sent": 9,
+   "text": "it is paramount to utilize idle moments for profound self-reflection"
+  },
+  {
+   "sent": 11,
+   "text": "it should be regarded as an opportunity for personal development and constructive contemplation"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "but rather",
+   "rel": "대조"
+  },
+  {
+   "sent": 9,
+   "text": "Thus",
+   "rel": "결과"
+  },
+  {
+   "sent": 11,
+   "text": "Rather than",
+   "rel": "대조"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "those activities",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "fun activities",
+   "ko": "재미있는 활동"
+  },
+  {
+   "sent": 4,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "that time",
+   "ko": "할 일 없이 남는 시간"
+  },
+  {
+   "sent": 6,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "Boredom",
+   "ko": "지루함"
+  },
+  {
+   "sent": 10,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 9,
+   "to": "idle moments",
+   "ko": "한가한 순간(을 활용하는 일)"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 14,
+   "text": "to recognize",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "to recognize",
+   "wrong": [
+    "recognizing"
+   ],
+   "rule": "가주어 It 이 받는 진주어는 to부정사 to recognize 이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 136,
+   "text": "addressed",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "addressed",
+   "wrong": [
+    "addressing"
+   ],
+   "rule": "지루함은 다루어지는 대상이라 if not 뒤에 과거분사 addressed 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 52,
+   "text": "searching",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "searching",
+   "wrong": [
+    "search"
+   ],
+   "rule": "전치사 by 뒤라 동명사 searching 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 163,
+   "text": "arise",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "arise",
+   "wrong": [
+    "arises"
+   ],
+   "rule": "주어 negative thoughts and emotions 가 복수라 arise 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 3,
+   "text": "is suggested",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is suggested",
+   "wrong": [
+    "suggests"
+   ],
+   "rule": "가주어 It 이 받는 that 절 내용은 여겨지는 쪽이라 수동태 is suggested 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 57,
+   "text": "implies",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "implies",
+   "wrong": [
+    "imply"
+   ],
+   "rule": "that 절의 주어는 속담 한 문장이라 단수 동사 implies 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 3,
+   "pos": 134,
+   "text": "troubling",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "troubling",
+   "wrong": [
+    "troubled"
+   ],
+   "rule": "생각과 행동이 사람을 괴롭히는 쪽이라 현재분사 troubling 이 thoughts 를 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 15,
+   "text": "to not see",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to not see",
+   "wrong": [
+    "to not seeing"
+   ],
+   "rule": "주어 The balance 를 설명하는 보어로 to부정사를 쓰므로 to 뒤에 동사원형 see 가 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 4,
+   "pos": 43,
+   "text": "wasted",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "wasted",
+   "wrong": [
+    "wasting"
+   ],
+   "rule": "시간은 낭비되는 대상이라 과거분사 wasted 가 time 을 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 0,
+   "text": "Reflecting",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "Reflecting",
+   "wrong": [
+    "Reflected"
+   ],
+   "rule": "우리가 생각하는 쪽이라 현재분사 Reflecting 으로 분사구문을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 8,
+   "text": "doesn’t",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "doesn’t",
+   "wrong": [
+    "don’t"
+   ],
+   "rule": "주어 Boredom 이 단수라 doesn’t 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 37,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a luxury 를 꾸미는 주격 관계대명사라 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 52,
+   "text": "manifests",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "manifests",
+   "wrong": [
+    "manifest"
+   ],
+   "rule": "선행사 a luxury 가 단수라 관계사절의 동사도 manifests 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 7,
+   "pos": 95,
+   "text": "providing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "providing",
+   "wrong": [
+    "provided"
+   ],
+   "rule": "지루함이 기회를 주는 쪽이라 현재분사 providing 으로 분사구문을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 9,
+   "pos": 22,
+   "text": "to utilize",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "to utilize",
+   "wrong": [
+    "utilizing"
+   ],
+   "rule": "가주어 it 이 받는 진주어는 to부정사 to utilize 이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 10,
+   "pos": 26,
+   "text": "to listen",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to listen",
+   "wrong": [
+    "listening"
+   ],
+   "rule": "an occasion 을 뒤에서 꾸미는 말이라 to부정사 to listen 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g17",
+   "sent": 10,
+   "pos": 68,
+   "text": "expressing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "expressing",
+   "wrong": [
+    "express"
+   ],
+   "rule": "전치사 before 뒤라 동명사 expressing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g18",
+   "sent": 11,
+   "pos": 12,
+   "text": "viewing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "viewing",
+   "wrong": [
+    "view"
+   ],
+   "rule": "Rather than 뒤에서 명사처럼 쓰이는 말이라 동명사 viewing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g19",
+   "sent": 11,
+   "pos": 55,
+   "text": "be regarded",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be regarded",
+   "wrong": [
+    "regard"
+   ],
+   "rule": "주어 it(지루함)은 여겨지는 대상이라 should 뒤에 수동태 be regarded 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "crucial",
+   "sent": 1,
+   "ko": "매우 중요한, 결정적인",
+   "gloss": "매우 중요한",
+   "syn": [
+    "vital"
+   ],
+   "ant": [
+    "trivial"
+   ]
+  },
+  {
+   "text": "adequately",
+   "sent": 1,
+   "ko": "제대로, 충분히",
+   "gloss": "제대로",
+   "syn": [
+    "properly"
+   ],
+   "ant": [
+    "poorly"
+   ]
+  },
+  {
+   "text": "addressed",
+   "sent": 1,
+   "ko": "다루다, 처리하다",
+   "gloss": "다루다",
+   "syn": [
+    "handle"
+   ],
+   "ant": [
+    "neglect"
+   ]
+  },
+  {
+   "text": "dependent",
+   "sent": 2,
+   "ko": "의존하는, 기대는",
+   "gloss": "의존하는",
+   "syn": [
+    "reliant"
+   ],
+   "ant": [
+    "independent"
+   ]
+  },
+  {
+   "text": "troubling",
+   "sent": 3,
+   "ko": "괴로운, 걱정스러운",
+   "gloss": "괴로운",
+   "syn": [
+    "disturbing"
+   ],
+   "ant": [
+    "comforting"
+   ]
+  },
+  {
+   "text": "idle",
+   "sent": 4,
+   "ko": "한가한, 할 일 없는",
+   "gloss": "한가한",
+   "syn": [
+    "unoccupied"
+   ],
+   "ant": [
+    "busy"
+   ]
+  },
+  {
+   "text": "perceived",
+   "sent": 7,
+   "ko": "여기다, 인식하다",
+   "gloss": "여기다",
+   "syn": [
+    "view"
+   ],
+   "ant": [
+    "overlook"
+   ]
+  },
+  {
+   "text": "luxury",
+   "sent": 7,
+   "ko": "사치, 호사",
+   "gloss": "사치",
+   "syn": [
+    "extravagance"
+   ],
+   "ant": [
+    "necessity"
+   ]
+  },
+  {
+   "text": "manifests",
+   "sent": 7,
+   "ko": "나타나다, 드러나다",
+   "gloss": "나타나다",
+   "syn": [
+    "appear"
+   ],
+   "ant": [
+    "vanish"
+   ]
+  },
+  {
+   "text": "hazardous",
+   "sent": 8,
+   "ko": "위험한",
+   "gloss": "위험한",
+   "syn": [
+    "risky"
+   ],
+   "ant": [
+    "harmless"
+   ]
+  },
+  {
+   "text": "paramount",
+   "sent": 9,
+   "ko": "무엇보다 중요한",
+   "gloss": "무엇보다 중요한",
+   "syn": [
+    "supreme"
+   ],
+   "ant": [
+    "minor"
+   ]
+  },
+  {
+   "text": "utilize",
+   "sent": 9,
+   "ko": "활용하다, 이용하다",
+   "gloss": "활용하다",
+   "syn": [
+    "make use of"
+   ],
+   "ant": [
+    "waste"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "It is "
+   },
+   {
+    "t": "crucial",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to recognize",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " that boredom can give rise to harmful emotions such as depression, despair, and irritation if not "
+   },
+   {
+    "t": "adequately",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "addressed",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "addressed",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "When we believe that the only way to be happy is by "
+   },
+   {
+    "t": "searching",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " for fun activities, then we become "
+   },
+   {
+    "t": "dependent",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " on those activities, and negative thoughts and emotions "
+   },
+   {
+    "t": "arise",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "It "
+   },
+   {
+    "t": "is suggested",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " that ‘Idle time is the devil’s workshop’ "
+   },
+   {
+    "t": "implies",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " that those with too much time on their hands may fill that time with "
+   },
+   {
+    "t": "troubling",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "troubling",
+      "c": "v",
+      "id": "v4"
+     }
+    ]
+   },
+   {
+    "t": " thoughts and behavior."
+   }
+  ],
+  [
+   {
+    "t": "The balance is "
+   },
+   {
+    "t": "to not see",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " it as "
+   },
+   {
+    "t": "idle",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " time, "
+   },
+   {
+    "t": "wasted",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " time, or boredom "
+   },
+   {
+    "t": "but rather",
+    "c": "c",
+    "id": "c0",
+    "lab": "대조"
+   },
+   {
+    "t": " as a perfect time for self-improvement, self-identification, and positive reflection time."
+   }
+  ],
+  [
+   {
+    "t": "Reflecting",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": ", just how lucky are we to be bored?"
+   }
+  ],
+  [
+   {
+    "t": "Boredom "
+   },
+   {
+    "t": "doesn’t",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " exist in the presence of danger, as it is only an indulgence pastime in a safe zone."
+   }
+  ],
+  [
+   {
+    "t": "Boredom can be "
+   },
+   {
+    "t": "perceived",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " as a "
+   },
+   {
+    "t": "luxury",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " typically "
+   },
+   {
+    "t": "manifests",
+    "c": "g",
+    "id": "g13",
+    "kids": [
+     {
+      "t": "manifests",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " in safe and inactive situations, "
+   },
+   {
+    "t": "providing",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " an occasion to appreciate and comprehend the environment."
+   }
+  ],
+  [
+   {
+    "t": "In "
+   },
+   {
+    "t": "hazardous",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " circumstances, the luxury of boredom is unavailable."
+   }
+  ],
+  [
+   {
+    "t": "Thus",
+    "c": "c",
+    "id": "c1",
+    "lab": "결과"
+   },
+   {
+    "t": ", it is "
+   },
+   {
+    "t": "paramount",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "to utilize",
+    "c": "g",
+    "id": "g15",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "utilize",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " idle moments for profound self-reflection."
+   }
+  ],
+  [
+   {
+    "t": "It represents an occasion "
+   },
+   {
+    "t": "to listen",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": ", observe, and appreciate before "
+   },
+   {
+    "t": "expressing",
+    "c": "g",
+    "id": "g17"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Rather than",
+    "c": "c",
+    "id": "c2",
+    "lab": "대조"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "viewing",
+    "c": "g",
+    "id": "g18"
+   },
+   {
+    "t": " boredom as unproductive, it should "
+   },
+   {
+    "t": "be regarded",
+    "c": "g",
+    "id": "g19"
+   },
+   {
+    "t": " as an opportunity for personal development and constructive contemplation."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "문제 제기",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "지루함을 방치하거나 재미만 좇음 → 해로운 감정이 생김",
+    "star": false
+   },
+   {
+    "label": "관점 바꾸기",
+    "sents": [
+     3,
+     5
+    ],
+    "text": "한가한 시간 = 낭비가 아니라 자기 계발 · 성찰의 시간",
+    "star": false
+   },
+   {
+    "label": "안전이 주는 사치",
+    "sents": [
+     6,
+     8
+    ],
+    "text": "위험할 때는 지루함 없음 · 안전할 때 주변을 이해할 기회",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     9,
+     11
+    ],
+    "text": "한가한 순간을 깊은 성찰 · 성장의 기회로 활용",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "It is suggested",
+   "Boredom doesn’t exist",
+   "Thus"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "2f5c15a3211dd348",
+  "original_marks.json": "007f2e149e739908",
+  "passage_src.json": "64f1b64a896b095e",
+  "study_x.json": "0dd93383166acec3",
+  "topic_items.json": "30ca935abcf4234f",
+  "workbook_src.json": "84bab544be62f2fe"
+ }
+}
