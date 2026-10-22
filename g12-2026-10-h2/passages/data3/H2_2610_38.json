@@ -152,7 +152,7 @@
    ],
    "rule": "전치사 about 뒤에는 동명사가 오므로 following 을 쓴다.",
    "imp": 0,
-   "deck": true
+   "deck": false
   },
   {
    "id": "g3",
@@ -227,7 +227,7 @@
    ],
    "rule": "뒤에 주어 we 와 동사 use 를 갖춘 절이 오므로 전치사구 because of 가 아니라 접속사 because 를 쓴다.",
    "imp": 0,
-   "deck": false
+   "deck": true
   },
   {
    "id": "g8",
@@ -752,6 +752,10 @@
   "source_restored.json": "98e9456557f24b76",
   "study_x.json": "e6b64d128a4ad94c",
   "topic_items.json": "ecce92720f16482b",
+  "variants_set1.json": "350a1ed7b7fcc4dc",
+  "variants_set2.json": "55992c544f155318",
+  "variants_set3.json": "1eaa16efca64a2b4",
+  "variants_set4.json": "d6d0d88bb7b9fb28",
   "workbook_src.json": "61dfe5ddfcf93923"
  }
 }

@@ -357,13 +357,30 @@
       var L = lines[lines.length - 1];
       if (L && x.top - L.top < tol) L.items.push(x); else lines.push({ top: x.top, items: [x] });
     });
+    var snap = [];
     lines.forEach(function (L) {
       var xs = L.items.sort(function (a, b) { return (a.left - b.left) || (+a.el.textContent || 0) - (+b.el.textContent || 0); });
       var prevR = minL - GAP, lim = maxR, i;
       xs.forEach(function (x) { x.at = Math.max(x.left, prevR + GAP); prevR = x.at + x.w; });
       for (i = xs.length - 1; i >= 0; i--) { if (xs[i].at + xs[i].w > lim) xs[i].at = lim - xs[i].w; lim = xs[i].at - GAP; }
       xs.forEach(function (x) { if (Math.abs(x.at - x.left) > 0.01) x.el.style.marginLeft = (x.at - x.left) + 'px'; });
+      if (xs[0].left < minL) snap.push(xs[0]);
     });
+    /* 왼쪽 끝에 붙인 줄 첫 꼬리표는 그린 자리를 다시 잰다 — offsetWidth · offsetLeft 는 정수라 가운데 맞춘 뜻(.vgl · translate -50%)이
+       끝 앞으로 반 px 남짓 더 나간다(10-21 2610-H1 21번 「(stumble into) …」 1920 에서 1.04px). 끝 밖으로 나간 것만 끝에 맞춘다 */
+    snap.forEach(function (x) {
+      var d = minL - x.el.getBoundingClientRect().left / sc;
+      if (d > 0.01) x.el.style.marginLeft = ((parseFloat(x.el.style.marginLeft) || 0) + d) + 'px';
+    });
+  }
+  /* 머리 제목 — 칸보다 길면 글자를 조금씩 줄인다(19 → 16 · 그래도 길면 그때만 말줄임). 맞는 제목은 손대지 않는다(10-21 2610-H1 25번) */
+  var TITLE_MIN = 16;
+  function fitTitle() {
+    var t = $('#htitle .tt');
+    if (!t) return;
+    t.style.fontSize = '';
+    var v = parseFloat(getComputedStyle(t).fontSize);
+    while (t.scrollWidth > t.clientWidth + 1 && v > TITLE_MIN) { v -= 0.5; t.style.fontSize = v + 'px'; }
   }
   function relayAll() { relay('.glab,.clab,.rnb'); relay('.vgl'); }
   /* 맞추기 사다리 — 보통 지문은 첫 칸(글자 30 → 20 · 해석 23 → 15 · 구조도 24 → 15)에서 맞는다(그 결과는 전과 같다).
@@ -452,6 +469,7 @@
     chrome(); scaleStage();
     var m = /^#b?(\d)(?:\.(map|ko))?$/.exec(location.hash || '');   // #2 · #b2 · #b2.map
     var go0 = function () {
+      fitTitle();
       fitAll();
       setSide(m && m[2] ? m[2] : 'ko');
       setBoard(m ? +m[1] - 1 : 0);
