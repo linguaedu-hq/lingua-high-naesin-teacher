@@ -43,17 +43,17 @@
   {
    "n": 2,
    "en": "The opening melody began to play, a soft tune that Beryl had practiced over and over.",
-   "ko": "첫 선율이 흘러나오기 시작했는데, 그것은 Beryl이 몇 번이고 연습했던 부드러운 곡조였다."
+   "ko": "첫 선율이 흘러나오기 시작했는데, Beryl이 몇 번이고 연습했던 부드러운 곡조였다."
   },
   {
    "n": 3,
    "en": "She knew the lyrics by heart, but now that she was here, everything seemed to have faded from her mind.",
-   "ko": "그녀는 가사를 외우고 있었지만, 막상 이곳에 서자 기억하던 모든 것이 머리에서 지워진 듯했다."
+   "ko": "Beryl은 가사를 외우고 있었지만, 막상 이곳에 서자 기억하던 모든 것이 머리에서 지워진 듯했다."
   },
   {
    "n": 4,
    "en": "She almost froze.",
-   "ko": "그녀는 거의 얼어붙을 뻔했다."
+   "ko": "Beryl은 하마터면 얼어붙을 뻔했다."
   },
   {
    "n": 5,
@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "But then she remembered her best friend Naomi’s words.",
-   "ko": "하지만 그때 그녀는 가장 친한 친구 Naomi가 해 준 말을 떠올렸다."
+   "ko": "하지만 그때 Beryl은 가장 친한 친구 Naomi가 해 준 말을 떠올렸다."
   },
   {
    "n": 8,
@@ -83,22 +83,22 @@
   {
    "n": 10,
    "en": "Her voice, shaky at first, soon found its rhythm as she focused.",
-   "ko": "처음에는 떨리던 그녀의 목소리는 그녀가 집중하면서 곧 리듬을 찾았다."
+   "ko": "Beryl이 노래에 집중하자, 처음에는 떨리던 목소리가 곧 리듬을 찾았다."
   },
   {
    "n": 11,
    "en": "The weight on her shoulders slowly lifted, and the words began to flow more easily.",
-   "ko": "어깨를 짓누르던 무게가 천천히 걷혔고, 가사가 더 쉽게 흘러나오기 시작했다."
+   "ko": "어깨를 짓누르던 무게가 천천히 가벼워졌고, 가사가 더 쉽게 흘러나오기 시작했다."
   },
   {
    "n": 12,
    "en": "As she continued singing, each note rang out without hesitation.",
-   "ko": "그녀가 노래를 이어 가자, 음 하나하나가 망설임 없이 울려 퍼졌다."
+   "ko": "Beryl이 노래를 이어 가자, 음 하나하나가 망설임 없이 울려 퍼졌다."
   },
   {
    "n": 13,
    "en": "She realized that this was her moment.",
-   "ko": "그녀는 지금이 바로 자신의 순간이라는 것을 깨달았다."
+   "ko": "Beryl은 지금이 바로 자신의 순간이라는 것을 깨달았다."
   }
  ],
  "topic": 13,
@@ -752,7 +752,7 @@
      10,
      13
     ],
-    "text": "목소리가 안정되며 자신의 순간임을 깨달았다",
+    "text": "목소리가 안정되자 지금이 자신의 순간임을 깨달았다",
     "star": true
    }
   ],
@@ -763,15 +763,15 @@
   ]
  },
  "src": {
-  "analogy_items.json": "8c1b6077c348105c",
+  "analogy_items.json": "28bbe8a3f68c1f55",
   "original_marks.json": "f8ba88f7d5da4066",
-  "passage_src.json": "b9d776b645fd84dd",
-  "study_x.json": "d469ba6dd23b2191",
+  "passage_src.json": "a98ca2a2156f04ee",
+  "study_x.json": "ccdb41fd50f6ba70",
   "topic_items.json": "8dde9eb6ef4bff10",
   "variants_set1.json": "1f2d2ed2c3a2e43e",
   "variants_set2.json": "8f2ef7bf99977caa",
   "variants_set3.json": "3d87f6993b6e4579",
   "variants_set4.json": "7f166a4b6568de6a",
-  "workbook_src.json": "eaef26e7a936248f"
+  "workbook_src.json": "6f08d5e8a50b2736"
  }
 }

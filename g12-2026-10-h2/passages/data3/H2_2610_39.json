@@ -71,7 +71,7 @@
   {
    "n": 8,
    "en": "So, for example, a social historian will read legal documents not only for the “facts” provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples’ attitudes and actions.",
-   "ko": "그래서 예를 들어 사회사학자는 법률 문서에서 노예 소유주가 내놓은 '사실'만 읽지 않고, 노예가 된 사람들의 태도와 행동을 짐작하게 하는 침묵, 끊긴 부분, 소문 같은 세부 사항까지 살핀다."
+   "ko": "그래서 예를 들어 사회사학자는 법률 문서에서 노예 소유주가 내놓은 '사실'만 읽지 않고, 노예가 된 사람들의 태도와 행동을 짐작하게 하는 침묵 · 끊긴 부분 · 소문 같은 세부 사항까지 살핀다."
   }
  ],
  "topic": 5,
@@ -325,7 +325,7 @@
    "wrong": [
     "producing"
    ],
-   "rule": "자료는 엘리트에 의해 만들어진 쪽이므로 과거분사 produced 가 sources 를 뒤에서 꾸민다.",
+   "rule": "자료는 엘리트가 만든 쪽이므로 과거분사 produced 가 sources 를 뒤에서 꾸민다.",
    "imp": 0,
    "deck": false
   },
@@ -829,7 +829,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "사회사의 관심",
+    "label": "도입",
     "sents": [
      1,
      2
@@ -838,7 +838,7 @@
     "star": false
    },
    {
-    "label": "기록의 치우침",
+    "label": "전환",
     "sents": [
      3,
      4
@@ -847,7 +847,7 @@
     "star": false
    },
    {
-    "label": "창의적인 연구",
+    "label": "주제 제시",
     "sents": [
      5,
      6
@@ -856,7 +856,7 @@
     "star": false
    },
    {
-    "label": "결을 거슬러 읽기",
+    "label": "부연",
     "sents": [
      7,
      8
@@ -875,14 +875,14 @@
   "analogy_items.json": "86f3cb78cff17436",
   "check_conf.json": "7faaf5339245a56f",
   "original_marks.json": "1528da7dbd129289",
-  "passage_src.json": "95bcea0962472533",
+  "passage_src.json": "85683a838b815f89",
   "source_restored.json": "e2d793ff2ea49cad",
-  "study_x.json": "801b542471031d9e",
+  "study_x.json": "8b7b57d7924905a8",
   "topic_items.json": "ce313ef16c2137a4",
   "variants_set1.json": "e3f5b16193475b6f",
   "variants_set2.json": "bd02b91c54addb87",
-  "variants_set3.json": "068dc76e92f4a256",
+  "variants_set3.json": "fbab33ea96bde67c",
   "variants_set4.json": "db7300b50ea43355",
-  "workbook_src.json": "8cec74eaadf0f8f8"
+  "workbook_src.json": "d58b0411333e2e5d"
  }
 }

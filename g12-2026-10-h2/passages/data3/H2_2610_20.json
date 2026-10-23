@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "It should not be that of carpenters, trying to carve out a “perfect” piece according to our will.",
-   "ko": "그것은 우리 뜻대로 ‘완벽한’ 작품을 깎아 내려는 목수의 역할이어서는 안 된다."
+   "ko": "우리 뜻대로 ‘완벽한’ 작품을 깎아 내려는 목수의 역할이어서는 안 된다."
   },
   {
    "n": 8,
@@ -88,7 +88,7 @@
   {
    "sent": 4,
    "text": "But",
-   "rel": "대조"
+   "rel": "역접"
   }
  ],
  "ref": [
@@ -590,7 +590,7 @@
     "t": "But",
     "c": "c",
     "id": "c0",
-    "lab": "대조"
+    "lab": "역접"
    },
    {
     "t": " if we, like carpenters, always try to “shape” children into our "
@@ -766,7 +766,7 @@
     "star": false
    },
    {
-    "label": "정원사형",
+    "label": "비교 대상 1",
     "sents": [
      2,
      3
@@ -775,7 +775,7 @@
     "star": false
    },
    {
-    "label": "목수형",
+    "label": "비교 대상 2",
     "sents": [
      4,
      5
@@ -802,13 +802,13 @@
  "src": {
   "analogy_items.json": "098aa1e0bad33e5b",
   "original_marks.json": "b4190e2bb6a23498",
-  "passage_src.json": "a6187780817bd951",
-  "study_x.json": "2443b770c6306491",
+  "passage_src.json": "21a1248f5c5e020c",
+  "study_x.json": "598ae4e220c4a710",
   "topic_items.json": "53f51e47f29147cb",
   "variants_set1.json": "60102de306c0974b",
   "variants_set2.json": "b8a32ac9038205d9",
   "variants_set3.json": "70495ea86353918b",
   "variants_set4.json": "9c90da414b8239a7",
-  "workbook_src.json": "0a7768b1e1a25cd6"
+  "workbook_src.json": "a65d547f2c773cec"
  }
 }

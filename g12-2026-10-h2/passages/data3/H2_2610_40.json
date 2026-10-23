@@ -53,7 +53,7 @@
   {
    "n": 4,
    "en": "However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals.",
-   "ko": "그러나 다른 많은 포유동물과 달리 돌고래의 청각 피질은 고도로 특화되어 있어서, 반향 정위 신호의 여러 측면을 하나씩 맡아 처리하는 구별된 영역들을 갖추고 있다."
+   "ko": "그러나 다른 많은 포유동물과 달리 돌고래의 청각 피질은 고도로 특화되어 있어서, 반향 정위 신호의 여러 측면을 하나씩 맡아 처리하는 영역이 저마다 따로 나뉘어 있다."
   },
   {
    "n": 5,
@@ -115,7 +115,7 @@
   {
    "sent": 6,
    "text": "rather than",
-   "rel": "대조"
+   "rel": "대안"
   }
  ],
  "ref": [
@@ -194,7 +194,7 @@
    "wrong": [
     "allowed"
    ],
-   "rule": "앞 절 내용의 결과를 덧붙이고 뇌가 처리를 가능하게 하는 쪽이므로 현재분사 allowing 을 쓴다.",
+   "rule": "앞 절 내용의 결과를 덧붙이고 뇌가 처리할 수 있게 해 주는 능동 관계이므로 현재분사 allowing 을 쓴다.",
    "imp": 0,
    "deck": false
   },
@@ -806,7 +806,7 @@
     "t": "rather than",
     "c": "c",
     "id": "c2",
-    "lab": "대조"
+    "lab": "대안"
    },
    {
     "t": " sequentially."
@@ -872,7 +872,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "특화된 뇌",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -881,7 +881,7 @@
     "star": false
    },
    {
-    "label": "특화된 청각 피질",
+    "label": "부연",
     "sents": [
      3,
      5
@@ -890,7 +890,7 @@
     "star": false
    },
    {
-    "label": "병렬 처리",
+    "label": "원리",
     "sents": [
      6,
      8
@@ -917,13 +917,13 @@
  "src": {
   "analogy_items.json": "89f42a2472fb04ff",
   "original_marks.json": "151ca02ae84359f6",
-  "passage_src.json": "dc59d35d0fd47dec",
-  "study_x.json": "63bfa55dc014b12b",
+  "passage_src.json": "614463f58bcb85b3",
+  "study_x.json": "86f29d094d6539ae",
   "topic_items.json": "7fa688b682ae790a",
   "variants_set1.json": "068294a6f6f2f14d",
   "variants_set2.json": "84fafb978407ba5c",
   "variants_set3.json": "f4add6ab1ad10716",
-  "variants_set4.json": "bcd4329672ba7155",
+  "variants_set4.json": "39eca3fa6182c24b",
   "workbook_src.json": "12ffe543c0793b64"
  }
 }

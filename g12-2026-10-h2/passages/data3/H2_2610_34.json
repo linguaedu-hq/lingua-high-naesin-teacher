@@ -8,7 +8,7 @@
   "orig_type": "빈칸",
   "words": 156,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
-  "topic_ko": "서로 이어진 시스템이 실패를 퍼뜨리고 앞일을 내다보기 어렵게 만드는 방식",
+  "topic_ko": "서로 연결된 세상이 복잡한 실패를 낳기 쉬운 까닭",
   "title_ko": "연결된 세상의 숨은 위험",
   "title_en": "The Hidden Risk of a Connected World",
   "gist_ko": "정보 기술로 모든 것이 서로 이어지면서, 작은 실패도 곧바로 퍼져 예측하기 어려운 복잡한 실패로 커질 수 있다."
@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world.",
-   "ko": "세계 금융 산업은 모든 나라의 모든 은행과 수많은 가정을 이어 주어, 우리를 지구 반대편에서 일어나는 사람의 실수에 취약하게 만든다."
+   "ko": "세계 금융 산업은 모든 나라의 모든 은행과 수많은 가정을 이어 주어, 우리는 지구 반대편에서 일어나는 사람의 실수에도 취약해진다."
   },
   {
    "n": 3,
@@ -355,7 +355,7 @@
    "wrong": [
     "keep"
    ],
-   "rule": "것들이 '따로 두어지던' 쪽이라 used to 뒤에 수동태 be kept 를 쓴다.",
+   "rule": "things 가 '따로 놓이던' 쪽이라 used to 뒤에 수동태 be kept 를 쓴다.",
    "imp": 0,
    "deck": false
   },
@@ -850,7 +850,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "연결된 세상",
+    "label": "현상",
     "sents": [
      1,
      2
@@ -859,7 +859,7 @@
     "star": false
    },
    {
-    "label": "예전과 지금",
+    "label": "변화",
     "sents": [
      3,
      4
@@ -868,7 +868,7 @@
     "star": false
    },
    {
-    "label": "연결이 늘어난 까닭",
+    "label": "원인",
     "sents": [
      5,
      6
@@ -895,13 +895,13 @@
  "src": {
   "analogy_items.json": "a05e2db6dcbf97bb",
   "original_marks.json": "e519a76d0850ae77",
-  "passage_src.json": "0b05ba704173c12c",
-  "study_x.json": "f0dabc3f30351337",
+  "passage_src.json": "3e91578225b212c3",
+  "study_x.json": "1c9e01957b6d3dab",
   "topic_items.json": "ffdb2494a50015b1",
   "variants_set1.json": "78c7c7ad596d1c82",
   "variants_set2.json": "d803296999f48ab6",
   "variants_set3.json": "ca5e6975b5e8f36a",
   "variants_set4.json": "a0d516415876f2e5",
-  "workbook_src.json": "102abdcd2fc1c401"
+  "workbook_src.json": "e21708527a62d9ea"
  }
 }

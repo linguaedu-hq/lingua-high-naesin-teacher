@@ -8,8 +8,8 @@
   "orig_type": "어휘",
   "words": 156,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
-  "topic_ko": "말과 어긋날 때 사람들이 비언어 신호를 더 믿는 까닭",
-  "title_ko": "말보다 표정이 더 크게 말할 때",
+  "topic_ko": "말과 어긋날 때 더 큰 믿음을 얻는 비언어 신호의 힘",
+  "title_ko": "표정이 말을 이길 때",
   "title_en": "When the Face Speaks Louder Than Words",
   "gist_ko": "말과 비언어 신호가 서로 어긋나면 사람들은 비언어 신호를 더 믿으므로, 몸짓이 따라 주지 않는 말로는 상대를 움직이기 어렵다."
  },
@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "You might not believe that they enjoyed replacing you while you were gone.",
-   "ko": "너는 네가 없는 동안 동료가 너를 대신하는 일을 즐겼다는 말을 믿지 않을지도 모른다."
+   "ko": "네가 없는 동안 동료가 너 대신 일하는 것을 즐겼다는 말을 믿지 않을지도 모른다."
   }
  ],
  "topic": 1,
@@ -760,7 +760,7 @@
     "star": false
    },
    {
-    "label": "결론과 까닭",
+    "label": "결과 해석",
     "sents": [
      3,
      4
@@ -769,7 +769,7 @@
     "star": true
    },
    {
-    "label": "예 1",
+    "label": "예시 1",
     "sents": [
      5,
      5
@@ -778,7 +778,7 @@
     "star": false
    },
    {
-    "label": "예 2",
+    "label": "예시 2",
     "sents": [
      6,
      7
@@ -796,13 +796,13 @@
  "src": {
   "analogy_items.json": "83d4f57bd57dd7c3",
   "original_marks.json": "4f8bc11c36491742",
-  "passage_src.json": "635664b4af8432ee",
-  "study_x.json": "9fcfbaf8cd5f407a",
+  "passage_src.json": "228ed55a5623dafd",
+  "study_x.json": "4db468fd23ea7526",
   "topic_items.json": "2cabae7e4761cae4",
   "variants_set1.json": "05b5d2f2f30dc18d",
   "variants_set2.json": "c9d25a48240befe0",
-  "variants_set3.json": "fae6cd13dc091519",
+  "variants_set3.json": "a861ccbd4542f288",
   "variants_set4.json": "db4977bd5b724060",
-  "workbook_src.json": "fa56a3b40bfe0f60"
+  "workbook_src.json": "d0cbc0232c74413a"
  }
 }

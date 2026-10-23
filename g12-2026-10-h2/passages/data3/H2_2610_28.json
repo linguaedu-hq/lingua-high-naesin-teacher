@@ -9,9 +9,9 @@
   "words": 86,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
   "topic_ko": "시 공원에서 해마다 열리는 한국 문화 축제 안내",
-  "title_ko": "Lindenveil 에서 한국 문화를 즐겨 보라",
+  "title_ko": "Lindenveil에서 한국 문화 즐기기",
   "title_en": "Come and Enjoy Korean Culture in Lindenveil",
-  "gist_ko": "한국 문화유산 축제의 날짜 · 시간 · 장소, 한복 · 한글 이름 · 전통 놀이 체험과 간식 · 우천 시 일정 변경을 알린다."
+  "gist_ko": "Lindenveil 한인회가 방문객을 위해 한국 문화유산 축제를 열며 행사 날짜와 장소, 체험 활동, 간식 제공을 알린다."
  },
  "kind": "notice",
  "boards": [
@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "Join us for the annual Korean Cultural Heritage Festival held by Lindenveil Korean Association and experience the beauty of Korean culture!",
-   "ko": "Lindenveil 한인회가 해마다 여는 한국 문화유산 축제에 함께하고 한국 문화의 아름다움을 겪어 보세요!"
+   "ko": "Lindenveil 한인회가 해마다 여는 한국 문화유산 축제에 함께하고 한국 문화의 아름다움을 느껴 보세요!"
   },
   {
    "n": 3,
@@ -605,7 +605,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "축제 소개",
+    "label": "행사 소개",
     "sents": [
      1,
      2
@@ -614,7 +614,7 @@
     "star": true
    },
    {
-    "label": "날짜 · 장소",
+    "label": "일시 · 장소",
     "sents": [
      3,
      4
@@ -623,7 +623,7 @@
     "star": false
    },
    {
-    "label": "할 수 있는 일",
+    "label": "세부 일정",
     "sents": [
      5,
      8
@@ -632,7 +632,7 @@
     "star": false
    },
    {
-    "label": "알림 · 문의",
+    "label": "유의 사항",
     "sents": [
      9,
      12
@@ -650,8 +650,8 @@
  "src": {
   "analogy_items.json": "51c3007181ee6fc9",
   "original_marks.json": "895927188391c938",
-  "passage_src.json": "64faf8f513211f06",
-  "study_x.json": "d2479bb38a2d3ce7",
+  "passage_src.json": "d1850faec3aca058",
+  "study_x.json": "159c1c4e2ddd1df0",
   "topic_items.json": "d9e7c4b9b9f4c7ea",
   "workbook_src.json": "9038fe7523bc8953"
  }

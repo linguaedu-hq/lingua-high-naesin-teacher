@@ -9,9 +9,9 @@
   "words": 149,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
   "topic_ko": "의학의 발전이 감염병의 치료와 예방을 크게 나아지게 한 과정",
-  "title_ko": "의학의 발전과 감염병과의 싸움",
+  "title_ko": "감염병과 싸워 온 의학의 발전",
   "title_en": "Medical Science and the Fight Against Infection",
-  "gist_ko": "약의 발견, 백신, 위생 관리, 치료 요법 같은 의학의 발전 덕분에 감염병의 치료와 예방은 크게 나아졌다."
+  "gist_ko": "의학의 과학적 발전과 기술 덕분에 감염병의 치료와 예방은 크게 나아졌다."
  },
  "kind": "normal",
  "boards": [
@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases.",
-   "ko": "1928년 알렉산더 플레밍이 이룬 페니실린의 발견은 그가 나중에 노벨상을 받게 된 일로, 감염병과의 싸움에서 가장 큰 돌파구 가운데 하나였다."
+   "ko": "1928년 알렉산더 플레밍이 페니실린을 발견한 일은 플레밍이 나중에 노벨상을 받은 업적으로, 감염병과 싸우는 데 손꼽히는 큰 돌파구였다."
   },
   {
    "n": 3,
@@ -754,7 +754,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "주제",
+    "label": "주제 제시",
     "sents": [
      1,
      1
@@ -763,7 +763,7 @@
     "star": true
    },
    {
-    "label": "발견의 예",
+    "label": "예시 1",
     "sents": [
      2,
      3
@@ -781,7 +781,7 @@
     "star": false
    },
    {
-    "label": "백신 · 관리의 예",
+    "label": "예시 2",
     "sents": [
      5,
      6
@@ -797,15 +797,15 @@
   ]
  },
  "src": {
-  "analogy_items.json": "c5b3a8533f25ac47",
+  "analogy_items.json": "f963bb31a8ba0180",
   "original_marks.json": "441dfc07461f5048",
-  "passage_src.json": "15e4eed7f169bfda",
-  "study_x.json": "47620e4779aa4a92",
+  "passage_src.json": "fd853620af08b45f",
+  "study_x.json": "f1bb54bf9f17252c",
   "topic_items.json": "4b3c0edc3044fa3a",
-  "variants_set1.json": "3a9b1c3bd88fc563",
+  "variants_set1.json": "15ae7338842de818",
   "variants_set2.json": "a4b49421985dfd42",
   "variants_set3.json": "08196991eaf9701f",
   "variants_set4.json": "a96f238b7d8f7f6a",
-  "workbook_src.json": "94219a2cd76e864e"
+  "workbook_src.json": "ea60773374f7bb54"
  }
 }

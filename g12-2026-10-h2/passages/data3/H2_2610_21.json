@@ -53,7 +53,7 @@
   {
    "n": 4,
    "en": "The longer the term of the loan, the higher the chance you won’t be paid back because it is further into the future ― which by definition is unknowable ― and the longer you will have to wait before spending the money yourself.",
-   "ko": "대출 기간이 길수록, 돌려받을 때가 미래로 더 멀어지기 때문에 돈을 돌려받지 못할 가능성이 더 높아지고 ― 미래는 본래 알 수 없는 것이다 ― 그 돈을 여러분이 직접 쓰기 전까지 기다려야 하는 시간도 더 길어진다."
+   "ko": "대출 기간이 길수록, 돌려받을 때가 본래 알 수 없는 미래로 더 멀어지기 때문에 돈을 돌려받지 못할 가능성이 더 높아지고, 그 돈을 여러분이 직접 쓰기 전까지 기다려야 하는 시간도 더 길어진다."
   },
   {
    "n": 5,
@@ -641,7 +641,7 @@
     "star": false
    },
    {
-    "label": "설명 1",
+    "label": "원리",
     "sents": [
      3,
      4
@@ -650,7 +650,7 @@
     "star": false
    },
    {
-    "label": "설명 2",
+    "label": "부연",
     "sents": [
      5,
      5
@@ -677,13 +677,13 @@
  "src": {
   "analogy_items.json": "2ba1845206b3c555",
   "original_marks.json": "f6de4cf673744ae6",
-  "passage_src.json": "289a8827c76b982d",
-  "study_x.json": "28d375bc268de561",
+  "passage_src.json": "a6482b45f84031dd",
+  "study_x.json": "6dc9187a170004f5",
   "topic_items.json": "e14bcabbfd85d995",
   "variants_set1.json": "9b25ab1357741523",
   "variants_set2.json": "36adf8060ce02fc6",
-  "variants_set3.json": "d566d201e2c0a223",
+  "variants_set3.json": "e077c9288713fa5e",
   "variants_set4.json": "70e31862c870b5f1",
-  "workbook_src.json": "49347224772e11a2"
+  "workbook_src.json": "8c91a4e31e754ef3"
  }
 }

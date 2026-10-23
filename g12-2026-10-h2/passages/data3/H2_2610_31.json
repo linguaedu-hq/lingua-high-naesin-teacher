@@ -8,10 +8,10 @@
   "orig_type": "빈칸",
   "words": 150,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
-  "topic_ko": "자동으로 돌아가는 행동이 인간 설계의 결함이 아니라 핵심 기능인 까닭",
-  "title_ko": "자동으로 돌아가는 행동은 결함이 아니라 선물이다",
+  "topic_ko": "자동 행동이 인간 설계의 결함이 아니라 핵심 기능인 까닭",
+  "title_ko": "자동 행동은 결함이 아닌 선물",
   "title_en": "Autopilot Is a Gift, Not a Flaw",
-  "gist_ko": "우리 행동 대부분이 오래전에 정해진 대로 자동으로 돌아가는 것은 결함이 아니라, 의식을 꼭 필요한 문제에 쓰게 해 복잡한 삶을 가능하게 하는 핵심 기능이다."
+  "gist_ko": "우리 행동 대부분이 자동으로 돌아가는 것은 결함이 아니라, 우리가 의식을 꼭 필요한 문제에 쓰며 복잡한 삶을 감당하도록 돕는 핵심 기능이다."
  },
  "kind": "normal",
  "boards": [
@@ -48,12 +48,12 @@
   {
    "n": 3,
    "en": "In one light it is a triumph of engineering.",
-   "ko": "어떤 관점에서 보면 그것은 공학의 승리이다."
+   "ko": "어떤 관점에서 보면 이는 공학의 승리이다."
   },
   {
    "n": 4,
    "en": "If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn’t.",
-   "ko": "발을 내디딜 때마다, 포크를 쥘 때마다, 말 한마디를 할 때마다 의식적으로 결정해야 한다면 너는 결코 침대에서 빠져나오지 못할 것이고, 따져 보며 생각하는 마음은 삶 전체를 실시간으로 꾸려 가기에는 너무 느리고 비용도 너무 크며, 그렇게 하려 한 생물은 그렇게 하지 않은 생물에게 경쟁에서 밀려날 것이다."
+   "ko": "발을 내디딜 때도 포크를 쥘 때도 말 한마디를 할 때도 일일이 의식해서 결정해야 한다면 결코 침대에서 빠져나오지 못하고, 따져 보며 생각하는 마음은 삶 전체를 실시간으로 꾸려 가기에는 너무 느리고 비용도 너무 크며 그렇게 하려 한 생물은 그렇게 하지 않은 생물에게 경쟁에서 밀려난다."
   },
   {
    "n": 5,
@@ -63,12 +63,12 @@
   {
    "n": 6,
    "en": "The default is not a flaw in the human design.",
-   "ko": "기본값은 사람이라는 설계에 생긴 흠이 아니다."
+   "ko": "기본값은 인간을 설계한 방식에 생긴 흠이 아니다."
   },
   {
    "n": 7,
    "en": "It is arguably the central feature, the thing that makes a complex life affordable at all.",
-   "ko": "그것은 어쩌면 핵심 기능, 곧 복잡한 삶을 애초에 감당할 수 있게 해 주는 것이라 할 수 있다."
+   "ko": "이는 핵심 기능, 곧 복잡한 삶을 애초에 감당할 수 있게 해 주는 장치라고 해도 좋다."
   }
  ],
  "topic": 6,
@@ -729,7 +729,7 @@
     "star": false
    },
    {
-    "label": "관점 바꾸기",
+    "label": "전환",
     "sents": [
      2,
      3
@@ -765,13 +765,13 @@
  "src": {
   "analogy_items.json": "5370d77dcd09e15c",
   "original_marks.json": "d0927310bc54eaf0",
-  "passage_src.json": "2a4b95ab40a688a9",
-  "study_x.json": "45eabbe15b44934e",
-  "topic_items.json": "305fc35b60f014ea",
+  "passage_src.json": "b04a4d885b82d5b7",
+  "study_x.json": "43ed8307ea5d85c5",
+  "topic_items.json": "2827a235836016ab",
   "variants_set1.json": "190835f618ead0bd",
   "variants_set2.json": "cd9376629346391b",
   "variants_set3.json": "109075f4dc1ad886",
   "variants_set4.json": "8b055a4495a95bc7",
-  "workbook_src.json": "3b9d878bb8885f1a"
+  "workbook_src.json": "80e3101cefcb30c7"
  }
 }

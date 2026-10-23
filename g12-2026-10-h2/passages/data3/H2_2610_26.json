@@ -11,7 +11,7 @@
   "topic_ko": "심해 탐험가 자크 피카르의 삶과 업적",
   "title_ko": "교실에서 가장 깊은 바다로 — 자크 피카르",
   "title_en": "Jacques Piccard: From the Classroom to the Deepest Sea",
-  "gist_ko": "자크 피카르는 교직을 떠나 심해 탐사선 개량에 힘써 1960년 10,916미터 잠수 기록을 세웠고, 뒤에는 바다 환경을 지키는 일에 나서 해양 탐험가들의 본보기로 남았다."
+  "gist_ko": "자크 피카르는 교직을 떠나 심해 탐사선 개량과 바다 환경 보호에 힘써 해양 탐험가들의 본보기가 되었다."
  },
  "kind": "normal",
  "boards": [
@@ -48,7 +48,7 @@
   {
    "n": 3,
    "en": "When their machines successfully reached a depth of 6,000 meters, Jacques was inspired to leave his teaching career to focus on improving bathyscaphes for underwater research.",
-   "ko": "두 사람의 기계가 6,000미터 깊이까지 무사히 닿자, 자크는 이에 마음이 움직여 교직을 그만두고 물속 연구를 위해 바티스카프를 더 낫게 만드는 데 힘을 모으기로 했다."
+   "ko": "두 사람의 기계가 6,000미터 깊이까지 무사히 닿자, 자크는 이에 마음이 움직여 교직을 그만두고 물속 연구를 위해 바티스카프를 더 낫게 만드는 데 힘을 쏟기로 했다."
   },
   {
    "n": 4,
@@ -212,7 +212,7 @@
    "wrong": [
     "was inspired leaving"
    ],
-   "rule": "inspire + 목적어 + to부정사가 수동태가 되어 be inspired to + 동사원형 꼴이 되었다.",
+   "rule": "inspire + 목적어 + to부정사를 수동태로 바꾼 be inspired to + 동사원형 꼴이다.",
    "imp": 0,
    "deck": false
   },
@@ -717,7 +717,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "출생 · 학업",
+    "label": "인물 소개",
     "sents": [
      1,
      2
@@ -726,7 +726,7 @@
     "star": false
    },
    {
-    "label": "탐사선 · 기록",
+    "label": "주요 활동 1",
     "sents": [
      3,
      4
@@ -735,7 +735,7 @@
     "star": false
    },
    {
-    "label": "환경 보호",
+    "label": "주요 활동 2",
     "sents": [
      5,
      6
@@ -744,7 +744,7 @@
     "star": false
    },
    {
-    "label": "남긴 업적",
+    "label": "사후 평가",
     "sents": [
      7,
      7
@@ -760,15 +760,15 @@
   ]
  },
  "src": {
-  "analogy_items.json": "9d82ff6899589130",
+  "analogy_items.json": "06a7071d0e61e710",
   "original_marks.json": "9d1699473b72ac1f",
-  "passage_src.json": "b26bb13c99cc481f",
-  "study_x.json": "c4fee249d9988774",
+  "passage_src.json": "4e1f605c47fdf056",
+  "study_x.json": "c56d199b81979013",
   "topic_items.json": "814732afe9084269",
   "variants_set1.json": "40d5b3ee1e7c0aa1",
-  "variants_set2.json": "21a24a0a8effb640",
+  "variants_set2.json": "22fceaef46c16731",
   "variants_set3.json": "3d8740007432d2bc",
   "variants_set4.json": "275357a1bb61be76",
-  "workbook_src.json": "0da880de415264ef"
+  "workbook_src.json": "b729ccd7873b4c42"
  }
 }

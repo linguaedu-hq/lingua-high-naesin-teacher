@@ -51,12 +51,12 @@
   {
    "n": 4,
    "en": "One might view it as an overpowering loss that will mark one’s family for life.",
-   "ko": "어떤 사람은 그것을 가족에게 평생 흔적을 남길 감당하기 힘든 상실로 볼 수 있다."
+   "ko": "어떤 사람은 이혼을 가족에게 평생 흔적을 남길 감당하기 힘든 상실로 볼 수 있다."
   },
   {
    "n": 5,
    "en": "Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships.",
-   "ko": "반대로, 고통스럽기는 하지만 길게 보면 나아진 관계 같은 좋은 결과를 낳을지도 모르는 일로 볼 수도 있다."
+   "ko": "이와 달리, 고통스럽기는 하지만 길게 보면 나아진 관계 같은 좋은 결과를 낳을지도 모르는 일로 볼 수도 있다."
   },
   {
    "n": 6,
@@ -81,12 +81,12 @@
   {
    "n": 10,
    "en": "This example illustrates how reappraisal might powerfully transform short-term emotional responses.",
-   "ko": "이 예는 재평가가 짧은 동안의 감정 반응을 어떻게 강력하게 바꾸어 놓을 수 있는지 보여 준다."
+   "ko": "이 예는 재평가가 당장의 감정 반응을 어떻게 강력하게 바꾸어 놓을 수 있는지 보여 준다."
   },
   {
    "n": 11,
    "en": "When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people’s psychological health.",
-   "ko": "되풀이되면 재평가가 낳은 이런 짧은 감정 결과가 쌓여 사람들의 심리적 건강을 만들어 갈 수 있다."
+   "ko": "되풀이되면 재평가가 낳은 이런 단기적인 감정 결과가 쌓여 사람들의 심리적 건강을 만들어 갈 수 있다."
   },
   {
    "n": 12,
@@ -119,7 +119,7 @@
   {
    "sent": 5,
    "text": "Alternatively",
-   "rel": "대조"
+   "rel": "대안"
   },
   {
    "sent": 6,
@@ -184,7 +184,7 @@
    "occ": 0,
    "to_sent": 10,
    "to": "short-term emotional responses",
-   "ko": "짧은 동안의 감정 반응"
+   "ko": "당장의 감정 반응"
   }
  ],
  "grammar": [
@@ -676,7 +676,7 @@
     "t": "Alternatively",
     "c": "c",
     "id": "c1",
-    "lab": "대조"
+    "lab": "대안"
    },
    {
     "t": ", one might see it as something that "
@@ -841,7 +841,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "주장과 예",
+    "label": "주장",
     "sents": [
      1,
      3
@@ -850,7 +850,7 @@
     "star": false
    },
    {
-    "label": "두 가지 해석",
+    "label": "예시",
     "sents": [
      4,
      5
@@ -859,7 +859,7 @@
     "star": false
    },
    {
-    "label": "다른 감정",
+    "label": "결과",
     "sents": [
      6,
      9
@@ -887,14 +887,14 @@
   "analogy_items.json": "08f84dd33035d442",
   "check_conf.json": "e49bc8841c5ac145",
   "original_marks.json": "d20fa751155a78d5",
-  "passage_src.json": "f5eadf5f9919532e",
+  "passage_src.json": "4fbeaca6626de66b",
   "source_restored.json": "3e6e1e3d5588dead",
-  "study_x.json": "1d5ced8ece29af9c",
+  "study_x.json": "4bd4e28c09c0ca93",
   "topic_items.json": "1b0050c908f2abab",
   "variants_set1.json": "6ec94939e227e8f4",
   "variants_set2.json": "1f1eb17e7f582cba",
-  "variants_set3.json": "d6f09b34e8782214",
+  "variants_set3.json": "283894febc0f353e",
   "variants_set4.json": "4bd25f952c0fc738",
-  "workbook_src.json": "176fbd26088de09b"
+  "workbook_src.json": "aa4b460a3264e3b7"
  }
 }

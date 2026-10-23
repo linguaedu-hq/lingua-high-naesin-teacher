@@ -11,7 +11,7 @@
   "topic_ko": "인류 역사 대부분에 걸친 어린 나이의 높은 사망률",
   "title_ko": "인류의 인구가 늦게 늘어난 까닭",
   "title_en": "Why Human Numbers Grew So Late",
-  "gist_ko": "19세기까지 인류는 어린 나이에 많이 죽어 살아남는 첫 고비가 매우 높았고, 그래서 인구가 크게 늘어난 것은 최근의 일이다."
+  "gist_ko": "19세기까지 인류는 어린 나이에 많이 죽어 첫 고비를 넘기기 어려웠고, 그래서 인구가 크게 늘어난 것은 최근의 일이다."
  },
  "kind": "normal",
  "boards": [
@@ -150,7 +150,7 @@
     "which"
    ],
    "rule": "뒤의 절(a hurdle has to be jumped)이 빠진 말 없이 끝나고 선행사 a race 를 받으므로 전치사 + 관계대명사 in which 를 쓴다.",
-   "imp": 3,
+   "imp": 2,
    "deck": false
   },
   {
@@ -255,7 +255,7 @@
     "what"
    ],
    "rule": "앞 절 내용 전체를 받는 계속적 용법 관계대명사이므로 which 를 쓴다. what 은 콤마 뒤에서 앞 절을 받지 못한다.",
-   "imp": 3,
+   "imp": 2,
    "deck": false
   },
   {
@@ -345,7 +345,7 @@
     "enough long to reproduce"
    ],
    "rule": "enough 는 꾸미는 부사 long 뒤에 오고, 그 뒤에 to부정사가 이어진다.",
-   "imp": 2,
+   "imp": 0,
    "deck": false
   },
   {
@@ -789,7 +789,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "생존의 경주",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -798,7 +798,7 @@
     "star": false
    },
    {
-    "label": "자연의 낭비",
+    "label": "부연",
     "sents": [
      3,
      4
@@ -807,7 +807,7 @@
     "star": false
    },
    {
-    "label": "영장류와 사람",
+    "label": "예시",
     "sents": [
      5,
      6
@@ -816,7 +816,7 @@
     "star": false
    },
    {
-    "label": "조상과 인구",
+    "label": "결론",
     "sents": [
      7,
      8
@@ -834,13 +834,13 @@
  "src": {
   "analogy_items.json": "af1a1e3231e90a48",
   "original_marks.json": "41f0c2bfd623d37a",
-  "passage_src.json": "3437fb127b7d6112",
-  "study_x.json": "1b1c8f7c2216a0f0",
+  "passage_src.json": "30024620e1b9410e",
+  "study_x.json": "5f37f414dd9fc162",
   "topic_items.json": "51a3fefba5ec2c9b",
   "variants_set1.json": "320835f8943b126e",
   "variants_set2.json": "dbca410368e84da8",
   "variants_set3.json": "531cacb358702278",
   "variants_set4.json": "84009e7472b1243d",
-  "workbook_src.json": "46cd51fb764e05cf"
+  "workbook_src.json": "5a46d9f7bf165a8e"
  }
 }

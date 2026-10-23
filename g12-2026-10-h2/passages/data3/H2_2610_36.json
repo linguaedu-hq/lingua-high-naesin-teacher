@@ -41,7 +41,7 @@
   {
    "n": 2,
    "en": "We’re much too close to what we build to objectively see it and understand how users will interact with it.",
-   "ko": "우리는 자신이 만드는 것에 너무 가까이 있어서 그것을 객관적으로 보거나 사용자가 그것을 어떻게 다룰지 이해하기 어렵다."
+   "ko": "우리는 자신이 만드는 것에 너무 가까이 있어서 그것을 객관적으로 보거나 사용자가 어떻게 다룰지 이해하기 어렵다."
   },
   {
    "n": 3,
@@ -51,7 +51,7 @@
   {
    "n": 4,
    "en": "So how can designers shape their work to be more effective?",
-   "ko": "그렇다면 디자이너는 어떻게 자신의 작업이 더 효과적이 되도록 다듬을 수 있을까?"
+   "ko": "그렇다면 디자이너는 어떻게 자기 작업을 더 효과적으로 다듬을 수 있을까?"
   },
   {
    "n": 5,
@@ -787,7 +787,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "문제 제기",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -796,7 +796,7 @@
     "star": false
    },
    {
-    "label": "원칙과 물음",
+    "label": "문제 제기",
     "sents": [
      3,
      4
@@ -805,7 +805,7 @@
     "star": true
    },
    {
-    "label": "사용성 테스트",
+    "label": "해결책",
     "sents": [
      5,
      7
@@ -814,7 +814,7 @@
     "star": false
    },
    {
-    "label": "결론",
+    "label": "기대 효과",
     "sents": [
      8,
      8
@@ -833,14 +833,14 @@
   "analogy_items.json": "62037735b5175840",
   "check_conf.json": "e49bc8841c5ac145",
   "original_marks.json": "5a432c99ef7ddec8",
-  "passage_src.json": "c9d3cbd87a3c95bf",
+  "passage_src.json": "a0187c428da68c8c",
   "source_restored.json": "483bea764be4736d",
-  "study_x.json": "6ae14f01f77dd498",
+  "study_x.json": "66b92834754696b9",
   "topic_items.json": "bcda6a5bffe9e531",
   "variants_set1.json": "ab73371d478da74d",
   "variants_set2.json": "985f8bcc6a493e1a",
   "variants_set3.json": "62647e7dc19a2f51",
-  "variants_set4.json": "43949bf9e9116799",
-  "workbook_src.json": "7f531824b21b2036"
+  "variants_set4.json": "a21fd23d705cb937",
+  "workbook_src.json": "31fd027e02884ab5"
  }
 }

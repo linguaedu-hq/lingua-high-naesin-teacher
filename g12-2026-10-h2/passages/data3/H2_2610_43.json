@@ -9,7 +9,7 @@
   "topic_ko": "앤이 다른 연주자와 자신을 견주는 일을 그만두게 된 과정",
   "title_ko": "자기만의 기준으로 연주하기",
   "title_en": "Playing by Her Own Standard",
-  "gist_ko": "남과 자신을 견주면 기쁨과 자기만의 개성을 잃으므로, 다른 사람의 길보다 자기 길에 집중해야 다시 즐겁게 연주할 수 있다."
+  "gist_ko": "뛰어난 연주자와 자신을 비교하다 연주의 즐거움을 잃었던 앤은 선생님의 조언을 듣고 자기 길에 집중하면서 다시 마음의 평화를 찾는다."
  },
  "kind": "long",
  "boards": [
@@ -56,7 +56,7 @@
   {
    "n": 5,
    "en": "Before the lesson with Mrs. Jones, Ann was watching Victoria’s flawless technique on her smartphone, and it made her chest feel tighter.",
-   "ko": "존스 선생님과의 수업 전에 앤은 휴대폰으로 빅토리아의 흠 없는 연주 기술을 보고 있었는데, 그것을 보자 가슴이 더 답답해졌다."
+   "ko": "존스 선생님과 수업하기 전에 앤은 휴대폰으로 빅토리아의 흠 없는 연주 기술을 보고 있었는데, 그 모습에 가슴이 더 답답해졌다."
   },
   {
    "n": 6,
@@ -111,7 +111,7 @@
   {
    "n": 16,
    "en": "Comparison steals your joy and unique voice.",
-   "ko": "“비교는 너의 기쁨과 너만의 목소리를 빼앗아 간단다.”"
+   "ko": "“비교는 네 기쁨과 너만의 목소리를 빼앗아 간단다.”"
   },
   {
    "n": 17,
@@ -121,7 +121,7 @@
   {
    "n": 18,
    "en": "Hearing those comforting words, something profound shifted inside Ann.",
-   "ko": "그 따뜻한 말을 듣자 앤의 마음속에서 무언가 깊은 것이 바뀌었다."
+   "ko": "그 따뜻한 말을 듣자 앤의 마음속에서 무언가가 깊이 바뀌었다."
   },
   {
    "n": 19,
@@ -523,7 +523,7 @@
    "wrong": [
     "knew"
    ],
-   "rule": "연주한 때보다 먼저부터 알던 곡이라 과거완료 had known 의 과거분사 known 을 쓴다.",
+   "rule": "연주하기 전부터 알던 곡이라 과거완료 had known 의 과거분사 known 을 쓴다.",
    "imp": 0,
    "deck": false
   },
@@ -1131,14 +1131,14 @@
   "analogy_items.json": "15cda0b7edad1fb2",
   "check_conf.json": "e49bc8841c5ac145",
   "original_marks.json": "55313326a4f7014c",
-  "passage_src.json": "79424332bf566e65",
+  "passage_src.json": "7d8d5a809226fed4",
   "source_restored.json": "662913686c648e82",
-  "study_x.json": "c8ed197378883176",
-  "topic_items.json": "cb8323100e1df01b",
+  "study_x.json": "6c210ebe2909147f",
+  "topic_items.json": "78f3c6f6df4bea70",
   "variants_set1.json": "75115999260028d1",
   "variants_set2.json": "5a4228c9c17f1a4b",
-  "variants_set3.json": "2fa6a230c4089b51",
-  "variants_set4.json": "e2bded987cd294d5",
-  "workbook_src.json": "96d07084a449434a"
+  "variants_set3.json": "731ba561259a11a3",
+  "variants_set4.json": "85325684002101a2",
+  "workbook_src.json": "0bbd32e532fa70f0"
  }
 }

@@ -11,7 +11,7 @@
   "topic_ko": "학생을 위한 학교 3D 프린팅 워크숍 안내",
   "title_ko": "학교에서 나만의 3D 제품 만들기",
   "title_en": "Make Your Own 3D Product at School",
-  "gist_ko": "Skydale 고등학교가 여는 3D 프린팅 워크숍의 날짜 · 장소 · 참가비 · 참가 대상 · 일정과 등록 방법 · 작품 전시를 알린다."
+  "gist_ko": "Skydale 고등학교가 모든 학년 학생을 위해 교사와 함께 나만의 3D 제품을 만드는 워크숍을 열며 참가비와 등록 방법을 알린다."
  },
  "kind": "notice",
  "boards": [
@@ -718,7 +718,7 @@
     "star": true
    },
    {
-    "label": "날짜 · 장소 · 참가",
+    "label": "일시 · 장소",
     "sents": [
      4,
      7
@@ -727,7 +727,7 @@
     "star": false
    },
    {
-    "label": "일정",
+    "label": "세부 일정",
     "sents": [
      8,
      11
@@ -736,7 +736,7 @@
     "star": false
    },
    {
-    "label": "알림",
+    "label": "유의 사항",
     "sents": [
      12,
      15
@@ -754,8 +754,8 @@
  "src": {
   "analogy_items.json": "977c59e19e1ce238",
   "original_marks.json": "5b063a156049c946",
-  "passage_src.json": "891edf36d32e2dd6",
-  "study_x.json": "0212cc7d4ef5b70c",
+  "passage_src.json": "e9c48e6de54973b0",
+  "study_x.json": "04d1cfc8f30235e7",
   "topic_items.json": "0f5da8c5b78eebec",
   "workbook_src.json": "3f27b5d90600dd37"
  }

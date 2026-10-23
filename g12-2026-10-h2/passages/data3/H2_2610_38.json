@@ -9,7 +9,7 @@
   "topic_ko": "물의 쓰임에 따라 안전 기준이 달라지는 까닭",
   "title_ko": "무엇을 하기에 깨끗한 물인가",
   "title_en": "Clean Enough for What?",
-  "gist_ko": "물은 쓰임이 다양해 한 가지 기준을 모든 경우에 적용할 수 없으므로, 쓰임에 따라 서로 다른 수질 안전 한계를 정한다."
+  "gist_ko": "관련 기관은 물의 쓰임이 다양해 한 가지 기준을 모든 경우에 적용할 수 없으므로 쓰임에 따라 서로 다른 수질 안전 한계를 정한다."
  },
  "kind": "normal",
  "boards": [
@@ -51,7 +51,7 @@
   {
    "n": 4,
    "en": "These rules ensure the water is safe for anything we want to do with it, whether that’s drinking it at home, watering crops on a farm, or running it through a huge industrial boiler.",
-   "ko": "이 규칙은 물을 집에서 마시든, 농장에서 작물에 대든, 거대한 공업용 보일러에 흘려보내든, 우리가 하려는 어떤 일에도 안전하도록 보장한다."
+   "ko": "이 규칙은 집에서 마시든 농장에서 작물에 대든 거대한 공업용 보일러에 흘려보내든, 우리가 물을 어디에 쓰더라도 안전하도록 보장한다."
   },
   {
    "n": 5,
@@ -702,7 +702,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "깨끗함의 뜻",
+    "label": "정의",
     "sents": [
      1,
      2
@@ -711,7 +711,7 @@
     "star": false
    },
    {
-    "label": "기준의 역할",
+    "label": "부연",
     "sents": [
      3,
      4
@@ -720,7 +720,7 @@
     "star": false
    },
    {
-    "label": "용도마다 다름",
+    "label": "주제 제시",
     "sents": [
      5,
      6
@@ -745,17 +745,17 @@
   ]
  },
  "src": {
-  "analogy_items.json": "549c86258e47cac4",
+  "analogy_items.json": "1054c5dc23f78d47",
   "check_conf.json": "7faaf5339245a56f",
   "original_marks.json": "77fb1c73db96a4a0",
-  "passage_src.json": "e140f211a872c718",
+  "passage_src.json": "b99ff890dda398e6",
   "source_restored.json": "98e9456557f24b76",
-  "study_x.json": "e6b64d128a4ad94c",
+  "study_x.json": "ee981dcb4a606903",
   "topic_items.json": "ecce92720f16482b",
   "variants_set1.json": "350a1ed7b7fcc4dc",
   "variants_set2.json": "55992c544f155318",
-  "variants_set3.json": "1eaa16efca64a2b4",
-  "variants_set4.json": "d6d0d88bb7b9fb28",
+  "variants_set3.json": "c412dd01c4d9b4f1",
+  "variants_set4.json": "fd0e959d2f610e9e",
   "workbook_src.json": "61dfe5ddfcf93923"
  }
 }

@@ -53,7 +53,7 @@
   {
    "n": 4,
    "en": "It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives.",
-   "ko": "그것은 개인이 발달을 그저 수동적으로 받는 존재가 아니라 평생에 걸쳐 성장할 수 있는 능동적인 주체임을 강조한다."
+   "ko": "가소성은 개인이 발달을 그저 수동적으로 받는 존재가 아니라 평생에 걸쳐 성장할 수 있는 능동적인 주체임을 강조한다."
   },
   {
    "n": 5,
@@ -750,7 +750,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "새 관점",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -759,7 +759,7 @@
     "star": false
    },
    {
-    "label": "가소성의 뜻",
+    "label": "정의",
     "sents": [
      3,
      4
@@ -768,7 +768,7 @@
     "star": false
    },
    {
-    "label": "예전 관점",
+    "label": "통념",
     "sents": [
      5,
      5
@@ -777,7 +777,7 @@
     "star": false
    },
    {
-    "label": "결론",
+    "label": "반박",
     "sents": [
      6,
      7
@@ -795,13 +795,13 @@
  "src": {
   "analogy_items.json": "6cdfe152b57e05e1",
   "original_marks.json": "e69b8458dca72101",
-  "passage_src.json": "ce8650354215c926",
-  "study_x.json": "1cddc38b7e6e6e03",
+  "passage_src.json": "ad859e3cea7adb63",
+  "study_x.json": "5960fd6cdbaa11aa",
   "topic_items.json": "01c83ff55f5c52bf",
   "variants_set1.json": "2395fa2d2889bae2",
   "variants_set2.json": "673ac6e266aeec65",
   "variants_set3.json": "6520ee2286b7a179",
   "variants_set4.json": "aca75fc1d4a70708",
-  "workbook_src.json": "06e37b21936e3da0"
+  "workbook_src.json": "ca941c5570029d8e"
  }
 }

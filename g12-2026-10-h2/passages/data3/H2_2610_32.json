@@ -11,7 +11,7 @@
   "topic_ko": "정의가 소셜 네트워크가 아니라 법원에서 세워져야 하는 까닭",
   "title_ko": "정의는 군중이 아니라 법원이 세운다",
   "title_en": "Courts, Not Crowds, Should Deliver Justice",
-  "gist_ko": "대중문화는 법원 같은 전통 기관을 약하게 만들 수 있으므로, 민주적 법치 국가에서 정의는 소셜 네트워크의 여론이 아니라 법원에서 그 압력에 흔들리지 않게 세워야 한다."
+  "gist_ko": "민주적 법치 국가에서 정의는 소셜 네트워크의 여론에 따라서가 아니라 대중의 압력에 흔들리지 않는 법원의 판단으로 세워져야 한다."
  },
  "kind": "normal",
  "boards": [
@@ -38,7 +38,7 @@
   {
    "n": 1,
    "en": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions.",
-   "ko": "대중문화를 사람들과 전통을 잇는 문화적 유대를 약하게 하는 힘으로 본다면, 그것은 사회 안의 중간 기관(예를 들어 가족이나 학교)을 약하게 만들어 그 역할을 줄이고 이 기관들이 하던 일과 겹친다."
+   "ko": "대중문화를 사람들과 전통을 잇는 문화적 유대를 약하게 하는 힘으로 본다면, 대중문화는 사회 안의 중간 기관(예를 들어 가족이나 학교)을 약하게 만들어 그 역할을 줄이고 이 기관들이 하던 일과 겹친다."
   },
   {
    "n": 2,
@@ -210,7 +210,7 @@
    "wrong": [
     "importantly"
    ],
-   "rule": "and 가 보어 traditional social institutions 와 important 를 잇는 2형식 보어라 형용사를 쓴다.",
+   "rule": "and 가 보어 traditional social institutions 와 important 를 이으므로 2형식 보어인 important 는 형용사로 쓴다.",
    "imp": 0,
    "deck": true
   },
@@ -746,7 +746,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "일반 원리",
+    "label": "주제 제시",
     "sents": [
      1,
      1
@@ -755,7 +755,7 @@
     "star": false
    },
    {
-    "label": "예와 문제",
+    "label": "예시",
     "sents": [
      2,
      3
@@ -781,8 +781,8 @@
  "src": {
   "analogy_items.json": "d07339a731367e42",
   "original_marks.json": "d06afb3c5811a641",
-  "passage_src.json": "a5250f3fdd023cbd",
-  "study_x.json": "5eda93fd69a52c06",
+  "passage_src.json": "94e939c428e7624f",
+  "study_x.json": "b1dca6c142155d30",
   "topic_items.json": "bb18b79f7dff7cee",
   "variants_set1.json": "8503301c21f48b57",
   "variants_set2.json": "fef4e9a8f7708f8d",

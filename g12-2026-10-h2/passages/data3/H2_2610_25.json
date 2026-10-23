@@ -8,10 +8,10 @@
   "orig_type": "도표",
   "words": 140,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
-  "topic_ko": "일곱 나라에서 유명인 · 인플루언서 광고를 보고 제품을 산 응답자 비율(2019년 · 2025년)",
+  "topic_ko": "유명인 · 인플루언서 광고 제품 구매율의 나라별 · 연도별 변화",
   "title_ko": "유명인이 광고한 제품을 산 사람들 — 일곱 나라 비교",
   "title_en": "Buying What the Stars Sell: Seven Countries Compared",
-  "gist_ko": "2019년에서 2025년 사이 중국을 뺀 여섯 나라에서 유명인 광고를 보고 제품을 산 응답자 비율이 늘었고, 2025년에는 브라질이 가장 높고 일본이 가장 낮았다."
+  "gist_ko": "2019년에서 2025년 사이 중국을 뺀 여섯 나라에서 유명인 · 인플루언서 광고를 보고 제품을 산 응답자 비율이 늘었다."
  },
  "kind": "chart",
  "boards": [
@@ -188,7 +188,7 @@
    "wrong": [
     "following"
    ],
-   "rule": "브라질이 인도에게 뒤따라지는 쪽이라 수동의 분사구문 followed by 를 쓴다.",
+   "rule": "브라질을 인도가 뒤따르는 관계라 수동의 분사구문 followed by 를 쓴다.",
    "imp": 0,
    "deck": false
   },
@@ -649,7 +649,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "도입",
+    "label": "도표 소개",
     "sents": [
      1,
      1
@@ -658,7 +658,7 @@
     "star": false
    },
    {
-    "label": "2025년 순위",
+    "label": "순위 1",
     "sents": [
      2,
      2
@@ -667,7 +667,7 @@
     "star": false
    },
    {
-    "label": "두 해 사이 변화",
+    "label": "증감",
     "sents": [
      3,
      5
@@ -676,7 +676,7 @@
     "star": false
    },
    {
-    "label": "가장 낮은 나라",
+    "label": "순위 2",
     "sents": [
      6,
      6
@@ -694,9 +694,9 @@
  "src": {
   "analogy_items.json": "9d74ff54a22bba70",
   "original_marks.json": "a44678bd4d8fe4d0",
-  "passage_src.json": "5234ce2280933a07",
-  "study_x.json": "6734f40d4e6a3175",
+  "passage_src.json": "ccdece00da5c41a4",
+  "study_x.json": "3d7662b5120e46a3",
   "topic_items.json": "694b7207e881707f",
-  "workbook_src.json": "982fc879cf51a248"
+  "workbook_src.json": "c2eee70d6f890ae4"
  }
 }

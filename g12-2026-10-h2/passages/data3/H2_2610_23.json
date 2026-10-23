@@ -8,10 +8,10 @@
   "orig_type": "주제",
   "words": 148,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
-  "topic_ko": "문어의 팔이 주변 환경과 직접 상호 작용하는 방식",
+  "topic_ko": "신경 세포가 퍼져 있어 스스로 작동하는 문어 팔의 특징",
   "title_ko": "스스로 판단하는 문어의 팔",
   "title_en": "Arms That Think for Themselves",
-  "gist_ko": "문어는 신경 세포의 절반 이상이 팔에 있어서, 팔이 뇌의 지시 없이 주변과 직접 상호 작용하고 빨판으로 화학 정보까지 얻는다."
+  "gist_ko": "문어는 신경 세포의 절반 이상이 팔에 있어서 팔이 뇌의 세세한 지시 없이도 주변 환경에 직접 반응한다."
  },
  "kind": "normal",
  "boards": [
@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "What makes this system unusual is where many of those neurons are located.",
-   "ko": "이 신경계를 남다르게 만드는 것은 그 신경 세포 가운데 많은 수가 어디에 있느냐이다."
+   "ko": "이 신경계가 남다른 까닭은 그 신경 세포 가운데 많은 수가 어디에 있느냐에 있다."
   },
   {
    "n": 3,
@@ -63,7 +63,7 @@
   {
    "n": 6,
    "en": "Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly.",
-   "ko": "그 대신 팔은 주변 환경과 직접 상호 작용하는, 신경계의 매우 유능한 연장 부위로 기능한다."
+   "ko": "그 대신 팔은 주변 환경과 직접 상호 작용하는, 신경계의 매우 유능한 연장 부위 구실을 한다."
   },
   {
    "n": 7,
@@ -102,7 +102,7 @@
   {
    "sent": 6,
    "text": "Instead",
-   "rel": "대조"
+   "rel": "대안"
   },
   {
    "sent": 10,
@@ -617,7 +617,7 @@
     "t": "Instead",
     "c": "c",
     "id": "c0",
-    "lab": "대조"
+    "lab": "대안"
    },
    {
     "t": ", the arms function as highly capable "
@@ -727,16 +727,16 @@
     "star": false
    },
    {
-    "label": "설명 1",
+    "label": "주제 제시",
     "sents": [
      3,
      6
     ],
-    "text": "신경 세포 절반 이상이 팔에 있어 팔이 뇌의 지시 없이 환경과 직접 상호 작용한다",
+    "text": "신경 세포 절반 이상이 팔에 있어 팔이 뇌의 세세한 지시 없이 환경과 직접 상호 작용한다",
     "star": true
    },
    {
-    "label": "설명 2",
+    "label": "특징",
     "sents": [
      7,
      8
@@ -763,9 +763,9 @@
  "src": {
   "analogy_items.json": "ddb25e790c81f8cc",
   "original_marks.json": "ecab25961214bed2",
-  "passage_src.json": "0c0d2e1bac184d08",
-  "study_x.json": "6b118652bceef3d7",
-  "topic_items.json": "b36c50ea026c372c",
+  "passage_src.json": "70dee1a2259e6bcf",
+  "study_x.json": "a23e2d6993d62f97",
+  "topic_items.json": "456b3e4023e7c10b",
   "variants_set1.json": "fd6158eed2e6ec1b",
   "variants_set2.json": "8859255c76527867",
   "variants_set3.json": "612267e2c82a5554",

@@ -9,9 +9,9 @@
   "words": 101,
   "exam": "2026학년도 10월 전국연합학력평가 고2 영어",
   "topic_ko": "학생들의 사생활과 안전을 높이기 위한 방안 제안",
-  "title_ko": "학교를 더 안전하고 사생활이 지켜지는 곳으로",
+  "title_ko": "더 안전하고 사생활이 지켜지는 학교",
   "title_en": "Making Our School Safer and More Private",
-  "gist_ko": "학생 대표가 교장에게 인근 학교의 보안 사고를 걱정하는 학생들의 뜻을 전하며, 학교 둘레에 나무를 심고 출입구에 CCTV와 경비원을 더 두자고 제안한다."
+  "gist_ko": "학생 대표가 인근 학교의 보안 사고를 걱정하는 학생들을 대신해 교장에게 사생활과 안전을 높일 방안을 고려해 달라고 부탁한다."
  },
  "kind": "normal",
  "boards": [
@@ -38,7 +38,7 @@
   {
    "n": 1,
    "en": "Dear Principal, I am writing as the head student because many students have expressed their concerns about the recent security incidents at nearby schools.",
-   "ko": "교장 선생님께, 많은 학생들이 최근 인근 학교들에서 일어난 보안 사고에 대해 걱정을 나타내 왔기 때문에 저는 학생 대표로서 이 글을 써요."
+   "ko": "교장 선생님께, 많은 학생이 최근 인근 학교에서 일어난 보안 사고를 걱정해 왔기 때문에 저는 학생 대표로서 이 글을 써요."
   },
   {
    "n": 2,
@@ -48,12 +48,12 @@
   {
    "n": 3,
    "en": "First, planting trees around the school would prevent outsiders from watching students, which helps protect students’ privacy and reduces their exposure to external risks.",
-   "ko": "첫째, 학교 둘레에 나무를 심는 것은 외부인이 학생들을 지켜보지 못하게 막을 것이며, 이는 학생들의 사생활을 지키는 데 도움이 되고 외부 위험에 드러나는 일을 줄여요."
+   "ko": "첫째, 학교 둘레에 나무를 심으면 외부인이 학생들을 지켜보지 못하게 막을 수 있는데, 이는 학생들의 사생활을 지키는 데 도움이 되고 외부 위험에 드러나는 일도 줄여요."
   },
   {
    "n": 4,
    "en": "Additionally, more CCTV cameras and security guards could be added near the entrances to detect unauthorized access and respond quickly to any incidents.",
-   "ko": "게다가, 허가받지 않은 출입을 알아채고 어떤 사고에든 빠르게 대응하기 위해 출입구 가까이에 CCTV 카메라와 경비원이 더 배치될 수 있을 거예요."
+   "ko": "게다가, 허가받지 않은 출입을 알아채고 어떤 사고에든 빠르게 대응하도록 출입구 가까이에 CCTV 카메라와 경비원을 더 둘 수 있어요."
   },
   {
    "n": 5,
@@ -653,7 +653,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "도입",
+    "label": "상황 설명",
     "sents": [
      1,
      2
@@ -662,7 +662,7 @@
     "star": false
    },
    {
-    "label": "방안 1",
+    "label": "제안 1",
     "sents": [
      3,
      3
@@ -671,7 +671,7 @@
     "star": false
    },
    {
-    "label": "방안 2",
+    "label": "제안 2",
     "sents": [
      4,
      4
@@ -680,7 +680,7 @@
     "star": false
    },
    {
-    "label": "맺음",
+    "label": "맺음말",
     "sents": [
      5,
      7
@@ -698,13 +698,13 @@
  "src": {
   "analogy_items.json": "78d441b7eb3ab6ca",
   "original_marks.json": "dcbc90f0fbc66eb5",
-  "passage_src.json": "73058bf3df186f4b",
-  "study_x.json": "5357345ce176d0b4",
+  "passage_src.json": "0b9b38e2a5dc6a62",
+  "study_x.json": "3bd05788605a9c51",
   "topic_items.json": "b77733d639e6cf04",
   "variants_set1.json": "1e0941f3dd82445b",
   "variants_set2.json": "c1f325c3dafe1a03",
   "variants_set3.json": "a465dac9fe3f6d60",
   "variants_set4.json": "0d791d99305afb6e",
-  "workbook_src.json": "4fcf46d9e44aad06"
+  "workbook_src.json": "cb99a4bb12a7c33e"
  }
 }

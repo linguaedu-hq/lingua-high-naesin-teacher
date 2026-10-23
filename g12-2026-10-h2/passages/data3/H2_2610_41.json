@@ -238,7 +238,7 @@
    "wrong": [
     "suggests"
    ],
-   "rule": "가주어 It 이 받는 that 절 내용은 여겨지는 쪽이라 수동태 is suggested 를 쓴다.",
+   "rule": "가주어 It 이 받는 that 절 내용은 남들이 그렇다고 여기는 대상이라 수동태 is suggested 를 쓴다.",
    "imp": 0,
    "deck": true
   },
@@ -934,7 +934,7 @@
     "star": false
    },
    {
-    "label": "관점 바꾸기",
+    "label": "주장",
     "sents": [
      3,
      5
@@ -943,7 +943,7 @@
     "star": false
    },
    {
-    "label": "안전이 주는 사치",
+    "label": "근거",
     "sents": [
      6,
      8
@@ -970,13 +970,13 @@
  "src": {
   "analogy_items.json": "2f5c15a3211dd348",
   "original_marks.json": "007f2e149e739908",
-  "passage_src.json": "64f1b64a896b095e",
-  "study_x.json": "0dd93383166acec3",
+  "passage_src.json": "8787005dd9ff10a8",
+  "study_x.json": "f5f53e13d8921dd4",
   "topic_items.json": "30ca935abcf4234f",
   "variants_set1.json": "b05c6af3bf83f1a2",
   "variants_set2.json": "bf0ef728593b3637",
   "variants_set3.json": "cd0bd88fea2d68c4",
-  "variants_set4.json": "18886eaeaae2b45a",
-  "workbook_src.json": "84bab544be62f2fe"
+  "variants_set4.json": "b35b64645cd00f5e",
+  "workbook_src.json": "3c790b8279d98646"
  }
 }
