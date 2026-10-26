@@ -1,0 +1,729 @@
+{
+ "meta": {
+  "id": "S1_NGL2_U3_03",
+  "grade": "고1",
+  "year": 2026,
+  "month": 0,
+  "item_no": "3-3①",
+  "orig_type": "순서",
+  "words": 147,
+  "exam": "[고1] 이사벨고 2026 2학기 기말(2차) · 부교재",
+  "topic_ko": "드론 운용의 부담을 덜어 주는 상자 속 드론의 매력",
+  "title_ko": "걱정 없이 누리는 드론의 이점",
+  "title_en": "Drone Benefits Without the Worries",
+  "gist_ko": "상자 속 드론은 기지국과 공급 회사가 조종과 관리의 부담을 맡아 고객이 드론의 이점만 누리게 해 준다.",
+  "chip": "고1 부교재 · 3-3①"
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Most existing drones need to be flown by an experienced operator.",
+   "ko": "현재 쓰이는 드론은 대부분 숙련된 조종사가 날려야 한다."
+  },
+  {
+   "n": 2,
+   "en": "Indeed, the law often requires this.",
+   "ko": "실제로 법이 이를 요구하는 경우도 많다."
+  },
+  {
+   "n": 3,
+   "en": "Drones also need technical support and maintenance.",
+   "ko": "드론에는 기술 지원과 정비도 필요하다."
+  },
+  {
+   "n": 4,
+   "en": "And the people operating them would be well advised to have an understanding of the legal and safety implications of what they are up to.",
+   "ko": "그리고 드론을 조종하는 사람은 자신이 하는 일이 법과 안전 면에서 어떤 영향을 미치는지 알아 두는 편이 현명하다."
+  },
+  {
+   "n": 5,
+   "en": "Hence the appeal of the “drone-in-a-box.”",
+   "ko": "그래서 ‘상자 속 드론’이 관심을 끈다."
+  },
+  {
+   "n": 6,
+   "en": "This is a term being applied to the offerings of several firms that aspire to sell the advantages of drones without the associated worries.",
+   "ko": "이 말은 드론에 따르는 걱정 없이 드론의 이점을 팔고자 하는 여러 회사의 상품에 쓰이는 용어이다."
+  },
+  {
+   "n": 7,
+   "en": "The box in question is a base station that houses the drone, recharges it and transfers the data it has collected to the customer.",
+   "ko": "여기서 말하는 상자는 드론을 넣어 두고 충전하며, 드론이 모은 데이터를 고객에게 보내 주는 기지국이다."
+  },
+  {
+   "n": 8,
+   "en": "The drone may fly autonomously, according to a preprogrammed schedule, find its way automatically to a point it is ordered to visit, or be piloted remotely by an operative of the company that supplies the system, from a control centre anywhere on the planet.",
+   "ko": "드론은 미리 짜 둔 일정에 따라 스스로 날 수도 있고, 가라고 지시받은 지점까지 알아서 길을 찾아갈 수도 있으며, 시스템을 공급하는 회사의 직원이 세계 어디에 있는 관제 센터에서든 원격으로 조종할 수도 있다."
+  }
+ ],
+ "topic": 5,
+ "gist": 6,
+ "hl": [
+  {
+   "sent": 6,
+   "text": "sell the advantages of drones without the associated worries"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "Indeed",
+   "rel": "강조"
+  },
+  {
+   "sent": 3,
+   "text": "also",
+   "rel": "첨가"
+  },
+  {
+   "sent": 5,
+   "text": "Hence",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "this",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "need to be flown by an experienced operator",
+   "ko": "드론을 숙련된 조종사가 날려야 한다는 것"
+  },
+  {
+   "sent": 4,
+   "text": "them",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "Drones",
+   "ko": "드론"
+  },
+  {
+   "sent": 6,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "drone-in-a-box",
+   "ko": "‘상자 속 드론’이라는 말"
+  },
+  {
+   "sent": 7,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "the drone",
+   "ko": "기지국에 넣어 둔 드론"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 26,
+   "text": "to be flown",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "to be flown",
+   "wrong": [
+    "to fly"
+   ],
+   "rule": "드론은 조종사가 날리는 대상이라 need 뒤에 수동형 to be flown 을 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 22,
+   "text": "requires",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "requires",
+   "wrong": [
+    "require"
+   ],
+   "rule": "주어 the law 가 단수라 동사 requires 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 4,
+   "pos": 15,
+   "text": "operating",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "operating",
+   "wrong": [
+    "operated"
+   ],
+   "rule": "사람들이 드론을 조종하는 쪽이고 뒤에 목적어 them 이 있어 현재분사 operating 이 the people 을 꾸밉니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 117,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "which"
+   ],
+   "rule": "전치사 of 뒤에 선행사가 없고 「~하는 것」의 뜻이라 관계대명사 what 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 6,
+   "pos": 15,
+   "text": "being applied",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "being applied",
+   "wrong": [
+    "applying"
+   ],
+   "rule": "용어는 상품에 쓰이는 쪽이라 being applied 가 a term 을 뒤에서 꾸밉니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 6,
+   "pos": 63,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 several firms 뒤에서 주어 구실을 하므로 주격 관계대명사 that 을 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 7,
+   "pos": 38,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a base station 이 있으므로 what 이 아니라 주격 관계대명사 that 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 7,
+   "pos": 78,
+   "text": "transfers",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "transfers",
+   "wrong": [
+    "transferring"
+   ],
+   "rule": "houses, recharges 와 and 로 이어진 동사라 같은 꼴 transfers 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 100,
+   "text": "has collected",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "has collected",
+   "wrong": [
+    "has been collected"
+   ],
+   "rule": "the data 와 it 사이에 목적격 관계대명사가 빠졌고, 드론이 데이터를 모은 쪽이라 능동 has collected 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 8,
+   "pos": 112,
+   "text": "is ordered",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is ordered",
+   "wrong": [
+    "orders"
+   ],
+   "rule": "드론은 가라는 지시를 받는 쪽이라 수동 is ordered 를 쓰고 뒤에 to visit 이 이어집니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 8,
+   "pos": 136,
+   "text": "be piloted",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be piloted",
+   "wrong": [
+    "pilot"
+   ],
+   "rule": "may 에 fly, find 와 나란히 이어지고 드론이 조종을 받는 쪽이라 be piloted 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "experienced",
+   "sent": 1,
+   "ko": "숙련된, 경험 많은",
+   "gloss": "숙련된",
+   "syn": [
+    "skilled"
+   ],
+   "ant": [
+    "unskilled"
+   ]
+  },
+  {
+   "text": "operator",
+   "sent": 1,
+   "ko": "조종사, (기계를) 다루는 사람",
+   "gloss": "조종사",
+   "syn": [
+    "controller"
+   ],
+   "ant": []
+  },
+  {
+   "text": "maintenance",
+   "sent": 3,
+   "ko": "정비, 유지 보수",
+   "gloss": "정비",
+   "syn": [
+    "upkeep"
+   ],
+   "ant": [
+    "neglect"
+   ]
+  },
+  {
+   "text": "implications",
+   "sent": 4,
+   "ko": "(예상되는) 영향, 결과",
+   "gloss": "(예상되는) 영향",
+   "syn": [
+    "consequence"
+   ],
+   "ant": []
+  },
+  {
+   "text": "Hence",
+   "sent": 5,
+   "ko": "그러므로, 그래서",
+   "gloss": "그러므로",
+   "syn": [
+    "therefore"
+   ],
+   "ant": []
+  },
+  {
+   "text": "appeal",
+   "sent": 5,
+   "ko": "매력, 끌림",
+   "gloss": "매력",
+   "syn": [
+    "attraction"
+   ],
+   "ant": []
+  },
+  {
+   "text": "aspire",
+   "sent": 6,
+   "ko": "~하고자 열망하다",
+   "gloss": "~하고자 열망하다",
+   "syn": [
+    "aim"
+   ],
+   "ant": []
+  },
+  {
+   "text": "advantages",
+   "sent": 6,
+   "ko": "이점, 장점",
+   "gloss": "이점",
+   "syn": [
+    "benefit"
+   ],
+   "ant": [
+    "drawback"
+   ]
+  },
+  {
+   "text": "associated",
+   "sent": 6,
+   "ko": "관련된, 따르는",
+   "gloss": "관련된",
+   "syn": [
+    "related"
+   ],
+   "ant": [
+    "unrelated"
+   ]
+  },
+  {
+   "text": "transfers",
+   "sent": 7,
+   "ko": "전송하다, 옮기다",
+   "gloss": "전송하다",
+   "syn": [
+    "transmit"
+   ],
+   "ant": [
+    "receive"
+   ]
+  },
+  {
+   "text": "autonomously",
+   "sent": 8,
+   "ko": "자율적으로, 스스로",
+   "gloss": "자율적으로",
+   "syn": [
+    "independently"
+   ],
+   "ant": [
+    "manually"
+   ]
+  },
+  {
+   "text": "preprogrammed",
+   "sent": 8,
+   "ko": "미리 프로그램된, 미리 짜 둔",
+   "gloss": "미리 프로그램된",
+   "syn": [
+    "preset"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Most existing drones need "
+   },
+   {
+    "t": "to be flown",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " by an "
+   },
+   {
+    "t": "experienced",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "operator",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Indeed",
+    "c": "c",
+    "id": "c0",
+    "lab": "강조"
+   },
+   {
+    "t": ", the law often "
+   },
+   {
+    "t": "requires",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " this."
+   }
+  ],
+  [
+   {
+    "t": "Drones "
+   },
+   {
+    "t": "also",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": " need technical support and "
+   },
+   {
+    "t": "maintenance",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "And the people "
+   },
+   {
+    "t": "operating",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " them would be well advised to have an understanding of the legal and safety "
+   },
+   {
+    "t": "implications",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " they are up to."
+   }
+  ],
+  [
+   {
+    "t": "Hence",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "appeal",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " of the “drone-in-a-box.”"
+   }
+  ],
+  [
+   {
+    "t": "This is a term "
+   },
+   {
+    "t": "being applied",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " to the offerings of several firms "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "aspire",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " to sell the "
+   },
+   {
+    "t": "advantages",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " of drones without the "
+   },
+   {
+    "t": "associated",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " worries."
+   }
+  ],
+  [
+   {
+    "t": "The box in question is a base station "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " houses the drone, recharges it and "
+   },
+   {
+    "t": "transfers",
+    "c": "g",
+    "id": "g9",
+    "kids": [
+     {
+      "t": "transfers",
+      "c": "v",
+      "id": "v9"
+     }
+    ]
+   },
+   {
+    "t": " the data it "
+   },
+   {
+    "t": "has collected",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " to the customer."
+   }
+  ],
+  [
+   {
+    "t": "The drone may fly "
+   },
+   {
+    "t": "autonomously",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": ", according to a "
+   },
+   {
+    "t": "preprogrammed",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " schedule, find its way automatically to a point it "
+   },
+   {
+    "t": "is ordered",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " to visit, or "
+   },
+   {
+    "t": "be piloted",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " remotely by an operative of the company that supplies the system, from a control centre anywhere on the planet."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "문제 제기",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "드론은 대부분 숙련된 조종사가 날려야 하고 법도 이를 요구한다",
+    "star": false
+   },
+   {
+    "label": "문제점",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "기술 지원과 정비가 필요하고 조종하는 사람은 법과 안전 문제도 알아야 한다",
+    "star": false
+   },
+   {
+    "label": "해결책",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "걱정 없이 드론의 이점을 팔려는 상자 속 드론이 관심을 끈다",
+    "star": true
+   },
+   {
+    "label": "특징",
+    "sents": [
+     7,
+     8
+    ],
+    "text": "기지국이 드론을 보관하고 충전하며 드론은 스스로 날거나 원격으로 조종된다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "also",
+   "Hence",
+   "The box in question"
+  ]
+ },
+ "src": {
+  "check_conf.json": "050f1c0f5adbb91b",
+  "passage_src.json": "f9252fdce3700723",
+  "study_x.json": "6281d43fec86def1",
+  "workbook_src.json": "6caa730a5039f797"
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "meta": {
+  "id": "S1_NGL2_U3_08",
+  "grade": "고1",
+  "year": 2026,
+  "month": 0,
+  "item_no": "3-3⑥",
+  "orig_type": "빈칸",
+  "words": 141,
+  "exam": "[고1] 이사벨고 2026 2학기 기말(2차) · 부교재",
+  "topic_ko": "지도자가 배우는 자세를 지녀야 하는 까닭",
+  "title_ko": "배움에 열린 지도자",
+  "title_en": "Why Leaders Must Keep Learning",
+  "gist_ko": "구성원들의 폭넓은 차이를 다 알 수는 없으므로 지도자는 기꺼이 배우려는 열린 자세를 보여야 한다.",
+  "chip": "고1 부교재 · 3-3⑥"
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Contrary to popular perception, leaders are not people who are always certain of themselves and their direction.",
+   "ko": "흔히 생각하는 것과 달리, 지도자는 언제나 자기 자신과 자신이 나아갈 방향을 확신하는 사람이 아니다."
+  },
+  {
+   "n": 2,
+   "en": "Rather, leaders are people who are open-minded learners.",
+   "ko": "오히려 지도자는 열린 마음으로 배우는 사람이다."
+  },
+  {
+   "n": 3,
+   "en": "What’s more, they are not afraid to let others see them in this light.",
+   "ko": "게다가 지도자는 다른 사람들에게 자신의 이런 모습을 보이는 것을 두려워하지 않는다."
+  },
+  {
+   "n": 4,
+   "en": "In fact, creating an environment in which learning and its natural by-product, mistakes, are okay can be a potent tool to unite a group and inspire creativity, risk-taking, and effort.",
+   "ko": "실제로 배움과 그 자연스러운 부산물인 실수가 받아들여지는 환경을 만드는 일은 집단을 하나로 묶고 창의성, 위험 감수, 노력을 북돋우는 강력한 수단이 될 수 있다."
+  },
+  {
+   "n": 5,
+   "en": "Today, those who practice leadership must be open to learning about their colleagues and followers.",
+   "ko": "오늘날 지도력을 발휘하는 사람은 동료와 자신을 따르는 사람들을 알아 가는 일에 마음을 열어야 한다."
+  },
+  {
+   "n": 6,
+   "en": "That includes their differences in personality and work styles, their lifestyle as it affects their effort, and the interplay of such factors as age, race, religion, and gender.",
+   "ko": "여기에는 성격과 업무 방식의 차이, 노력에 영향을 미치는 생활 방식, 그리고 나이, 인종, 종교, 성별 같은 요인들의 상호 작용이 들어간다."
+  },
+  {
+   "n": 7,
+   "en": "No one can be expected to grasp all the implications of such a wide range of differences, so leaders especially must show they are willing and able to learn.",
+   "ko": "그토록 폭넓은 차이가 지닌 의미를 누구든 다 파악하리라고 기대할 수는 없으므로, 특히 지도자는 기꺼이 배우려 하고 배울 능력도 있음을 보여 주어야 한다."
+  }
+ ],
+ "topic": 2,
+ "gist": 7,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "open-minded learners"
+  },
+  {
+   "sent": 7,
+   "text": "willing and able to learn"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "Rather",
+   "rel": "대안"
+  },
+  {
+   "sent": 3,
+   "text": "What’s more",
+   "rel": "첨가"
+  },
+  {
+   "sent": 4,
+   "text": "In fact",
+   "rel": "강조"
+  },
+  {
+   "sent": 7,
+   "text": "so",
+   "rel": "결과"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "leaders",
+   "ko": "열린 마음으로 배우는 지도자"
+  },
+  {
+   "sent": 6,
+   "text": "That",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "learning about their colleagues and followers",
+   "ko": "동료와 따르는 사람들을 알아 가는 일"
+  },
+  {
+   "sent": 7,
+   "text": "such a wide range of differences",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "their differences in personality and work styles",
+   "ko": "성격 · 업무 방식 · 생활 방식 · 나이 · 인종 · 종교 · 성별의 차이"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 55,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 people 이 사람이므로 주격 관계대명사 who 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 3,
+   "pos": 47,
+   "text": "see",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "see",
+   "wrong": [
+    "to see"
+   ],
+   "rule": "사역동사 let 의 목적어 others 뒤에는 동사원형 see 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 4,
+   "pos": 9,
+   "text": "creating",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "creating",
+   "wrong": [
+    "create"
+   ],
+   "rule": "문장의 주어로 쓰이므로 동명사 creating 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 33,
+   "text": "in which",
+   "cat": "관계부사·전치사+관계대명사",
+   "chip": "관계사",
+   "right": "in which",
+   "wrong": [
+    "which"
+   ],
+   "rule": "뒤에 완전한 절이 오고 environment 를 꾸미므로 in which 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 89,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어 learning and its natural by-product 가 둘을 묶은 복수라 are 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 119,
+   "text": "to unite",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to unite",
+   "wrong": [
+    "unite"
+   ],
+   "rule": "명사 tool 을 뒤에서 꾸미는 to부정사 to unite 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 140,
+   "text": "inspire",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "inspire",
+   "wrong": [
+    "inspiring"
+   ],
+   "rule": "and 앞의 unite 와 나란히 to 에 이어지므로 동사원형 inspire 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 53,
+   "text": "learning",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "learning",
+   "wrong": [
+    "learn"
+   ],
+   "rule": "be open to 의 to 는 전치사라 동명사 learning 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 86,
+   "text": "affects",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "affects",
+   "wrong": [
+    "affect"
+   ],
+   "rule": "주어 it 이 단수 their lifestyle 을 받으므로 affects 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 11,
+   "text": "be expected",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be expected",
+   "wrong": [
+    "expect"
+   ],
+   "rule": "주어 No one 이 기대를 받는 쪽이라 수동태 be expected 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Contrary",
+   "sent": 1,
+   "ko": "반대의, ~와 반대되는",
+   "gloss": "반대의",
+   "syn": [
+    "opposite"
+   ],
+   "ant": []
+  },
+  {
+   "text": "perception",
+   "sent": 1,
+   "ko": "인식, 생각",
+   "gloss": "인식",
+   "syn": [
+    "view"
+   ],
+   "ant": []
+  },
+  {
+   "text": "certain",
+   "sent": 1,
+   "ko": "확신하는",
+   "gloss": "확신하는",
+   "syn": [
+    "sure"
+   ],
+   "ant": [
+    "doubtful"
+   ]
+  },
+  {
+   "text": "open-minded",
+   "sent": 2,
+   "ko": "열린 마음의, 편견 없는",
+   "gloss": "열린 마음의",
+   "syn": [
+    "receptive"
+   ],
+   "ant": [
+    "narrow-minded"
+   ]
+  },
+  {
+   "text": "learners",
+   "sent": 2,
+   "ko": "배우는 사람, 학습자",
+   "gloss": "배우는 사람",
+   "syn": [
+    "student"
+   ],
+   "ant": []
+  },
+  {
+   "text": "by-product",
+   "sent": 4,
+   "ko": "부산물, 따라 생기는 결과",
+   "gloss": "부산물",
+   "syn": [
+    "side effect"
+   ],
+   "ant": []
+  },
+  {
+   "text": "potent",
+   "sent": 4,
+   "ko": "강력한",
+   "gloss": "강력한",
+   "syn": [
+    "powerful"
+   ],
+   "ant": [
+    "weak"
+   ]
+  },
+  {
+   "text": "unite",
+   "sent": 4,
+   "ko": "하나로 묶다, 단결시키다",
+   "gloss": "하나로 묶다",
+   "syn": [
+    "unify"
+   ],
+   "ant": [
+    "divide"
+   ]
+  },
+  {
+   "text": "interplay",
+   "sent": 6,
+   "ko": "상호 작용",
+   "gloss": "상호 작용",
+   "syn": [
+    "interaction"
+   ],
+   "ant": []
+  },
+  {
+   "text": "grasp",
+   "sent": 7,
+   "ko": "파악하다, 이해하다",
+   "gloss": "파악하다",
+   "syn": [
+    "understand"
+   ],
+   "ant": [
+    "misunderstand"
+   ]
+  },
+  {
+   "text": "implications",
+   "sent": 7,
+   "ko": "(숨은) 의미, 영향",
+   "gloss": "(숨은) 의미",
+   "syn": [
+    "significance"
+   ],
+   "ant": []
+  },
+  {
+   "text": "willing",
+   "sent": 7,
+   "ko": "기꺼이 하는",
+   "gloss": "기꺼이 하는",
+   "syn": [
+    "ready"
+   ],
+   "ant": [
+    "reluctant"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Contrary",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " to popular "
+   },
+   {
+    "t": "perception",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": ", leaders are not people "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " are always "
+   },
+   {
+    "t": "certain",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " of themselves and their direction."
+   }
+  ],
+  [
+   {
+    "t": "Rather",
+    "c": "c",
+    "id": "c0",
+    "lab": "대안"
+   },
+   {
+    "t": ", leaders are people who are "
+   },
+   {
+    "t": "open-minded",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "learners",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "What’s more",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": ", they are not afraid to let others "
+   },
+   {
+    "t": "see",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " them in this light."
+   }
+  ],
+  [
+   {
+    "t": "In fact",
+    "c": "c",
+    "id": "c2",
+    "lab": "강조"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "creating",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " an environment "
+   },
+   {
+    "t": "in which",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " learning and its natural "
+   },
+   {
+    "t": "by-product",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": ", mistakes, "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " okay can be a "
+   },
+   {
+    "t": "potent",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " tool "
+   },
+   {
+    "t": "to unite",
+    "c": "g",
+    "id": "g6",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "unite",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " a group and "
+   },
+   {
+    "t": "inspire",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " creativity, risk-taking, and effort."
+   }
+  ],
+  [
+   {
+    "t": "Today, those who practice leadership must be open to "
+   },
+   {
+    "t": "learning",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " about their colleagues and followers."
+   }
+  ],
+  [
+   {
+    "t": "That includes their differences in personality and work styles, their lifestyle as it "
+   },
+   {
+    "t": "affects",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " their effort, and the "
+   },
+   {
+    "t": "interplay",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " of such factors as age, race, religion, and gender."
+   }
+  ],
+  [
+   {
+    "t": "No one can "
+   },
+   {
+    "t": "be expected",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " to "
+   },
+   {
+    "t": "grasp",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " all the "
+   },
+   {
+    "t": "implications",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " of such a wide range of differences, "
+   },
+   {
+    "t": "so",
+    "c": "c",
+    "id": "c3",
+    "lab": "결과"
+   },
+   {
+    "t": " leaders especially must show they are "
+   },
+   {
+    "t": "willing",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " and able to learn."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "통념",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "지도자는 늘 자신과 방향을 확신한다는 흔한 생각",
+    "star": false
+   },
+   {
+    "label": "반박",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "지도자는 열린 마음으로 배우고 그 모습을 드러낸다",
+    "star": false
+   },
+   {
+    "label": "반박 근거",
+    "sents": [
+     4,
+     4
+    ],
+    "text": "실수를 받아들이는 환경이 집단을 묶고 창의성을 이끈다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     5,
+     7
+    ],
+    "text": "구성원의 폭넓은 차이를 다 알 수 없으니 지도자는 배우는 자세를 보여야 한다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "Rather",
+   "In fact",
+   "Today"
+  ]
+ },
+ "src": {
+  "check_conf.json": "050f1c0f5adbb91b",
+  "passage_src.json": "52e0066fa5f1f9b4",
+  "study_x.json": "b66f446460c46cbd",
+  "workbook_src.json": "927e489b35fd56d8"
+ }
+}

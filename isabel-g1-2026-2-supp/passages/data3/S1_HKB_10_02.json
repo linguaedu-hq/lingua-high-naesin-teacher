@@ -1,0 +1,706 @@
+{
+ "meta": {
+  "id": "S1_HKB_10_02",
+  "grade": "고1",
+  "year": 2026,
+  "month": 0,
+  "item_no": "10강2",
+  "orig_type": "삽입",
+  "words": 144,
+  "exam": "[고1] 이사벨고 2026 2학기 기말(2차) · 부교재",
+  "topic_ko": "얼음이 모두 사라질 때 인류와 생태계가 겪을 재앙",
+  "title_ko": "지구의 얼음이 모두 녹는다면",
+  "title_en": "What If All the Ice on Earth Melted?",
+  "gist_ko": "지구의 얼음이 모두 녹으면 인간 사회와 생태계 모두가 심각한 재앙을 겪게 된다.",
+  "chip": "고1 부교재 · 10강2"
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "What would happen if all the ice on Earth were to disappear overnight?",
+   "ko": "지구의 모든 얼음이 하룻밤 사이에 사라진다면 어떤 일이 일어날까?"
+  },
+  {
+   "n": 2,
+   "en": "The answer would be a disaster for the planet and its inhabitants.",
+   "ko": "그 답은 바로 지구와 지구에 사는 생물에게 닥칠 재앙이다."
+  },
+  {
+   "n": 3,
+   "en": "Should the ice in Greenland and Antarctica melt, it would add a large amount of water to the oceans.",
+   "ko": "그린란드와 남극 대륙의 얼음이 녹는다면, 바다에 많은 양의 물이 더해진다."
+  },
+  {
+   "n": 4,
+   "en": "Consequently, sea levels would rise, covering coastal cities and forcing millions of people to move inland.",
+   "ko": "그 결과 해수면이 높아져 해안 도시들이 물에 잠기고, 수백만 명의 사람들이 어쩔 수 없이 내륙으로 옮겨 가게 된다."
+  },
+  {
+   "n": 5,
+   "en": "Inland areas are already overcrowded and resources are limited, so this could result in serious problems such as famine.",
+   "ko": "내륙 지역은 이미 인구가 지나치게 많고 자원도 한정되어 있어서, 이는 기근 같은 심각한 문제로 이어질 수 있다."
+  },
+  {
+   "n": 6,
+   "en": "The melting of ice would also have a dramatic impact on ecosystems.",
+   "ko": "얼음이 녹는 일은 생태계에도 극적인 영향을 미치게 된다."
+  },
+  {
+   "n": 7,
+   "en": "For example, animals including polar bears, penguins, and seals would face the immediate threat of losing their homes.",
+   "ko": "예를 들어, 북극곰, 펭귄, 물범을 비롯한 동물들은 당장 서식지를 잃을 위협에 놓이게 된다."
+  },
+  {
+   "n": 8,
+   "en": "Since these animals rely heavily on icy environments for survival, the loss of their habitats could lead to a sharp decline in their populations.",
+   "ko": "이 동물들은 살아남기 위해 얼음 환경에 크게 의존하므로, 서식지를 잃으면 개체 수가 급격히 줄어들 수 있다."
+  },
+  {
+   "n": 9,
+   "en": "What is worse, without suitable alternatives, they might become completely extinct.",
+   "ko": "설상가상으로 적절한 대안이 없다면, 이 동물들은 완전히 멸종할지도 모른다."
+  }
+ ],
+ "topic": 2,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 2,
+   "text": "a disaster for the planet and its inhabitants"
+  },
+  {
+   "sent": 6,
+   "text": "a dramatic impact on ecosystems"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "Consequently",
+   "rel": "결과"
+  },
+  {
+   "sent": 5,
+   "text": "so",
+   "rel": "결과"
+  },
+  {
+   "sent": 6,
+   "text": "also",
+   "rel": "첨가"
+  },
+  {
+   "sent": 7,
+   "text": "For example",
+   "rel": "예시"
+  },
+  {
+   "sent": 8,
+   "text": "Since",
+   "rel": "원인"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 5,
+   "text": "this",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "forcing millions of people to move inland",
+   "ko": "수백만 명이 내륙으로 옮겨 가야 하는 상황"
+  },
+  {
+   "sent": 8,
+   "text": "these animals",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "polar bears, penguins, and seals",
+   "ko": "북극곰, 펭귄, 물범 같은 동물"
+  },
+  {
+   "sent": 9,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "these animals",
+   "ko": "얼음 환경에 기대어 사는 동물"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 42,
+   "text": "were to disappear",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "were to disappear",
+   "wrong": [
+    "will disappear"
+   ],
+   "rule": "일어나기 어려운 미래의 일을 가정하므로 if 절에 were to + 동사원형을 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 3,
+   "pos": 0,
+   "text": "Should",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "Should",
+   "wrong": [
+    "Would"
+   ],
+   "rule": "if 를 빼고 Should 를 주어 앞으로 보낸 가정법 도치입니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 4,
+   "pos": 37,
+   "text": "covering",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "covering",
+   "wrong": [
+    "covered"
+   ],
+   "rule": "해수면이 도시를 덮는 능동의 뜻이라 분사구문에 현재분사 covering 을 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 92,
+   "text": "to move",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "to move",
+   "wrong": [
+    "moving"
+   ],
+   "rule": "force + 목적어 뒤에는 목적격보어로 to부정사 to move 를 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 51,
+   "text": "are limited",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "are limited",
+   "wrong": [
+    "are limiting"
+   ],
+   "rule": "자원은 한정되는 쪽이라 수동 are limited 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 6,
+   "pos": 4,
+   "text": "melting",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "melting",
+   "wrong": [
+    "melt"
+   ],
+   "rule": "The 와 of ice 사이에서 「녹는 것」이라는 명사 구실을 하므로 동명사 melting 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 7,
+   "pos": 99,
+   "text": "losing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "losing",
+   "wrong": [
+    "lose"
+   ],
+   "rule": "전치사 of 뒤에는 동명사 losing 을 씁니다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 8,
+   "pos": 20,
+   "text": "rely",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "rely",
+   "wrong": [
+    "relies"
+   ],
+   "rule": "주어 these animals 가 복수라 rely 를 씁니다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g11",
+   "sent": 9,
+   "pos": 15,
+   "text": "without",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "without",
+   "wrong": [
+    "unless"
+   ],
+   "rule": "without 구가 if 절 대신 「~이 없다면」을 나타내고 주절에 might + 동사원형이 옵니다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "overnight",
+   "sent": 1,
+   "ko": "하룻밤 사이에, 갑자기",
+   "gloss": "하룻밤 사이에",
+   "syn": [
+    "suddenly"
+   ],
+   "ant": [
+    "gradually"
+   ]
+  },
+  {
+   "text": "disaster",
+   "sent": 2,
+   "ko": "재앙, 큰 재난",
+   "gloss": "재앙",
+   "syn": [
+    "catastrophe"
+   ],
+   "ant": [
+    "blessing"
+   ]
+  },
+  {
+   "text": "melt",
+   "sent": 3,
+   "ko": "녹다",
+   "gloss": "녹다",
+   "syn": [
+    "thaw"
+   ],
+   "ant": [
+    "freeze"
+   ]
+  },
+  {
+   "text": "Consequently",
+   "sent": 4,
+   "ko": "그 결과, 따라서",
+   "gloss": "그 결과",
+   "syn": [
+    "therefore"
+   ],
+   "ant": []
+  },
+  {
+   "text": "overcrowded",
+   "sent": 5,
+   "ko": "지나치게 붐비는, 인구가 너무 많은",
+   "gloss": "지나치게 붐비는",
+   "syn": [
+    "crammed"
+   ],
+   "ant": [
+    "deserted"
+   ]
+  },
+  {
+   "text": "famine",
+   "sent": 5,
+   "ko": "기근, 굶주림",
+   "gloss": "기근",
+   "syn": [
+    "starvation"
+   ],
+   "ant": [
+    "abundance"
+   ]
+  },
+  {
+   "text": "dramatic",
+   "sent": 6,
+   "ko": "극적인, 엄청난",
+   "gloss": "극적인",
+   "syn": [
+    "significant"
+   ],
+   "ant": [
+    "slight"
+   ]
+  },
+  {
+   "text": "ecosystems",
+   "sent": 6,
+   "ko": "생태계",
+   "gloss": "생태계",
+   "syn": [
+    "environment"
+   ],
+   "ant": []
+  },
+  {
+   "text": "immediate",
+   "sent": 7,
+   "ko": "당장의, 즉각적인",
+   "gloss": "당장의",
+   "syn": [
+    "instant"
+   ],
+   "ant": [
+    "delayed"
+   ]
+  },
+  {
+   "text": "habitats",
+   "sent": 8,
+   "ko": "서식지",
+   "gloss": "서식지",
+   "syn": [
+    "home"
+   ],
+   "ant": []
+  },
+  {
+   "text": "decline",
+   "sent": 8,
+   "ko": "감소, 하락",
+   "gloss": "감소",
+   "syn": [
+    "decrease"
+   ],
+   "ant": [
+    "increase"
+   ]
+  },
+  {
+   "text": "alternatives",
+   "sent": 9,
+   "ko": "대안",
+   "gloss": "대안",
+   "syn": [
+    "option"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "What would happen if all the ice on Earth "
+   },
+   {
+    "t": "were to disappear",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "overnight",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": "?"
+   }
+  ],
+  [
+   {
+    "t": "The answer would be a "
+   },
+   {
+    "t": "disaster",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " for the planet and its inhabitants."
+   }
+  ],
+  [
+   {
+    "t": "Should",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " the ice in Greenland and Antarctica "
+   },
+   {
+    "t": "melt",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": ", it would add a large amount of water to the oceans."
+   }
+  ],
+  [
+   {
+    "t": "Consequently",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": ", sea levels would rise, "
+   },
+   {
+    "t": "covering",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " coastal cities and forcing millions of people "
+   },
+   {
+    "t": "to move",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " inland."
+   }
+  ],
+  [
+   {
+    "t": "Inland areas are already "
+   },
+   {
+    "t": "overcrowded",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " and resources "
+   },
+   {
+    "t": "are limited",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "so",
+    "c": "c",
+    "id": "c1",
+    "lab": "결과"
+   },
+   {
+    "t": " this could result in serious problems such as "
+   },
+   {
+    "t": "famine",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "The "
+   },
+   {
+    "t": "melting",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " of ice would "
+   },
+   {
+    "t": "also",
+    "c": "c",
+    "id": "c2",
+    "lab": "첨가"
+   },
+   {
+    "t": " have a "
+   },
+   {
+    "t": "dramatic",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " impact on "
+   },
+   {
+    "t": "ecosystems",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "For example",
+    "c": "c",
+    "id": "c3",
+    "lab": "예시"
+   },
+   {
+    "t": ", animals including polar bears, penguins, and seals would face the "
+   },
+   {
+    "t": "immediate",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " threat of "
+   },
+   {
+    "t": "losing",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " their homes."
+   }
+  ],
+  [
+   {
+    "t": "Since",
+    "c": "c",
+    "id": "c4",
+    "lab": "원인"
+   },
+   {
+    "t": " these animals "
+   },
+   {
+    "t": "rely",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " heavily on icy environments for survival, the loss of their "
+   },
+   {
+    "t": "habitats",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " could lead to a sharp "
+   },
+   {
+    "t": "decline",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " in their populations."
+   }
+  ],
+  [
+   {
+    "t": "What is worse, "
+   },
+   {
+    "t": "without",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " suitable "
+   },
+   {
+    "t": "alternatives",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": ", they might become completely extinct."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "현상",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "지구의 얼음이 모두 사라지면 지구와 생물에게 재앙이 된다",
+    "star": false
+   },
+   {
+    "label": "결과 1",
+    "sents": [
+     3,
+     5
+    ],
+    "text": "해수면이 높아져 사람들이 내륙으로 몰리고 기근이 생길 수 있다",
+    "star": false
+   },
+   {
+    "label": "결과 2",
+    "sents": [
+     6,
+     9
+    ],
+    "text": "극지 동물들이 서식지를 잃고 멸종할 수도 있다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "Should the ice … melt",
+   "The melting of ice would also"
+  ]
+ },
+ "src": {
+  "check_conf.json": "aed15721d4d278bb",
+  "passage_src.json": "abde67cdcc6420fa",
+  "study_x.json": "ba3a77be702bdc33",
+  "workbook_src.json": "ff8426d05cc70670"
+ }
+}

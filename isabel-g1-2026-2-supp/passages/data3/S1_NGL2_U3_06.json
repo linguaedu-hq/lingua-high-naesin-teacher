@@ -1,0 +1,687 @@
+{
+ "meta": {
+  "id": "S1_NGL2_U3_06",
+  "grade": "고1",
+  "year": 2026,
+  "month": 0,
+  "item_no": "3-3④",
+  "orig_type": "빈칸",
+  "words": 132,
+  "exam": "[고1] 이사벨고 2026 2학기 기말(2차) · 부교재",
+  "topic_ko": "기업의 환경 성과가 재무 성과에 미치는 긍정적 영향",
+  "title_ko": "친환경 경영이 이익이 되는 증거",
+  "title_en": "Evidence That Going Green Pays",
+  "gist_ko": "기업이 환경 성과를 높이면 재무 성과도 좋아지므로 친환경 경영은 이익이 된다.",
+  "chip": "고1 부교재 · 3-3④"
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "A vast academic literature provides empirical support for the thesis that it pays to be green.",
+   "ko": "방대한 학술 문헌은 친환경 경영이 이익이 된다는 주장을 실증적으로 뒷받침한다."
+  },
+  {
+   "n": 2,
+   "en": "Large data sets have been constructed, measuring firm environmental behavior and financial performance across a wide number of industries and over many years.",
+   "ko": "수많은 산업 분야에서 여러 해에 걸쳐 기업의 환경 관련 활동과 재무 성과를 측정한 대규모 데이터 세트가 구축되어 왔다."
+  },
+  {
+   "n": 3,
+   "en": "While the results are not unequivocal, there is evidence suggestive of a positive correlation between environmental performance and financial performance.",
+   "ko": "결과가 아주 분명하지는 않지만, 환경 성과와 재무 성과 사이에 양의 상관관계가 있음을 시사하는 증거가 있다."
+  },
+  {
+   "n": 4,
+   "en": "In our own work, we find that, on average, a 10% decrease in a company’s toxic emissions as reported in the US Environmental Protection Agency’s Toxic Release Inventory ― a database of toxic emissions from US manufacturing facilities ― results in an average 3% increase in a firm’s financial performance as measured by return on assets.",
+   "ko": "우리의 연구에서는, 미국 환경 보호청의 유독 물질 배출 목록(미국 제조 시설의 유독 물질 배출을 모은 데이터베이스)에 보고된 기업의 유독 물질 배출이 10퍼센트 줄면 총자산 이익률로 잰 기업의 재무 성과가 평균 3퍼센트 오른다는 결과가 나온다."
+  },
+  {
+   "n": 5,
+   "en": "Another study suggests that a 10% reduction in emissions could result in a $34 million increase in market value.",
+   "ko": "또 다른 연구는 배출량을 10퍼센트 줄이면 시장 가치가 3,400만 달러 늘어날 수 있음을 보여 준다."
+  }
+ ],
+ "topic": 1,
+ "gist": 1,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "empirical support"
+  },
+  {
+   "sent": 3,
+   "text": "a positive correlation between environmental performance and financial performance"
+  },
+  {
+   "sent": 4,
+   "text": "an average 3% increase in a firm’s financial performance"
+  },
+  {
+   "sent": 5,
+   "text": "a $34 million increase in market value"
+  }
+ ],
+ "con": [
+  {
+   "sent": 3,
+   "text": "While",
+   "rel": "양보"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "the results",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "Large data sets",
+   "ko": "여러 산업 · 여러 해의 자료를 모은 데이터 세트로 얻은 결과"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 27,
+   "text": "provides",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "provides",
+   "wrong": [
+    "provide"
+   ],
+   "rule": "주어 A vast academic literature 가 단수라 provides 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 69,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "which"
+   ],
+   "rule": "that 절이 앞 명사 thesis 의 내용을 밝히는 동격절이다. 뒤에 빠진 것 없는 절이 오므로 which 를 쓰지 않는다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 82,
+   "text": "to be",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "to be",
+   "wrong": [
+    "be"
+   ],
+   "rule": "it 은 가주어이고 진주어는 to be green 이다. it pays to + 동사원형 은 「~하는 것이 이득이 되다」의 뜻이다.",
+   "imp": 3,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 16,
+   "text": "have been constructed",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "have been constructed",
+   "wrong": [
+    "have constructed"
+   ],
+   "rule": "데이터 세트는 사람이 구축하는 대상이라 현재완료 수동태 have been p.p. 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 2,
+   "pos": 39,
+   "text": "measuring",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "measuring",
+   "wrong": [
+    "measured"
+   ],
+   "rule": "데이터 세트가 성과를 측정하는 쪽이라 능동의 현재분사 measuring 으로 분사구문을 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 3,
+   "pos": 0,
+   "text": "While",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "While",
+   "wrong": [
+    "During"
+   ],
+   "rule": "뒤에 주어와 동사가 있는 절이 오므로 전치사 During 이 아니라 접속사 While 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 57,
+   "text": "suggestive",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "suggestive",
+   "wrong": [
+    "suggestively"
+   ],
+   "rule": "suggestive of 이하는 명사 evidence 를 뒤에서 꾸미는 형용사구다. 부사는 명사를 꾸밀 수 없다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 25,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "find 의 목적어로 빠진 것 없는 완전한 절이 오므로 명사절 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 4,
+   "pos": 92,
+   "text": "reported",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "reported",
+   "wrong": [
+    "reporting"
+   ],
+   "rule": "배출량이 목록에 보고되는 쪽이라 as 뒤에 과거분사 reported 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 4,
+   "pos": 236,
+   "text": "results",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "results",
+   "wrong": [
+    "result"
+   ],
+   "rule": "주어의 중심 낱말이 단수 a 10% decrease 라 본동사는 results 다.",
+   "imp": 2,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 4,
+   "pos": 307,
+   "text": "measured",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "measured",
+   "wrong": [
+    "measuring"
+   ],
+   "rule": "재무 성과가 총자산 이익률로 측정되는 쪽이라 과거분사 measured 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 5,
+   "pos": 57,
+   "text": "could result",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "could result",
+   "wrong": [
+    "could results"
+   ],
+   "rule": "조동사 could 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": true
+  }
+ ],
+ "vocab": [
+  {
+   "text": "vast",
+   "sent": 1,
+   "ko": "방대한, 막대한",
+   "gloss": "방대한",
+   "syn": [
+    "huge"
+   ],
+   "ant": [
+    "tiny"
+   ]
+  },
+  {
+   "text": "literature",
+   "sent": 1,
+   "ko": "(한 분야의) 연구 문헌",
+   "gloss": "(한 분야의) 연구 문헌",
+   "syn": [
+    "publications"
+   ],
+   "ant": []
+  },
+  {
+   "text": "empirical",
+   "sent": 1,
+   "ko": "실증적인, 경험에 근거한",
+   "gloss": "실증적인",
+   "syn": [
+    "evidence-based"
+   ],
+   "ant": [
+    "theoretical"
+   ]
+  },
+  {
+   "text": "thesis",
+   "sent": 1,
+   "ko": "주장, 논지",
+   "gloss": "주장",
+   "syn": [
+    "claim"
+   ],
+   "ant": []
+  },
+  {
+   "text": "constructed",
+   "sent": 2,
+   "ko": "구축하다, 만들다",
+   "gloss": "구축하다",
+   "syn": [
+    "compile"
+   ],
+   "ant": [
+    "destroy"
+   ]
+  },
+  {
+   "text": "performance",
+   "sent": 2,
+   "ko": "성과, 실적",
+   "gloss": "성과",
+   "syn": [
+    "achievement"
+   ],
+   "ant": []
+  },
+  {
+   "text": "unequivocal",
+   "sent": 3,
+   "ko": "명백한, 모호하지 않은",
+   "gloss": "명백한",
+   "syn": [
+    "definite"
+   ],
+   "ant": [
+    "ambiguous"
+   ]
+  },
+  {
+   "text": "suggestive",
+   "sent": 3,
+   "ko": "시사하는, 암시하는",
+   "gloss": "시사하는",
+   "syn": [
+    "indicative"
+   ],
+   "ant": []
+  },
+  {
+   "text": "correlation",
+   "sent": 3,
+   "ko": "상관관계",
+   "gloss": "상관관계",
+   "syn": [
+    "connection"
+   ],
+   "ant": []
+  },
+  {
+   "text": "toxic",
+   "sent": 4,
+   "ko": "유독한, 독성의",
+   "gloss": "유독한",
+   "syn": [
+    "poisonous"
+   ],
+   "ant": [
+    "harmless"
+   ]
+  },
+  {
+   "text": "emissions",
+   "sent": 4,
+   "ko": "배출, 배출물",
+   "gloss": "배출",
+   "syn": [
+    "discharge"
+   ],
+   "ant": []
+  },
+  {
+   "text": "assets",
+   "sent": 4,
+   "ko": "자산",
+   "gloss": "자산",
+   "syn": [
+    "property"
+   ],
+   "ant": [
+    "debt"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "A "
+   },
+   {
+    "t": "vast",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " academic "
+   },
+   {
+    "t": "literature",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "provides",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "empirical",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " support for the "
+   },
+   {
+    "t": "thesis",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " it pays "
+   },
+   {
+    "t": "to be",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " green."
+   }
+  ],
+  [
+   {
+    "t": "Large data sets "
+   },
+   {
+    "t": "have been constructed",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "have been "
+     },
+     {
+      "t": "constructed",
+      "c": "v",
+      "id": "v4"
+     }
+    ]
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "measuring",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " firm environmental behavior and financial "
+   },
+   {
+    "t": "performance",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " across a wide number of industries and over many years."
+   }
+  ],
+  [
+   {
+    "t": "While",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " the results are not "
+   },
+   {
+    "t": "unequivocal",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": ", there is evidence "
+   },
+   {
+    "t": "suggestive",
+    "c": "g",
+    "id": "g6",
+    "kids": [
+     {
+      "t": "suggestive",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " of a positive "
+   },
+   {
+    "t": "correlation",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " between environmental performance and financial performance."
+   }
+  ],
+  [
+   {
+    "t": "In our own work, we find "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": ", on average, a 10% decrease in a company’s "
+   },
+   {
+    "t": "toxic",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "emissions",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " as "
+   },
+   {
+    "t": "reported",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " in the US Environmental Protection Agency’s Toxic Release Inventory ― a database of toxic emissions from US manufacturing facilities ― "
+   },
+   {
+    "t": "results",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " in an average 3% increase in a firm’s financial performance as "
+   },
+   {
+    "t": "measured",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " by return on "
+   },
+   {
+    "t": "assets",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Another study suggests that a 10% reduction in emissions "
+   },
+   {
+    "t": "could result",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " in a $34 million increase in market value."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주제 제시",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "친환경 경영은 이익이 된다(학술 문헌이 뒷받침)",
+    "star": true
+   },
+   {
+    "label": "연구 소개",
+    "sents": [
+     2,
+     2
+    ],
+    "text": "여러 산업 · 여러 해의 환경 · 재무 자료를 모음",
+    "star": false
+   },
+   {
+    "label": "연구 결과",
+    "sents": [
+     3,
+     3
+    ],
+    "text": "환경 성과와 재무 성과 사이 양의 상관관계",
+    "star": false
+   },
+   {
+    "label": "예시",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "배출 10% 감소 → 이익률 3% 상승 · 시장 가치 3,400만 달러 증가",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "Large data sets",
+   "While",
+   "In our own work"
+  ]
+ },
+ "src": {
+  "check_conf.json": "050f1c0f5adbb91b",
+  "passage_src.json": "80bf917e976f9c78",
+  "study_x.json": "cbaaacfde801e584",
+  "workbook_src.json": "629f5eb66f8f877a"
+ }
+}

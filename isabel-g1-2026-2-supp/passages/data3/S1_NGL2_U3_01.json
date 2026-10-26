@@ -1,0 +1,732 @@
+{
+ "meta": {
+  "id": "S1_NGL2_U3_01",
+  "grade": "고1",
+  "year": 2026,
+  "month": 0,
+  "item_no": "3-1",
+  "orig_type": "빈칸",
+  "words": 154,
+  "exam": "[고1] 이사벨고 2026 2학기 기말(2차) · 부교재",
+  "topic_ko": "살아남은 사례만 보고 판단하는 생존자 편향의 위험",
+  "title_ko": "돌아오지 못한 비행기의 교훈",
+  "title_en": "The Lesson of the Missing Planes",
+  "gist_ko": "살아남은 사례만 보고 내린 판단은 틀리기 쉬우므로, 돌아오지 못한 사례가 주는 정보까지 살펴야 한다.",
+  "chip": "고1 부교재 · 3-1"
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "“Survivorship bias” is a common logical fallacy.",
+   "ko": "‘생존자 편향’은 흔한 논리적 오류이다."
+  },
+  {
+   "n": 2,
+   "en": "We’re prone to listen to the success stories from survivors because the others aren’t around to tell the tale.",
+   "ko": "우리는 살아남은 사람들의 성공담에 귀 기울이기 쉬운데, 나머지 사람들은 곁에 남아 이야기를 전해 줄 수 없기 때문이다."
+  },
+  {
+   "n": 3,
+   "en": "A dramatic example from history is the case of statistician Abraham Wald who, during World War Ⅱ, was hired by the U.S. Air Force to determine how to make their bomber planes safer.",
+   "ko": "역사 속 극적인 예로 통계학자 Abraham Wald 의 사례가 있는데, 그는 제2차 세계 대전 중에 폭격기를 더 안전하게 만들 방법을 알아내는 일을 맡아 미 공군에 고용되었다."
+  },
+  {
+   "n": 4,
+   "en": "The planes that returned tended to have bullet holes along the wings, body, and tail, and commanders wanted to reinforce those areas because they seemed to get hit most often.",
+   "ko": "돌아온 비행기들은 날개와 동체, 꼬리를 따라 총알 구멍이 나 있는 경우가 많았고, 지휘관들은 그 부분들이 가장 자주 총알을 맞는 것처럼 보여서 그곳을 보강하고 싶어 했다."
+  },
+  {
+   "n": 5,
+   "en": "Wald, however, saw that the important thing was that these bullet holes had not destroyed the planes, and what needed more protection were the areas that were not hit.",
+   "ko": "그러나 Wald 는 중요한 것은 이 총알 구멍들이 비행기를 파괴하지 않았다는 점이며, 보호가 더 필요한 곳은 총알을 맞지 않은 부분이라는 사실을 알아보았다."
+  },
+  {
+   "n": 6,
+   "en": "Those were the parts where, if a plane was struck by a bullet, it would never be seen again.",
+   "ko": "그 부분은 비행기가 총알을 맞으면 다시는 그 모습을 볼 수 없게 되는 곳이었다."
+  },
+  {
+   "n": 7,
+   "en": "His calculations based on that logic are still in use today, and they have saved many pilots.",
+   "ko": "그 논리에 바탕을 둔 Wald 의 계산은 오늘날에도 여전히 쓰이고 있으며, 많은 조종사의 목숨을 구해 왔다."
+  }
+ ],
+ "topic": 1,
+ "gist": 5,
+ "hl": [
+  {
+   "sent": 5,
+   "text": "what needed more protection were the areas that were not hit"
+  }
+ ],
+ "con": [
+  {
+   "sent": 5,
+   "text": "however",
+   "rel": "역접"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 4,
+   "text": "those areas",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "the wings, body, and tail",
+   "ko": "날개, 동체, 꼬리"
+  },
+  {
+   "sent": 6,
+   "text": "Those",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "the areas that were not hit",
+   "ko": "총알을 맞지 않은 부분들"
+  },
+  {
+   "sent": 7,
+   "text": "His",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "Wald",
+   "ko": "통계학자 Wald"
+  },
+  {
+   "sent": 7,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "His calculations",
+   "ko": "Wald 의 계산"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 2,
+   "pos": 60,
+   "text": "because",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "because",
+   "wrong": [
+    "because of"
+   ],
+   "rule": "뒤에 주어와 동사가 있는 절이 오므로 접속사 because 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 3,
+   "pos": 73,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 Abraham Wald 가 사람이고 뒤 절에 주어가 없으므로 who 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 3,
+   "pos": 98,
+   "text": "was hired",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "was hired",
+   "wrong": [
+    "was hiring"
+   ],
+   "rule": "Wald 는 공군이 고용한 대상이므로 수동태 was hired 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 147,
+   "text": "to make",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to make",
+   "wrong": [
+    "making"
+   ],
+   "rule": "의문사 how 뒤에 to부정사를 이어 「~하는 방법」을 나타낸다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 4,
+   "pos": 11,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "앞에 선행사 The planes 가 있으므로 what 이 아닌 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 25,
+   "text": "tended",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "tended",
+   "wrong": [
+    "tending"
+   ],
+   "rule": "주어 The planes 에 맞는 본동사가 필요하므로 과거형 tended 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 5,
+   "pos": 19,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "뒤에 빠진 것이 없는 절이 보어로 오므로 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 72,
+   "text": "had not destroyed",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "had not destroyed",
+   "wrong": [
+    "have not destroyed"
+   ],
+   "rule": "Wald 가 알아본 때보다 앞선 일이므로 과거완료를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 106,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "that"
+   ],
+   "rule": "선행사가 없고 뒤 절에 주어가 빠져 있으므로 관계대명사 what 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 21,
+   "text": "where",
+   "cat": "관계부사·전치사+관계대명사",
+   "chip": "관계사",
+   "right": "where",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 the parts 뒤에 빠진 것이 없는 절이 오므로 관계부사 where 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 17,
+   "text": "based",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "based",
+   "wrong": [
+    "basing"
+   ],
+   "rule": "계산은 논리에 바탕을 두게 된 대상이므로 과거분사 based 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 7,
+   "pos": 37,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어 His calculations 가 복수이므로 are 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  }
+ ],
+ "vocab": [
+  {
+   "text": "bias",
+   "sent": 1,
+   "ko": "편향, 치우침",
+   "gloss": "편향",
+   "syn": [
+    "prejudice"
+   ],
+   "ant": []
+  },
+  {
+   "text": "common",
+   "sent": 1,
+   "ko": "흔한",
+   "gloss": "흔한",
+   "syn": [
+    "usual"
+   ],
+   "ant": [
+    "rare"
+   ]
+  },
+  {
+   "text": "fallacy",
+   "sent": 1,
+   "ko": "(논리상의) 오류",
+   "gloss": "(논리상의) 오류",
+   "syn": [
+    "misconception"
+   ],
+   "ant": [
+    "truth"
+   ]
+  },
+  {
+   "text": "prone",
+   "sent": 2,
+   "ko": "~하기 쉬운",
+   "gloss": "~하기 쉬운",
+   "syn": [
+    "inclined"
+   ],
+   "ant": [
+    "unlikely"
+   ]
+  },
+  {
+   "text": "success",
+   "sent": 2,
+   "ko": "성공",
+   "gloss": "성공",
+   "syn": [
+    "achievement"
+   ],
+   "ant": [
+    "failure"
+   ]
+  },
+  {
+   "text": "tale",
+   "sent": 2,
+   "ko": "이야기",
+   "gloss": "이야기",
+   "syn": [
+    "story"
+   ],
+   "ant": []
+  },
+  {
+   "text": "dramatic",
+   "sent": 3,
+   "ko": "극적인",
+   "gloss": "극적인",
+   "syn": [
+    "striking"
+   ],
+   "ant": [
+    "ordinary"
+   ]
+  },
+  {
+   "text": "determine",
+   "sent": 3,
+   "ko": "알아내다, 밝혀내다",
+   "gloss": "알아내다",
+   "syn": [
+    "discover"
+   ],
+   "ant": []
+  },
+  {
+   "text": "reinforce",
+   "sent": 4,
+   "ko": "보강하다, 강화하다",
+   "gloss": "보강하다",
+   "syn": [
+    "strengthen"
+   ],
+   "ant": [
+    "weaken"
+   ]
+  },
+  {
+   "text": "protection",
+   "sent": 5,
+   "ko": "보호",
+   "gloss": "보호",
+   "syn": [
+    "defense"
+   ],
+   "ant": []
+  },
+  {
+   "text": "struck",
+   "sent": 6,
+   "ko": "(총알 등이) 맞히다",
+   "gloss": "(총알 등이) 맞히다",
+   "syn": [
+    "hit"
+   ],
+   "ant": [
+    "miss"
+   ]
+  },
+  {
+   "text": "calculations",
+   "sent": 7,
+   "ko": "계산",
+   "gloss": "계산",
+   "syn": [
+    "computation"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "“Survivorship "
+   },
+   {
+    "t": "bias",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": "” is a "
+   },
+   {
+    "t": "common",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " logical "
+   },
+   {
+    "t": "fallacy",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "We’re "
+   },
+   {
+    "t": "prone",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " to listen to the "
+   },
+   {
+    "t": "success",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " stories from survivors "
+   },
+   {
+    "t": "because",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " the others aren’t around to tell the "
+   },
+   {
+    "t": "tale",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "A "
+   },
+   {
+    "t": "dramatic",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " example from history is the case of statistician Abraham Wald "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": ", during World War Ⅱ, "
+   },
+   {
+    "t": "was hired",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " by the U.S. Air Force to "
+   },
+   {
+    "t": "determine",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " how "
+   },
+   {
+    "t": "to make",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " their bomber planes safer."
+   }
+  ],
+  [
+   {
+    "t": "The planes "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " returned "
+   },
+   {
+    "t": "tended",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " to have bullet holes along the wings, body, and tail, and commanders wanted to "
+   },
+   {
+    "t": "reinforce",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " those areas because they seemed to get hit most often."
+   }
+  ],
+  [
+   {
+    "t": "Wald, "
+   },
+   {
+    "t": "however",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": ", saw "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " the important thing was that these bullet holes "
+   },
+   {
+    "t": "had not destroyed",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " the planes, and "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " needed more "
+   },
+   {
+    "t": "protection",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " were the areas that were not hit."
+   }
+  ],
+  [
+   {
+    "t": "Those were the parts "
+   },
+   {
+    "t": "where",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": ", if a plane was "
+   },
+   {
+    "t": "struck",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " by a bullet, it would never be seen again."
+   }
+  ],
+  [
+   {
+    "t": "His "
+   },
+   {
+    "t": "calculations",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "based",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " on that logic "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " still in use today, and they have saved many pilots."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "정의",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "생존자 편향은 살아남은 사례만 보고 판단하는 흔한 오류이다",
+    "star": false
+   },
+   {
+    "label": "예시",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "지휘관들은 돌아온 폭격기의 총알 구멍 난 곳을 보강하려 했다",
+    "star": false
+   },
+   {
+    "label": "전환",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "Wald 는 총알을 맞지 않은 곳에 보호가 더 필요하다고 보았다",
+    "star": true
+   },
+   {
+    "label": "결과",
+    "sents": [
+     7,
+     7
+    ],
+    "text": "그 논리에 바탕을 둔 계산은 지금도 쓰이며 많은 조종사를 살렸다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "A dramatic example from history",
+   "Wald, however,",
+   "His calculations based on that logic"
+  ]
+ },
+ "src": {
+  "check_conf.json": "050f1c0f5adbb91b",
+  "passage_src.json": "a8b020713fd2de45",
+  "study_x.json": "63e9dcba50ef7bc9",
+  "workbook_src.json": "225d4a43107ba3f8"
+ }
+}
