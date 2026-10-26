@@ -9,7 +9,7 @@
   "words": 166,
   "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
   "topic_ko": "인간이 유인원 · 코끼리와 함께 지닌 느린 번식 전략",
-  "title_ko": "적게 낳아 잘 기르기 — 느린 번식이라는 전략",
+  "title_ko": "적게 낳아 잘 기르는 생존 전략",
   "title_en": "Fewer Babies, Better Care: Our Slow Way to Survive",
   "gist_ko": "인간은 유인원 · 코끼리처럼 천천히 자라고 새끼를 적게 낳는 대신 기르는 데 힘을 많이 쏟으며, 그 덕분에 새끼가 살아남아 번식하는 비율이 높다."
  },
@@ -770,7 +770,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "주제",
+    "label": "주제 제시",
     "sents": [
      1,
      1
@@ -779,7 +779,7 @@
     "star": false
    },
    {
-    "label": "특징과 까닭",
+    "label": "부연",
     "sents": [
      2,
      3
@@ -788,7 +788,7 @@
     "star": false
    },
    {
-    "label": "예시 1 · 쥐",
+    "label": "예시 1",
     "sents": [
      4,
      5
@@ -797,7 +797,7 @@
     "star": false
    },
    {
-    "label": "예시 2 · 침팬지 · 코끼리",
+    "label": "예시 2",
     "sents": [
      6,
      7
@@ -813,11 +813,11 @@
   ]
  },
  "src": {
-  "analogy_items.json": "537bbc4814ad88c5",
+  "analogy_items.json": "2e211e58f6f28214",
   "original_marks.json": "1b82276da3535465",
-  "passage_src.json": "9813b634a0132177",
-  "study_x.json": "76abaede3cc65860",
+  "passage_src.json": "9c932f5e58a18a07",
+  "study_x.json": "f4f0accce8ab376e",
   "topic_items.json": "bc4e462bfba69649",
-  "workbook_src.json": "f0b20c4953f21db8"
+  "workbook_src.json": "9904f9168448b456"
  }
 }

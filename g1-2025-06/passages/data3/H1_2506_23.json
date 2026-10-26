@@ -58,7 +58,7 @@
   {
    "n": 5,
    "en": "Knowing this fact is interesting, but it will do nothing for your personal health unless you act on it and actually exercise.",
-   "ko": "이 사실을 아는 것은 흥미롭지만, 여러분이 그 사실에 따라 실제로 운동하지 않는다면 그것은 여러분 개인의 건강에 아무런 도움이 되지 않을 것이다."
+   "ko": "이 사실을 아는 것은 흥미롭지만, 그 사실에 따라 실제로 운동하지 않는다면 여러분 개인의 건강에는 아무런 도움이 되지 않는다."
   },
   {
    "n": 6,
@@ -848,9 +848,9 @@
  "src": {
   "analogy_items.json": "f0d27f3b60ca23e5",
   "original_marks.json": "d0b993dd481e954a",
-  "passage_src.json": "166134c51df7a40b",
-  "study_x.json": "a0a5a20e4b40d455",
+  "passage_src.json": "58300de85591ca4b",
+  "study_x.json": "0810232caa303310",
   "topic_items.json": "5d078414a70279c8",
-  "workbook_src.json": "83a332003ceeec00"
+  "workbook_src.json": "acf2914a70ed417a"
  }
 }

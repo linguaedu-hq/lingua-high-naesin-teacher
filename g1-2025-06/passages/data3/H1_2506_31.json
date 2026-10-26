@@ -58,7 +58,7 @@
   {
    "n": 5,
    "en": "He relates that these natives tend to perform poorly at tasks Westerners have been trained to do since childhood.",
-   "ko": "그는 이 원주민들이, 서양인이라면 어릴 때부터 익히도록 훈련받는 과제들에서 성적이 좋지 않은 편이라고 전한다."
+   "ko": "그는 이 원주민들이 서양인이라면 어릴 때부터 훈련받는 과제들을 잘 해내지 못하는 편이라고 전한다."
   },
   {
    "n": 6,
@@ -209,7 +209,7 @@
    "wrong": [
     "profoundly illustrated"
    ],
-   "rule": "This 가 보여지는 쪽이고 by 뒤에 행위자가 와서 be + 과거분사를 쓴다.",
+   "rule": "This 가 설명되는 쪽이고 by 뒤에 행위자가 와서 be + 과거분사를 쓴다.",
    "imp": 0,
    "deck": true
   },
@@ -873,7 +873,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "주장",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -882,7 +882,7 @@
     "star": true
    },
    {
-    "label": "사례",
+    "label": "예시",
     "sents": [
      3,
      5
@@ -891,7 +891,7 @@
     "star": false
    },
    {
-    "label": "반전",
+    "label": "전환",
     "sents": [
      6,
      8
@@ -916,11 +916,11 @@
   ]
  },
  "src": {
-  "analogy_items.json": "857ab15d539a7eff",
+  "analogy_items.json": "3655ccf4cf729877",
   "original_marks.json": "e26c95be797b7d7f",
-  "passage_src.json": "b4a40baa2e3d5ffa",
-  "study_x.json": "2161ef4440f181bd",
+  "passage_src.json": "670478b569f1735f",
+  "study_x.json": "5e271fe8d04e2245",
   "topic_items.json": "577c43e8c21c4b17",
-  "workbook_src.json": "cc5465480f65f0f3"
+  "workbook_src.json": "18fe9cf8bd493b16"
  }
 }

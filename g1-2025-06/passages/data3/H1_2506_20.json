@@ -9,7 +9,7 @@
   "words": 137,
   "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
   "topic_ko": "습관 형성에 편리함이 미치는 큰 영향",
-  "title_ko": "좋은 습관은 쉽게 만들어라",
+  "title_ko": "좋은 습관은 실천하기 쉽게 만들어라",
   "title_en": "Make Good Habits Easy",
   "gist_ko": "우리는 편리한 일일수록 더 하게 되므로, 습관으로 만들고 싶은 활동은 하기 쉽게 만드는 데 주의를 기울여야 한다."
  },
@@ -38,12 +38,12 @@
   {
    "n": 1,
    "en": "People often ask me, “What surprises you most about habits?”",
-   "ko": "사람들은 내게 \"습관에 관해 무엇이 가장 놀라운가?\"라고 자주 묻는다."
+   "ko": "사람들은 내게 \"습관에서 가장 놀라운 점이 무엇인가?\"라고 자주 묻는다."
   },
   {
    "n": 2,
    "en": "One thing that continually astonishes me is the degree to which we’re influenced by sheer convenience.",
-   "ko": "우리가 순전히 편리함에 얼마나 크게 좌우되는지가 나를 끊임없이 놀라게 하는 점 하나이다."
+   "ko": "나를 끊임없이 놀라게 하는 한 가지는 우리가 순전히 편리함에 얼마나 크게 좌우되는가 하는 점이다."
   },
   {
    "n": 3,
@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "Many people report that they do a much better job of staying close to distant family members now that tools like group chats make it easy to stay in touch.",
-   "ko": "많은 사람들은 이제 단체 대화방 같은 도구가 연락을 쉽게 유지하게 해 주므로 멀리 사는 가족과 훨씬 더 가깝게 지낸다고 말한다."
+   "ko": "많은 사람들은 이제 단체 대화방 같은 도구 덕분에 쉽게 연락할 수 있어서 멀리 사는 가족과 훨씬 더 가깝게 지낸다고 말한다."
   }
  ],
  "topic": 2,
@@ -180,7 +180,7 @@
    "wrong": [
     "requiring"
    ],
-   "rule": "노력과 시간이 행동에 의해 요구되는 쪽이라 과거분사가 뒤에서 꾸민다.",
+   "rule": "노력과 시간은 행동이 요구하는 대상이라 과거분사가 뒤에서 꾸민다.",
    "imp": 0,
    "deck": true
   },
@@ -749,9 +749,9 @@
  "src": {
   "analogy_items.json": "e142a7e72a1e9c42",
   "original_marks.json": "fd36b38125f8d2dc",
-  "passage_src.json": "2d66da1b3a3faf1d",
-  "study_x.json": "e5ffc4c9aef5636b",
+  "passage_src.json": "c21f7f480b8dcb25",
+  "study_x.json": "4c34a10d99b4f36a",
   "topic_items.json": "ffee020059c9363b",
-  "workbook_src.json": "62fb2bc678f6451d"
+  "workbook_src.json": "7d7a8a33d83ef074"
  }
 }

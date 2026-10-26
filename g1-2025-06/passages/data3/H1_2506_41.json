@@ -93,7 +93,7 @@
   {
    "n": 12,
    "en": "They no longer felt the need to limit their expenses.",
-   "ko": "그들은 더 이상 지출을 제한할 필요를 느끼지 않았다."
+   "ko": "사람들은 더 이상 지출을 제한할 필요를 느끼지 않았다."
   }
  ],
  "topic": 1,
@@ -861,7 +861,7 @@
     "star": false
    },
    {
-    "label": "근거 1 뇌 연구",
+    "label": "근거 1",
     "sents": [
      4,
      6
@@ -870,7 +870,7 @@
     "star": false
    },
    {
-    "label": "근거 2 경매 실험",
+    "label": "근거 2",
     "sents": [
      7,
      10
@@ -897,9 +897,9 @@
  "src": {
   "analogy_items.json": "5a47b090ef89f943",
   "original_marks.json": "ae136d3eb0fad5e9",
-  "passage_src.json": "0f46b3906296e953",
-  "study_x.json": "c4b9f9fce5fa2205",
+  "passage_src.json": "fef01bffa926a08d",
+  "study_x.json": "bfa244242b77ea45",
   "topic_items.json": "6458c4a9c677c692",
-  "workbook_src.json": "e8974ae32a6a7f0c"
+  "workbook_src.json": "6359229489782bb8"
  }
 }

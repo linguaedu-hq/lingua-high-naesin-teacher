@@ -8,10 +8,10 @@
   "orig_type": "내용 불일치",
   "words": 127,
   "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
-  "topic_ko": "생물학자 에드워드 O. 윌슨의 생애",
+  "topic_ko": "어린 시절 사고로 작은 생물 연구의 길에 들어선 윌슨의 삶",
   "title_ko": "약해진 시력이 이끈 개미 연구자의 삶",
   "title_en": "How Weak Eyesight Turned Wilson Toward Ants",
-  "gist_ko": "에드워드 O. 윌슨은 어린 시절 사고로 시력이 약해져 개미 연구를 시작했고, 하버드 대학교 교수가 되어 노벨상 대신 크라포르드상을 받았으며 '현대의 다윈'으로 불렸다."
+  "gist_ko": "에드워드 O. 윌슨은 어린 시절 낚시 사고로 시력이 약해지자 가까이서 볼 수 있는 작은 생물에 집중하여 개미 연구의 길로 들어섰다."
  },
  "kind": "normal",
  "boards": [
@@ -695,7 +695,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "출생",
+    "label": "인물 소개",
     "sents": [
      1,
      2
@@ -704,7 +704,7 @@
     "star": false
    },
    {
-    "label": "계기",
+    "label": "성장 과정",
     "sents": [
      3,
      5
@@ -713,7 +713,7 @@
     "star": true
    },
    {
-    "label": "경력",
+    "label": "주요 활동",
     "sents": [
      6,
      6
@@ -722,7 +722,7 @@
     "star": false
    },
    {
-    "label": "수상 · 죽음",
+    "label": "업적",
     "sents": [
      7,
      9
@@ -738,12 +738,12 @@
   ]
  },
  "src": {
-  "analogy_items.json": "247b81236c058cfa",
+  "analogy_items.json": "47f391d394af8688",
   "original_marks.json": "527b61b621bc3cc8",
-  "passage_src.json": "bfc8756b1dc9249c",
-  "study_x.json": "b789bba61032da7e",
+  "passage_src.json": "d45935afafed3eaf",
+  "study_x.json": "53a46f126bbdf0b0",
   "topic_items.json": "a3f391425788ff6e",
-  "workbook_src.json": "4499de1eb8bc6b12"
+  "workbook_src.json": "43fff83831a2b840"
  },
  "vocab_off": [
   "became interested in"

@@ -56,7 +56,7 @@
   {
    "n": 5,
    "en": "If so, archaeology would be pretty boring; one thing would happen again and again.",
-   "ko": "그렇다면 고고학이라는 학문은 상당히 지루할 것인데, 같은 한 가지 일이 거듭 일어날 것이기 때문이다."
+   "ko": "그렇다면 고고학이라는 학문은 상당히 지루할 텐데, 같은 한 가지 일이 거듭 일어나기 때문이다."
   },
   {
    "n": 6,
@@ -778,7 +778,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "통념과 예",
+    "label": "통념",
     "sents": [
      1,
      3
@@ -787,7 +787,7 @@
     "star": false
    },
    {
-    "label": "의문 제기",
+    "label": "반박",
     "sents": [
      4,
      6
@@ -796,7 +796,7 @@
     "star": false
    },
    {
-    "label": "반례",
+    "label": "반박 근거",
     "sents": [
      7,
      8
@@ -810,7 +810,7 @@
      9,
      9
     ],
-    "text": "역사는 되풀이된다는 말은 문명에 대해 지나친 단순화이다",
+    "text": "역사는 되풀이된다는 말은 문명의 경우 지나친 단순화이다",
     "star": true
    }
   ],
@@ -824,10 +824,10 @@
   "analogy_items.json": "f4368dcbf6fdee9c",
   "check_conf.json": "a97a92f32b5d55ef",
   "original_marks.json": "6846e2339ef620ee",
-  "passage_src.json": "286d13f2d7167edf",
+  "passage_src.json": "cdd9e5c68e1cc458",
   "source_restored.json": "8b59e25a6c6e394a",
-  "study_x.json": "e718880c95ed57f3",
+  "study_x.json": "77c721b3a81202ce",
   "topic_items.json": "194087dab5498d3b",
-  "workbook_src.json": "5bab00d72dfec19c"
+  "workbook_src.json": "a87640b25ccc9716"
  }
 }

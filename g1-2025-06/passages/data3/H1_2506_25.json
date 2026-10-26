@@ -11,7 +11,7 @@
   "topic_ko": "2018 · 2019년 유럽 다섯 나라의 소매 거래 온라인 비율",
   "title_ko": "유럽 다섯 나라의 소매 거래 온라인 비율",
   "title_en": "How Much Retail Moved Online in Five European Countries",
-  "gist_ko": "2018년과 2019년 유럽 다섯 나라의 소매 거래 온라인 비율은 2019년 영국이 가장 높았고 네덜란드가 가장 크게 늘었으며 이탈리아가 두 해 모두 가장 낮았다."
+  "gist_ko": "2018년과 2019년 유럽 다섯 나라의 소매 거래 온라인 비율은 나라마다 큰 차이를 보였다."
  },
  "kind": "chart",
  "boards": [
@@ -38,7 +38,7 @@
   {
    "n": 1,
    "en": "The graph above shows the online share of retail trade in selected European countries in 2018 and 2019.",
-   "ko": "위 그래프는 2018년과 2019년에 선택된 유럽 국가들의 소매 거래에서 온라인이 차지한 비율을 보여 준다."
+   "ko": "위 그래프는 2018년과 2019년 일부 유럽 국가의 소매 거래에서 온라인이 차지한 비율을 보여 준다."
   },
   {
    "n": 2,
@@ -48,7 +48,7 @@
   {
    "n": 3,
    "en": "The Netherlands showed the largest increase in its online share of retail trade among the countries from 2018 to 2019, with a jump of over 6 percentage points.",
-   "ko": "네덜란드는 2018년부터 2019년까지 국가들 가운데 소매 거래의 온라인 비율이 가장 크게 증가하여 6퍼센트포인트 넘게 뛰었다."
+   "ko": "2018년부터 2019년까지 이 나라들 가운데 소매 거래의 온라인 비율이 가장 크게 늘어난 나라는 네덜란드로, 6퍼센트포인트 넘게 올랐다."
   },
   {
    "n": 4,
@@ -58,7 +58,7 @@
   {
    "n": 5,
    "en": "In 2018, Germany’s online share of retail trade was over four times higher than that of Spain.",
-   "ko": "2018년에 독일의 소매 거래 온라인 비율은 스페인의 비율보다 네 배 넘게 높았다(도표에서는 독일 15.1%, 스페인 4.8%라서 네 배인 19.2%에 못 미쳐 도표와 맞지 않는다)."
+   "ko": "2018년에 독일의 소매 거래 온라인 비율은 스페인보다 네 배 넘게 높았다."
   },
   {
    "n": 6,
@@ -648,7 +648,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "도입",
+    "label": "도표 소개",
     "sents": [
      1,
      1
@@ -657,7 +657,7 @@
     "star": false
    },
    {
-    "label": "최고 · 최대 증가",
+    "label": "순위 1",
     "sents": [
      2,
      3
@@ -666,7 +666,7 @@
     "star": false
    },
    {
-    "label": "두 나라 견주기",
+    "label": "수치 비교",
     "sents": [
      4,
      5
@@ -675,7 +675,7 @@
     "star": false
    },
    {
-    "label": "최저값",
+    "label": "순위 2",
     "sents": [
      6,
      6
@@ -691,11 +691,11 @@
   ]
  },
  "src": {
-  "analogy_items.json": "35806f361a81b5cc",
+  "analogy_items.json": "dbd6a193e7898934",
   "original_marks.json": "4faf9aa5e92e93f6",
-  "passage_src.json": "8536911ef3b6de20",
-  "study_x.json": "bab0c6e0541eb7c8",
-  "topic_items.json": "529df1891c9966cf",
-  "workbook_src.json": "14c28c17ff55565d"
+  "passage_src.json": "81f518516bfdd0e0",
+  "study_x.json": "5e6b8dbef734f4da",
+  "topic_items.json": "1e57bca81ecddd57",
+  "workbook_src.json": "44beeeb7d707963e"
  }
 }

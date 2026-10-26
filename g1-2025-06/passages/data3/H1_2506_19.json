@@ -8,7 +8,7 @@
   "orig_type": "심경 변화",
   "words": 113,
   "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
-  "topic_ko": "공항에서 들뜬 기대에서 깊은 슬픔으로 바뀐 Maya의 심경",
+  "topic_ko": "공항에서 들뜬 기대가 깊은 슬픔으로 바뀐 Maya의 심경",
   "title_ko": "사라진 여권",
   "title_en": "The Missing Passport",
   "gist_ko": "1년 동안 기다린 유럽 여행을 앞두고 들떠 있던 Maya는 카운터에서 여권이 없다는 사실을 알게 되고, 비행기에 오르지 못해 비통해한다."
@@ -58,7 +58,7 @@
   {
    "n": 5,
    "en": "As she stood in line, she could feel those experiences were finally so close.",
-   "ko": "줄을 서 있으면서, 그녀는 그 경험들이 마침내 아주 가까이 와 있다고 느낄 수 있었다."
+   "ko": "줄을 서 있자니 그 경험들이 마침내 아주 가까이 와 있다는 것이 느껴졌다."
   },
   {
    "n": 6,
@@ -78,7 +78,7 @@
   {
    "n": 9,
    "en": "Her plans were ruined.",
-   "ko": "그녀의 계획은 엉망이 되었다."
+   "ko": "Maya의 계획은 엉망이 되었다."
   },
   {
    "n": 10,
@@ -774,9 +774,9 @@
  "src": {
   "analogy_items.json": "3dc8d616b5c453c1",
   "original_marks.json": "c43448c97c3d1c99",
-  "passage_src.json": "254a41e348e5a101",
-  "study_x.json": "c8650855c86eced1",
+  "passage_src.json": "c48176f492deddac",
+  "study_x.json": "dc8c4c4f311b40ff",
   "topic_items.json": "98fd913c3687804d",
-  "workbook_src.json": "8f0a4cef1c2f1fb1"
+  "workbook_src.json": "bf5d31827c54bd1d"
  }
 }

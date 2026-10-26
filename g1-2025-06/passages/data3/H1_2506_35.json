@@ -53,7 +53,7 @@
   {
    "n": 4,
    "en": "Rather, subjects often rewrote similar parts of the stories in their own minds — particularly the parts that made the least sense to them.",
-   "ko": "오히려 실험 참가자들은 이야기의 비슷한 부분들을 머릿속에서 자주 고쳐 썼는데, 특히 자신에게 가장 이해되지 않았던 부분들을 그렇게 했다."
+   "ko": "오히려 실험 참가자들은 이야기의 비슷한 부분을 머릿속에서 자주 고쳐 썼는데, 특히 자신이 가장 이해하기 어려웠던 부분을 그렇게 했다."
   },
   {
    "n": 5,
@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "Therefore, remembering is an imaginative process that involves building upon past experiences.",
-   "ko": "그러므로 기억하기는 과거의 경험 위에 쌓아 올리는 일이 들어 있는, 상상력이 쓰이는 과정이다."
+   "ko": "그러므로 기억하기는 상상력이 쓰이는 과정이며, 그 안에는 과거의 경험을 바탕으로 쌓아 가는 일이 들어 있다."
   }
  ],
  "topic": 7,
@@ -682,7 +682,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "실험",
+    "label": "연구 소개",
     "sents": [
      1,
      2
@@ -691,7 +691,7 @@
     "star": false
    },
    {
-    "label": "발견",
+    "label": "실험 결과",
     "sents": [
      3,
      4
@@ -727,9 +727,9 @@
  "src": {
   "analogy_items.json": "6ae0925e440e13fd",
   "original_marks.json": "a3ab2e63209a3fa9",
-  "passage_src.json": "8556631367257200",
-  "study_x.json": "4884f05730e62898",
+  "passage_src.json": "81eb1eecbbbb09cc",
+  "study_x.json": "62dad208e910ea4b",
   "topic_items.json": "9ee41e5b713fee1c",
-  "workbook_src.json": "4b308f7a2d88f9f2"
+  "workbook_src.json": "f17f3463031d3462"
  }
 }

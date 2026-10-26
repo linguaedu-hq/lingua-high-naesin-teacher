@@ -11,7 +11,7 @@
   "topic_ko": "의심에는 노력이 더 들기 때문에 정보를 일단 참으로 받아들이는 인간의 경향",
   "title_ko": "일단 믿고 보는 우리 머리의 기본값",
   "title_en": "Why We Believe First and Doubt Later",
-  "gist_ko": "사람은 의사소통할 때 상대의 말을 참이라고 여기는 진실 편향이 있는데, 의심하는 데에는 정신적 노력이 더 들고 인간은 필요 이상의 노력을 들이지 않으므로 온라인의 가짜 정보도 처음에는 믿게 된다."
+  "gist_ko": "사람은 의심하는 데 드는 정신적 노력을 아끼려 해서 상대의 말이나 온라인 정보를 가짜라도 일단 참이라고 믿는다."
  },
  "kind": "normal",
  "boards": [
@@ -73,7 +73,7 @@
   {
    "n": 8,
    "en": "It makes sense then, that when we see something online, even if it is fake, our default is to believe it, at least at first.",
-   "ko": "그러니 온라인에서 무엇인가를 접할 때 그것이 가짜일지라도, 적어도 처음에는 일단 믿는 쪽이 우리의 기본값이라는 것은 이치에 맞는다."
+   "ko": "그러니 온라인에서 무엇인가를 접할 때 가짜일지라도, 적어도 처음에는 믿는 쪽이 우리의 기본값이라는 것은 이치에 맞는다."
   }
  ],
  "topic": 1,
@@ -674,7 +674,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "개념",
+    "label": "정의",
     "sents": [
      1,
      2
@@ -692,7 +692,7 @@
     "star": false
    },
    {
-    "label": "까닭",
+    "label": "원인",
     "sents": [
      6,
      7
@@ -719,9 +719,9 @@
  "src": {
   "analogy_items.json": "514fb991228e51d2",
   "original_marks.json": "bf1491c7a0772531",
-  "passage_src.json": "590b205bb299eccb",
-  "study_x.json": "1f87b5b8cbb3a157",
+  "passage_src.json": "0b067b8b38a81e63",
+  "study_x.json": "86763b67a251e425",
   "topic_items.json": "809020a61d98dee6",
-  "workbook_src.json": "971735f0777ac0e5"
+  "workbook_src.json": "32e30deea5d3b2db"
  }
 }

@@ -8,7 +8,7 @@
   "orig_type": "어법",
   "words": 121,
   "exam": "2025학년도 6월 전국연합학력평가 고1 영어",
-  "topic_ko": "전문가의 지식을 깊고 유연하게 만드는 것",
+  "topic_ko": "사실들이 서로 이어지도록 짜인 전문가 지식의 장점",
   "title_ko": "전문가는 사실이 어떻게 이어지는지 안다",
   "title_en": "Experts Know How Facts Connect",
   "gist_ko": "전문가는 사실을 많이 아는 사람이 아니라 특정 분야의 지식을 일관된 틀로 정리해 지닌 사람이고, 그런 이해가 배움과 적용을 유연하게 한다."
@@ -38,17 +38,17 @@
   {
    "n": 1,
    "en": "Studies of experts provide insight into what it means to have deep and flexible understanding.",
-   "ko": "전문가에 관한 연구는 깊고 유연한 이해를 갖춘다는 것이 무엇을 뜻하는지에 대한 통찰을 준다."
+   "ko": "전문가 연구를 보면 깊고 유연한 이해를 갖춘다는 것이 무엇을 뜻하는지 잘 알 수 있다."
   },
   {
    "n": 2,
    "en": "Experts in a particular domain are people who have deep, richly interconnected ideas about the world.",
-   "ko": "한 분야의 전문가란 세상에 관해 깊으면서도 촘촘하게 서로 이어진 생각을 가진 사람이다."
+   "ko": "한 분야의 전문가란 세상을 깊이 이해하며, 그 생각이 촘촘하게 서로 이어져 있는 사람이다."
   },
   {
    "n": 3,
    "en": "They are not just good thinkers or people who are exceptionally smart.",
-   "ko": "그들은 그저 생각을 잘하는 사람이나 남달리 똑똑한 사람이 아니다."
+   "ko": "전문가는 그저 생각을 잘하는 사람이나 남달리 똑똑한 사람이 아니다."
   },
   {
    "n": 4,
@@ -68,7 +68,7 @@
   {
    "n": 7,
    "en": "This kind of deep but organized understanding allows for greater flexibility in learning and facilitates application across multiple contexts.",
-   "ko": "이처럼 깊고도 정리된 이해는 배움에서 유연성을 더 크게 키워 주고, 여러 상황에 지식을 적용하는 일을 쉽게 만든다."
+   "ko": "이처럼 깊고도 정리된 이해가 있으면 더 유연하게 배울 수 있고, 여러 상황에 지식을 쉽게 적용할 수 있다."
   }
  ],
  "topic": 6,
@@ -897,7 +897,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "도입",
+    "label": "정의",
     "sents": [
      1,
      2
@@ -906,7 +906,7 @@
     "star": false
    },
    {
-    "label": "전문가의 조건",
+    "label": "특징",
     "sents": [
      3,
      5
@@ -932,9 +932,9 @@
  "src": {
   "analogy_items.json": "209d9ce6acbfac66",
   "original_marks.json": "9ae1c25e47598bb9",
-  "passage_src.json": "e69e811584484eb4",
-  "study_x.json": "e74c29475a0ea630",
+  "passage_src.json": "89b8f60d1117db3c",
+  "study_x.json": "ad90c8e487c7a164",
   "topic_items.json": "46f178a053cbb7b1",
-  "workbook_src.json": "0a805c80c09f7294"
+  "workbook_src.json": "7695e82645c754a3"
  }
 }

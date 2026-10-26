@@ -11,7 +11,7 @@
   "topic_ko": "방문객을 부르는 연례 여름 만화 축제 안내",
   "title_ko": "만화 축제의 방문객이 되어 보라",
   "title_en": "Join the Crowd at the Cartoon Festival",
-  "gist_ko": "8회째 열리는 여름 만화 축제의 날짜 · 시간 · 장소 · 주요 행사 · 유의 사항을 알리고 참여를 권한다."
+  "gist_ko": "주최 측이 7월 5~6일 메리빌 공원에서 8회째 여름 만화 축제를 열며 올해 방문객이 되어 보라고 권한다."
  },
  "kind": "notice",
  "boards": [
@@ -632,7 +632,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "축제 소개",
+    "label": "행사 소개",
     "sents": [
      1,
      4
@@ -650,7 +650,7 @@
     "star": false
    },
    {
-    "label": "주요 행사",
+    "label": "세부 일정",
     "sents": [
      8,
      11
@@ -677,8 +677,8 @@
  "src": {
   "analogy_items.json": "27129bf4b406d850",
   "original_marks.json": "14ac0d1e1661dd09",
-  "passage_src.json": "5e4de3906277ece0",
-  "study_x.json": "644f3aeded0d05dc",
+  "passage_src.json": "8ba25650c26296a0",
+  "study_x.json": "f06ec679e43cb45d",
   "topic_items.json": "90a2a5771034a203",
   "workbook_src.json": "78793a89b41c21ff"
  }

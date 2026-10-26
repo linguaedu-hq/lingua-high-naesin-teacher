@@ -11,7 +11,7 @@
   "topic_ko": "새 사업이 처음 값을 낮게 잡아야 하는 까닭",
   "title_ko": "이익보다 손님이 먼저",
   "title_en": "Win Buyers Before You Chase Profits",
-  "gist_ko": "새 제품을 내놓을 때는 소유 의식 때문에 값을 높게 매기지 말고, 처음 값과 이익을 희생해 시장에 빨리 받아들여진 뒤 값을 올려야 한다."
+  "gist_ko": "새 제품을 내놓을 때는 처음 값과 이익을 희생하더라도 시장에서 빨리 널리 받아들여지게 하는 일을 가장 먼저 해야 한다."
  },
  "kind": "normal",
  "boards": [
@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "They have created something they care deeply about, it’s theirs, and this powerful sense of ownership distorts their perception of value which causes them to overprice their products.",
-   "ko": "그들은 자신이 깊이 아끼는 무언가를 만들었고 그것은 자기 것이므로, 이 강한 소유 의식이 가치에 대한 인식을 왜곡해 제품 값을 너무 높게 매기게 만든다."
+   "ko": "기업가들은 자신이 깊이 아끼는 것을 만들었고 그것은 바로 자기 것이어서, 이 강한 소유 의식 때문에 가치 판단이 흐려져 제품 값을 너무 높게 매긴다."
   },
   {
    "n": 3,
@@ -53,7 +53,7 @@
   {
    "n": 4,
    "en": "And this can be a very costly mistake that may lead to the failure of their new business.",
-   "ko": "그리고 이것은 새 사업을 실패하게 만들 수도 있는, 값비싼 대가를 치르는 실수일 수 있다."
+   "ko": "그리고 이것은 큰 대가를 치르는 실수가 되어 새 사업의 실패로 이어질 수도 있다."
   },
   {
    "n": 5,
@@ -86,7 +86,7 @@
   {
    "sent": 3,
    "text": "While",
-   "rel": "대조"
+   "rel": "양보"
   },
   {
    "sent": 4,
@@ -557,7 +557,7 @@
     "t": "While",
     "c": "c",
     "id": "c0",
-    "lab": "대조"
+    "lab": "양보"
    },
    {
     "t": " many of them are quick "
@@ -703,7 +703,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "문제",
+    "label": "문제 제기",
     "sents": [
      1,
      1
@@ -717,7 +717,7 @@
      2,
      3
     ],
-    "text": "강한 소유 의식이 가치 판단을 왜곡하고, 값을 내리기를 꺼린다",
+    "text": "강한 소유 의식이 가치 판단을 왜곡하고, 기업가는 값을 내리기를 꺼린다",
     "star": false
    },
    {
@@ -730,7 +730,7 @@
     "star": false
    },
    {
-    "label": "해결",
+    "label": "해결책",
     "sents": [
      5,
      6
@@ -748,9 +748,9 @@
  "src": {
   "analogy_items.json": "2e6afae352963f6f",
   "original_marks.json": "d3d195b8bda87b97",
-  "passage_src.json": "d716457a161578bd",
-  "study_x.json": "c7e43ded3b3d1930",
+  "passage_src.json": "7393cd42ada3f359",
+  "study_x.json": "d68e73c13e02c902",
   "topic_items.json": "7ced62cebc781c90",
-  "workbook_src.json": "2444fc33c240ecb6"
+  "workbook_src.json": "e4a4ca8719da69ef"
  }
 }

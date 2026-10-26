@@ -9,7 +9,7 @@
   "topic_ko": "똑똑함 대신 노력을 칭찬하는 것의 효과",
   "title_ko": "머리보다 노력을 칭찬하라",
   "title_en": "Praise the Effort, Not the Brain",
-  "gist_ko": "똑똑하다는 칭찬은 아이를 쉬운 과제로 몰아 성과를 떨어뜨리지만, 노력을 칭찬하면 성장 마인드셋이 길러져 아이가 더 어려운 일에 도전하고 자신을 더 좋게 느낀다."
+  "gist_ko": "똑똑함이 아니라 노력을 칭찬받은 아이는 성장 마인드셋을 길러 더 어려운 일에 도전하게 된다."
  },
  "kind": "normal",
  "boards": [
@@ -56,7 +56,7 @@
   {
    "n": 5,
    "en": "These kids end up taking on tougher things, and feel better about themselves.",
-   "ko": "이런 아이들은 결국 더 어려운 일에 도전하게 되고, 자기 자신에 대해서도 더 긍정적으로 느낀다."
+   "ko": "이런 아이들은 결국 더 어려운 일에 도전하게 되고, 자기 자신을 더 긍정적으로 바라본다."
   },
   {
    "n": 6,
@@ -765,7 +765,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "소개",
+    "label": "연구 소개",
     "sents": [
      1,
      1
@@ -774,7 +774,7 @@
     "star": false
    },
    {
-    "label": "고정 마인드셋",
+    "label": "연구 결과 1",
     "sents": [
      2,
      2
@@ -783,7 +783,7 @@
     "star": false
    },
    {
-    "label": "성장 마인드셋",
+    "label": "연구 결과 2",
     "sents": [
      3,
      5
@@ -811,10 +811,10 @@
   "analogy_items.json": "e1b04b3a70992b22",
   "check_conf.json": "a97a92f32b5d55ef",
   "original_marks.json": "1509d422a7c46ca7",
-  "passage_src.json": "ee6a91cb7a4f3488",
+  "passage_src.json": "83ecaaf27e1c4fa6",
   "source_restored.json": "06665c193fad3bb6",
-  "study_x.json": "6180865bc9a90326",
+  "study_x.json": "2c3528daaa0342e4",
   "topic_items.json": "ca4d58d5f3d6b09a",
-  "workbook_src.json": "a7e4036bdcc915b0"
+  "workbook_src.json": "64335467c6779db3"
  }
 }

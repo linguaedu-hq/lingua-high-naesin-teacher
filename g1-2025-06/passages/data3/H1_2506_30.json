@@ -73,7 +73,7 @@
   {
    "n": 8,
    "en": "Unless you analyze the claim carefully, you would misinterpret the relationship and thereby construct a faulty belief.",
-   "ko": "그 주장을 꼼꼼히 따져 보지 않으면, 여러분은 두 일의 관계를 잘못 해석하고 그 결과 잘못된 믿음을 만들게 될 것이다."
+   "ko": "그 주장을 꼼꼼히 따져 보지 않으면, 두 일의 관계를 잘못 해석하고 그 결과 잘못된 믿음에 빠진다."
   }
  ],
  "topic": 3,
@@ -800,7 +800,7 @@
     "star": false
    },
    {
-    "label": "개념",
+    "label": "정의",
     "sents": [
      3,
      3
@@ -836,9 +836,9 @@
  "src": {
   "analogy_items.json": "ed5c65511c45b446",
   "original_marks.json": "5d64edbda4d7986f",
-  "passage_src.json": "f38bac4c75dc8f14",
-  "study_x.json": "e6d1d42337d3c25e",
+  "passage_src.json": "ff4b05e8ab46ff3a",
+  "study_x.json": "b293d1d281168d83",
   "topic_items.json": "2ac444eb0cf3e1b3",
-  "workbook_src.json": "3c55789909f53c11"
+  "workbook_src.json": "65e9645604ea2a81"
  }
 }

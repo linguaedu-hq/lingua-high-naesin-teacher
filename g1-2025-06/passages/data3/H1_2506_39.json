@@ -9,7 +9,7 @@
   "topic_ko": "얼굴이 물에 잠길 때 켜져 몸을 지키는 사람의 잠수 반사",
   "title_ko": "얼굴이 물에 닿으면 켜지는 몸의 보호 장치",
   "title_en": "The Diving Reflex: A Switch Turned On by the Face",
-  "gist_ko": "사람은 얼굴이 물에 잠길 때에만 잠수 반사가 일어나 숨길을 막고 심장 박동을 늦추어 몸을 지키지만, 침팬지나 고릴라는 같은 상황에서 겁에 질려 물에 빠져 죽는다."
+  "gist_ko": "사람은 다른 해양 포유류처럼 얼굴이 물에 잠길 때에만 일어나는 잠수 반사가 있어 숨길을 막고 심장 박동을 늦추어 몸을 지킨다."
  },
  "kind": "normal",
  "boards": [
@@ -61,7 +61,7 @@
   {
    "n": 6,
    "en": "At the same time the heart rate is slowed down to half speed and blood is shunted to the vital organs, protecting them from the effects of the brief stop in breathing.",
-   "ko": "그와 함께 심장 박동은 평소의 절반 빠르기로 느려지고 피는 목숨에 꼭 필요한 기관 쪽으로 몰려가는데, 이 덕분에 숨이 잠시 멎어서 생길 수 있는 해로움에서 그 기관들이 지켜진다."
+   "ko": "그와 함께 심장 박동은 평소의 절반 빠르기로 느려지고 피는 목숨에 꼭 필요한 기관 쪽으로 몰려가서, 숨이 잠시 멎어 생길 수 있는 해로움에서 그 기관들을 지켜 준다."
   },
   {
    "n": 7,
@@ -660,7 +660,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "개념",
+    "label": "정의",
     "sents": [
      1,
      2
@@ -669,7 +669,7 @@
     "star": false
    },
    {
-    "label": "조건",
+    "label": "예시",
     "sents": [
      3,
      4
@@ -678,7 +678,7 @@
     "star": false
    },
    {
-    "label": "작용",
+    "label": "원리",
     "sents": [
      5,
      6
@@ -706,10 +706,10 @@
   "analogy_items.json": "b141ceed2e49fd9d",
   "check_conf.json": "197f9478c3ab5170",
   "original_marks.json": "29e13f18506cd1ee",
-  "passage_src.json": "75e1cc0d7c99d705",
+  "passage_src.json": "33d352505a6d8ce5",
   "source_restored.json": "f440cf8ec8fd9ba8",
-  "study_x.json": "ee51e96d475f21c9",
+  "study_x.json": "e4fd59eb6f0a5cfe",
   "topic_items.json": "632ca04c1b4e6f3e",
-  "workbook_src.json": "ddd7d4e26eeed078"
+  "workbook_src.json": "f0010ca4ba90ed1a"
  }
 }

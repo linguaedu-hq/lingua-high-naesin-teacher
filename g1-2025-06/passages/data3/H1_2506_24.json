@@ -11,7 +11,7 @@
   "topic_ko": "사람마다 다른 현실 해석",
   "title_ko": "내가 보는 현실은 나의 해석일 뿐이다",
   "title_en": "Your Reality Is Only Your Interpretation",
-  "gist_ko": "우리는 자신이 객관적이라 남들도 우리처럼 볼 것이라 믿지만, 뇌와 경험, 욕구와 지식이 저마다 달라서 각자 보는 현실은 해석일 뿐이고 남의 해석과 늘 다르다."
+  "gist_ko": "내가 보는 현실은 나만의 해석일 뿐이어서, 논리적인 사람이라도 나와 똑같이 보지는 않는다."
  },
  "kind": "normal",
  "boards": [
@@ -73,7 +73,7 @@
   {
    "n": 8,
    "en": "It’s only your interpretation of reality, which will always be different from someone else’s.",
-   "ko": "그것은 현실에 대한 여러분의 해석일 뿐이고, 그 해석은 다른 사람의 해석과 언제나 다를 것이다."
+   "ko": "그것은 현실에 대한 여러분의 해석일 뿐이고, 그 해석은 다른 사람의 해석과 언제나 다르다."
   },
   {
    "n": 9,
@@ -792,7 +792,7 @@
     "star": true
    },
    {
-    "label": "주제",
+    "label": "주제 제시",
     "sents": [
      7,
      8
@@ -819,9 +819,9 @@
  "src": {
   "analogy_items.json": "5ea48e370fce27b6",
   "original_marks.json": "e5b89b957f833992",
-  "passage_src.json": "99d3268540ca2a59",
-  "study_x.json": "62ad74be2ad34f2c",
+  "passage_src.json": "c0530813f248f416",
+  "study_x.json": "d5202d600496435d",
   "topic_items.json": "74548eb77abaa017",
-  "workbook_src.json": "cddbda63d5b44a01"
+  "workbook_src.json": "15d6bf050011a554"
  }
 }

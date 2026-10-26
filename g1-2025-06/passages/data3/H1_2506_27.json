@@ -11,7 +11,7 @@
   "topic_ko": "카페에서 사흘 동안 여는 실내 화초 팝업 가게 안내",
   "title_ko": "집 안에 초록빛을 들여 보라",
   "title_en": "Bring Some Green Home",
-  "gist_ko": "실내 화초 팝업 가게의 일시 · 장소 · 판매와 할인 · 활동 · 유의 사항을 알린다."
+  "gist_ko": "안내문은 카페에서 사흘간 열리는 실내 화초 팝업 가게의 화초 판매, 커피 할인, 체험 활동을 알린다."
  },
  "kind": "notice",
  "boards": [
@@ -293,7 +293,7 @@
     "do not allow",
     "are not allowing"
    ],
-   "rule": "음식과 음료는 허락을 받는 쪽이라 be + 과거분사이다.",
+   "rule": "음식과 음료는 허용되는 쪽이라 be + 과거분사이다.",
    "imp": 0,
    "deck": true
   }
@@ -679,7 +679,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "가게 소개",
+    "label": "행사 소개",
     "sents": [
      1,
      3
@@ -706,7 +706,7 @@
     "star": false
    },
    {
-    "label": "활동 · 유의 사항",
+    "label": "세부 일정",
     "sents": [
      9,
      12
@@ -724,9 +724,9 @@
  "src": {
   "analogy_items.json": "1ddd411e5b9aa6db",
   "original_marks.json": "cac29fcd2310b019",
-  "passage_src.json": "bde9cbc9772d8250",
-  "study_x.json": "d904774cf5c2d3af",
+  "passage_src.json": "671af5d23eef1a00",
+  "study_x.json": "611840d2b742b365",
   "topic_items.json": "0fdfb0e82a14acf9",
-  "workbook_src.json": "6bef7f5b472308fc"
+  "workbook_src.json": "4f3448b3f1a4f389"
  }
 }

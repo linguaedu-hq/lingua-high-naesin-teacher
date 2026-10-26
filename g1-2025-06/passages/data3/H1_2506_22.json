@@ -43,7 +43,7 @@
   {
    "n": 2,
    "en": "Challenge yourself to spend an entire day saying only what you absolutely must say.",
-   "ko": "꼭 해야 하는 말만 하며 하루 전체를 보내 보도록 스스로에게 도전해 보라."
+   "ko": "꼭 해야 하는 말만 하며 하루를 온전히 보내는 데 도전해 보라."
   },
   {
    "n": 3,
@@ -78,7 +78,7 @@
   {
    "n": 9,
    "en": "You’d be attuned to what you must respond to.",
-   "ko": "여러분은 자신이 반드시 반응해야 하는 것에 귀가 맞춰질 것이다."
+   "ko": "여러분은 자신이 꼭 응답해야 할 말에 귀를 기울이게 될 것이다."
   },
   {
    "n": 10,
@@ -110,7 +110,7 @@
    "occ": 0,
    "to_sent": 3,
    "to": "we",
-   "ko": "대화를 차례 기다리기로 여기는 우리"
+   "ko": "대화를 제 차례를 기다리는 일로 여기는 우리"
   }
  ],
  "grammar": [
@@ -703,7 +703,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "제안",
+    "label": "제안 1",
     "sents": [
      1,
      2
@@ -712,16 +712,16 @@
     "star": false
    },
    {
-    "label": "문제",
+    "label": "문제점",
     "sents": [
      3,
      4
     ],
-    "text": "대화를 차례 기다리기로 여겨 상대의 말을 놓친다",
+    "text": "대화를 제 차례를 기다리는 일로 여겨 상대의 말을 놓친다",
     "star": false
    },
    {
-    "label": "가정",
+    "label": "제안 2",
     "sents": [
      5,
      6
@@ -730,7 +730,7 @@
     "star": false
    },
    {
-    "label": "변화",
+    "label": "기대 효과",
     "sents": [
      7,
      9
@@ -758,9 +758,9 @@
  "src": {
   "analogy_items.json": "7fab6a1a356c23cf",
   "original_marks.json": "8b059e6505c00692",
-  "passage_src.json": "1a56512c0b98346a",
-  "study_x.json": "6fa33083c059bda0",
+  "passage_src.json": "a1072bc6a9833882",
+  "study_x.json": "f82c3d41ca7be112",
   "topic_items.json": "0410e6f984b39359",
-  "workbook_src.json": "6a7dbea7a01845d4"
+  "workbook_src.json": "d675257076b99af7"
  }
 }

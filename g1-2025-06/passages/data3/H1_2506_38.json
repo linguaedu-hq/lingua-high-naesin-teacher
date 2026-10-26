@@ -9,7 +9,7 @@
   "topic_ko": "장소를 쓰는 방식에 영향을 주는 보이지 않는 느낌",
   "title_ko": "우리가 설 곳을 정하는 보이지 않는 느낌",
   "title_en": "The Unseen Feelings That Decide Where We Stand",
-  "gist_ko": "장소에 대한 경험은 감각으로 받아들이는 바깥 정보뿐 아니라 우리 안의 느낌으로도 정해지며, 지하철 문 가까이에 머무는 승객의 행동이 그 예이다."
+  "gist_ko": "우리가 장소를 경험하는 방식은 감각으로 받아들이는 바깥 정보뿐 아니라 눈에 보이지 않는 우리 안의 느낌에도 영향을 받는다."
  },
  "kind": "normal",
  "boards": [
@@ -56,7 +56,7 @@
   {
    "n": 5,
    "en": "One of their findings involved the reasons many riders like to plant themselves close to the train’s doors.",
-   "ko": "그들이 알아낸 것 가운데 하나는 많은 승객이 열차 문 가까이에 머무르기를 좋아하는 이유와 관련이 있었다."
+   "ko": "연구자들이 알아낸 것 가운데 하나는 많은 승객이 열차 문 가까이에 머무르기를 좋아하는 이유와 관련이 있었다."
   },
   {
    "n": 6,
@@ -66,12 +66,12 @@
   {
    "n": 7,
    "en": "But it was shaped partly by a more abstract sensation — the desire to avoid the sometimes uncomfortable feeling of accidentally making eye contact with seated passengers.",
-   "ko": "하지만 그 선택에는 더 추상적인 감각도 한몫했는데, 앉아 있는 승객과 우연히 눈을 마주칠 때의 이따금 불편한 기분을 피하고 싶은 마음이 그것이다."
+   "ko": "하지만 그 선택에는 더 추상적인 감각도 한몫했는데, 앉아 있는 승객과 우연히 눈이 마주칠 때 이따금 드는 불편한 기분을 피하고 싶은 마음이 그것이다."
   },
   {
    "n": 8,
    "en": "We can’t see feelings — but they’re very real, and they influence our experience of the world.",
-   "ko": "우리는 느낌을 볼 수는 없지만, 느낌은 매우 실재하며 우리가 세상을 경험하는 방식에 영향을 미친다."
+   "ko": "우리는 느낌을 볼 수는 없지만, 느낌은 분명히 실재하며 우리가 세상을 경험하는 방식에 영향을 미친다."
   }
  ],
  "topic": 2,
@@ -373,7 +373,7 @@
    "wrong": [
     "shaped"
    ],
-   "rule": "it 은 감각에 의해 형성되는 쪽이고 뒤에 by 가 오므로 be + 과거분사를 쓴다.",
+   "rule": "it 은 감각이 형성하는 대상이고 뒤에 by 가 오므로 be + 과거분사를 쓴다.",
    "imp": 0,
    "deck": false
   },
@@ -388,7 +388,7 @@
    "wrong": [
     "seating"
    ],
-   "rule": "승객은 앉혀진 상태라 과거분사 seated 가 passengers 를 꾸민다.",
+   "rule": "승객은 앉아 있는 상태라 과거분사 seated 가 passengers 를 꾸민다.",
    "imp": 0,
    "deck": false
   }
@@ -816,7 +816,7 @@
  "flow": {
   "boxes": [
    {
-    "label": "도입",
+    "label": "주제 제시",
     "sents": [
      1,
      2
@@ -862,10 +862,10 @@
   "analogy_items.json": "a71441ea87d9b518",
   "check_conf.json": "197f9478c3ab5170",
   "original_marks.json": "d8e8d77df8983643",
-  "passage_src.json": "5b3a058cd0fb7c06",
+  "passage_src.json": "68ef60892945bd1d",
   "source_restored.json": "2896c3ea7655ecd9",
-  "study_x.json": "268a1a61f73a9963",
+  "study_x.json": "eaa2015b64284bb9",
   "topic_items.json": "b5c823ebcb9db102",
-  "workbook_src.json": "4af45e5fc4d009c4"
+  "workbook_src.json": "d98b02b056716104"
  }
 }
