@@ -1,0 +1,752 @@
+{
+ "meta": {
+  "id": "H1_2510_32",
+  "grade": "고1",
+  "year": 2025,
+  "month": 10,
+  "item_no": 32,
+  "orig_type": "빈칸",
+  "words": 134,
+  "exam": "2025학년도 10월 전국연합학력평가 고1 영어",
+  "topic_ko": "수가 커질수록 정확성이 떨어지는 동물의 수 감각",
+  "title_ko": "큰 수 앞에서 흐려지는 동물의 수 감각",
+  "title_en": "Why Animals Struggle with Bigger Numbers",
+  "gist_ko": "동물의 근사 수 체계는 정확하지 않아서, 다루는 수가 커질수록 수를 구별하는 정확성이 떨어진다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "The technical term often used to describe animals’ judgement of numbers is the approximate number system.",
+   "ko": "동물이 수를 판단하는 능력을 설명할 때 흔히 쓰는 전문 용어는 근사 수 체계이다."
+  },
+  {
+   "n": 2,
+   "en": "What it does not provide is precision.",
+   "ko": "이 체계가 주지 못하는 것은 바로 정확성이다."
+  },
+  {
+   "n": 3,
+   "en": "It shows ―and this is the same in every species tested ― a characteristic pattern of errors, with discrimination becoming less accurate as the quantities get bigger.",
+   "ko": "이 체계는 특유의 오류 패턴을 보이는데, 양이 커질수록 구별이 덜 정확해지며, 이는 실험한 모든 종에서 똑같이 나타난다."
+  },
+  {
+   "n": 4,
+   "en": "Rhesus monkeys can tell one from two, two from three, three from four, four from five ... but start to fail from five upwards.",
+   "ko": "붉은털원숭이는 하나와 둘, 둘과 셋, 셋과 넷, 넷과 다섯은 가려내지만, 다섯을 넘으면 틀리기 시작한다."
+  },
+  {
+   "n": 5,
+   "en": "Rats that learned to press a lever a given number of times, from four up to twenty-four, became markedly less and less precise in their responses as the number increased: by the top end of the range they would merely produce a spread of numbers around the target.",
+   "ko": "레버를 정해진 횟수만큼, 곧 4번에서 24번까지 누르도록 익힌 쥐들은 수가 커질수록 반응이 눈에 띄게 점점 부정확해졌고, 범위의 맨 위쪽에 이르면 목표 수 언저리의 여러 수를 흩어 내놓을 뿐이었다."
+  },
+  {
+   "n": 6,
+   "en": "It is a common observation that when testing the accuracy of animals’ number sense, the size of the numbers matters.",
+   "ko": "동물의 수 감각이 얼마나 정확한지 시험할 때 수의 크기가 중요하다는 것은 흔히 관찰되는 사실이다."
+  }
+ ],
+ "topic": 2,
+ "gist": 6,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "the approximate number system"
+  },
+  {
+   "sent": 2,
+   "text": "What it does not provide is precision"
+  },
+  {
+   "sent": 3,
+   "text": "discrimination becoming less accurate as the quantities get bigger"
+  },
+  {
+   "sent": 4,
+   "text": "start to fail from five upwards"
+  },
+  {
+   "sent": 5,
+   "text": "became markedly less and less precise"
+  },
+  {
+   "sent": 6,
+   "text": "the size of the numbers matters"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "but",
+   "rel": "역접"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the approximate number system",
+   "ko": "근사 수 체계"
+  },
+  {
+   "sent": 3,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the approximate number system",
+   "ko": "근사 수 체계"
+  },
+  {
+   "sent": 3,
+   "text": "this",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "a characteristic pattern of errors",
+   "ko": "양이 커질수록 덜 정확해지는 오류 패턴"
+  },
+  {
+   "sent": 5,
+   "text": "their",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "Rats",
+   "ko": "쥐들"
+  },
+  {
+   "sent": 5,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "Rats",
+   "ko": "쥐들"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 25,
+   "text": "used",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "used",
+   "wrong": [
+    "using"
+   ],
+   "rule": "용어가 쓰이는 쪽이라 과거분사 used 가 앞의 명사 term 을 뒤에서 꾸민다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 72,
+   "text": "is",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is",
+   "wrong": [
+    "are"
+   ],
+   "rule": "주어의 머리는 단수 명사 term 이고 numbers 는 꾸밈말 속 명사이므로 본동사는 is 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 0,
+   "text": "What",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "What",
+   "wrong": [
+    "That"
+   ],
+   "rule": "provide 의 목적어가 빠진 절이 문장의 주어 구실을 하므로 선행사를 품은 관계대명사 What 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 48,
+   "text": "tested",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "tested",
+   "wrong": [
+    "testing"
+   ],
+   "rule": "종이 실험을 받는 쪽이라 과거분사 tested 가 species 를 뒤에서 꾸민다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 3,
+   "pos": 113,
+   "text": "becoming",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "becoming",
+   "wrong": [
+    "become"
+   ],
+   "rule": "with + 명사 + 분사 꼴로 '구별이 ~해지면서'를 나타내므로 현재분사 becoming 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 94,
+   "text": "start",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "start",
+   "wrong": [
+    "starting"
+   ],
+   "rule": "can 뒤의 tell 과 but 으로 나란히 이어지므로 동사원형 start 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 5,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 Rats 를 꾸미는 절에서 주어 구실을 하므로 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 5,
+   "pos": 89,
+   "text": "became",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "became",
+   "wrong": [
+    "becoming"
+   ],
+   "rule": "긴 주어 Rats that ~ twenty-four 뒤에 본동사가 와야 하므로 과거형 became 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 5,
+   "pos": 217,
+   "text": "produce",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "produce",
+   "wrong": [
+    "producing"
+   ],
+   "rule": "조동사 would 뒤에는 동사원형이 오므로 produce 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g14",
+   "sent": 6,
+   "pos": 27,
+   "text": "that",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "가주어 It 의 진주어로 빠진 성분이 없는 완전한 절이 오므로 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 6,
+   "pos": 37,
+   "text": "testing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "testing",
+   "wrong": [
+    "tested"
+   ],
+   "rule": "사람이 수 감각을 시험하는 쪽이라 접속사 when 뒤에 현재분사 testing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 6,
+   "pos": 108,
+   "text": "matters",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "matters",
+   "wrong": [
+    "matter"
+   ],
+   "rule": "주어의 머리가 단수 명사 size 이므로 동사는 matters 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "technical",
+   "sent": 1,
+   "ko": "전문적인",
+   "gloss": "전문적인",
+   "syn": [
+    "specialized"
+   ],
+   "ant": [
+    "general"
+   ]
+  },
+  {
+   "text": "approximate",
+   "sent": 1,
+   "ko": "대략의, 근사치의",
+   "gloss": "대략의",
+   "syn": [
+    "rough"
+   ],
+   "ant": [
+    "exact"
+   ]
+  },
+  {
+   "text": "provide",
+   "sent": 2,
+   "ko": "주다, 제공하다",
+   "gloss": "주다",
+   "syn": [
+    "supply"
+   ],
+   "ant": [
+    "withhold"
+   ]
+  },
+  {
+   "text": "precision",
+   "sent": 2,
+   "ko": "정확성, 정밀함",
+   "gloss": "정확성",
+   "syn": [
+    "exactness"
+   ],
+   "ant": [
+    "inaccuracy"
+   ]
+  },
+  {
+   "text": "species",
+   "sent": 3,
+   "ko": "(생물의) 종",
+   "gloss": "(생물의) 종",
+   "syn": [
+    "kind"
+   ],
+   "ant": []
+  },
+  {
+   "text": "characteristic",
+   "sent": 3,
+   "ko": "특유의, 특징적인",
+   "gloss": "특유의",
+   "syn": [
+    "typical"
+   ],
+   "ant": [
+    "unusual"
+   ]
+  },
+  {
+   "text": "discrimination",
+   "sent": 3,
+   "ko": "구별, 식별",
+   "gloss": "구별",
+   "syn": [
+    "distinction"
+   ],
+   "ant": [
+    "confusion"
+   ]
+  },
+  {
+   "text": "accurate",
+   "sent": 3,
+   "ko": "정확한",
+   "gloss": "정확한",
+   "syn": [
+    "correct"
+   ],
+   "ant": [
+    "inaccurate"
+   ]
+  },
+  {
+   "text": "quantities",
+   "sent": 3,
+   "ko": "양, 수량",
+   "gloss": "양",
+   "syn": [
+    "amount"
+   ],
+   "ant": []
+  },
+  {
+   "text": "markedly",
+   "sent": 5,
+   "ko": "눈에 띄게, 현저히",
+   "gloss": "눈에 띄게",
+   "syn": [
+    "noticeably"
+   ],
+   "ant": [
+    "slightly"
+   ]
+  },
+  {
+   "text": "precise",
+   "sent": 5,
+   "ko": "정확한, 정밀한",
+   "gloss": "정확한",
+   "syn": [
+    "exact"
+   ],
+   "ant": [
+    "vague"
+   ]
+  },
+  {
+   "text": "observation",
+   "sent": 6,
+   "ko": "관찰, 관찰된 사실",
+   "gloss": "관찰",
+   "syn": [
+    "finding"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "The "
+   },
+   {
+    "t": "technical",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " term often "
+   },
+   {
+    "t": "used",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " to describe animals’ judgement of numbers "
+   },
+   {
+    "t": "is",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " the "
+   },
+   {
+    "t": "approximate",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " number system."
+   }
+  ],
+  [
+   {
+    "t": "What",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " it does not "
+   },
+   {
+    "t": "provide",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " is "
+   },
+   {
+    "t": "precision",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "It shows ―and this is the same in every "
+   },
+   {
+    "t": "species",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "tested",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " ― a "
+   },
+   {
+    "t": "characteristic",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " pattern of errors, with "
+   },
+   {
+    "t": "discrimination",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "becoming",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " less "
+   },
+   {
+    "t": "accurate",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " as the "
+   },
+   {
+    "t": "quantities",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " get bigger."
+   }
+  ],
+  [
+   {
+    "t": "Rhesus monkeys can tell one from two, two from three, three from four, four from five ... "
+   },
+   {
+    "t": "but",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "start",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " to fail from five upwards."
+   }
+  ],
+  [
+   {
+    "t": "Rats "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " learned to press a lever a given number of times, from four up to twenty-four, "
+   },
+   {
+    "t": "became",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "markedly",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " less and less "
+   },
+   {
+    "t": "precise",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " in their responses as the number increased: by the top end of the range they would merely "
+   },
+   {
+    "t": "produce",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " a spread of numbers around the target."
+   }
+  ],
+  [
+   {
+    "t": "It is a common "
+   },
+   {
+    "t": "observation",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " when "
+   },
+   {
+    "t": "testing",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " the accuracy of animals’ number sense, the size of the numbers "
+   },
+   {
+    "t": "matters",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": "."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "정의",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "근사 수 체계 — 동물이 수를 어림으로 판단하는 능력",
+    "star": false
+   },
+   {
+    "label": "특징",
+    "sents": [
+     2,
+     3
+    ],
+    "text": "정확성이 없음 — 양이 커질수록 구별이 덜 정확해짐",
+    "star": false
+   },
+   {
+    "label": "예시",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "원숭이는 다섯부터 틀림 · 쥐는 큰 수에서 반응이 흩어짐",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     6,
+     6
+    ],
+    "text": "동물의 수 감각을 시험할 때 수의 크기가 중요하다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "What it does not provide",
+   "Rhesus monkeys",
+   "It is a common observation"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "2e6722aa8e62de4e",
+  "original_marks.json": "907cefea8fa354c9",
+  "passage_src.json": "8a1a082015a21254",
+  "study_x.json": "d4058f3040af40f3",
+  "topic_items.json": "8a6c4685a381d7fa",
+  "workbook_src.json": "8c526ab1d60d4b63"
+ }
+}

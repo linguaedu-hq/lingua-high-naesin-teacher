@@ -1,0 +1,727 @@
+{
+ "meta": {
+  "id": "H1_2509_40",
+  "grade": "고1",
+  "year": 2025,
+  "month": 9,
+  "item_no": 40,
+  "orig_type": "요약문",
+  "words": 195,
+  "exam": "2025학년도 9월 전국연합학력평가 고1 영어",
+  "topic_ko": "선입견과 사물의 쓰임새가 시각에 미치는 영향",
+  "title_ko": "쓰임새가 정하는 우리의 시각",
+  "title_en": "How Use Shapes What We See",
+  "gist_ko": "우리는 현실에 대한 선입견과 사물의 쓰임새에 따라 사물을 보기 때문에 카메라처럼 있는 그대로 보지 못한다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Vision is influenced by our preconceptions about reality.",
+   "ko": "우리의 시각은 현실을 두고 미리 품어 온 생각의 영향을 받는다."
+  },
+  {
+   "n": 2,
+   "en": "In viewing a scene, we establish unconscious hierarchies that reflect our functional relationship to objects and our momentary priorities.",
+   "ko": "어떤 장면을 바라볼 때 우리는, 사물을 어디에 쓰는지에 따른 관계와 지금 이 순간 무엇이 더 급한지를 나타내는 위계를 자기도 모르게 세운다."
+  },
+  {
+   "n": 3,
+   "en": "For example, when visualizing a hammer in our mind’s eye, we tend to “see” it in profile or at some other “ready for use” angle.",
+   "ko": "예를 들어, 머릿속으로 망치를 떠올릴 때 우리는 망치를 옆에서 본 모습이나, 곧바로 손에 들고 쓰기 좋은 다른 어떤 각도에서 ‘보는’ 경향이 있다."
+  },
+  {
+   "n": 4,
+   "en": "One would probably not visualize a hammer as seen from the top so that the handle is hidden by the hammer’s head.",
+   "ko": "손잡이가 망치 머리에 가려질 만큼 바로 위에서 내려다본 망치를 떠올리는 사람은 아마 없을 것이다."
+  },
+  {
+   "n": 5,
+   "en": "The functional relationship we have with objects creates visual expectations that interfere with our ability to see “like a camera.”",
+   "ko": "우리가 사물과 맺는 쓰임새의 관계는 눈으로 무엇을 보리라는 기대를 만들어 내고, 이 기대가 ‘카메라처럼’ 보는 우리의 능력을 가로막는다."
+  },
+  {
+   "n": 6,
+   "en": "The camera, like the human eye, sees only shapes and colors.",
+   "ko": "카메라는 사람의 눈과 마찬가지로 형태와 빛깔만을 본다."
+  },
+  {
+   "n": 7,
+   "en": "It documents the world impartially through a lens that is similar to the eye.",
+   "ko": "카메라는 눈을 닮은 렌즈로 세상을 어느 쪽으로도 기울지 않게 담아 둔다."
+  },
+  {
+   "n": 8,
+   "en": "When we look at them carefully, photographs are often surprising because they don’t interpret confusing details but simply serve them up to us with a mechanical indifference.",
+   "ko": "찬찬히 들여다보면 사진이 뜻밖으로 느껴질 때가 많은데, 사진은 알아보기 어려운 세부를 풀이하지 않고 기계처럼 아무 관심 없이 그대로 우리 앞에 내놓을 뿐이기 때문이다."
+  },
+  {
+   "n": 9,
+   "en": "And because of their flatness, photographs often contain areas that appear as unrecognizable colors and shapes.",
+   "ko": "그리고 사진은 평면이기 때문에, 무엇인지 알아볼 수 없는 빛깔과 형태로 보이는 부분을 담고 있을 때가 많다."
+  }
+ ],
+ "topic": 1,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "Vision is influenced by our preconceptions about reality"
+  },
+  {
+   "sent": 2,
+   "text": "unconscious hierarchies"
+  },
+  {
+   "sent": 3,
+   "text": "in profile"
+  },
+  {
+   "sent": 5,
+   "text": "creates visual expectations that interfere with our ability to see"
+  },
+  {
+   "sent": 6,
+   "text": "sees only shapes and colors"
+  },
+  {
+   "sent": 7,
+   "text": "impartially"
+  },
+  {
+   "sent": 8,
+   "text": "they don’t interpret confusing details"
+  },
+  {
+   "sent": 9,
+   "text": "unrecognizable colors and shapes"
+  }
+ ],
+ "con": [
+  {
+   "sent": 3,
+   "text": "For example",
+   "rel": "예시"
+  },
+  {
+   "sent": 9,
+   "text": "And",
+   "rel": "첨가"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "a hammer",
+   "ko": "머릿속으로 떠올린 망치"
+  },
+  {
+   "sent": 7,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "The camera",
+   "ko": "카메라"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 7,
+   "text": "is influenced",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "is influenced",
+   "wrong": [
+    "influences"
+   ],
+   "rule": "시각은 선입견의 영향을 받는 쪽이고 뒤에 by 가 있으므로 수동태 is influenced 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 3,
+   "text": "viewing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "viewing",
+   "wrong": [
+    "view"
+   ],
+   "rule": "전치사 In 뒤에는 동명사 viewing 이 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 57,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 unconscious hierarchies 를 꾸미며 관계절의 주어가 되므로 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 13,
+   "text": "when visualizing",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "when visualizing",
+   "wrong": [
+    "when visualized"
+   ],
+   "rule": "주절 주어 we 가 망치를 떠올리는 능동 관계라 접속사 when 뒤에 현재분사 visualizing 을 남긴 분사구문이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 5,
+   "pos": 49,
+   "text": "creates",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "creates",
+   "wrong": [
+    "create"
+   ],
+   "rule": "주어의 중심 낱말 The functional relationship 이 단수라 관계절 we have with objects 뒤에서도 동사는 creates 이다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 77,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 visual expectations 를 꾸미는 주격 관계대명사 that 이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 7,
+   "pos": 50,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "where"
+   ],
+   "rule": "선행사 a lens 뒤에 주어가 빠진 절이 오므로 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 8,
+   "pos": 54,
+   "text": "surprising",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "surprising",
+   "wrong": [
+    "surprised"
+   ],
+   "rule": "사진이 우리를 놀라게 하는 쪽이라 현재분사 surprising 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 8,
+   "pos": 123,
+   "text": "serve",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "serve",
+   "wrong": [
+    "serves"
+   ],
+   "rule": "주어 they(사진)에 맞춘 현재형 serve 로, don’t interpret 과 but 으로 나란히 이어진다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 9,
+   "pos": 63,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 areas 를 꾸미는 주격 관계대명사 that 이고, 선행사가 복수라 동사는 appear 이다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "influenced",
+   "sent": 1,
+   "ko": "영향을 주다",
+   "gloss": "영향을 주다",
+   "syn": [
+    "affect"
+   ],
+   "ant": []
+  },
+  {
+   "text": "preconceptions",
+   "sent": 1,
+   "ko": "선입견, 미리 품은 생각",
+   "gloss": "선입견",
+   "syn": [
+    "assumption"
+   ],
+   "ant": []
+  },
+  {
+   "text": "unconscious",
+   "sent": 2,
+   "ko": "무의식적인, 자기도 모르는",
+   "gloss": "무의식적인",
+   "syn": [
+    "automatic"
+   ],
+   "ant": [
+    "conscious"
+   ]
+  },
+  {
+   "text": "hierarchies",
+   "sent": 2,
+   "ko": "위계, 서열",
+   "gloss": "위계",
+   "syn": [
+    "ranking"
+   ],
+   "ant": []
+  },
+  {
+   "text": "reflect",
+   "sent": 2,
+   "ko": "반영하다, 나타내다",
+   "gloss": "반영하다",
+   "syn": [
+    "show"
+   ],
+   "ant": [
+    "conceal"
+   ]
+  },
+  {
+   "text": "functional",
+   "sent": 2,
+   "ko": "쓰임새의, 기능상의",
+   "gloss": "쓰임새의",
+   "syn": [
+    "practical"
+   ],
+   "ant": [
+    "decorative"
+   ]
+  },
+  {
+   "text": "momentary",
+   "sent": 2,
+   "ko": "순간의, 잠깐의",
+   "gloss": "순간의",
+   "syn": [
+    "brief"
+   ],
+   "ant": [
+    "lasting"
+   ]
+  },
+  {
+   "text": "priorities",
+   "sent": 2,
+   "ko": "우선순위, 먼저 할 일",
+   "gloss": "우선순위",
+   "syn": [
+    "preference"
+   ],
+   "ant": []
+  },
+  {
+   "text": "visualizing",
+   "sent": 3,
+   "ko": "(머릿속에) 떠올리다",
+   "gloss": "(머릿속에) 떠올리다",
+   "syn": [
+    "imagine"
+   ],
+   "ant": []
+  },
+  {
+   "text": "expectations",
+   "sent": 5,
+   "ko": "기대, 예상",
+   "gloss": "기대",
+   "syn": [
+    "anticipation"
+   ],
+   "ant": []
+  },
+  {
+   "text": "interfere",
+   "sent": 5,
+   "ko": "방해하다, 끼어들다",
+   "gloss": "방해하다",
+   "syn": [
+    "disturb"
+   ],
+   "ant": [
+    "assist"
+   ]
+  },
+  {
+   "text": "documents",
+   "sent": 7,
+   "ko": "기록하다",
+   "gloss": "기록하다",
+   "syn": [
+    "record"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Vision "
+   },
+   {
+    "t": "is influenced",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "is "
+     },
+     {
+      "t": "influenced",
+      "c": "v",
+      "id": "v0"
+     }
+    ]
+   },
+   {
+    "t": " by our "
+   },
+   {
+    "t": "preconceptions",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " about reality."
+   }
+  ],
+  [
+   {
+    "t": "In "
+   },
+   {
+    "t": "viewing",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " a scene, we establish "
+   },
+   {
+    "t": "unconscious",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "hierarchies",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "reflect",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " our "
+   },
+   {
+    "t": "functional",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " relationship to objects and our "
+   },
+   {
+    "t": "momentary",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "priorities",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "For example",
+    "c": "c",
+    "id": "c0",
+    "lab": "예시"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "when visualizing",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "when "
+     },
+     {
+      "t": "visualizing",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " a hammer in our mind’s eye, we tend to “see” it in profile or at some other “ready for use” angle."
+   }
+  ],
+  [
+   {
+    "t": "One would probably not visualize a hammer as seen from the top so that the handle is hidden by the hammer’s head."
+   }
+  ],
+  [
+   {
+    "t": "The functional relationship we have with objects "
+   },
+   {
+    "t": "creates",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " visual "
+   },
+   {
+    "t": "expectations",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "interfere",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " with our ability to see “like a camera.”"
+   }
+  ],
+  [
+   {
+    "t": "The camera, like the human eye, sees only shapes and colors."
+   }
+  ],
+  [
+   {
+    "t": "It "
+   },
+   {
+    "t": "documents",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " the world impartially through a lens "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " is similar to the eye."
+   }
+  ],
+  [
+   {
+    "t": "When we look at them carefully, photographs are often "
+   },
+   {
+    "t": "surprising",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " because they don’t interpret confusing details but simply "
+   },
+   {
+    "t": "serve",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " them up to us with a mechanical indifference."
+   }
+  ],
+  [
+   {
+    "t": "And",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": " because of their flatness, photographs often contain areas "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " appear as unrecognizable colors and shapes."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주제 제시",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "시각은 선입견의 영향을 받고, 우리는 쓰임새에 따라 보는 위계를 세운다",
+    "star": false
+   },
+   {
+    "label": "예시",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "망치는 쓰기 좋은 각도로 떠올리고 위에서 본 모습은 떠올리지 않는다",
+    "star": false
+   },
+   {
+    "label": "대조",
+    "sents": [
+     5,
+     7
+    ],
+    "text": "쓰임새가 만든 기대가 시각을 막지만, 카메라는 모양과 색만 치우침 없이 기록한다",
+    "star": false
+   },
+   {
+    "label": "부연",
+    "sents": [
+     8,
+     9
+    ],
+    "text": "그래서 사진은 해석 없이 세부를 보여 주어 우리를 놀라게 한다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "For example",
+   "The functional relationship",
+   "When we look at them carefully"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "dcd89599e4f51283",
+  "original_marks.json": "05922bf26bf33781",
+  "passage_src.json": "a260775d473113dd",
+  "study_x.json": "700d63e2635581e6",
+  "topic_items.json": "85afe160999c30e5",
+  "workbook_src.json": "ed0a76780a10539f"
+ }
+}

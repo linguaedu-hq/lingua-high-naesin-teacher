@@ -1,0 +1,776 @@
+{
+ "meta": {
+  "id": "H1_2510_31",
+  "grade": "고1",
+  "year": 2025,
+  "month": 10,
+  "item_no": 31,
+  "orig_type": "빈칸",
+  "words": 131,
+  "exam": "2025학년도 10월 전국연합학력평가 고1 영어",
+  "topic_ko": "시금치 철분 통념이 생겨나 오래 이어진 과정",
+  "title_ko": "계산 실수가 낳은 오래가는 통념",
+  "title_en": "How a Calculation Error Created a Lasting Myth",
+  "gist_ko": "시금치에 철분이 많다는 통념은 계산 실수에서 생겼지만, 오류가 바로잡힌 뒤에도 Popeye 의 영향으로 오늘날까지 이어진다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Myths aren’t only stories.",
+   "ko": "통념은 그저 이야기로 끝나지 않는다."
+  },
+  {
+   "n": 2,
+   "en": "For example, a well-known myth that persists today is the supposed high iron content in spinach.",
+   "ko": "예를 들어 오늘날까지 이어지는 잘 알려진 통념 하나는 시금치의 철분 함량이 높다고 여기는 믿음이다."
+  },
+  {
+   "n": 3,
+   "en": "This is a legend that dates back to 1890 and originates from a simple miscalculation by physiologist Gustav von Bunge.",
+   "ko": "이것은 1890년에 시작된 전설 같은 이야기로, Gustav von Bunge 라는 생리학자가 저지른 단순한 계산 실수에서 나왔다."
+  },
+  {
+   "n": 4,
+   "en": "He accurately determined that 100 grams of spinach contained 35 milligrams of iron but he was analyzing dried spinach, which held ten times more iron than the same amount of fresh leafy greens.",
+   "ko": "그는 시금치 100그램에 철분 35밀리그램이 들어 있다고 정확하게 밝혀냈지만, 그가 분석한 것은 말린 시금치였고, 말린 시금치에는 같은 양의 생 잎채소보다 철분이 열 배나 많이 들어 있었다."
+  },
+  {
+   "n": 5,
+   "en": "Although the error was swiftly corrected, the correction was just as swiftly forgotten.",
+   "ko": "그 오류는 곧바로 바로잡혔지만, 바로잡은 내용 역시 그만큼 빨리 잊혔다."
+  },
+  {
+   "n": 6,
+   "en": "The myth had taken hold.",
+   "ko": "그 통념은 이미 단단히 뿌리를 내린 뒤였다."
+  },
+  {
+   "n": 7,
+   "en": "Popeye, who gained superhuman strength from the leafy greens and defended himself with iron fists, contributed to its endurance and even today, some nearly 150 years later, parents the world over use this tale to try to persuade their children into eating the healthy vegetable.",
+   "ko": "잎채소를 먹고 초인적인 힘을 얻어 무쇠 주먹으로 자신을 지킨 Popeye 는 이 통념이 오래 살아남는 데 한몫했고, 150년 가까이 흐른 지금도 세계 곳곳의 부모는 아이를 설득해 몸에 좋은 그 채소를 먹이려고 이 이야기를 꺼낸다."
+  }
+ ],
+ "topic": 1,
+ "gist": 7,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "Myths aren’t only stories"
+  },
+  {
+   "sent": 2,
+   "text": "the supposed high iron content in spinach"
+  },
+  {
+   "sent": 3,
+   "text": "a simple miscalculation"
+  },
+  {
+   "sent": 4,
+   "text": "he was analyzing dried spinach"
+  },
+  {
+   "sent": 5,
+   "text": "just as swiftly forgotten"
+  },
+  {
+   "sent": 6,
+   "text": "The myth had taken hold"
+  },
+  {
+   "sent": 7,
+   "text": "contributed to its endurance"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "For example",
+   "rel": "예시"
+  },
+  {
+   "sent": 5,
+   "text": "Although",
+   "rel": "양보"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "a well-known myth",
+   "ko": "시금치에 철분이 많다는 통념"
+  },
+  {
+   "sent": 4,
+   "text": "He",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "physiologist Gustav von Bunge",
+   "ko": "생리학자 Gustav von Bunge"
+  },
+  {
+   "sent": 5,
+   "text": "the error",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "a simple miscalculation",
+   "ko": "Bunge 의 계산 실수"
+  },
+  {
+   "sent": 6,
+   "text": "The myth",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "a well-known myth",
+   "ko": "시금치에 철분이 많다는 통념"
+  },
+  {
+   "sent": 7,
+   "text": "its",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "The myth",
+   "ko": "그 통념"
+  },
+  {
+   "sent": 7,
+   "text": "this tale",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "the supposed high iron content in spinach",
+   "ko": "시금치에 철분이 많다는 이야기"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 2,
+   "pos": 31,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a well-known myth 를 뒤에서 꾸미는 절을 이끌어야 하니 that 이 맞고, what 은 앞에 선행사가 없을 때만 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g2",
+   "sent": 2,
+   "pos": 36,
+   "text": "persists",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "persists",
+   "wrong": [
+    "persist"
+   ],
+   "rule": "관계절이 꾸미는 선행사 a well-known myth 가 단수라 관계절 동사는 persists 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 17,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a legend 뒤에서 주어 구실을 하는 관계대명사로 that 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 45,
+   "text": "originates",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "originates",
+   "wrong": [
+    "originating"
+   ],
+   "rule": "관계절 동사 dates 와 and 로 나란히 이어지므로 같은 꼴 originates 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 119,
+   "text": "which",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "which",
+   "wrong": [
+    "that"
+   ],
+   "rule": "콤마 뒤에서 dried spinach 를 덧붙여 설명하는 계속적 용법에는 that 을 쓸 수 없으므로 which 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 4,
+   "pos": 140,
+   "text": "more",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "more",
+   "wrong": [
+    "most"
+   ],
+   "rule": "뒤에 than 이 오므로 배수 표현 ten times 뒤에 비교급 more 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 5,
+   "pos": 0,
+   "text": "Although",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "Although",
+   "wrong": [
+    "Despite"
+   ],
+   "rule": "뒤에 주어와 동사를 갖춘 절이 오므로 전치사 despite 가 아니라 접속사 Although 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 5,
+   "pos": 77,
+   "text": "forgotten",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "forgotten",
+   "wrong": [
+    "forgot"
+   ],
+   "rule": "바로잡은 내용이 잊히는 쪽이라 was 뒤에 과거분사 forgotten 을 써서 수동태로 나타낸다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g11",
+   "sent": 6,
+   "pos": 9,
+   "text": "had taken",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "had taken",
+   "wrong": [
+    "had took"
+   ],
+   "rule": "바로잡은 내용이 잊힐 무렵 이미 굳어 있던 일이라 had 뒤에 과거분사 taken 을 써서 과거완료로 나타낸다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 8,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 Popeye 가 사람(인물)이므로 콤마 뒤 계속적 용법 관계대명사 who 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 7,
+   "pos": 99,
+   "text": "contributed",
+   "cat": "문장 형식·어순",
+   "chip": "어순",
+   "right": "contributed",
+   "wrong": [
+    "contributing"
+   ],
+   "rule": "콤마 사이의 who 절이 끝난 뒤 주어 Popeye 의 본동사가 와야 하므로 과거형 contributed 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 7,
+   "pos": 249,
+   "text": "eating",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "eating",
+   "wrong": [
+    "eat"
+   ],
+   "rule": "전치사 into 뒤에는 동명사가 오므로 eating 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Myths",
+   "sent": 1,
+   "ko": "통념, 근거 없는 믿음",
+   "gloss": "통념",
+   "syn": [
+    "misconception"
+   ],
+   "ant": [
+    "fact"
+   ]
+  },
+  {
+   "text": "well-known",
+   "sent": 2,
+   "ko": "잘 알려진",
+   "gloss": "잘 알려진",
+   "syn": [
+    "famous"
+   ],
+   "ant": [
+    "unknown"
+   ]
+  },
+  {
+   "text": "persists",
+   "sent": 2,
+   "ko": "계속되다, 지속되다",
+   "gloss": "계속되다",
+   "syn": [
+    "continue"
+   ],
+   "ant": [
+    "disappear"
+   ]
+  },
+  {
+   "text": "supposed",
+   "sent": 2,
+   "ko": "(사실이라고) 여겨지는",
+   "gloss": "(사실이라고) 여겨지는",
+   "syn": [
+    "alleged"
+   ],
+   "ant": [
+    "actual"
+   ]
+  },
+  {
+   "text": "legend",
+   "sent": 3,
+   "ko": "전설, 전해 오는 이야기",
+   "gloss": "전설",
+   "syn": [
+    "tale"
+   ],
+   "ant": [
+    "truth"
+   ]
+  },
+  {
+   "text": "miscalculation",
+   "sent": 3,
+   "ko": "계산 착오, 계산 실수",
+   "gloss": "계산 착오",
+   "syn": [
+    "error"
+   ],
+   "ant": []
+  },
+  {
+   "text": "accurately",
+   "sent": 4,
+   "ko": "정확하게",
+   "gloss": "정확하게",
+   "syn": [
+    "precisely"
+   ],
+   "ant": [
+    "inaccurately"
+   ]
+  },
+  {
+   "text": "analyzing",
+   "sent": 4,
+   "ko": "분석하다",
+   "gloss": "분석하다",
+   "syn": [
+    "examine"
+   ],
+   "ant": [
+    "overlook"
+   ]
+  },
+  {
+   "text": "dried",
+   "sent": 4,
+   "ko": "말린",
+   "gloss": "말린",
+   "syn": [
+    "dehydrated"
+   ],
+   "ant": [
+    "fresh"
+   ]
+  },
+  {
+   "text": "swiftly",
+   "sent": 5,
+   "ko": "빠르게, 곧바로",
+   "gloss": "빠르게",
+   "syn": [
+    "quickly"
+   ],
+   "ant": [
+    "slowly"
+   ]
+  },
+  {
+   "text": "endurance",
+   "sent": 7,
+   "ko": "지속, 오래 감",
+   "gloss": "지속",
+   "syn": [
+    "persistence"
+   ],
+   "ant": [
+    "disappearance"
+   ]
+  },
+  {
+   "text": "persuade",
+   "sent": 7,
+   "ko": "설득하다",
+   "gloss": "설득하다",
+   "syn": [
+    "convince"
+   ],
+   "ant": [
+    "discourage"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Myths",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " aren’t only stories."
+   }
+  ],
+  [
+   {
+    "t": "For example",
+    "c": "c",
+    "id": "c0",
+    "lab": "예시"
+   },
+   {
+    "t": ", a "
+   },
+   {
+    "t": "well-known",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " myth "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "persists",
+    "c": "g",
+    "id": "g2",
+    "kids": [
+     {
+      "t": "persists",
+      "c": "v",
+      "id": "v2"
+     }
+    ]
+   },
+   {
+    "t": " today is the "
+   },
+   {
+    "t": "supposed",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " high iron content in spinach."
+   }
+  ],
+  [
+   {
+    "t": "This is a "
+   },
+   {
+    "t": "legend",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " dates back to 1890 and "
+   },
+   {
+    "t": "originates",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " from a simple "
+   },
+   {
+    "t": "miscalculation",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " by physiologist Gustav von Bunge."
+   }
+  ],
+  [
+   {
+    "t": "He "
+   },
+   {
+    "t": "accurately",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " determined that 100 grams of spinach contained 35 milligrams of iron but he was "
+   },
+   {
+    "t": "analyzing",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "dried",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " spinach, "
+   },
+   {
+    "t": "which",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " held ten times "
+   },
+   {
+    "t": "more",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " iron than the same amount of fresh leafy greens."
+   }
+  ],
+  [
+   {
+    "t": "Although",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " the error was "
+   },
+   {
+    "t": "swiftly",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " corrected, the correction was just as swiftly "
+   },
+   {
+    "t": "forgotten",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "The myth "
+   },
+   {
+    "t": "had taken",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " hold."
+   }
+  ],
+  [
+   {
+    "t": "Popeye, "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " gained superhuman strength from the leafy greens and defended himself with iron fists, "
+   },
+   {
+    "t": "contributed",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " to its "
+   },
+   {
+    "t": "endurance",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " and even today, some nearly 150 years later, parents the world over use this tale to try to "
+   },
+   {
+    "t": "persuade",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " their children into "
+   },
+   {
+    "t": "eating",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " the healthy vegetable."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "도입",
+    "sents": [
+     1,
+     2
+    ],
+    "text": "통념은 이야기에 그치지 않는다 — 시금치 철분 통념",
+    "star": false
+   },
+   {
+    "label": "원인",
+    "sents": [
+     3,
+     4
+    ],
+    "text": "Bunge 가 말린 시금치를 재어 철분이 열 배 많게 나옴",
+    "star": false
+   },
+   {
+    "label": "결과 1",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "오류는 바로잡혔지만 정정이 잊혀 통념이 굳음",
+    "star": false
+   },
+   {
+    "label": "결과 2",
+    "sents": [
+     7,
+     7
+    ],
+    "text": "Popeye 가 통념을 퍼뜨려 오늘날까지 이어짐",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "This is a legend",
+   "Although",
+   "Popeye"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "224c816fb2d49f47",
+  "original_marks.json": "3f0536233c9ff63d",
+  "passage_src.json": "e49cfd0947cc51c4",
+  "study_x.json": "14bd479c1fcb53be",
+  "topic_items.json": "12628dc28c9ddc41",
+  "workbook_src.json": "b4121c1e1207d041"
+ }
+}

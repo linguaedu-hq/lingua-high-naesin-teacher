@@ -1,0 +1,999 @@
+{
+ "meta": {
+  "id": "H1_2509_41",
+  "grade": "고1",
+  "year": 2025,
+  "month": 9,
+  "item_no": 41,
+  "orig_type": "제목(장문)",
+  "words": 274,
+  "exam": "2025학년도 9월 전국연합학력평가 고1 영어",
+  "topic_ko": "판매원이 손님을 방어적으로 만들지 않고 다가가는 방법",
+  "title_ko": "손님을 맞는 더 나은 방법",
+  "title_en": "A Better Way to Greet Shoppers",
+  "gist_ko": "판매원은 손님을 방어적으로 만드는 “May I help you?” 대신 더 나은 질문을 쓰고, 손님이 서두르지 않고 마음 편히 둘러볼 수 있는 분위기를 만들어야 한다."
+ },
+ "kind": "long",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "“May I help you?” are the worst four words that a retail salesperson can utter because they don’t encourage the customer to talk and put them on the defensive.",
+   "ko": "“May I help you?”는 손님의 말문을 막고 방어하게 만드는, 판매원의 최악의 네 낱말이다."
+  },
+  {
+   "n": 2,
+   "en": "The four words usually draw out a negative response that stops cold a sales transaction.",
+   "ko": "이 네 낱말은 대개 부정적인 대답을 끌어내 거래를 단번에 멈춘다."
+  },
+  {
+   "n": 3,
+   "en": "Examples of better questions to use when approaching customers are “Is there anything in particular that you are looking for?” and “Are you shopping for a gift?”",
+   "ko": "더 나은 질문의 예로는 “특별히 찾으시는 게 있나요?”와 “선물을 고르시나요?”가 있다."
+  },
+  {
+   "n": 4,
+   "en": "If a fashion salesperson approached you with “May I help you?” chances are you would feel the salesperson didn’t care.",
+   "ko": "패션 매장 판매원이 이 말로 다가오면 당신은 아마 그가 무관심하다고 느낄 것이다."
+  },
+  {
+   "n": 5,
+   "en": "This line is a rote approach that is so overused by untrained and uninterested salespeople.",
+   "ko": "이 말은 훈련도 관심도 없는 판매원들이 남발해 닳아 버린 기계적인 접근이다."
+  },
+  {
+   "n": 6,
+   "en": "In fact, most of us shudder in horror on hearing these words.",
+   "ko": "실제로 대부분은 듣자마자 몸서리친다."
+  },
+  {
+   "n": 7,
+   "en": "The very meaning of the question “May I help you?” implies that the customer is in trouble of some sort and needs rescuing.",
+   "ko": "이 질문은 뜻 자체가 손님이 곤란에 빠져 구조될 필요가 있음을 넌지시 드러낸다."
+  },
+  {
+   "n": 8,
+   "en": "This almost always puts the customer on the defense.",
+   "ko": "그래서 손님은 거의 언제나 방어하게 된다."
+  },
+  {
+   "n": 9,
+   "en": "“No, thank you” is usually the immediate response, even if the customer is actually in need of assistance.",
+   "ko": "손님은 도움이 필요할 때조차 대개 곧바로 “아니요, 괜찮아요”라고 답한다."
+  },
+  {
+   "n": 10,
+   "en": "The subconscious thought by the customer is often “I’m smart enough to figure out what I want, and I don’t need your help!”",
+   "ko": "손님의 속마음은 흔히 “뭘 원하는지 알아낼 만큼 나도 똑똑해, 도움은 필요 없어!”이다."
+  },
+  {
+   "n": 11,
+   "en": "If customers feel pressured or cornered, then salespeople won’t make any sales.",
+   "ko": "압박을 받거나 궁지에 몰렸다고 느끼면 손님은 아무것도 사지 않는다."
+  },
+  {
+   "n": 12,
+   "en": "The approach has to promote a comfortable environment that makes customers feel there is no rush.",
+   "ko": "다가가는 방식은 서두를 필요가 없다고 느끼게 하는 편안한 분위기를 만들어야 한다."
+  },
+  {
+   "n": 13,
+   "en": "Furthermore, if customers just want to look around, they should feel that it is all right to do so.",
+   "ko": "게다가 손님이 그저 둘러보고 싶다면 그래도 괜찮다고 느껴야 한다."
+  },
+  {
+   "n": 14,
+   "en": "In situations where customers really do want to look around on their own, salespeople should give customers their business cards and keep themselves accessible in case customers have questions or concerns.",
+   "ko": "혼자 둘러보려는 손님에게는 명함을 주고, 질문이 생길 때 찾기 쉽게 가까이 있어야 한다."
+  }
+ ],
+ "topic": 1,
+ "gist": null,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "the worst four words"
+  },
+  {
+   "sent": 2,
+   "text": "draw out a negative response"
+  },
+  {
+   "sent": 3,
+   "text": "Examples of better questions"
+  },
+  {
+   "sent": 4,
+   "text": "the salesperson didn’t care"
+  },
+  {
+   "sent": 5,
+   "text": "a rote approach"
+  },
+  {
+   "sent": 7,
+   "text": "the customer is in trouble of some sort"
+  },
+  {
+   "sent": 9,
+   "text": "“No, thank you” is usually the immediate response"
+  },
+  {
+   "sent": 10,
+   "text": "I don’t need your help!"
+  },
+  {
+   "sent": 11,
+   "text": "salespeople won’t make any sales"
+  },
+  {
+   "sent": 12,
+   "text": "a comfortable environment"
+  },
+  {
+   "sent": 13,
+   "text": "if customers just want to look around"
+  },
+  {
+   "sent": 14,
+   "text": "give customers their business cards"
+  }
+ ],
+ "con": [
+  {
+   "sent": 6,
+   "text": "In fact",
+   "rel": "첨가"
+  },
+  {
+   "sent": 11,
+   "text": "then",
+   "rel": "결과"
+  },
+  {
+   "sent": 13,
+   "text": "Furthermore",
+   "rel": "첨가"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "The four words",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "the worst four words",
+   "ko": "“May I help you?”라는 네 낱말"
+  },
+  {
+   "sent": 8,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "The very meaning of the question",
+   "ko": "질문이 손님을 곤란한 사람으로 본다는 뜻"
+  },
+  {
+   "sent": 5,
+   "text": "This line",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "May I help you?",
+   "ko": "“May I help you?”라는 말"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 121,
+   "text": "to talk",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "to talk",
+   "wrong": [
+    "talking"
+   ],
+   "rule": "encourage + 목적어 + to부정사 꼴이라 목적격보어로 to talk 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g3",
+   "sent": 2,
+   "pos": 52,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a negative response 뒤에서 주어가 빠진 절을 이끄므로 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 41,
+   "text": "approaching",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "approaching",
+   "wrong": [
+    "approached"
+   ],
+   "rule": "when 을 남긴 분사구문이고 판매원이 손님에게 다가가는 쪽이라 현재분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 63,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어의 머리가 복수 명사 Examples 라 are 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 79,
+   "text": "would feel",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "would feel",
+   "wrong": [
+    "will feel"
+   ],
+   "rule": "If 절에 과거형 approached 를 쓴 가정법 과거라 주절에 would 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 5,
+   "pos": 40,
+   "text": "overused",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "overused",
+   "wrong": [
+    "overusing"
+   ],
+   "rule": "이 말이 판매원들에게 쓰이는 쪽이라 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 41,
+   "text": "hearing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "hearing",
+   "wrong": [
+    "hear"
+   ],
+   "rule": "전치사 on 뒤에는 동명사가 오며 on + -ing 는 「~하자마자」를 뜻한다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 7,
+   "pos": 114,
+   "text": "rescuing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "rescuing",
+   "wrong": [
+    "to rescue"
+   ],
+   "rule": "need 뒤의 동명사는 수동의 뜻이라 needs rescuing 은 구조될 필요가 있다는 뜻이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 8,
+   "pos": 19,
+   "text": "puts",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "puts",
+   "wrong": [
+    "put"
+   ],
+   "rule": "주어 This 가 단수라 puts 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 10,
+   "pos": 61,
+   "text": "enough to figure",
+   "cat": "관용 구문(too~to · so~that 등)",
+   "chip": "관용 구문(too~to · so~that 등)",
+   "right": "enough to figure",
+   "wrong": [
+    "enough figuring"
+   ],
+   "rule": "형용사 + enough + to부정사 꼴로 「~할 만큼 충분히 …한」을 뜻한다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 10,
+   "pos": 82,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "that"
+   ],
+   "rule": "선행사가 없고 want 의 목적어가 빠진 절이라 what 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 11,
+   "pos": 18,
+   "text": "pressured",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "pressured",
+   "wrong": [
+    "pressuring"
+   ],
+   "rule": "손님이 압박을 받는 쪽이라 feel 뒤 보어로 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 12,
+   "pos": 54,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 a comfortable environment 뒤에서 주어가 빠진 절을 이끄므로 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 12,
+   "pos": 75,
+   "text": "feel",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "feel",
+   "wrong": [
+    "to feel"
+   ],
+   "rule": "사역동사 make 뒤 목적격보어로 동사원형 feel 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g17",
+   "sent": 13,
+   "pos": 74,
+   "text": "it",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "it",
+   "wrong": [
+    "this"
+   ],
+   "rule": "진주어 to do so 를 뒤로 보내고 앞에 가주어 it 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g18",
+   "sent": 14,
+   "pos": 14,
+   "text": "where",
+   "cat": "관계부사·전치사+관계대명사",
+   "chip": "관계사",
+   "right": "where",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 situations 뒤에 완전한 절이 오므로 관계부사 where 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g19",
+   "sent": 14,
+   "pos": 138,
+   "text": "themselves",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "themselves",
+   "wrong": [
+    "them"
+   ],
+   "rule": "주어 salespeople 과 목적어가 같은 사람이라 재귀대명사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g20",
+   "sent": 14,
+   "pos": 149,
+   "text": "accessible",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "accessible",
+   "wrong": [
+    "accessibly"
+   ],
+   "rule": "keep + 목적어 + 형용사 보어 꼴이라 부사는 쓰지 않는다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "utter",
+   "sent": 1,
+   "ko": "말하다, 입 밖에 내다",
+   "gloss": "말하다",
+   "syn": [
+    "say"
+   ],
+   "ant": []
+  },
+  {
+   "text": "encourage",
+   "sent": 1,
+   "ko": "북돋우다, ~하도록 권하다",
+   "gloss": "북돋우다",
+   "syn": [
+    "urge"
+   ],
+   "ant": [
+    "discourage"
+   ]
+  },
+  {
+   "text": "defensive",
+   "sent": 1,
+   "ko": "방어적인",
+   "gloss": "방어적인",
+   "syn": [
+    "guarded"
+   ],
+   "ant": [
+    "offensive"
+   ]
+  },
+  {
+   "text": "negative",
+   "sent": 2,
+   "ko": "부정적인",
+   "gloss": "부정적인",
+   "syn": [
+    "unfavorable"
+   ],
+   "ant": [
+    "positive"
+   ]
+  },
+  {
+   "text": "transaction",
+   "sent": 2,
+   "ko": "거래",
+   "gloss": "거래",
+   "syn": [
+    "deal"
+   ],
+   "ant": []
+  },
+  {
+   "text": "approaching",
+   "sent": 3,
+   "ko": "다가가다, 접근하다",
+   "gloss": "다가가다",
+   "syn": [
+    "near"
+   ],
+   "ant": [
+    "avoid"
+   ]
+  },
+  {
+   "text": "rote",
+   "sent": 5,
+   "ko": "기계적으로 외운",
+   "gloss": "기계적으로 외운",
+   "syn": [
+    "mechanical"
+   ],
+   "ant": [
+    "thoughtful"
+   ]
+  },
+  {
+   "text": "overused",
+   "sent": 5,
+   "ko": "너무 많이 쓰인",
+   "gloss": "너무 많이 쓰인",
+   "syn": [
+    "worn-out"
+   ],
+   "ant": [
+    "fresh"
+   ]
+  },
+  {
+   "text": "uninterested",
+   "sent": 5,
+   "ko": "관심 없는",
+   "gloss": "관심 없는",
+   "syn": [
+    "indifferent"
+   ],
+   "ant": [
+    "interested"
+   ]
+  },
+  {
+   "text": "shudder",
+   "sent": 6,
+   "ko": "몸서리치다",
+   "gloss": "몸서리치다",
+   "syn": [
+    "tremble"
+   ],
+   "ant": []
+  },
+  {
+   "text": "implies",
+   "sent": 7,
+   "ko": "넌지시 나타내다, 암시하다",
+   "gloss": "넌지시 나타내다",
+   "syn": [
+    "suggest"
+   ],
+   "ant": []
+  },
+  {
+   "text": "immediate",
+   "sent": 9,
+   "ko": "즉각적인",
+   "gloss": "즉각적인",
+   "syn": [
+    "instant"
+   ],
+   "ant": [
+    "delayed"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "“May I help you?” are the worst four words that a retail salesperson can "
+   },
+   {
+    "t": "utter",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " because they don’t "
+   },
+   {
+    "t": "encourage",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " the customer "
+   },
+   {
+    "t": "to talk",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " and put them on the "
+   },
+   {
+    "t": "defensive",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "The four words usually draw out a "
+   },
+   {
+    "t": "negative",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " response "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " stops cold a sales "
+   },
+   {
+    "t": "transaction",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Examples of better questions to use when "
+   },
+   {
+    "t": "approaching",
+    "c": "g",
+    "id": "g4",
+    "kids": [
+     {
+      "t": "approaching",
+      "c": "v",
+      "id": "v5"
+     }
+    ]
+   },
+   {
+    "t": " customers "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " “Is there anything in particular that you are looking for?” and “Are you shopping for a gift?”"
+   }
+  ],
+  [
+   {
+    "t": "If a fashion salesperson approached you with “May I help you?” chances are you "
+   },
+   {
+    "t": "would feel",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " the salesperson didn’t care."
+   }
+  ],
+  [
+   {
+    "t": "This line is a "
+   },
+   {
+    "t": "rote",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " approach that is so "
+   },
+   {
+    "t": "overused",
+    "c": "g",
+    "id": "g7",
+    "kids": [
+     {
+      "t": "overused",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " by untrained and "
+   },
+   {
+    "t": "uninterested",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " salespeople."
+   }
+  ],
+  [
+   {
+    "t": "In fact",
+    "c": "c",
+    "id": "c0",
+    "lab": "첨가"
+   },
+   {
+    "t": ", most of us "
+   },
+   {
+    "t": "shudder",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " in horror on "
+   },
+   {
+    "t": "hearing",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " these words."
+   }
+  ],
+  [
+   {
+    "t": "The very meaning of the question “May I help you?” "
+   },
+   {
+    "t": "implies",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " that the customer is in trouble of some sort and needs "
+   },
+   {
+    "t": "rescuing",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "This almost always "
+   },
+   {
+    "t": "puts",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " the customer on the defense."
+   }
+  ],
+  [
+   {
+    "t": "“No, thank you” is usually the "
+   },
+   {
+    "t": "immediate",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": " response, even if the customer is actually in need of assistance."
+   }
+  ],
+  [
+   {
+    "t": "The subconscious thought by the customer is often “I’m smart "
+   },
+   {
+    "t": "enough to figure",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " out "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " I want, and I don’t need your help!”"
+   }
+  ],
+  [
+   {
+    "t": "If customers feel "
+   },
+   {
+    "t": "pressured",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " or cornered, "
+   },
+   {
+    "t": "then",
+    "c": "c",
+    "id": "c1",
+    "lab": "결과"
+   },
+   {
+    "t": " salespeople won’t make any sales."
+   }
+  ],
+  [
+   {
+    "t": "The approach has to promote a comfortable environment "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": " makes customers "
+   },
+   {
+    "t": "feel",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " there is no rush."
+   }
+  ],
+  [
+   {
+    "t": "Furthermore",
+    "c": "c",
+    "id": "c2",
+    "lab": "첨가"
+   },
+   {
+    "t": ", if customers just want to look around, they should feel that "
+   },
+   {
+    "t": "it",
+    "c": "g",
+    "id": "g17"
+   },
+   {
+    "t": " is all right to do so."
+   }
+  ],
+  [
+   {
+    "t": "In situations "
+   },
+   {
+    "t": "where",
+    "c": "g",
+    "id": "g18"
+   },
+   {
+    "t": " customers really do want to look around on their own, salespeople should give customers their business cards and keep "
+   },
+   {
+    "t": "themselves",
+    "c": "g",
+    "id": "g19"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "accessible",
+    "c": "g",
+    "id": "g20"
+   },
+   {
+    "t": " in case customers have questions or concerns."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주장",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "“May I help you?”는 손님을 방어적으로 만드는 최악의 첫마디다",
+    "star": false
+   },
+   {
+    "label": "근거 1",
+    "sents": [
+     4,
+     6
+    ],
+    "text": "이 말은 마음 없이 외운 접근이라 손님이 질겁한다",
+    "star": false
+   },
+   {
+    "label": "근거 2",
+    "sents": [
+     7,
+     11
+    ],
+    "text": "곤란한 사람 취급을 받은 손님은 도움을 거절하고 판매가 끊긴다",
+    "star": false
+   },
+   {
+    "label": "해결책",
+    "sents": [
+     12,
+     14
+    ],
+    "text": "서두르지 않아도 되는 편안한 분위기를 만들고 혼자 둘러보게 둔다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "If a fashion salesperson approached you",
+   "The very meaning of the question",
+   "The approach has to promote"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "76ab4e5360824626",
+  "original_marks.json": "61de7fe3ba3fe768",
+  "passage_src.json": "22144979ee8d01d0",
+  "study_x.json": "22e363b90cd74cb9",
+  "topic_items.json": "f75f49a50e463fab",
+  "workbook_src.json": "d93c455383441fb0"
+ }
+}

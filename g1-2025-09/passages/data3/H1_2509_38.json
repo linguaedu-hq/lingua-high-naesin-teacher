@@ -1,0 +1,890 @@
+{
+ "meta": {
+  "id": "H1_2509_38",
+  "grade": "고1",
+  "year": 2025,
+  "month": 9,
+  "item_no": 38,
+  "exam": "2025학년도 9월 전국연합학력평가 고1 영어",
+  "topic_ko": "선형 편집과 견준 비선형 영상 편집의 장점",
+  "title_ko": "워드 프로세서처럼 편리한 비선형 편집",
+  "title_en": "Editing Video the Nonlinear Way",
+  "gist_ko": "오늘날의 비선형 편집 시스템은 원하는 장면에 곧바로 접근하고 장면을 쉽게 넣고 빼며 고칠 수 있게 해 주어, 타자기 같던 선형 편집과 달리 워드 프로세서처럼 편리하다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "All editing systems are now nonlinear computer-based systems that allow random access to any video shot or scene without having to fast forward or fast reverse to find it.",
+   "ko": "이제 모든 편집 시스템은 비선형 컴퓨터 기반 시스템인데, 이 시스템은 어떤 영상 숏이나 장면이든 찾으려고 빨리 감거나 빨리 되감을 필요 없이 곧바로 불러오는 임의 접근을 가능하게 해 준다."
+  },
+  {
+   "n": 2,
+   "en": "Nonlinear systems can create a range of special effects, such as slow motion, wipes and dissolves.",
+   "ko": "비선형 시스템으로는 느린 동작이나 와이프, 디졸브처럼 여러 가지 특수 효과도 낼 수 있다."
+  },
+  {
+   "n": 3,
+   "en": "Another highlight of a digital nonlinear system is its random access process that makes it easy for an editor to find desired shots or scenes without having to spend time fast forwarding or rewinding videotape.",
+   "ko": "디지털 방식 비선형 시스템이 가진 또 하나의 강점은 임의 접근 방식인데, 이 방식 덕분에 편집자는 비디오테이프를 앞으로 감거나 뒤로 감느라 시간을 쓰지 않고도 원하는 숏이나 장면을 쉽게 찾는다."
+  },
+  {
+   "n": 4,
+   "en": "With nonlinear editing, shots or scenes can be easily added or removed anywhere in the program, and the computer adjusts the program length automatically.",
+   "ko": "비선형 편집에서는 프로그램 안 어디에든 숏이나 장면을 쉽게 넣거나 뺄 수 있고, 컴퓨터가 프로그램 길이를 자동으로 맞춘다."
+  },
+  {
+   "n": 5,
+   "en": "Linear editing was like composing a paper on a typewriter.",
+   "ko": "선형 편집은 타자기로 글을 쓰는 것과 같았다."
+  },
+  {
+   "n": 6,
+   "en": "If a mistake was made or new information needed to be added the whole piece had to be retyped.",
+   "ko": "실수를 하거나 새 정보를 넣어야 하면 글 전체를 다시 타자로 쳐야 했다."
+  },
+  {
+   "n": 7,
+   "en": "Nonlinear editing, on the other hand, is like using a word processing program.",
+   "ko": "반면에 비선형 편집은 워드 프로세서 프로그램을 쓰는 것과 같다."
+  },
+  {
+   "n": 8,
+   "en": "If a mistake is made, it is easily deleted and fixed with a few keystrokes, and new information can be added easily.",
+   "ko": "실수를 하면 키 몇 번만 눌러 쉽게 지우고 고칠 수 있고, 새 정보도 쉽게 더할 수 있다."
+  }
+ ],
+ "topic": 1,
+ "gist": 7,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "allow random access to any video shot or scene"
+  },
+  {
+   "sent": 3,
+   "text": "Another highlight"
+  },
+  {
+   "sent": 4,
+   "text": "easily added or removed anywhere in the program"
+  },
+  {
+   "sent": 6,
+   "text": "the whole piece had to be retyped"
+  },
+  {
+   "sent": 7,
+   "text": "like using a word processing program"
+  },
+  {
+   "sent": 8,
+   "text": "easily deleted and fixed"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "such as",
+   "rel": "예시"
+  },
+  {
+   "sent": 3,
+   "text": "Another",
+   "rel": "첨가"
+  },
+  {
+   "sent": 7,
+   "text": "on the other hand",
+   "rel": "대조"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 1,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "any video shot or scene",
+   "ko": "찾으려는 영상 숏이나 장면"
+  },
+  {
+   "sent": 3,
+   "text": "its",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "a digital nonlinear system",
+   "ko": "디지털 비선형 시스템"
+  },
+  {
+   "sent": 8,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "a mistake",
+   "ko": "실수"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 20,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어 All editing systems 가 복수라 are 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 61,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 systems 를 꾸미고 뒤에 동사 allow 가 바로 오는 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 1,
+   "pos": 121,
+   "text": "having",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "having",
+   "wrong": [
+    "have"
+   ],
+   "rule": "전치사 without 뒤에는 동명사가 와서 without having to ~ 는 '~할 필요 없이'라는 뜻이 된다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 2,
+   "pos": 18,
+   "text": "can create",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "can create",
+   "wrong": [
+    "can creates"
+   ],
+   "rule": "조동사 can 뒤에는 동사원형이 온다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g8",
+   "sent": 3,
+   "pos": 77,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 its random access process 를 꾸미는 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g9",
+   "sent": 3,
+   "pos": 82,
+   "text": "makes it easy",
+   "cat": "가주어·가목적어",
+   "chip": "가주어·가목적어",
+   "right": "makes it easy",
+   "wrong": [
+    "makes easy"
+   ],
+   "rule": "make + 가목적어 it + 형용사 easy 꼴이며, 진짜 목적어는 뒤의 for an editor to find ~ 이다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 3,
+   "pos": 96,
+   "text": "for an editor to find",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "for an editor to find",
+   "wrong": [
+    "of an editor to find"
+   ],
+   "rule": "to부정사 앞에 for + 목적격을 두어 '편집자가'라는 의미상 주어를 나타낸다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 4,
+   "pos": 15,
+   "text": "editing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "editing",
+   "wrong": [
+    "edit"
+   ],
+   "rule": "전치사 With 뒤에는 명사나 동명사가 오므로 동명사 editing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 4,
+   "pos": 44,
+   "text": "be easily added",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "be easily added",
+   "wrong": [
+    "easily add"
+   ],
+   "rule": "숏이나 장면은 더해지는 쪽이라 조동사 can 뒤에 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g16",
+   "sent": 4,
+   "pos": 63,
+   "text": "removed",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "removed",
+   "wrong": [
+    "removing"
+   ],
+   "rule": "or 로 added 와 나란히 이어져 can be 에 함께 걸리는 과거분사라 removed 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g19",
+   "sent": 5,
+   "pos": 24,
+   "text": "composing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "composing",
+   "wrong": [
+    "compose"
+   ],
+   "rule": "전치사 like 뒤에는 동명사 composing 이 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g20",
+   "sent": 6,
+   "pos": 13,
+   "text": "was made",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "was made",
+   "wrong": [
+    "made"
+   ],
+   "rule": "실수는 '저질러지는' 쪽이라 be + 과거분사 was made 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g21",
+   "sent": 6,
+   "pos": 48,
+   "text": "to be added",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "to be added",
+   "wrong": [
+    "to add"
+   ],
+   "rule": "정보는 더해지는 쪽이라 to be + 과거분사의 수동 꼴을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g22",
+   "sent": 6,
+   "pos": 76,
+   "text": "had to be retyped",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "had to be retyped",
+   "wrong": [
+    "had to retype"
+   ],
+   "rule": "글 전체가 다시 쳐지는 쪽이라 had to 뒤에 be + 과거분사를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g24",
+   "sent": 7,
+   "pos": 46,
+   "text": "using",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "using",
+   "wrong": [
+    "use"
+   ],
+   "rule": "전치사 like 뒤에는 동명사 using 이 온다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g26",
+   "sent": 8,
+   "pos": 35,
+   "text": "deleted",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "deleted",
+   "wrong": [
+    "deleting"
+   ],
+   "rule": "it(실수)은 지워지는 쪽이라 is 뒤에 과거분사 deleted 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g27",
+   "sent": 8,
+   "pos": 47,
+   "text": "fixed",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "fixed",
+   "wrong": [
+    "fixing"
+   ],
+   "rule": "and 로 deleted 와 나란히 이어져 is 에 함께 걸리는 과거분사라 fixed 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "editing",
+   "sent": 1,
+   "ko": "편집",
+   "gloss": "편집",
+   "syn": [
+    "revision"
+   ],
+   "ant": []
+  },
+  {
+   "text": "nonlinear",
+   "sent": 1,
+   "ko": "비선형의",
+   "gloss": "비선형의",
+   "syn": [
+    "non-sequential"
+   ],
+   "ant": [
+    "linear"
+   ]
+  },
+  {
+   "text": "random",
+   "sent": 1,
+   "ko": "임의의, 무작위의",
+   "gloss": "임의의",
+   "syn": [
+    "arbitrary"
+   ],
+   "ant": [
+    "ordered"
+   ]
+  },
+  {
+   "text": "access",
+   "sent": 1,
+   "ko": "접근",
+   "gloss": "접근",
+   "syn": [
+    "entry"
+   ],
+   "ant": []
+  },
+  {
+   "text": "effects",
+   "sent": 2,
+   "ko": "효과",
+   "gloss": "효과",
+   "syn": [
+    "visual trick"
+   ],
+   "ant": []
+  },
+  {
+   "text": "highlight",
+   "sent": 3,
+   "ko": "가장 좋은 점, 장점",
+   "gloss": "가장 좋은 점",
+   "syn": [
+    "high point"
+   ],
+   "ant": [
+    "low point"
+   ]
+  },
+  {
+   "text": "removed",
+   "sent": 4,
+   "ko": "없애다, 빼다",
+   "gloss": "없애다",
+   "syn": [
+    "take out"
+   ],
+   "ant": [
+    "add"
+   ]
+  },
+  {
+   "text": "automatically",
+   "sent": 4,
+   "ko": "자동으로",
+   "gloss": "자동으로",
+   "syn": [
+    "by itself"
+   ],
+   "ant": [
+    "manually"
+   ]
+  },
+  {
+   "text": "Linear",
+   "sent": 5,
+   "ko": "선형의, 차례대로 이어진",
+   "gloss": "선형의",
+   "syn": [
+    "sequential"
+   ],
+   "ant": [
+    "nonlinear"
+   ]
+  },
+  {
+   "text": "typewriter",
+   "sent": 5,
+   "ko": "타자기",
+   "gloss": "타자기",
+   "syn": [
+    "typing machine"
+   ],
+   "ant": []
+  },
+  {
+   "text": "deleted",
+   "sent": 8,
+   "ko": "지우다, 삭제하다",
+   "gloss": "지우다",
+   "syn": [
+    "erase"
+   ],
+   "ant": [
+    "insert"
+   ]
+  },
+  {
+   "text": "keystrokes",
+   "sent": 8,
+   "ko": "키 누르기",
+   "gloss": "키 누르기",
+   "syn": [
+    "key press"
+   ],
+   "ant": []
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "All "
+   },
+   {
+    "t": "editing",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " systems "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " now "
+   },
+   {
+    "t": "nonlinear",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " computer-based systems "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " allow "
+   },
+   {
+    "t": "random",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "access",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " to any video shot or scene without "
+   },
+   {
+    "t": "having",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " to fast forward or fast reverse to find it."
+   }
+  ],
+  [
+   {
+    "t": "Nonlinear systems "
+   },
+   {
+    "t": "can create",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " a range of special "
+   },
+   {
+    "t": "effects",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "such as",
+    "c": "c",
+    "id": "c0",
+    "lab": "예시"
+   },
+   {
+    "t": " slow motion, wipes and dissolves."
+   }
+  ],
+  [
+   {
+    "t": "Another",
+    "c": "c",
+    "id": "c1",
+    "lab": "첨가"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "highlight",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " of a digital nonlinear system is its random access process "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "makes it easy",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "for an editor to find",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " desired shots or scenes without having to spend time fast forwarding or rewinding videotape."
+   }
+  ],
+  [
+   {
+    "t": "With nonlinear "
+   },
+   {
+    "t": "editing",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": ", shots or scenes can "
+   },
+   {
+    "t": "be easily added",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " or "
+   },
+   {
+    "t": "removed",
+    "c": "g",
+    "id": "g16",
+    "kids": [
+     {
+      "t": "removed",
+      "c": "v",
+      "id": "v6"
+     }
+    ]
+   },
+   {
+    "t": " anywhere in the program, and the computer adjusts the program length "
+   },
+   {
+    "t": "automatically",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Linear",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " editing was like "
+   },
+   {
+    "t": "composing",
+    "c": "g",
+    "id": "g19"
+   },
+   {
+    "t": " a paper on a "
+   },
+   {
+    "t": "typewriter",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "If a mistake "
+   },
+   {
+    "t": "was made",
+    "c": "g",
+    "id": "g20"
+   },
+   {
+    "t": " or new information needed "
+   },
+   {
+    "t": "to be added",
+    "c": "g",
+    "id": "g21"
+   },
+   {
+    "t": " the whole piece "
+   },
+   {
+    "t": "had to be retyped",
+    "c": "g",
+    "id": "g22"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Nonlinear editing, "
+   },
+   {
+    "t": "on the other hand",
+    "c": "c",
+    "id": "c2",
+    "lab": "대조"
+   },
+   {
+    "t": ", is like "
+   },
+   {
+    "t": "using",
+    "c": "g",
+    "id": "g24"
+   },
+   {
+    "t": " a word processing program."
+   }
+  ],
+  [
+   {
+    "t": "If a mistake is made, it is easily "
+   },
+   {
+    "t": "deleted",
+    "c": "g",
+    "id": "g26",
+    "kids": [
+     {
+      "t": "deleted",
+      "c": "v",
+      "id": "v10"
+     }
+    ]
+   },
+   {
+    "t": " and "
+   },
+   {
+    "t": "fixed",
+    "c": "g",
+    "id": "g27"
+   },
+   {
+    "t": " with a few "
+   },
+   {
+    "t": "keystrokes",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": ", and new information can be added easily."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "주제 제시",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "편집 시스템 = 비선형 · 원하는 장면에 바로 접근",
+    "star": false
+   },
+   {
+    "label": "장점",
+    "sents": [
+     2,
+     4
+    ],
+    "text": "특수 효과 · 장면을 쉽게 찾음 · 넣고 빼면 길이도 자동 조정",
+    "star": false
+   },
+   {
+    "label": "비유",
+    "sents": [
+     5,
+     6
+    ],
+    "text": "타자기 — 실수 하나에도 전체를 다시 침",
+    "star": false
+   },
+   {
+    "label": "대조",
+    "sents": [
+     7,
+     8
+    ],
+    "text": "워드 프로세서 — 키 몇 번으로 지우고 고치고 더함",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "Nonlinear systems can create",
+   "Linear editing",
+   "on the other hand"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "ce34a8721e83d8ad",
+  "check_conf.json": "2d8268a349d94ea6",
+  "original_marks.json": "3dc6a71cb225618f",
+  "passage_src.json": "54edaadfd4e76ce5",
+  "source_restored.json": "c2326bf8d585f2e1",
+  "study_x.json": "5bdeabc1a834e69a",
+  "topic_items.json": "02da4e0480c67a64",
+  "workbook_src.json": "77aa856d3c070fb4"
+ }
+}

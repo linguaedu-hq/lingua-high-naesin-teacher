@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "H1_2410_37",
+  "grade": "고1",
+  "year": 2024,
+  "month": 10,
+  "item_no": 37,
+  "exam": "2024학년도 10월 전국연합학력평가 고1 영어",
+  "topic_ko": "의식 상태의 뒤틀림으로 본 우울증의 근본 원인",
+  "title_ko": "우울증, 의식의 병으로 다시 보기",
+  "title_en": "Rethinking Depression as a Disease of Consciousness",
+  "gist_ko": "우울증은 뇌 물질이 균형을 잃어서가 아니라 자아와 삶의 의미를 잃고 뒤틀린 의식 상태에서 비롯된다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Conventional medicine has long believed that depression is caused by an imbalance of neurotransmitters in the brain.",
+   "ko": "기존 의학은 오랫동안 우울증이 뇌 속 신경 전달 물질의 불균형 때문에 생긴다고 믿어 왔다."
+  },
+  {
+   "n": 2,
+   "en": "However, there is a major problem with this explanation.",
+   "ko": "그러나 이 설명에는 큰 문제가 하나 있다."
+  },
+  {
+   "n": 3,
+   "en": "This is because the imbalance of substances in the brain is a consequence of depression, not its cause.",
+   "ko": "이는 뇌 안 물질들의 불균형이 우울증을 일으키는 원인이 아니라 우울증이 낳은 결과이기 때문이다."
+  },
+  {
+   "n": 4,
+   "en": "In other words, depression causes a decrease in brain substances such as serotonin and noradrenaline, not a decrease in brain substances causes depression.",
+   "ko": "다시 말해 우울증 때문에 세로토닌이나 노르아드레날린 같은 뇌 물질이 줄어드는 것이지, 뇌 물질이 줄어서 우울증이 생기는 것은 아니다."
+  },
+  {
+   "n": 5,
+   "en": "In this revised cause-and-effect, the key is to reframe depression as a problem of consciousness.",
+   "ko": "이렇게 바로잡은 인과 관계에서는 우울증을 의식의 문제로 새롭게 바라보는 일이 핵심이다."
+  },
+  {
+   "n": 6,
+   "en": "Our consciousness is a more fundamental entity that goes beyond the functioning of the brain.",
+   "ko": "우리 의식은 뇌의 작용을 넘어서는 더 근본적인 존재이다."
+  },
+  {
+   "n": 7,
+   "en": "The brain is no more than an organ of consciousness.",
+   "ko": "뇌는 의식의 한 기관일 뿐이다."
+  },
+  {
+   "n": 8,
+   "en": "If it is not consciousness itself, then the root cause of depression is also a distortion of our state of consciousness: a consciousness that has lost its sense of self and the meaning of life.",
+   "ko": "뇌가 의식 자체가 아니라면, 우울증이 생기는 근본 원인 또한 우리 의식 상태가 뒤틀린 것, 곧 자아 감각과 삶의 의미를 잃어버린 의식이다."
+  },
+  {
+   "n": 9,
+   "en": "Such a disease of consciousness may manifest itself in the form of depression.",
+   "ko": "이러한 의식의 병이 우울증이라는 모습으로 드러날 수 있다."
+  }
+ ],
+ "topic": 8,
+ "gist": 8,
+ "hl": [
+  {
+   "sent": 3,
+   "text": "a consequence of depression, not its cause"
+  },
+  {
+   "sent": 4,
+   "text": "depression causes a decrease in brain substances"
+  },
+  {
+   "sent": 5,
+   "text": "to reframe depression as a problem of consciousness"
+  },
+  {
+   "sent": 7,
+   "text": "no more than an organ of consciousness"
+  },
+  {
+   "sent": 8,
+   "text": "the root cause of depression is also a distortion of our state of consciousness"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "However",
+   "rel": "역접"
+  },
+  {
+   "sent": 3,
+   "text": "because",
+   "rel": "원인"
+  },
+  {
+   "sent": 4,
+   "text": "In other words",
+   "rel": "환언"
+  },
+  {
+   "sent": 4,
+   "text": "such as",
+   "rel": "예시"
+  },
+  {
+   "sent": 8,
+   "text": "If",
+   "rel": "조건"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 2,
+   "text": "this explanation",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "depression is caused by an imbalance of neurotransmitters",
+   "ko": "우울증이 신경 전달 물질의 불균형 때문에 생긴다는 설명"
+  },
+  {
+   "sent": 3,
+   "text": "This",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "there is a major problem with this explanation",
+   "ko": "이 설명에 큰 문제가 있다는 말"
+  },
+  {
+   "sent": 3,
+   "text": "its",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "depression",
+   "ko": "우울증"
+  },
+  {
+   "sent": 5,
+   "text": "this revised cause-and-effect",
+   "occ": 0,
+   "to_sent": 4,
+   "to": "depression causes a decrease in brain substances",
+   "ko": "우울증이 뇌 물질의 감소를 불러온다는 바뀐 인과 관계"
+  },
+  {
+   "sent": 8,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "The brain",
+   "ko": "뇌"
+  },
+  {
+   "sent": 9,
+   "text": "itself",
+   "occ": 0,
+   "to_sent": 9,
+   "to": "Such a disease of consciousness",
+   "ko": "이러한 의식의 병"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 31,
+   "text": "believed",
+   "cat": "시제",
+   "chip": "시제",
+   "right": "believed",
+   "wrong": [
+    "believe"
+   ],
+   "rule": "has long 뒤에 과거분사 believed 를 써서 예전부터 지금까지 이어진 일을 현재완료로 나타낸다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 40,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "뒤에 빠진 성분이 없는 절이 believed 의 목적어로 오므로 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 1,
+   "pos": 59,
+   "text": "caused",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "caused",
+   "wrong": [
+    "causing"
+   ],
+   "rule": "우울증은 불균형 때문에 생기는 쪽이라 is 뒤에 과거분사 caused 를 써서 수동태를 만든다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 2,
+   "pos": 15,
+   "text": "is",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "is",
+   "wrong": [
+    "are"
+   ],
+   "rule": "there 구문은 뒤에 오는 주어에 수를 맞추는데, 주어 a major problem 이 단수라 is 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 93,
+   "text": "its",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "its",
+   "wrong": [
+    "their"
+   ],
+   "rule": "its 는 단수 명사 depression 을 받으므로 their 가 아닌 its 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g6",
+   "sent": 5,
+   "pos": 45,
+   "text": "to reframe",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to reframe",
+   "wrong": [
+    "reframes"
+   ],
+   "rule": "be동사 is 뒤에서 보어가 되는 말이 필요하므로 to부정사 to reframe 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g7",
+   "sent": 6,
+   "pos": 47,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "앞에 선행사 entity 가 있으므로 what 이 아닌 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 52,
+   "text": "goes",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "goes",
+   "wrong": [
+    "go"
+   ],
+   "rule": "관계절 동사는 선행사 a more fundamental entity 에 맞추므로 단수 goes 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 8,
+   "pos": 137,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "앞의 a consciousness 를 꾸미는 주격 관계대명사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 8,
+   "pos": 142,
+   "text": "has lost",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "has lost",
+   "wrong": [
+    "have lost"
+   ],
+   "rule": "선행사 a consciousness 가 단수라 관계절 동사도 has lost 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 9,
+   "pos": 36,
+   "text": "manifest",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "manifest",
+   "wrong": [
+    "manifests"
+   ],
+   "rule": "조동사 may 뒤에는 동사원형 manifest 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g12",
+   "sent": 9,
+   "pos": 45,
+   "text": "itself",
+   "cat": "대명사·재귀대명사",
+   "chip": "대명사·재귀대명사",
+   "right": "itself",
+   "wrong": [
+    "it"
+   ],
+   "rule": "목적어가 주어 Such a disease of consciousness 와 같은 대상이라 재귀대명사 itself 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "Conventional",
+   "sent": 1,
+   "ko": "기존의, 관습적인",
+   "gloss": "기존의",
+   "syn": [
+    "standard"
+   ],
+   "ant": [
+    "unusual"
+   ]
+  },
+  {
+   "text": "depression",
+   "sent": 1,
+   "ko": "우울증",
+   "gloss": "우울증",
+   "syn": [
+    "melancholy"
+   ],
+   "ant": []
+  },
+  {
+   "text": "imbalance",
+   "sent": 1,
+   "ko": "불균형",
+   "gloss": "불균형",
+   "syn": [
+    "lack of balance"
+   ],
+   "ant": [
+    "balance"
+   ]
+  },
+  {
+   "text": "neurotransmitters",
+   "sent": 1,
+   "ko": "신경 전달 물질",
+   "gloss": "신경 전달 물질",
+   "syn": [
+    "chemical messenger"
+   ],
+   "ant": []
+  },
+  {
+   "text": "major",
+   "sent": 2,
+   "ko": "중대한, 큰",
+   "gloss": "중대한",
+   "syn": [
+    "serious"
+   ],
+   "ant": [
+    "minor"
+   ]
+  },
+  {
+   "text": "explanation",
+   "sent": 2,
+   "ko": "설명",
+   "gloss": "설명",
+   "syn": [
+    "account"
+   ],
+   "ant": []
+  },
+  {
+   "text": "consequence",
+   "sent": 3,
+   "ko": "결과",
+   "gloss": "결과",
+   "syn": [
+    "result"
+   ],
+   "ant": [
+    "cause"
+   ]
+  },
+  {
+   "text": "reframe",
+   "sent": 5,
+   "ko": "새로운 틀로 다시 보다",
+   "gloss": "새로운 틀로 다시 보다",
+   "syn": [
+    "reconsider"
+   ],
+   "ant": []
+  },
+  {
+   "text": "consciousness",
+   "sent": 5,
+   "ko": "의식",
+   "gloss": "의식",
+   "syn": [
+    "awareness"
+   ],
+   "ant": []
+  },
+  {
+   "text": "fundamental",
+   "sent": 6,
+   "ko": "근본적인, 기본이 되는",
+   "gloss": "근본적인",
+   "syn": [
+    "basic"
+   ],
+   "ant": [
+    "superficial"
+   ]
+  },
+  {
+   "text": "distortion",
+   "sent": 8,
+   "ko": "왜곡, 뒤틀림",
+   "gloss": "왜곡",
+   "syn": [
+    "twist"
+   ],
+   "ant": []
+  },
+  {
+   "text": "manifest",
+   "sent": 9,
+   "ko": "(분명히) 나타내다, 드러내다",
+   "gloss": "(분명히) 나타내다",
+   "syn": [
+    "reveal"
+   ],
+   "ant": [
+    "hide"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Conventional",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " medicine has long "
+   },
+   {
+    "t": "believed",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "depression",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " is "
+   },
+   {
+    "t": "caused",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " by an "
+   },
+   {
+    "t": "imbalance",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "neurotransmitters",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": " in the brain."
+   }
+  ],
+  [
+   {
+    "t": "However",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": ", there "
+   },
+   {
+    "t": "is",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " a "
+   },
+   {
+    "t": "major",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " problem with this "
+   },
+   {
+    "t": "explanation",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "This is "
+   },
+   {
+    "t": "because",
+    "c": "c",
+    "id": "c1",
+    "lab": "원인"
+   },
+   {
+    "t": " the imbalance of substances in the brain is a "
+   },
+   {
+    "t": "consequence",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " of depression, not "
+   },
+   {
+    "t": "its",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " cause."
+   }
+  ],
+  [
+   {
+    "t": "In other words",
+    "c": "c",
+    "id": "c2",
+    "lab": "환언"
+   },
+   {
+    "t": ", depression causes a decrease in brain substances "
+   },
+   {
+    "t": "such as",
+    "c": "c",
+    "id": "c3",
+    "lab": "예시"
+   },
+   {
+    "t": " serotonin and noradrenaline, not a decrease in brain substances causes depression."
+   }
+  ],
+  [
+   {
+    "t": "In this revised cause-and-effect, the key is "
+   },
+   {
+    "t": "to reframe",
+    "c": "g",
+    "id": "g6",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "reframe",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " depression as a problem of "
+   },
+   {
+    "t": "consciousness",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Our consciousness is a more "
+   },
+   {
+    "t": "fundamental",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " entity "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "goes",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " beyond the functioning of the brain."
+   }
+  ],
+  [
+   {
+    "t": "The brain is no more than an organ of consciousness."
+   }
+  ],
+  [
+   {
+    "t": "If",
+    "c": "c",
+    "id": "c4",
+    "lab": "조건"
+   },
+   {
+    "t": " it is not consciousness itself, then the root cause of depression is also a "
+   },
+   {
+    "t": "distortion",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " of our state of consciousness: a consciousness "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "has lost",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": " its sense of self and the meaning of life."
+   }
+  ],
+  [
+   {
+    "t": "Such a disease of consciousness may "
+   },
+   {
+    "t": "manifest",
+    "c": "g",
+    "id": "g13",
+    "kids": [
+     {
+      "t": "manifest",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "itself",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": " in the form of depression."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "통념",
+    "sents": [
+     1,
+     1
+    ],
+    "text": "기존 의학 — 신경 전달 물질의 불균형이 우울증을 일으킨다",
+    "star": false
+   },
+   {
+    "label": "반박",
+    "sents": [
+     2,
+     4
+    ],
+    "text": "뇌 물질의 불균형은 우울증이 낳은 결과일 뿐 원인이 되지 못한다",
+    "star": false
+   },
+   {
+    "label": "반박 근거",
+    "sents": [
+     5,
+     7
+    ],
+    "text": "우울증은 의식의 문제 — 의식은 뇌보다 근본적이고 뇌는 의식의 한 기관이다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     8,
+     9
+    ],
+    "text": "자아와 삶의 의미를 잃은 의식의 뒤틀림이 우울증으로 나타난다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "However",
+   "In this revised cause-and-effect",
+   "If it is not"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "5e9ef1f77e530c93",
+  "check_conf.json": "bcff003f3f8c4fc5",
+  "original_marks.json": "5d9e93e160b3b596",
+  "passage_src.json": "164ebad3a84d784e",
+  "source_restored.json": "44e880170b2bd11f",
+  "study_x.json": "fc8bd55eba84e45d",
+  "topic_items.json": "9f660de994a3a6f2",
+  "variants_set1.json": "ea2b5237bef7303e",
+  "variants_set2.json": "aab7ff62cd259b85",
+  "variants_set3.json": "85d0cab6c28ee288",
+  "variants_set4.json": "597afbd71160dfbe",
+  "workbook_src.json": "34f15043ddb8fcc7"
+ }
+}

@@ -1,0 +1,859 @@
+{
+ "meta": {
+  "id": "H1_2410_36",
+  "grade": "고1",
+  "year": 2024,
+  "month": 10,
+  "item_no": 36,
+  "exam": "2024학년도 10월 전국연합학력평가 고1 영어",
+  "topic_ko": "집단의 인정을 좇도록 진화한 자존감과 감정의 역할",
+  "title_ko": "남의 시선을 살피게 된 까닭",
+  "title_en": "Why We Care What Others Think",
+  "gist_ko": "집단 안에서 살아남아야 했기에 우리는 남의 평가를 무의식적으로 살피며, 자존감과 감정은 그 평가에 맞춰 행동하도록 우리를 이끈다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "As individuals, our ability to thrive depended on how well we navigated relationships in a group.",
+   "ko": "개인 차원에서 우리가 번성할 수 있는 능력은 집단 안에서 관계를 얼마나 잘 헤쳐 나가느냐에 달려 있었다."
+  },
+  {
+   "n": 2,
+   "en": "If the group valued us, we could count on support, resources, and probably a mate.",
+   "ko": "집단이 우리를 소중히 여기면 우리는 도움과 자원, 그리고 아마 짝까지도 기대할 수 있었다."
+  },
+  {
+   "n": 3,
+   "en": "If it didn’t, we might get none of these merits.",
+   "ko": "그렇지 않으면 이런 이점을 하나도 얻지 못할 수도 있었다."
+  },
+  {
+   "n": 4,
+   "en": "It was a matter of survival, physically and genetically.",
+   "ko": "이는 몸으로나 유전으로나 생존이 걸린 문제였다."
+  },
+  {
+   "n": 5,
+   "en": "Over millions of years, the pressure selected for people who are sensitive to and skilled at maximizing their standing.",
+   "ko": "수백만 년에 걸쳐 이 압력은 자신의 지위에 민감하고 그 지위를 최대한 높이는 데 능숙한 사람들이 살아남도록 골라냈다."
+  },
+  {
+   "n": 6,
+   "en": "The result was the development of a tendency to unconsciously monitor how other people in our community perceive us.",
+   "ko": "그 결과, 우리가 속한 공동체 사람들이 우리를 어떤 눈으로 보는지 무의식적으로 살피는 성향이 생겨났다."
+  },
+  {
+   "n": 7,
+   "en": "We process that information in the form of self-esteem and such related emotions as pride, shame, or insecurity.",
+   "ko": "우리는 그 정보를 자존감, 그리고 자부심이나 수치심, 불안감 같은 관련 감정으로 바꾸어 처리한다."
+  },
+  {
+   "n": 8,
+   "en": "These emotions compel us to do more of what makes our community value us and less of what doesn’t.",
+   "ko": "이런 감정은 공동체에서 인정받게 해 주는 행동은 더 하고, 그렇지 않은 행동은 덜 하도록 우리를 몰아붙인다."
+  },
+  {
+   "n": 9,
+   "en": "And, crucially, they are meant to make that motivation feel like it is coming from within.",
+   "ko": "그리고 결정적으로, 이 감정들은 그 동기가 우리 안에서 우러나오는 것처럼 느껴지도록 짜여 있다."
+  },
+  {
+   "n": 10,
+   "en": "If we realized, on a conscious level, that we were responding to social pressure, our performance might come off as grudging or cynical, making it less persuasive.",
+   "ko": "사회적 압력에 반응하고 있음을 우리가 의식 수준에서 깨닫는다면, 우리 행동은 마지못해 하거나 비꼬는 듯 보여 설득력이 떨어질 수도 있다."
+  }
+ ],
+ "topic": 6,
+ "gist": 6,
+ "hl": [
+  {
+   "sent": 5,
+   "text": "selected for people who are sensitive to and skilled at maximizing their standing"
+  },
+  {
+   "sent": 6,
+   "text": "a tendency to unconsciously monitor how other people in our community perceive us"
+  },
+  {
+   "sent": 8,
+   "text": "compel us to do more of what makes our community value us"
+  },
+  {
+   "sent": 9,
+   "text": "make that motivation feel like it is coming from within"
+  }
+ ],
+ "con": [
+  {
+   "sent": 2,
+   "text": "If",
+   "rel": "조건"
+  },
+  {
+   "sent": 3,
+   "text": "If",
+   "rel": "조건"
+  },
+  {
+   "sent": 6,
+   "text": "The result",
+   "rel": "결과"
+  },
+  {
+   "sent": 9,
+   "text": "And",
+   "rel": "첨가"
+  },
+  {
+   "sent": 9,
+   "text": "crucially",
+   "rel": "강조"
+  },
+  {
+   "sent": 10,
+   "text": "If",
+   "rel": "조건"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 2,
+   "to": "the group",
+   "ko": "집단"
+  },
+  {
+   "sent": 4,
+   "text": "It",
+   "occ": 0,
+   "to_sent": 1,
+   "to": "how well we navigated relationships in a group",
+   "ko": "집단 안에서 관계를 얼마나 잘 헤쳐 나가느냐"
+  },
+  {
+   "sent": 7,
+   "text": "that information",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "how other people in our community perceive us",
+   "ko": "공동체 사람들이 우리를 보는 눈"
+  },
+  {
+   "sent": 8,
+   "text": "These emotions",
+   "occ": 0,
+   "to_sent": 7,
+   "to": "self-esteem and such related emotions",
+   "ko": "자존감과 자부심, 수치심, 불안감 같은 감정"
+  },
+  {
+   "sent": 9,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "These emotions",
+   "ko": "이런 감정"
+  },
+  {
+   "sent": 10,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 10,
+   "to": "our performance",
+   "ko": "우리 행동"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 28,
+   "text": "to thrive",
+   "cat": "to부정사",
+   "chip": "to부정사",
+   "right": "to thrive",
+   "wrong": [
+    "thriving"
+   ],
+   "rule": "명사 ability 를 뒤에서 꾸미는 to부정사라 to 뒤에 동사원형 thrive 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 5,
+   "pos": 57,
+   "text": "who",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "who",
+   "wrong": [
+    "which"
+   ],
+   "rule": "선행사 people 이 사람이라 주격 관계대명사 who 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 5,
+   "pos": 93,
+   "text": "maximizing",
+   "cat": "동명사",
+   "chip": "동명사",
+   "right": "maximizing",
+   "wrong": [
+    "maximize"
+   ],
+   "rule": "전치사 at 뒤에는 동명사 maximizing 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 6,
+   "pos": 104,
+   "text": "perceive",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "perceive",
+   "wrong": [
+    "perceives"
+   ],
+   "rule": "how 절의 주어가 복수 명사 other people 이라 동사도 복수 perceive 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 8,
+   "pos": 15,
+   "text": "compel us to do",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "compel us to do",
+   "wrong": [
+    "compel us do"
+   ],
+   "rule": "compel 은 목적어 뒤에 to부정사를 목적격보어로 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 8,
+   "pos": 39,
+   "text": "what",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "what",
+   "wrong": [
+    "that"
+   ],
+   "rule": "of 뒤에 선행사가 없고 뒤 절에 주어가 빠져 있어 관계대명사 what 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 8,
+   "pos": 44,
+   "text": "makes our community value",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "makes our community value",
+   "wrong": [
+    "makes our community to value"
+   ],
+   "rule": "사역동사 make 는 목적어 뒤에 동사원형을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g10",
+   "sent": 9,
+   "pos": 21,
+   "text": "are meant",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "are meant",
+   "wrong": [
+    "are meaning"
+   ],
+   "rule": "감정들이 그렇게 하도록 정해진 쪽이라 be meant to 꼴의 수동태를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g11",
+   "sent": 9,
+   "pos": 34,
+   "text": "make that motivation feel",
+   "cat": "5형식 목적격보어",
+   "chip": "목적격보어",
+   "right": "make that motivation feel",
+   "wrong": [
+    "make that motivation to feel"
+   ],
+   "rule": "사역동사 make 뒤 목적어 다음에는 동사원형 feel 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 10,
+   "pos": 6,
+   "text": "realized",
+   "cat": "조동사·가정법",
+   "chip": "조동사",
+   "right": "realized",
+   "wrong": [
+    "realize"
+   ],
+   "rule": "지금 사실과 다른 일을 가정하므로 if 절에 과거형 realized, 주절에 might + 동사원형을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g13",
+   "sent": 10,
+   "pos": 38,
+   "text": "that",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "realized 의 목적어가 되는 완전한 절을 이끌므로 접속사 that 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 10,
+   "pos": 137,
+   "text": "making it less persuasive",
+   "cat": "분사·분사구문",
+   "chip": "분사",
+   "right": "making it less persuasive",
+   "wrong": [
+    "made it less persuasive"
+   ],
+   "rule": "앞 절의 결과를 덧붙이는 분사구문이라 making 을 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "individuals",
+   "sent": 1,
+   "ko": "개인",
+   "gloss": "개인",
+   "syn": [
+    "person"
+   ],
+   "ant": [
+    "group"
+   ]
+  },
+  {
+   "text": "thrive",
+   "sent": 1,
+   "ko": "번성하다, 잘 살아가다",
+   "gloss": "번성하다",
+   "syn": [
+    "prosper"
+   ],
+   "ant": [
+    "decline"
+   ]
+  },
+  {
+   "text": "navigated",
+   "sent": 1,
+   "ko": "(어려운 상황을) 헤쳐 나가다",
+   "gloss": "(어려운 상황을) 헤쳐 나가다",
+   "syn": [
+    "handle"
+   ],
+   "ant": []
+  },
+  {
+   "text": "resources",
+   "sent": 2,
+   "ko": "자원",
+   "gloss": "자원",
+   "syn": [
+    "supply"
+   ],
+   "ant": []
+  },
+  {
+   "text": "merits",
+   "sent": 3,
+   "ko": "장점, 이점",
+   "gloss": "장점",
+   "syn": [
+    "advantage"
+   ],
+   "ant": [
+    "drawback"
+   ]
+  },
+  {
+   "text": "survival",
+   "sent": 4,
+   "ko": "생존",
+   "gloss": "생존",
+   "syn": [
+    "existence"
+   ],
+   "ant": [
+    "death"
+   ]
+  },
+  {
+   "text": "physically",
+   "sent": 4,
+   "ko": "신체적으로",
+   "gloss": "신체적으로",
+   "syn": [
+    "bodily"
+   ],
+   "ant": [
+    "mentally"
+   ]
+  },
+  {
+   "text": "tendency",
+   "sent": 6,
+   "ko": "성향, 경향",
+   "gloss": "성향",
+   "syn": [
+    "inclination"
+   ],
+   "ant": []
+  },
+  {
+   "text": "unconsciously",
+   "sent": 6,
+   "ko": "무의식적으로",
+   "gloss": "무의식적으로",
+   "syn": [
+    "automatically"
+   ],
+   "ant": [
+    "consciously"
+   ]
+  },
+  {
+   "text": "self-esteem",
+   "sent": 7,
+   "ko": "자존감",
+   "gloss": "자존감",
+   "syn": [
+    "self-respect"
+   ],
+   "ant": []
+  },
+  {
+   "text": "motivation",
+   "sent": 9,
+   "ko": "동기, 의욕",
+   "gloss": "동기",
+   "syn": [
+    "incentive"
+   ],
+   "ant": []
+  },
+  {
+   "text": "persuasive",
+   "sent": 10,
+   "ko": "설득력 있는",
+   "gloss": "설득력 있는",
+   "syn": [
+    "convincing"
+   ],
+   "ant": [
+    "unconvincing"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "As "
+   },
+   {
+    "t": "individuals",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": ", our ability "
+   },
+   {
+    "t": "to thrive",
+    "c": "g",
+    "id": "g1",
+    "kids": [
+     {
+      "t": "to "
+     },
+     {
+      "t": "thrive",
+      "c": "v",
+      "id": "v1"
+     }
+    ]
+   },
+   {
+    "t": " depended on how well we "
+   },
+   {
+    "t": "navigated",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " relationships in a group."
+   }
+  ],
+  [
+   {
+    "t": "If",
+    "c": "c",
+    "id": "c0",
+    "lab": "조건"
+   },
+   {
+    "t": " the group valued us, we could count on support, "
+   },
+   {
+    "t": "resources",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": ", and probably a mate."
+   }
+  ],
+  [
+   {
+    "t": "If",
+    "c": "c",
+    "id": "c1",
+    "lab": "조건"
+   },
+   {
+    "t": " it didn’t, we might get none of these "
+   },
+   {
+    "t": "merits",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "It was a matter of "
+   },
+   {
+    "t": "survival",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "physically",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " and genetically."
+   }
+  ],
+  [
+   {
+    "t": "Over millions of years, the pressure selected for people "
+   },
+   {
+    "t": "who",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " are sensitive to and skilled at "
+   },
+   {
+    "t": "maximizing",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " their standing."
+   }
+  ],
+  [
+   {
+    "t": "The result",
+    "c": "c",
+    "id": "c2",
+    "lab": "결과"
+   },
+   {
+    "t": " was the development of a "
+   },
+   {
+    "t": "tendency",
+    "c": "v",
+    "id": "v7"
+   },
+   {
+    "t": " to "
+   },
+   {
+    "t": "unconsciously",
+    "c": "v",
+    "id": "v8"
+   },
+   {
+    "t": " monitor how other people in our community "
+   },
+   {
+    "t": "perceive",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " us."
+   }
+  ],
+  [
+   {
+    "t": "We process that information in the form of "
+   },
+   {
+    "t": "self-esteem",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": " and such related emotions as pride, shame, or insecurity."
+   }
+  ],
+  [
+   {
+    "t": "These emotions "
+   },
+   {
+    "t": "compel us to do",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " more of "
+   },
+   {
+    "t": "what",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "makes our community value",
+    "c": "g",
+    "id": "g9"
+   },
+   {
+    "t": " us and less of what doesn’t."
+   }
+  ],
+  [
+   {
+    "t": "And",
+    "c": "c",
+    "id": "c3",
+    "lab": "첨가"
+   },
+   {
+    "t": ", "
+   },
+   {
+    "t": "crucially",
+    "c": "c",
+    "id": "c4",
+    "lab": "강조"
+   },
+   {
+    "t": ", they "
+   },
+   {
+    "t": "are meant",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " to "
+   },
+   {
+    "t": "make that motivation feel",
+    "c": "g",
+    "id": "g11",
+    "kids": [
+     {
+      "t": "make that "
+     },
+     {
+      "t": "motivation",
+      "c": "v",
+      "id": "v10"
+     },
+     {
+      "t": " feel"
+     }
+    ]
+   },
+   {
+    "t": " like it is coming from within."
+   }
+  ],
+  [
+   {
+    "t": "If",
+    "c": "c",
+    "id": "c5",
+    "lab": "조건"
+   },
+   {
+    "t": " we "
+   },
+   {
+    "t": "realized",
+    "c": "g",
+    "id": "g12"
+   },
+   {
+    "t": ", on a conscious level, "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " we were responding to social pressure, our performance might come off as grudging or cynical, "
+   },
+   {
+    "t": "making it less persuasive",
+    "c": "g",
+    "id": "g14",
+    "kids": [
+     {
+      "t": "making it less "
+     },
+     {
+      "t": "persuasive",
+      "c": "v",
+      "id": "v11"
+     }
+    ]
+   },
+   {
+    "t": "."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "도입",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "집단이 소중히 여기는지에 따라 얻는 이점이 달라졌다",
+    "star": false
+   },
+   {
+    "label": "원인",
+    "sents": [
+     4,
+     5
+    ],
+    "text": "생존이 걸린 이 압력이 지위에 민감하고 능숙한 사람을 골라냈다",
+    "star": false
+   },
+   {
+    "label": "결과 1",
+    "sents": [
+     6,
+     8
+    ],
+    "text": "남의 시선을 무의식적으로 살피는 성향이 생겨 감정이 행동을 이끈다",
+    "star": true
+   },
+   {
+    "label": "결과 2",
+    "sents": [
+     9,
+     10
+    ],
+    "text": "감정은 그 동기가 안에서 나오는 듯 느끼게 해 설득력을 지킨다",
+    "star": false
+   }
+  ],
+  "arrows": [
+   "It was a matter",
+   "The result was",
+   "And, crucially"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "51cf4ca3305eea22",
+  "check_conf.json": "bcff003f3f8c4fc5",
+  "original_marks.json": "b9da1a5bfd0a5bf5",
+  "passage_src.json": "f269a77f22e988e3",
+  "source_restored.json": "2570592112844b25",
+  "study_x.json": "963be27e4e8ac594",
+  "topic_items.json": "b5295cdd6e0f85bf",
+  "variants_set1.json": "31e3532e289f6c86",
+  "variants_set2.json": "8dd11571d09181ad",
+  "variants_set3.json": "7dca90a4d0ad1f12",
+  "variants_set4.json": "d106c230dc0ea0b9",
+  "workbook_src.json": "232f0df81076ec0c"
+ }
+}

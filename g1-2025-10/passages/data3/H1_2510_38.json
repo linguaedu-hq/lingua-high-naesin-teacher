@@ -1,0 +1,948 @@
+{
+ "meta": {
+  "id": "H1_2510_38",
+  "grade": "고1",
+  "year": 2025,
+  "month": 10,
+  "item_no": 38,
+  "exam": "2025학년도 10월 전국연합학력평가 고1 영어",
+  "topic_ko": "곤충과 달리 다양하게 변하는 인간 사회 패턴의 특징",
+  "title_ko": "곤충과 다른 인간의 사회생활",
+  "title_en": "Freer Than Ants: The Flexible Patterns of Human Society",
+  "gist_ko": "곤충의 사회는 유전자로 정해진 패턴을 되풀이하지만, 인간의 사회 패턴은 양육으로 빚어져 집단과 세대마다 다양하게 바뀐다."
+ },
+ "kind": "normal",
+ "boards": [
+  {
+   "key": "topic",
+   "no": "①",
+   "name": "주제문",
+   "full": "① 주제문 판"
+  },
+  {
+   "key": "gram",
+   "no": "②",
+   "name": "어법 · 어휘",
+   "full": "② 어법 · 어휘 판"
+  },
+  {
+   "key": "all",
+   "no": "③",
+   "name": "전체",
+   "full": "③ 전체 판"
+  }
+ ],
+ "sents": [
+  {
+   "n": 1,
+   "en": "Humans are not the most social animal.",
+   "ko": "사회성이 가장 강한 동물이 인간인 것은 아니다."
+  },
+  {
+   "n": 2,
+   "en": "Ants, bees, and termites put humanity to shame on many metrics of sociality.",
+   "ko": "개미, 벌, 흰개미는 사회성을 재는 여러 척도에서 인류를 무색하게 만든다."
+  },
+  {
+   "n": 3,
+   "en": "A wide variety of relatives live together with perfectly harmonious behavior and collectively care for their young.",
+   "ko": "아주 다양한 친족이 완벽하게 조화를 이루며 함께 살고, 다 같이 새끼를 돌본다."
+  },
+  {
+   "n": 4,
+   "en": "But while insect colonies are impressively social places, it’s not our kind of social life.",
+   "ko": "하지만 곤충 군집이 놀라울 만큼 사회적인 곳이기는 해도, 우리 인간이 꾸리는 종류의 사회생활은 아니다."
+  },
+  {
+   "n": 5,
+   "en": "Bees always build hexagonal hives, ants march in lines, and termites move in zigzag formations.",
+   "ko": "벌은 늘 육각형 벌집을 짓고, 개미는 줄을 지어 행진하며, 흰개미는 지그재그 대형으로 움직인다."
+  },
+  {
+   "n": 6,
+   "en": "These patterns recur predictably because they are tightly programmed genetically and propelled pheromonally.",
+   "ko": "이러한 패턴이 예측할 수 있게 되풀이되는 것은 유전적으로 단단히 짜여 있고 페로몬으로 움직이기 때문이다."
+  },
+  {
+   "n": 7,
+   "en": "We humans are more free, less tightly programmed genetically, so our social patterns can be more diverse and dynamic.",
+   "ko": "우리 인간은 곤충보다 자유롭고 유전자에 덜 단단히 짜여 있으므로, 우리 사회의 패턴은 더 다양하고 더 활발히 바뀔 수 있다."
+  },
+  {
+   "n": 8,
+   "en": "Every group dances a slightly different dance, and these choreographies change across generations.",
+   "ko": "모든 집단은 조금씩 다른 춤을 추고, 이러한 안무는 세대를 거치며 바뀐다."
+  },
+  {
+   "n": 9,
+   "en": "We still think and act in ways that are in harmony with others around us, but it is through patterns that are more shaped by nurture, not just nature.",
+   "ko": "우리도 여전히 주위 사람들과 어울리게 생각하고 움직이지만, 이는 타고난 본성만이 아니라 양육으로 더 많이 빚어진 패턴을 거쳐 이루어진다."
+  }
+ ],
+ "topic": 7,
+ "gist": 9,
+ "hl": [
+  {
+   "sent": 1,
+   "text": "Humans are not the most social animal"
+  },
+  {
+   "sent": 2,
+   "text": "put humanity to shame"
+  },
+  {
+   "sent": 3,
+   "text": "live together with perfectly harmonious behavior"
+  },
+  {
+   "sent": 4,
+   "text": "it’s not our kind of social life"
+  },
+  {
+   "sent": 6,
+   "text": "tightly programmed genetically"
+  },
+  {
+   "sent": 7,
+   "text": "our social patterns can be more diverse and dynamic"
+  },
+  {
+   "sent": 8,
+   "text": "these choreographies change across generations"
+  },
+  {
+   "sent": 9,
+   "text": "more shaped by nurture, not just nature"
+  }
+ ],
+ "con": [
+  {
+   "sent": 4,
+   "text": "But",
+   "rel": "역접"
+  },
+  {
+   "sent": 4,
+   "text": "while",
+   "rel": "양보"
+  },
+  {
+   "sent": 6,
+   "text": "because",
+   "rel": "원인"
+  },
+  {
+   "sent": 7,
+   "text": "so",
+   "rel": "결과"
+  },
+  {
+   "sent": 9,
+   "text": "but",
+   "rel": "역접"
+  }
+ ],
+ "ref": [
+  {
+   "sent": 3,
+   "text": "their",
+   "occ": 0,
+   "to_sent": 3,
+   "to": "relatives",
+   "ko": "함께 사는 곤충 친족들"
+  },
+  {
+   "sent": 6,
+   "text": "These patterns",
+   "occ": 0,
+   "to_sent": 5,
+   "to": "Bees always build hexagonal hives",
+   "ko": "육각형 벌집 짓기, 줄지은 행진, 지그재그 이동"
+  },
+  {
+   "sent": 6,
+   "text": "they",
+   "occ": 0,
+   "to_sent": 6,
+   "to": "These patterns",
+   "ko": "곤충의 행동 패턴"
+  },
+  {
+   "sent": 8,
+   "text": "these choreographies",
+   "occ": 0,
+   "to_sent": 8,
+   "to": "a slightly different dance",
+   "ko": "집단마다 조금씩 다른 춤"
+  },
+  {
+   "sent": 9,
+   "text": "it",
+   "occ": 0,
+   "to_sent": 9,
+   "to": "We still think and act",
+   "ko": "주변 사람들과 어울려 생각하고 행동하는 일"
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1",
+   "sent": 1,
+   "pos": 7,
+   "text": "are",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "are",
+   "wrong": [
+    "is"
+   ],
+   "rule": "주어 Humans 가 복수라 동사는 are 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g2",
+   "sent": 1,
+   "pos": 19,
+   "text": "most",
+   "cat": "비교",
+   "chip": "비교",
+   "right": "most",
+   "wrong": [
+    "more"
+   ],
+   "rule": "the 뒤에서 여럿 가운데 가장 높은 정도를 나타내므로 최상급 most 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g3",
+   "sent": 3,
+   "pos": 28,
+   "text": "live",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "live",
+   "wrong": [
+    "lives"
+   ],
+   "rule": "a wide variety of 는 꾸밈말이고 주어의 머리는 relatives 라 복수 동사 live 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g4",
+   "sent": 3,
+   "pos": 47,
+   "text": "perfectly",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "perfectly",
+   "wrong": [
+    "perfect"
+   ],
+   "rule": "형용사 harmonious 를 꾸미므로 부사 perfectly 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g5",
+   "sent": 3,
+   "pos": 94,
+   "text": "care",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "care",
+   "wrong": [
+    "caring"
+   ],
+   "rule": "and 로 live 와 나란히 이어진 동사라 같은 꼴 care 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g6",
+   "sent": 4,
+   "pos": 4,
+   "text": "while",
+   "cat": "접속사(명사절·부사절·동격)",
+   "chip": "접속사",
+   "right": "while",
+   "wrong": [
+    "despite"
+   ],
+   "rule": "뒤에 주어와 동사를 갖춘 절이 오므로 전치사 despite 가 아니라 접속사 while 을 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g7",
+   "sent": 4,
+   "pos": 30,
+   "text": "impressively",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "impressively",
+   "wrong": [
+    "impressive"
+   ],
+   "rule": "형용사 social 을 꾸미므로 부사 impressively 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g8",
+   "sent": 6,
+   "pos": 15,
+   "text": "recur",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "recur",
+   "wrong": [
+    "recurs"
+   ],
+   "rule": "주어 These patterns 가 복수라 동사는 recur 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g9",
+   "sent": 6,
+   "pos": 58,
+   "text": "programmed",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "programmed",
+   "wrong": [
+    "programming"
+   ],
+   "rule": "패턴이 유전적으로 짜이는 쪽이라 are 뒤에 과거분사 programmed 를 쓴다.",
+   "imp": 0,
+   "deck": true
+  },
+  {
+   "id": "g10",
+   "sent": 6,
+   "pos": 85,
+   "text": "propelled",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "propelled",
+   "wrong": [
+    "propelling"
+   ],
+   "rule": "and 로 programmed 와 나란히 이어진 수동태라 과거분사 propelled 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g11",
+   "sent": 7,
+   "pos": 19,
+   "text": "free",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "free",
+   "wrong": [
+    "freely"
+   ],
+   "rule": "be동사 are 의 보어이므로 형용사 free 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g12",
+   "sent": 7,
+   "pos": 97,
+   "text": "diverse",
+   "cat": "형용사·부사",
+   "chip": "형용사·부사",
+   "right": "diverse",
+   "wrong": [
+    "diversely"
+   ],
+   "rule": "can be 뒤의 보어이므로 형용사 diverse 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g13",
+   "sent": 8,
+   "pos": 12,
+   "text": "dances",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "dances",
+   "wrong": [
+    "dance"
+   ],
+   "rule": "Every 가 붙은 group 은 단수로 받으므로 동사는 dances 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g14",
+   "sent": 8,
+   "pos": 72,
+   "text": "change",
+   "cat": "동사 수 일치",
+   "chip": "수일치",
+   "right": "change",
+   "wrong": [
+    "changes"
+   ],
+   "rule": "주어 these choreographies 가 복수라 동사는 change 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g15",
+   "sent": 9,
+   "pos": 19,
+   "text": "act",
+   "cat": "병렬",
+   "chip": "병렬",
+   "right": "act",
+   "wrong": [
+    "acting"
+   ],
+   "rule": "and 로 think 와 나란히 이어진 동사라 같은 꼴 act 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g16",
+   "sent": 9,
+   "pos": 31,
+   "text": "that",
+   "cat": "관계대명사",
+   "chip": "관계사",
+   "right": "that",
+   "wrong": [
+    "what"
+   ],
+   "rule": "선행사 ways 를 뒤에서 꾸미는 절이고 그 절에 주어가 빠져 있으므로 that 을 쓴다. what 은 선행사 없이 쓴다.",
+   "imp": 0,
+   "deck": false
+  },
+  {
+   "id": "g17",
+   "sent": 9,
+   "pos": 115,
+   "text": "shaped",
+   "cat": "태(능동·수동)",
+   "chip": "태",
+   "right": "shaped",
+   "wrong": [
+    "shaping"
+   ],
+   "rule": "패턴이 양육으로 빚어지는 쪽이라 are 뒤에 과거분사 shaped 를 쓴다.",
+   "imp": 0,
+   "deck": false
+  }
+ ],
+ "vocab": [
+  {
+   "text": "social",
+   "sent": 1,
+   "ko": "사회적인, 무리 지어 사는",
+   "gloss": "사회적인",
+   "syn": [
+    "sociable"
+   ],
+   "ant": [
+    "solitary"
+   ]
+  },
+  {
+   "text": "humanity",
+   "sent": 2,
+   "ko": "인류, 인간",
+   "gloss": "인류",
+   "syn": [
+    "mankind"
+   ],
+   "ant": []
+  },
+  {
+   "text": "metrics",
+   "sent": 2,
+   "ko": "척도, 기준",
+   "gloss": "척도",
+   "syn": [
+    "measure"
+   ],
+   "ant": []
+  },
+  {
+   "text": "sociality",
+   "sent": 2,
+   "ko": "사회성",
+   "gloss": "사회성",
+   "syn": [
+    "social nature"
+   ],
+   "ant": []
+  },
+  {
+   "text": "variety",
+   "sent": 3,
+   "ko": "다양함, 여러 가지",
+   "gloss": "다양함",
+   "syn": [
+    "range"
+   ],
+   "ant": [
+    "uniformity"
+   ]
+  },
+  {
+   "text": "harmonious",
+   "sent": 3,
+   "ko": "조화로운",
+   "gloss": "조화로운",
+   "syn": [
+    "peaceful"
+   ],
+   "ant": [
+    "hostile"
+   ]
+  },
+  {
+   "text": "predictably",
+   "sent": 6,
+   "ko": "예측할 수 있게",
+   "gloss": "예측할 수 있게",
+   "syn": [
+    "regularly"
+   ],
+   "ant": [
+    "randomly"
+   ]
+  },
+  {
+   "text": "programmed",
+   "sent": 6,
+   "ko": "(미리) 짜 넣다, 정해 두다",
+   "gloss": "(미리) 짜 넣다",
+   "syn": [
+    "set"
+   ],
+   "ant": []
+  },
+  {
+   "text": "diverse",
+   "sent": 7,
+   "ko": "다양한",
+   "gloss": "다양한",
+   "syn": [
+    "varied"
+   ],
+   "ant": [
+    "uniform"
+   ]
+  },
+  {
+   "text": "dynamic",
+   "sent": 7,
+   "ko": "역동적인, 늘 변하는",
+   "gloss": "역동적인",
+   "syn": [
+    "changing"
+   ],
+   "ant": [
+    "static"
+   ]
+  },
+  {
+   "text": "harmony",
+   "sent": 9,
+   "ko": "조화",
+   "gloss": "조화",
+   "syn": [
+    "agreement"
+   ],
+   "ant": [
+    "conflict"
+   ]
+  },
+  {
+   "text": "nurture",
+   "sent": 9,
+   "ko": "양육, 길러짐",
+   "gloss": "양육",
+   "syn": [
+    "upbringing"
+   ],
+   "ant": [
+    "nature"
+   ]
+  }
+ ],
+ "runs": [
+  [
+   {
+    "t": "Humans "
+   },
+   {
+    "t": "are",
+    "c": "g",
+    "id": "g1"
+   },
+   {
+    "t": " not the "
+   },
+   {
+    "t": "most",
+    "c": "g",
+    "id": "g2"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "social",
+    "c": "v",
+    "id": "v0"
+   },
+   {
+    "t": " animal."
+   }
+  ],
+  [
+   {
+    "t": "Ants, bees, and termites put "
+   },
+   {
+    "t": "humanity",
+    "c": "v",
+    "id": "v1"
+   },
+   {
+    "t": " to shame on many "
+   },
+   {
+    "t": "metrics",
+    "c": "v",
+    "id": "v2"
+   },
+   {
+    "t": " of "
+   },
+   {
+    "t": "sociality",
+    "c": "v",
+    "id": "v3"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "A wide "
+   },
+   {
+    "t": "variety",
+    "c": "v",
+    "id": "v4"
+   },
+   {
+    "t": " of relatives "
+   },
+   {
+    "t": "live",
+    "c": "g",
+    "id": "g3"
+   },
+   {
+    "t": " together with "
+   },
+   {
+    "t": "perfectly",
+    "c": "g",
+    "id": "g4"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "harmonious",
+    "c": "v",
+    "id": "v5"
+   },
+   {
+    "t": " behavior and collectively "
+   },
+   {
+    "t": "care",
+    "c": "g",
+    "id": "g5"
+   },
+   {
+    "t": " for their young."
+   }
+  ],
+  [
+   {
+    "t": "But",
+    "c": "c",
+    "id": "c0",
+    "lab": "역접"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "while",
+    "c": "g",
+    "id": "g6"
+   },
+   {
+    "t": " insect colonies are "
+   },
+   {
+    "t": "impressively",
+    "c": "g",
+    "id": "g7"
+   },
+   {
+    "t": " social places, it’s not our kind of social life."
+   }
+  ],
+  [
+   {
+    "t": "Bees always build hexagonal hives, ants march in lines, and termites move in zigzag formations."
+   }
+  ],
+  [
+   {
+    "t": "These patterns "
+   },
+   {
+    "t": "recur",
+    "c": "g",
+    "id": "g8"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "predictably",
+    "c": "v",
+    "id": "v6"
+   },
+   {
+    "t": " "
+   },
+   {
+    "t": "because",
+    "c": "c",
+    "id": "c2",
+    "lab": "원인"
+   },
+   {
+    "t": " they are tightly "
+   },
+   {
+    "t": "programmed",
+    "c": "g",
+    "id": "g9",
+    "kids": [
+     {
+      "t": "programmed",
+      "c": "v",
+      "id": "v7"
+     }
+    ]
+   },
+   {
+    "t": " genetically and "
+   },
+   {
+    "t": "propelled",
+    "c": "g",
+    "id": "g10"
+   },
+   {
+    "t": " pheromonally."
+   }
+  ],
+  [
+   {
+    "t": "We humans are more "
+   },
+   {
+    "t": "free",
+    "c": "g",
+    "id": "g11"
+   },
+   {
+    "t": ", less tightly programmed genetically, "
+   },
+   {
+    "t": "so",
+    "c": "c",
+    "id": "c3",
+    "lab": "결과"
+   },
+   {
+    "t": " our social patterns can be more "
+   },
+   {
+    "t": "diverse",
+    "c": "g",
+    "id": "g12",
+    "kids": [
+     {
+      "t": "diverse",
+      "c": "v",
+      "id": "v8"
+     }
+    ]
+   },
+   {
+    "t": " and "
+   },
+   {
+    "t": "dynamic",
+    "c": "v",
+    "id": "v9"
+   },
+   {
+    "t": "."
+   }
+  ],
+  [
+   {
+    "t": "Every group "
+   },
+   {
+    "t": "dances",
+    "c": "g",
+    "id": "g13"
+   },
+   {
+    "t": " a slightly different dance, and these choreographies "
+   },
+   {
+    "t": "change",
+    "c": "g",
+    "id": "g14"
+   },
+   {
+    "t": " across generations."
+   }
+  ],
+  [
+   {
+    "t": "We still think and "
+   },
+   {
+    "t": "act",
+    "c": "g",
+    "id": "g15"
+   },
+   {
+    "t": " in ways "
+   },
+   {
+    "t": "that",
+    "c": "g",
+    "id": "g16"
+   },
+   {
+    "t": " are in "
+   },
+   {
+    "t": "harmony",
+    "c": "v",
+    "id": "v10"
+   },
+   {
+    "t": " with others around us, "
+   },
+   {
+    "t": "but",
+    "c": "c",
+    "id": "c4",
+    "lab": "역접"
+   },
+   {
+    "t": " it is through patterns that are more "
+   },
+   {
+    "t": "shaped",
+    "c": "g",
+    "id": "g17"
+   },
+   {
+    "t": " by "
+   },
+   {
+    "t": "nurture",
+    "c": "v",
+    "id": "v11"
+   },
+   {
+    "t": ", not just nature."
+   }
+  ]
+ ],
+ "missing": [],
+ "flow": {
+  "boxes": [
+   {
+    "label": "도입",
+    "sents": [
+     1,
+     3
+    ],
+    "text": "사회성만 보면 개미 · 벌 · 흰개미가 인간보다 앞선다",
+    "star": false
+   },
+   {
+    "label": "비교 대상 1",
+    "sents": [
+     4,
+     6
+    ],
+    "text": "곤충 — 유전자와 페로몬으로 정해진 패턴을 늘 똑같이 되풀이한다",
+    "star": false
+   },
+   {
+    "label": "비교 대상 2",
+    "sents": [
+     7,
+     8
+    ],
+    "text": "인간 — 덜 짜여 있어 집단과 세대마다 패턴이 달라진다",
+    "star": false
+   },
+   {
+    "label": "결론",
+    "sents": [
+     9,
+     9
+    ],
+    "text": "인간의 조화는 양육으로 빚어진 패턴에서 나온다",
+    "star": true
+   }
+  ],
+  "arrows": [
+   "But",
+   "We humans",
+   "We still"
+  ]
+ },
+ "src": {
+  "analogy_items.json": "bfb3ebb35d581ddf",
+  "check_conf.json": "efa720a2db7a31e6",
+  "original_marks.json": "4e05295122b8cdf6",
+  "passage_src.json": "d572edd2b4f95503",
+  "source_restored.json": "666348f81eed42e8",
+  "study_x.json": "108e2df353096bad",
+  "topic_items.json": "108a770fb4049df9",
+  "workbook_src.json": "5f2a5edc04f00deb"
+ }
+}

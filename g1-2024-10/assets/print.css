@@ -1,0 +1,79 @@
+/* 링구아 고등 내신 덱 — 「PDF로 저장」 단추 · 인쇄 모드(print.js 가 붙인다 · 덱 CSS 위에 얹음 · 같은 색 토큰 · 같은 글꼴)
+   쪽 = A4 가로. 쪽 안은 1600 × 1131 캔버스(무대와 같은 폭)로 짓고 배율로 줄인다 — 화면 미리보기도 인쇄도 같은 자리. */
+@page{size:A4 landscape;margin:0}
+
+/* ---------------------------------------------------------------- 바닥 단추(수업 화면 · 작게) */
+.pdfbtn{height:36px;padding:0 12px 0 10px;border-radius:10px;border:1px solid var(--f4);background:var(--paper);color:var(--sub);flex:none;
+  font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;cursor:pointer;white-space:nowrap;
+  transition:background-color var(--t-fast),color var(--t-fast),transform var(--t-fast) var(--ease-out)}
+.pdfbtn:hover{background:var(--f2);color:var(--frame)}
+.pdfbtn:active{transform:scale(.96)}
+.pdfbtn svg,.pm-btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------------------------------------------------------------- 인쇄 모드(화면 미리보기) */
+.pm-pages{display:none}
+/* 뒤 수업 화면 감추기 — #fit 만 감추면 자식의 visibility:visible(덱의 .pnl.cur 해석 칸)이 되살아나 미리보기 뒤에 크게 비친다(10-21 실측) → 자손까지 감춘다 */
+html.pm-wait #fit,html.pm-wait #fit *{visibility:hidden!important}
+html.pm,html.pm body{height:auto;overflow:auto;background:var(--letterbox)}
+html.pm #fit,html.pm #fit *{visibility:hidden!important}
+html.pm #fit{pointer-events:none}
+html.pm .pm-pages{display:flex;flex-direction:column;align-items:center;gap:24px;padding:84px 16px 56px}
+.pm-bar{position:fixed;top:0;left:0;right:0;z-index:30;height:60px;display:flex;align-items:center;gap:12px;padding:0 20px;
+  background:var(--paper);border-bottom:1px solid var(--f3);font-family:var(--font);color:var(--ink)}
+.pm-bar img{height:28px;width:auto}
+.pm-bar .pm-info{font-size:15px;font-weight:600;color:var(--sub);margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.pm-btn{height:40px;padding:0 16px;border-radius:10px;border:1px solid var(--f4);background:var(--paper);color:var(--frame);font-size:15px;font-weight:800;
+  display:inline-flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;flex:none;transition:background-color var(--t-fast),transform var(--t-fast) var(--ease-out)}
+.pm-btn:hover{background:var(--f2)}
+.pm-btn:active{transform:scale(.96)}
+.pm-btn.pri{background:var(--frame);border-color:var(--frame);color:#fff}
+.pm-btn.pri:hover{filter:brightness(1.15)}
+
+/* 쪽 한 장 — contain:strict = 쪽 안의 글이 쪽 밖 배치에 새지 않게(없으면 강사본 해설 쪽이 섞일 때 Chrome 이 PDF 전체를 75% 로 줄였다 · 10-20 실측) */
+.pp{position:relative;flex:none;width:calc(1600px * var(--ps,.7016));height:calc(1131px * var(--ps,.7016));background:var(--paper);overflow:hidden;contain:strict;
+  box-shadow:0 1px 3px rgba(18,22,29,.08),0 10px 30px rgba(18,22,29,.10)}
+.pp-in{position:absolute;left:0;top:0;width:1600px;height:1131px;transform:scale(var(--ps,.7016));transform-origin:0 0;overflow:hidden;
+  font-family:var(--font);color:var(--ink);background:var(--paper)}
+.pm-pages .pp,.pm-pages .pp *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+/* 움직임은 끝 상태로 바로 — animation:none 이 아니라 0 초(채움 both 의 끝 값이 남아야 보이는 꼬리표가 있다: 강사본 강조 화면 어법 칩) */
+.pm-pages .pp *,.pm-pages .pp *::before,.pm-pages .pp *::after{animation-duration:0s!important;animation-delay:0s!important;
+  animation-iteration-count:1!important;transition:none!important}
+
+/* 쪽 머리 — 지문 id · 판(화면) 이름 · 쪽 번호 */
+.pp-h{position:absolute;left:0;right:0;top:0;height:66px;display:flex;align-items:center;gap:14px;padding:0 44px;border-bottom:2px solid var(--frame)}
+.pp-h img{height:32px;width:auto;flex:none}
+.pp-h .pp-brand{font-size:17px;font-weight:800;color:var(--frame);white-space:nowrap}
+.pp-h .pp-kind{font-size:14px;font-weight:600;color:var(--sub);white-space:nowrap}
+.pp-h .pp-chip{flex:none;height:30px;padding:0 12px;border-radius:999px;background:var(--f2);color:var(--frame);font-size:15px;font-weight:800;
+  display:inline-flex;align-items:center;white-space:nowrap}
+.pp-h .pp-id{flex:none;font-size:15px;font-weight:800;color:var(--frame);letter-spacing:.02em;font-variant-numeric:tabular-nums}
+.pp-h .pp-title{flex:1;min-width:0;display:flex;align-items:center;gap:10px;white-space:nowrap;overflow:hidden}
+.pp-h .pp-title .ty{flex:none;display:inline-flex;height:28px;align-items:center;padding:0 11px;border-radius:999px;background:var(--fl-f);color:var(--fl);font-size:14px;font-weight:800}
+.pp-h .pp-title .tt{font-size:18px;font-weight:800;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.pp-h .pp-board{flex:none;height:36px;padding:0 15px;border-radius:10px;background:var(--frame);color:#fff;font-size:17px;font-weight:800;
+  display:inline-flex;align-items:center;white-space:nowrap}
+.pp-h .pp-no{flex:none;min-width:54px;text-align:right;font-size:15px;font-weight:600;color:var(--sub);font-variant-numeric:tabular-nums}
+.pp-body{position:absolute;left:0;right:0;top:66px;bottom:0}
+.pp-wm{position:absolute;left:50%;top:50%;width:440px;transform:translate(-50%,-50%);pointer-events:none;z-index:4;mix-blend-mode:multiply;opacity:.55}
+
+/* 3판 — 왼쪽 지문 · 오른쪽 해석(위) + 구조도(아래) */
+.pp-b3.b3{padding:14px 44px 24px;grid-template-columns:1.35fr 1fr;column-gap:36px}
+.pp-b3 .rcol{padding-left:28px}
+.pp-b3 .pbox{display:flex;flex-direction:column;gap:12px;overflow:hidden}
+.pp-b3 .pnl,.pp-more .pnl{position:static;inset:auto;visibility:visible;opacity:1;transform:none;overflow:visible;flex:none}
+.pp-b3 .pnl.map{border-top:1px solid var(--f3);padding-top:10px}
+.pp-b3 .pp-lab,.pp-more .pp-lab{font-size:15px;font-weight:800;color:var(--sub);height:30px;display:flex;align-items:center;margin-bottom:6px}
+.pp-more{position:absolute;inset:0;padding:18px 44px 24px;overflow:hidden}
+
+/* 강사본 — 화면 하나(1600 × 764)를 쪽 가운데에 */
+.pp-view{position:absolute;left:0;top:calc(50% - 382px);width:1600px;height:764px;overflow:hidden}
+
+/* ---------------------------------------------------------------- 인쇄 */
+@media print{
+  html.pm,html.pm body{height:auto;overflow:visible;background:#fff}
+  html.pm #fit,html.pm .pm-bar,.pdfbtn{display:none!important}
+  html.pm .pm-pages{display:block;padding:0;gap:0}
+  html.pm .pp{width:297mm;height:210mm;box-shadow:none;margin:0;break-after:page;page-break-after:always;break-inside:avoid}
+  html.pm .pp:last-child{break-after:auto;page-break-after:auto}
+  html.pm .pp-in{transform:scale(.7015748)}
+}
